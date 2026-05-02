@@ -1,0 +1,103 @@
+{
+  "id": "semana-01",
+  "titulo_gracioso": "Esa semana que casi colonizamos la Luna (otra vez)",
+  "fecha": "27 Abril - 04 Mayo 2026",
+  "noticias": [
+    {
+      "id": "glaciares",
+      "categoria": "nacional",
+      "titulo": "Ley de Glaciares: El debate que congela al Congreso",
+      "resumen_corto": "¿Proteger o producir? El debate por los glaciares vuelve al Congreso.",
+      "contexto": "La Ley 26.639 protege los glaciares. La reciente reforma aprobada en Diputados busca redefinir qué zonas están protegidas, lo que científicos advierten que arriesgaría reservas hídricas críticas. La iniciativa popular sigue recolectando firmas para frenar estos cambios.",
+      "enlaces": [
+        {"nombre": "La Nación (Debate)", "url": "https://www.lanacion.com.ar/politica/ley-de-glaciares-que-propone-el-gobierno-y-que-advierten-los-cientificos-nid10012024/"},
+        {"nombre": "Chequeado (Explicador)", "url": "https://chequeado.com/el-explicador/que-dice-la-ley-de-glaciares-y-que-cambios-propone-la-ley-omnibus/"}
+      ],
+      "color": "#3eaaf7"
+    },
+    {
+      "id": "f16",
+      "categoria": "nacional",
+      "titulo": "Aviones F-16: El mayor salto militar en 40 años",
+      "resumen_corto": "Argentina compra 24 aviones F-16 y establece una nueva alianza con EE.UU.",
+      "contexto": "Argentina firmó la compra de aviones supersónicos F-16 a Dinamarca. Esta adquisición recupera la capacidad de defensa aérea perdida hace años y marca un fuerte alineamiento estratégico con los Estados Unidos.",
+      "enlaces": [
+        {"nombre": "Infobae (Noticia)", "url": "https://www.infobae.com/politica/2024/04/16/argentina-firmo-la-compra-de-los-aviones-f-16-a-dinamarca/"},
+        {"nombre": "Zona Militar (Análisis)", "url": "https://www.zona-militar.com/2024/04/16/argentina-firma-la-compra-de-los-f-16/"}
+      ],
+      "color": "#3eaaf7"
+    },
+    {
+      "id": "ormuz",
+      "categoria": "geopolitica",
+      "titulo": "Ormuz: El 'cuello de botella' del mundo",
+      "resumen_corto": "Por este pequeño estrecho pasa el 20% de todo el petróleo global.",
+      "contexto": "Ubicado entre Irán y Omán, es el paso marítimo más importante para la energía mundial. Cualquier tensión en esta zona dispara los precios internacionales de la energía y afecta la economía de todos los países.",
+      "enlaces": [
+        {"nombre": "BBC Mundo (Explicador)", "url": "https://www.bbc.com/mundo/noticias-internacional-44974343"},
+        {"nombre": "Wikipedia (Mapa)", "url": "https://es.wikipedia.org/wiki/Estrecho_de_Ormuz"}
+      ],
+      "color": "#ef4444"
+    },
+    {
+      "id": "otan",
+      "categoria": "geopolitica",
+      "titulo": "75 años de la OTAN: ¿Qué es y por qué importa?",
+      "resumen_corto": "La alianza militar más grande se redefine ante los conflictos en Europa.",
+      "contexto": "La OTAN cumple 75 años con un nuevo enfoque tras la guerra en Ucrania. Argentina ha solicitado formalmente ser 'Socio Global', buscando cooperación en defensa y ciberseguridad.",
+      "enlaces": [
+        {"nombre": "El País (75 años)", "url": "https://elpais.com/internacional/2024-04-04/la-otan-cumple-75-anos-en-su-momento-mas-critico.html"},
+        {"nombre": "Infobae (Socio Global)", "url": "https://www.infobae.com/politica/2024/04/18/argentina-presento-el-pedido-para-ser-socio-global-de-la-otan/"}
+      ],
+      "color": "#ef4444"
+    },
+    {
+      "id": "artemis",
+      "categoria": "ciencias",
+      "titulo": "Misión Artemis: El regreso a la Luna",
+      "resumen_corto": "Volvemos para quedarnos, y Argentina es parte del equipo espacial.",
+      "contexto": "La misión Artemis busca llevar a la primera mujer a la Luna y establecer una base permanente. Argentina se unió a los Acuerdos Artemis en 2023, permitiendo colaboración científica local.",
+      "enlaces": [
+        {"nombre": "NASA (Comunicado)", "url": "https://www.nasa.gov/news-release/argentina-becomes-28th-country-to-sign-artemis-accords/"},
+        {"nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/argentina-se-suma-al-programa-artemis"}
+      ],
+      "color": "#06b6d4"
+    },
+    {
+      "id": "celulas-madre",
+      "categoria": "ciencias",
+      "titulo": "Células Madre: Hito en medicina regenerativa",
+      "resumen_corto": "Nuevas terapias logran avances históricos en la reparación de tejidos.",
+      "contexto": "Científicos han logrado avances en la creación de células madre más parecidas a las embrionarias, lo que promete revolucionar la medicina al permitir regenerar órganos dañados.",
+      "enlaces": [
+        {"nombre": "Agencia SINC", "url": "https://www.agenciasinc.es/Noticias/Logran-crear-celulas-madre-mas-parecidas-a-las-embrionarias"},
+        {"nombre": "National Geographic", "url": "https://www.nationalgeographic.es/ciencia/que-son-las-celulas-madre"}
+      ],
+      "color": "#06b6d4"
+    },
+    {
+      "id": "litio",
+      "categoria": "sustentabilidad",
+      "titulo": "Litio en Argentina: El 'Oro Blanco'",
+      "resumen_corto": "Argentina posee una de las reservas de Litio más grandes del mundo.",
+      "contexto": "Elemento clave para las baterías de celulares y autos eléctricos. Argentina es parte del 'Triángulo del Litio', un recurso estratégico para la transición energética global.",
+      "enlaces": [
+        {"nombre": "NatGeo (Explicador)", "url": "https://www.nationalgeographicla.com/medio-ambiente/2023/04/el-triangulo-del-litio-que-es-y-por-que-es-tan-importante"},
+        {"nombre": "CONICET (Litio)", "url": "https://www.conicet.gov.ar/el-litio-en-argentina-un-recurso-estrategico/"}
+      ],
+      "color": "#10b981"
+    },
+    {
+      "id": "energias-limpias",
+      "categoria": "sustentabilidad",
+      "titulo": "Energías Limpias: Récord global de renovables",
+      "resumen_corto": "Las renovables ya cubren el 30% de la electricidad mundial.",
+      "contexto": "Por primera vez, las energías renovables han alcanzado una participación histórica en la generación eléctrica mundial, impulsadas por el sol y el viento.",
+      "enlaces": [
+        {"nombre": "El País (Energía)", "url": "https://elpais.com/clima-y-medio-ambiente/2024-05-08/las-energias-renovables-cubrieron-el-30-de-la-demanda-mundial-de-electricidad-en-2023.html"},
+        {"nombre": "IEA (Reporte 2024)", "url": "https://www.iea.org/reports/renewable-energy-market-update-2024"}
+      ],
+      "color": "#10b981"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+---
+const { title } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+    <style is:global>
+        :root {
+            --bg-color: #020617;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Inter', system-ui, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <nav style="padding: 1.5rem; background: rgba(2, 6, 23, 0.8); backdrop-filter: blur(10px); sticky; top: 0; border-bottom: 1px solid #1e293b; display: flex; justify-content: space-between; align-items: center; z-index: 100;">
+        <a href="/snews/" style="font-weight: 900; font-size: 1.8rem; color: #3b82f6; text-decoration: none; letter-spacing: -1px;">S-NEWS</a>
+        <div style="display: flex; gap: 1.5rem;">
+            <a href="/snews/" style="color: white; text-decoration: none; font-weight: 500;">Home</a>
+            <a href="/snews/ultima" style="color: white; text-decoration: none; font-weight: 500;">Última</a>
+            <a href="/snews/archivo" style="color: white; text-decoration: none; font-weight: 500;">Archivo</a>
+        </div>
+    </nav>
+    <main class="container">
+        <slot />
+    </main>
+</body>
+</html>

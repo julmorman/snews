@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+import data from '../content/news/semana-01.json';
+---
+<Layout title="S-NEWS | Última Presentación">
+    <header style="text-align: center; margin-bottom: 3rem;">
+        <h1 style="font-size: 3rem; margin: 0.5rem 0;">{data.titulo_gracioso}</h1>
+        <p style="color: #94a3b8;">{data.fecha}</p>
+    </header>
+
+    <section style="display: grid; gap: 2rem;">
+        {data.noticias.map(item => (
+            <a href={`/snews/noticia/${item.id}`} style="text-decoration: none; color: inherit; display: block;">
+                <div style={`background: #1e293b; padding: 2rem; border-radius: 1rem; border-left: 8px solid ${item.color}; transition: transform 0.2s, background 0.2s; cursor: pointer;`} 
+                     onmouseover="this.style.transform='scale(1.02)'; this.style.background='#273549'" 
+                     onmouseout="this.style.transform='scale(1)'; this.style.background='#1e293b'">
+                    
+                    <span style={`text-transform: uppercase; font-weight: bold; font-size: 0.8rem; color: ${item.color}`}>
+                        {item.categoria}
+                    </span>
+                    <h2 style="margin: 0.5rem 0;">{item.titulo}</h2>
+                    <p style="line-height: 1.6; color: #cbd5e1;">{item.resumen_corto}</p>
+                    
+                    <div style="margin-top: 1rem; color: #3b82f6; font-size: 0.9rem; font-weight: bold;">
+                        Saber más y ver fuentes →
+                    </div>
+                </div>
+            </a>
+        ))}
+    </section>
+</Layout>

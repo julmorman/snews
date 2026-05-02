@@ -1,0 +1,51 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import data from '../../content/news/semana-01.json';
+
+export function getStaticPaths() {
+  return data.noticias.map((n) => {
+    return {
+      params: { id: n.id },
+      props: { noticia: n },
+    };
+  });
+}
+
+const { noticia } = Astro.props;
+---
+<Layout title={noticia.titulo}>
+    <div style="margin-top: 2rem;">
+        <a href="/snews/ultima" style="color: #94a3b8; text-decoration: none;">&larr; Volver a la presentación</a>
+    </div>
+
+    <article style="margin-top: 2rem;">
+        <header style={`border-left: 8px solid ${noticia.color}; padding-left: 1rem;`}>
+            <p style={`color: ${noticia.color}; font-weight: bold; text-transform: uppercase; margin: 0;`}>
+                {noticia.categoria}
+            </p>
+            <h1 style="font-size: 2.5rem; margin: 0.5rem 0;">{noticia.titulo}</h1>
+        </header>
+
+        <p style="font-size: 1.25rem; line-height: 1.7; margin: 2rem 0; color: #f1f5f9;">
+            {noticia.contexto}
+        </p>
+
+        <section style="background: #1e293b; padding: 2rem; border-radius: 1rem; border: 1px solid #334155;">
+            <h2 style="font-size: 1.25rem; margin-top: 0; margin-bottom: 1rem;">Fuentes para contrastar la información:</h2>
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+                {noticia.enlaces.map((link) => (
+                    <a 
+                        href={link.url.startsWith('http') ? link.url : `https://${link.url}`} 
+                        target="_blank" 
+                        rel="noopener noreferrer" 
+                        style={`display: block; background: ${noticia.color}; color: #020617; padding: 1.2rem; border-radius: 0.6rem; text-decoration: none; font-weight: bold; text-align: center; font-size: 1.1rem; transition: transform 0.1s;`}
+                        onmouseover="this.style.transform='translateY(-2px)'"
+                        onmouseout="this.style.transform='translateY(0)'"
+                    >
+                        Leer en {link.nombre} &nearrow;
+                    </a>
+                ))}
+            </div>
+        </section>
+    </article>
+</Layout>

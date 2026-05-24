@@ -1,12 +1,20 @@
 [
-    {
-        "category": "nacional",
-        "title": "Iniciativa popular contra la reforma de glaciares",
-        "link": ""
-    },
-    {
-        "category": "nacional",
-        "title": "Comienza la Feria Internacional del Libro de Buenos Aires",
-        "link": ""
-    }
+  {
+    "title": "Pon aquí el título de la noticia 1",
+    "category": "geopolitica",
+    "sources": [
+      "https://link1.com",
+      "https://link2.com",
+      "https://link3.com"
+    ]
+  },
+  {
+    "title": "Pon aquí el título de la noticia 2",
+    "category": "nacional",
+    "sources": [
+      "https://link1.com",
+      "https://link2.com",
+      "https://link3.com"
+    ]
+  }
 ]

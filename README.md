@@ -1,0 +1,70 @@
+# S-NEWS
+
+S-NEWS is a news curation and presentation system designed for schools. It aims to bridge the gap between global information and a teenage audience by providing a rotating news summary for common area displays (screens/projectors) and a companion website for deeper dives.
+
+## Project Goal
+
+The primary objective is to create an automated yet human-curated weekly news cycle. It focuses on four key categories:
+- Geopolitics
+- National (Argentina)
+- Science
+- Sustainability
+
+The system generates high-impact summaries for visual loops and provides a detailed hub where students can contrast different sources, fostering critical thinking.
+
+## Technical Stack
+
+- **Data Collection:** Python (RSS/XML processing).
+- **Web Interface:** [Astro](https://astro.build/) (Static Site Generator).
+- **Hosting:** Designed for GitHub Pages (or any static hosting).
+- **Planned Visuals:** Video/Slide generation using Python libraries (Pillow, MoviePy).
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18.0.0 or higher)
+- [Python 3](https://www.python.org/)
+
+### Installation
+
+1. Navigate to the project directory:
+   ```bash
+   cd snews
+   ```
+
+2. Install web dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Project
+
+#### 1. Fetch Latest News
+
+Run the Python script to fetch news from RSS feeds and merge them with manual suggestions:
+```bash
+python3 scripts/fetch_news.py
+```
+This will generate/update `pending_news.json` with the latest findings.
+
+#### 2. Start the Web Dashboard
+Launch the Astro development server to preview the site:
+```bash
+npm run dev
+```
+The site will be available at `http://localhost:4321`.
+
+### Project Structure
+
+- `scripts/`: Python scripts for news extraction and processing.
+- `src/`: Astro components and pages for the web interface.
+- `manual_news.json`: A file to manually inject specific news or topics into the weekly cycle.
+- `snews_plan.md`: The original project plan and detailed roadmap (in Spanish).
+
+## Workflow
+
+1. **Extraction:** Run `fetch_news.py` to gather raw data.
+2. **Curation:** Review `pending_news.json` and select the headlines for the week.
+3. **Generation:** Build the site and generate the video loop for the school's screens.
+4. **Deployment:** Copy the video to a USB drive and push the site updates to the web host.

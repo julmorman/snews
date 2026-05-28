@@ -1,9 +1,11 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import data from '../../content/news/semana-01.json';
 
-export function getStaticPaths() {
-  return data.noticias.map((n) => {
+export async function getStaticPaths() {
+  const newsFiles = import.meta.glob('../../content/news/*.json', { eager: true });
+  const allNews = Object.values(newsFiles).flatMap((file: any) => file.default.noticias);
+  
+  return allNews.map((n) => {
     return {
       params: { id: n.id },
       props: { noticia: n },

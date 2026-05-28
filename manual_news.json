@@ -1,20 +1,70 @@
 [
   {
-    "title": "Pon aquí el título de la noticia 1",
-    "category": "geopolitica",
-    "sources": [
-      "https://link1.com",
-      "https://link2.com",
-      "https://link3.com"
+    "section": "geopolitica",
+    "news": [
+      {
+        "title": "Título noticia 1",
+        "sources": ["", "", ""]
+      },
+      {
+        "title": "Título noticia 2",
+        "sources": ["", "", ""]
+      },
+      {
+        "title": "Título noticia 3",
+        "sources": ["", "", ""]
+      }
     ]
   },
   {
-    "title": "Pon aquí el título de la noticia 2",
-    "category": "nacional",
-    "sources": [
-      "https://link1.com",
-      "https://link2.com",
-      "https://link3.com"
+    "section": "nacional",
+    "news": [
+      {
+        "title": "Título noticia 1",
+        "sources": ["", "", ""]
+      },
+      {
+        "title": "Título noticia 2",
+        "sources": ["", "", ""]
+      },
+      {
+        "title": "Título noticia 3",
+        "sources": ["", "", ""]
+      }
+    ]
+  },
+  {
+    "section": "ciencias",
+    "news": [
+      {
+        "title": "Título noticia 1",
+        "sources": ["", "", ""]
+      },
+      {
+        "title": "Título noticia 2",
+        "sources": ["", "", ""]
+      },
+      {
+        "title": "Título noticia 3",
+        "sources": ["", "", ""]
+      }
+    ]
+  },
+  {
+    "section": "sustentabilidad",
+    "news": [
+      {
+        "title": "Título noticia 1",
+        "sources": ["", "", ""]
+      },
+      {
+        "title": "Título noticia 2",
+        "sources": ["", "", ""]
+      },
+      {
+        "title": "Título noticia 3",
+        "sources": ["", "", ""]
+      }
     ]
   }
 ]

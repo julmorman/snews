@@ -1,6 +1,6 @@
-# S-NEWS
+# The Weekly Loop
 
-S-NEWS is a news curation and presentation system designed for schools. It aims to bridge the gap between global information and a teenage audience by providing a rotating news summary for common area displays (screens/projectors) and a companion website for deeper dives.
+The Weekly Loop is a news curation and presentation system designed for schools. It aims to bridge the gap between global information and a teenage audience by providing a rotating news summary for common area displays (screens/projectors) and a companion website for deeper dives.
 
 ## Project Goal
 

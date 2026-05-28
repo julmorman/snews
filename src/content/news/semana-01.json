@@ -1,11 +1,11 @@
 {
-  "id": "semana-02",
+  "id": "semana-01",
   "titulo_gracioso": "Esa semana que la inflación nos dio un respiro pero el mundo siguió ardiendo",
-  "fecha": "20 Mayo - 27 Mayo 2026",
+  "fecha": "29 Mayo",
   "noticias": [
     {
       "id": "hormuz-tregua",
-      "categoria": "geopolitica",
+      "categoria": "geopolítica",
       "titulo": "Ormuz: Acuerdo inminente y tregua de 60 días",
       "resumen_corto": "El estrecho más vigilado del mundo podría ver luz al final del túnel.",
       "contexto": "La comunidad internacional observa con cautela un posible punto de inflexión en la crisis de Medio Oriente. El acuerdo propuesto busca estabilizar una de las rutas comerciales más críticas del mundo.\n\n*   **Tregua de 60 días:** Se plantea un cese al fuego temporal para permitir negociaciones diplomáticas de mayor alcance.\n*   **Estrecho de Ormuz:** El desbloqueo de esta vía marítima es vital para el suministro global de petróleo y la reducción de los precios energéticos.\n*   **Tensiones persistentes:** A pesar del anuncio, Irán ha denunciado violaciones al acuerdo por parte de EE.UU., lo que pone en riesgo la fragilidad del pacto.\n*   **Mediación internacional:** Qatar y otros actores regionales actúan como facilitadores en un escenario de alta volatilidad militar.",
@@ -22,7 +22,7 @@
     },
     {
       "id": "crisis-desplazados",
-      "categoria": "geopolitica",
+      "categoria": "geopolítica",
       "titulo": "Crisis de desplazados: alerta humanitaria regional",
       "resumen_corto": "La intensificación de los conflictos armados ha provocado un éxodo masivo.",
       "contexto": "La intensificación de los conflictos armados ha provocado un éxodo masivo que desborda las capacidades de asistencia en múltiples fronteras.\n\n*   **Cifras alarmantes:** Se estima que más de 1 millón de personas han sido desplazadas internamente, con 130,000 cruces transfronterizos recientes.\n*   **Colapso de servicios:** Las organizaciones internacionales advierten sobre la falta de refugio, agua potable y atención médica para los civiles en tránsito.\n*   **Impacto regional:** La crisis no se limita a una sola nación, afectando la estabilidad social y económica de los países vecinos que reciben a los refugiados.\n*   **Llamado a la acción:** ACNUR y la OIM solicitan corredores humanitarios seguros y fondos de emergencia urgentes.",
@@ -36,7 +36,7 @@
     },
     {
       "id": "rusia-ucrania-amenazas",
-      "categoria": "geopolitica",
+      "categoria": "geopolítica",
       "titulo": "Ucrania: Nuevas amenazas y tensión en Moscú",
       "resumen_corto": "Rusia endurece el discurso mientras el frente se estanca.",
       "contexto": "El conflicto en Ucrania entra en una fase de alta incertidumbre marcada por una retórica agresiva desde el Kremlin y movimientos estratégicos en el frente norte.\n\n*   **Ofensiva en el Norte:** El presidente Zelensky ha advertido sobre preparativos rusos para una nueva incursión, buscando estirar las defensas ucranianas.\n*   **Nerviosismo en Moscú:** Analistas sugieren que las amenazas nucleares o de escalada total reflejan una presión interna creciente sobre el gobierno de Putin.\n*   **Punto de inflexión:** Comandantes ucranianos ven señales de un cambio inminente en la dinámica de la guerra debido al desgaste de las fuerzas de ocupación.\n*   **Evaluación del ISW:** Los informes de inteligencia confirman un aumento en la actividad ofensiva rusa, aunque con ganancias territoriales marginales y alto costo humano.",

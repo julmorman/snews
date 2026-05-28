@@ -1,20 +1,30 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+// Leer todos los archivos JSON de noticias dinámicamente
+const newsFiles = import.meta.glob('../content/news/*.json', { eager: true });
+const allEditions = Object.values(newsFiles)
+    .map((file: any) => file.default)
+    .sort((a, b) => b.id.localeCompare(a.id)); // Ordenar por ID descendente
 ---
 <Layout title="The Weekly Loop | Archivo">
     <h1 style="font-size: 3rem; margin-bottom: 2rem;">Archivo de Noticias</h1>
     
     <div style="display: flex; flex-direction: column; gap: 1rem;">
-        <div style="background: #1e293b; padding: 1.5rem; border-radius: 1rem; border: 1px solid #334155; opacity: 1;">
-            <div style="display: flex; justify-content: space-between; align-items: center;">
-                <div>
-                    <h3 style="margin: 0;">Esa semana que la inflación nos dio un respiro pero el mundo siguió ardiendo</h3>
-                    <p style="color: #94a3b8; margin: 0.2rem 0 0;">20 Mayo - 27 Mayo 2026</p>
+        {allEditions.map((edition, index) => (
+            <div style={`background: #1e293b; padding: 1.5rem; border-radius: 1rem; border: 1px solid #334155; opacity: ${index === 0 ? '1' : '0.8'};`}>
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h3 style="margin: 0;">{edition.titulo_gracioso}</h3>
+                        <p style="color: #94a3b8; margin: 0.2rem 0 0;">{edition.fecha}</p>
+                    </div>
+                    <a href={index === 0 ? "/snews/ultima" : `/snews/noticia/${edition.noticias[0].id}`} style="color: #60a5fa; text-decoration: none; font-weight: bold;">
+                        {index === 0 ? "Ver Última →" : "Ver noticias →"}
+                    </a>
                 </div>
-                <a href="/snews/ultima" style="color: #60a5fa; text-decoration: none; font-weight: bold;">Ver noticias →</a>
             </div>
-        </div>
-
+        ))}
+        
         <div style="background: #1e293b; padding: 1.5rem; border-radius: 1rem; border: 1px solid #334155; opacity: 0.5;">
             <p style="color: #94a3b8; margin: 0;">Próximamente más presentaciones...</p>
         </div>

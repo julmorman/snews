@@ -30,10 +30,22 @@ const { noticia } = Astro.props;
 
         <div style="font-size: 1.25rem; line-height: 1.7; margin: 2rem 0; color: #f1f5f9;">
             {noticia.contexto.split('\n').map((paragraph: string) => {
-                if (paragraph.trim().startsWith('*')) {
-                    return <li style="margin-left: 1.5rem; margin-bottom: 0.5rem;">{paragraph.replace('*', '').trim()}</li>;
+                const isBullet = paragraph.trim().startsWith('*');
+                const cleanText = isBullet ? paragraph.trim().substring(1).trim() : paragraph.trim();
+                
+                // Procesar negritas **texto**
+                const parts = cleanText.split(/(\*\*.*?\*\*)/g);
+                const content = parts.map(part => {
+                    if (part.startsWith('**') && part.endsWith('**')) {
+                        return <strong style="color: white; font-weight: 800;">{part.slice(2, -2)}</strong>;
+                    }
+                    return part;
+                });
+
+                if (isBullet) {
+                    return <li style="margin-left: 1.5rem; margin-bottom: 0.5rem; list-style-type: disc;">{content}</li>;
                 }
-                return <p style="margin-bottom: 1rem;">{paragraph}</p>;
+                return <p style="margin-bottom: 1rem;">{content}</p>;
             })}
         </div>
 

@@ -1,30 +1,29 @@
 {
   "id": "semana-02",
-  "titulo_gracioso": "Esa semana que casi conseguimos una tregua y nos mudamos a la Luna",
+  "titulo_gracioso": "Esa semana que la inflación nos dio un respiro pero el mundo siguió ardiendo",
   "fecha": "20 Mayo - 27 Mayo 2026",
   "noticias": [
     {
       "id": "hormuz-tregua",
       "categoria": "geopolitica",
-      "titulo": "Acuerdo inminente y tregua de 60 días en el conflicto de Medio Oriente y el Estrecho de Ormuz",
+      "titulo": "Ormuz: Acuerdo inminente y tregua de 60 días",
       "resumen_corto": "El estrecho más vigilado del mundo podría ver luz al final del túnel.",
       "contexto": "La comunidad internacional observa con cautela un posible punto de inflexión en la crisis de Medio Oriente. El acuerdo propuesto busca estabilizar una de las rutas comerciales más críticas del mundo.\n\n*   **Tregua de 60 días:** Se plantea un cese al fuego temporal para permitir negociaciones diplomáticas de mayor alcance.\n*   **Estrecho de Ormuz:** El desbloqueo de esta vía marítima es vital para el suministro global de petróleo y la reducción de los precios energéticos.\n*   **Tensiones persistentes:** A pesar del anuncio, Irán ha denunciado violaciones al acuerdo por parte de EE.UU., lo que pone en riesgo la fragilidad del pacto.\n*   **Mediación internacional:** Qatar y otros actores regionales actúan como facilitadores en un escenario de alta volatilidad militar.",
       "enlaces": [
         {"nombre": "DW", "url": "https://www.dw.com/es/posible-acuerdo-contempla-tregua-por-60-d%C3%ADas-y-reabrir-ormuz/live-77258651"},
         {"nombre": "El País", "url": "https://elpais.com/internacional/2026-05-26/iran-acusa-a-ee-uu-de-violar-la-tregua-por-atacar-objetivos-militares-y-amenaza-con-responder.html"},
         {"nombre": "Infobae", "url": "https://www.infobae.com/america/agencias/2026/05/24/el-acuerdo-eeuu-iran-incluiria-desbloqueo-del-estrecho-de-ormuz-y-una-tregua-de-60-dias/"},
-        {"nombre": "La Nación", "url": "https://www.lanacion.com.ar/el-mundo/guerra-de-estados-unidos-e-israel-contra-iran-en-vivo-tension-en-medio-oriente-hoy-martes-26-de-mayo-nid26052026/"},
         {"nombre": "The Guardian", "url": "https://www.theguardian.com/world/2026/may/23/trump-ceasefire-iran-strait-of-hormuz"},
         {"nombre": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/5/26/iran-war-live-israel-pounds-lebanon-iranian-officials-in-qatar-for-talks"},
         {"nombre": "BBC", "url": "https://www.bbc.com/news/articles/c4g44yl7q70o"},
-        {"nombre": "La Nación (Análisis)", "url": "https://www.lanacion.com.ar/el-mundo/doble-reves-para-las-esperanzas-de-paz-en-medio-oriente-iran-promete-represalias-a-eeuu-e-israel-nid26052026/"}
+        {"nombre": "La Nación", "url": "https://www.lanacion.com.ar/el-mundo/doble-reves-para-las-esperanzas-de-paz-en-medio-oriente-iran-promete-represalias-a-eeuu-e-israel-nid26052026/"}
       ],
       "color": "#ef4444"
     },
     {
       "id": "crisis-desplazados",
       "categoria": "geopolitica",
-      "titulo": "Crisis de desplazados y alerta humanitaria transfronteriza por la escalada bélica regional",
+      "titulo": "Crisis de desplazados: alerta humanitaria regional",
       "resumen_corto": "La intensificación de los conflictos armados ha provocado un éxodo masivo.",
       "contexto": "La intensificación de los conflictos armados ha provocado un éxodo masivo que desborda las capacidades de asistencia en múltiples fronteras.\n\n*   **Cifras alarmantes:** Se estima que más de 1 millón de personas han sido desplazadas internamente, con 130,000 cruces transfronterizos recientes.\n*   **Colapso de servicios:** Las organizaciones internacionales advierten sobre la falta de refugio, agua potable y atención médica para los civiles en tránsito.\n*   **Impacto regional:** La crisis no se limita a una sola nación, afectando la estabilidad social y económica de los países vecinos que reciben a los refugiados.\n*   **Llamado a la acción:** ACNUR y la OIM solicitan corredores humanitarios seguros y fondos de emergencia urgentes.",
       "enlaces": [
@@ -38,7 +37,7 @@
     {
       "id": "rusia-ucrania-amenazas",
       "categoria": "geopolitica",
-      "titulo": "Nuevas amenazas de Rusia contra Ucrania: nerviosismo en el Kremlin",
+      "titulo": "Ucrania: Nuevas amenazas y tensión en Moscú",
       "resumen_corto": "Rusia endurece el discurso mientras el frente se estanca.",
       "contexto": "El conflicto en Ucrania entra en una fase de alta incertidumbre marcada por una retórica agresiva desde el Kremlin y movimientos estratégicos en el frente norte.\n\n*   **Ofensiva en el Norte:** El presidente Zelensky ha advertido sobre preparativos rusos para una nueva incursión, buscando estirar las defensas ucranianas.\n*   **Nerviosismo en Moscú:** Analistas sugieren que las amenazas nucleares o de escalada total reflejan una presión interna creciente sobre el gobierno de Putin.\n*   **Punto de inflexión:** Comandantes ucranianos ven señales de un cambio inminente en la dinámica de la guerra debido al desgaste de las fuerzas de ocupación.\n*   **Evaluación del ISW:** Los informes de inteligencia confirman un aumento en la actividad ofensiva rusa, aunque con ganancias territoriales marginales y alto costo humano.",
       "enlaces": [
@@ -52,7 +51,7 @@
     {
       "id": "inflacion-abril",
       "categoria": "nacional",
-      "titulo": "El INDEC oficializó una desaceleración de la inflación de abril al 2.6%",
+      "titulo": "Inflación: El INDEC oficializó un 2.6% en abril",
       "resumen_corto": "Los alimentos pisan el freno y la inflación sigue en descenso.",
       "contexto": "Los datos oficiales de abril muestran una tendencia a la baja en el ritmo de aumento de precios, impulsada principalmente por el rubro de alimentos.\n\n*   **Cifra mensual:** El 2.6% representa el nivel más bajo en meses, marcando un alivio temporal en la dinámica inflacionaria.\n*   **Alimentos y bebidas:** Este sector clave registró apenas un 1.5%, lo cual impacta directamente en la canasta básica y los índices de indigencia.\n*   **Inflación interanual:** A pesar de la desaceleración mensual, el acumulado de los últimos doce meses sigue siendo extremadamente alto (324%).\n*   **Perspectivas económicas:** El gobierno utiliza estos datos para validar su programa monetario, mientras analistas debaten la sostenibilidad de esta baja frente a futuros ajustes de tarifas.",
       "enlaces": [
@@ -66,7 +65,7 @@
     {
       "id": "mendoza-desastre",
       "categoria": "nacional",
-      "titulo": "Mendoza declarada en estado de desastre agropecuario por granizo",
+      "titulo": "Mendoza: desastre agropecuario por granizo",
       "resumen_corto": "La severidad del clima obliga a la intervención del Gobierno Nacional.",
       "contexto": "La severidad de los fenómenos climáticos recientes ha obligado al Gobierno Nacional a intervenir para proteger la producción regional en Cuyo y la Patagonia.\n\n*   **Impacto en Mendoza:** El granizo destruyó gran parte de los cultivos en departamentos clave, afectando la vitivinicultura y la producción de frutales.\n*   **Alcance nacional:** La medida también incluye zonas de Chubut y Santa Cruz, reconociendo una crisis productiva extendida.\n*   **Beneficios legales:** La declaración permite la prórroga de impuestos, acceso a créditos blandos y asistencia directa para los productores afectados.\n*   **Emergencia vs Desastre:** Se utiliza el término 'desastre' cuando las pérdidas superan el 80% de la producción, lo que implica una situación de extrema gravedad económica.",
       "enlaces": [
@@ -79,7 +78,7 @@
     {
       "id": "salud-mental-reforma",
       "categoria": "nacional",
-      "titulo": "El Senado avanzará con la reforma de salud mental: internación no voluntaria",
+      "titulo": "Salud Mental: Debate por las internaciones",
       "resumen_corto": "El debate legislativo busca modificar criterios sobre la autonomía del paciente.",
       "contexto": "El debate legislativo sobre la Ley de Salud Mental busca modificar criterios fundamentales sobre la autonomía del paciente y el rol de los profesionales médicos.\n\n*   **Internación no voluntaria:** La reforma facilita que familiares o médicos decidan la internación ante un 'riesgo cierto e inminente', simplificando procesos burocráticos actuales.\n*   **Adicciones como enfermedad:** Se busca integrar el tratamiento de consumos problemáticos de manera más explícita dentro del sistema de salud mental.\n*   **Rol del psiquiatra:** La nueva normativa devuelve mayor peso a la opinión médica psiquiátrica en comparación con el enfoque interdisciplinario de la ley anterior.\n*   **Controversia:** Mientras algunos sectores celebran la mayor agilidad para casos críticos, organizaciones de derechos humanos advierten sobre posibles retrocesos en las libertades individuales.",
       "enlaces": [
@@ -93,7 +92,7 @@
     {
       "id": "nasa-base-lunar",
       "categoria": "ciencias",
-      "titulo": "La NASA revela los próximos pasos para construir una base permanente en la Luna",
+      "titulo": "NASA: Pasos firmes para la base lunar permanente",
       "resumen_corto": "El programa Artemis entra en una fase operativa detallada.",
       "contexto": "El programa Artemis entra en una fase operativa detallada para establecer una presencia humana sostenida en la superficie lunar.\n\n*   **Infraestructura robótica:** El plan contempla el uso masivo de drones y robots autónomos para la construcción previa a la llegada de tripulaciones.\n*   **De la Luna a Marte:** La base lunar funcionará como un laboratorio de pruebas para tecnologías de soporte vital necesarias para futuras misiones al planeta rojo.\n*   **Sostenibilidad:** Se investiga el uso de recursos locales (regolito lunar) para fabricar materiales de construcción y extraer agua de los polos.\n*   **Colaboración internacional:** La NASA coordina con agencias aliadas y empresas privadas para desarrollar los módulos de vivienda y transporte.",
       "enlaces": [
@@ -107,7 +106,7 @@
     {
       "id": "ebola-alerta",
       "categoria": "ciencias",
-      "titulo": "Ébola: Alerta internacional por brote en África Central",
+      "titulo": "Ébola: Alerta internacional en África Central",
       "resumen_corto": "La OMS activa los protocolos de emergencia global ante la propagación.",
       "contexto": "Un nuevo brote de Ébola en la República Democrática del Congo ha activado los protocolos de emergencia global debido a su alta tasa de mortalidad y velocidad de contagio.\n\n*   **Alerta de la OMS:** La declaración de 'Emergencia de Salud Pública de Importancia Internacional' busca coordinar una respuesta financiera y logística inmediata.\n*   **Zonas afectadas:** El virus se ha detectado en áreas con alta movilidad poblacional, lo que aumenta el riesgo de propagación a países vecinos.\n*   **Vacunación y contención:** Se están desplegando brigadas de vacunación de emergencia, aunque la inseguridad en la región dificulta el acceso a las comunidades.\n*   **Vigilancia epidemiológica:** Los CDC y otros organismos monitorean los puntos de entrada internacionales para prevenir casos importados.",
       "enlaces": [
@@ -121,7 +120,7 @@
     {
       "id": "polo-sur-lunar",
       "categoria": "ciencias",
-      "titulo": "El debate ético por los asentamientos en el Polo Sur lunar",
+      "titulo": "El debate ético por los asentamientos lunares",
       "resumen_corto": "El Polo Sur lunar se ha convertido en el 'bienes raíces' más codiciado.",
       "contexto": "El Polo Sur lunar se ha convertido en el 'bienes raíces' más codiciado del sistema solar, generando un intenso debate sobre su gobernanza.\n\n*   **Recursos estratégicos:** La presencia de hielo de agua en cráteres en sombra perpetua es el principal atractivo para la supervivencia humana y combustible de cohetes.\n*   **Dilemas éticos:** Científicos cuestionan si la explotación comercial de estos recursos debería estar permitida o si la Luna debe ser un patrimonio protegido.\n*   **Desafíos técnicos:** Las temperaturas extremas y la falta de luz solar directa en ciertas zonas requieren soluciones de ingeniería sin precedentes.\n*   **Carrera espacial 2.0:** La competencia entre EE.UU., China e India por llegar primero al Polo Sur plantea la necesidad de nuevos tratados internacionales de convivencia espacial.",
       "enlaces": [
@@ -137,7 +136,7 @@
     {
       "id": "onu-clima-voto",
       "categoria": "sustentabilidad",
-      "titulo": "Histórica votación en la ONU respalda las obligaciones legales frente al cambio climático",
+      "titulo": "Hito en la ONU: Responsabilidad legal por el clima",
       "resumen_corto": "La ONU solicita a la CIJ definir las responsabilidades de los Estados.",
       "contexto": "La ONU ha dado un paso jurídico sin precedentes al solicitar a la Corte Internacional de Justicia (CIJ) que defina las responsabilidades de los Estados ante la crisis climática.\n\n*   **Justicia Climática:** La resolución busca que los países sean legalmente responsables por los daños causados a naciones vulnerables debido a sus emisiones históricas.\n*   **Postura de Argentina:** El país generó controversia al abstenerse en la votación, marcando un giro en su política exterior climática tradicional.\n*   **Impacto legal:** Aunque la opinión de la CIJ no es vinculante, tendrá un peso moral y jurídico enorme en futuros litigios climáticos nacionales e internacionales.\n*   **Liderazgo de islas pequeñas:** La iniciativa fue impulsada por naciones insulares que enfrentan la desaparición total por el aumento del nivel del mar.",
       "enlaces": [
@@ -152,7 +151,7 @@
     {
       "id": "super-el-nino",
       "categoria": "sustentabilidad",
-      "titulo": "Súper El Niño: Alerta por temperaturas marinas récord",
+      "titulo": "Súper El Niño: Temperaturas marinas récord",
       "resumen_corto": "Modelos meteorológicos indican una probabilidad del 82% de intensidad 'Súper'.",
       "contexto": "Los modelos meteorológicos indican una probabilidad del 82% de que el próximo fenómeno de El Niño alcance niveles de intensidad 'Súper', no vistos en décadas.\n\n*   **Calentamiento oceánico:** Las temperaturas en la superficie del mar están rompiendo récords históricos, lo que actúa como combustible para eventos climáticos extremos.\n*   **Consecuencias globales:** Se esperan sequías severas en el sudeste asiático y Australia, mientras que América del Sur podría enfrentar inundaciones catastróficas.\n*   **Seguridad alimentaria:** El fenómeno amenaza las cosechas globales, lo que podría disparar nuevamente los precios de los alimentos a nivel mundial.\n*   **Preparación:** Organismos como la CAF instan a los gobiernos a invertir en infraestructura de drenaje y sistemas de alerta temprana para mitigar el impacto.",
       "enlaces": [
@@ -166,7 +165,7 @@
     {
       "id": "metano-satelites",
       "categoria": "sustentabilidad",
-      "titulo": "Monitoreo satelital de metano en vertederos: exigencia climática urgente",
+      "titulo": "Metano: Monitoreo satelital urgente",
       "resumen_corto": "Los vertederos son una de las fuentes de metano más ignoradas.",
       "contexto": "El metano es un gas de efecto invernadero mucho más potente que el CO2 a corto plazo, y los vertederos de basura son una de sus fuentes más ignoradas.\n\n*   **Tecnología satelital:** Nuevos sensores espaciales permiten identificar 'super-emisores' de metano en tiempo real, facilitando la intervención inmediata.\n*   **Gestión de residuos:** La ONU exige que las ciudades modernicen sus vertederos para capturar este gas y convertirlo en energía limpia.\n*   **Fugas ocultas:** Investigaciones recientes también han detectado fuentes de metano en el océano y en infraestructuras energéticas obsoletas.\n*   **Compromiso Global:** Reducir las emisiones de metano se considera la forma más rápida de frenar el calentamiento global en la próxima década.",
       "enlaces": [

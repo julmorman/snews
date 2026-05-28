@@ -96,14 +96,29 @@ import data from '../content/news/semana-01.json';
                             <div class="category" style={`color: ${item.color}`}>{item.categoria}</div>
                             <div class="detail-context">
                                 {item.contexto.split('\n').map((line) => {
-                                    if (!line.trim().startsWith('*')) return <p>{line}</p>;
+                                    if (!line.trim().startsWith('*')) {
+                                        const parts = line.split(/(\*\*.*?\*\*)/g);
+                                        return <p>{parts.map(part => {
+                                            if (part.startsWith('**') && part.endsWith('**')) {
+                                                return <strong style="color: white; font-weight: 800;">{part.slice(2, -2)}</strong>;
+                                            }
+                                            return part;
+                                        })}</p>;
+                                    }
                                     return null;
                                 })}
                             </div>
                             <ul class="detail-bullets">
                                 {item.contexto.split('\n').map((line) => {
                                     if (line.trim().startsWith('*')) {
-                                        return <li>{line.replace('*', '').trim()}</li>;
+                                        const cleanText = line.trim().substring(1).trim();
+                                        const parts = cleanText.split(/(\*\*.*?\*\*)/g);
+                                        return <li>{parts.map(part => {
+                                            if (part.startsWith('**') && part.endsWith('**')) {
+                                                return <strong style="color: white; font-weight: 800;">{part.slice(2, -2)}</strong>;
+                                            }
+                                            return part;
+                                        })}</li>;
                                     }
                                     return null;
                                 })}

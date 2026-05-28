@@ -10,7 +10,7 @@ import data from '../content/news/semana-01.json';
 
     <section style="display: grid; gap: 2rem;">
         {data.noticias.map(item => (
-            <a href={`/snews/noticia/${item.id}`} style="text-decoration: none; color: inherit; display: block;">
+            <a href={`/noticia/${item.id}`} style="text-decoration: none; color: inherit; display: block;">
                 <div style={`background: #1e293b; padding: 2rem; border-radius: 1rem; border-left: 8px solid ${item.color}; transition: transform 0.2s, background 0.2s; cursor: pointer;`} 
                      onmouseover="this.style.transform='scale(1.02)'; this.style.background='#273549'" 
                      onmouseout="this.style.transform='scale(1)'; this.style.background='#1e293b'">

@@ -5,13 +5,14 @@ import data from '../content/news/semana-01.json';
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>The Weekly Loop | Modo Presentación</title>
+    <title>THE LOOP | Modo Presentación</title>
     <style>
         body, html {
             margin: 0; padding: 0; width: 100%; height: 100%;
             background-color: #020617; color: white;
             font-family: 'Inter', system-ui, sans-serif;
             overflow: hidden;
+            cursor: pointer;
         }
         .slide {
             display: none;
@@ -49,16 +50,33 @@ import data from '../content/news/semana-01.json';
             position: absolute; bottom: 40px; right: 40px;
             font-size: 1.5rem; color: #475569; font-weight: bold;
         }
+        #fullscreen-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1000;
+            font-weight: bold;
+            transition: opacity 0.3s;
+        }
+        body:hover #fullscreen-btn { opacity: 1; }
+        .fullscreen-hidden #fullscreen-btn { opacity: 0; }
     </style>
 </head>
 <body>
+    <button id="fullscreen-btn">PANTALLA COMPLETA</button>
     <div id="slides-container">
         {data.noticias.map((item, index) => (
             <div class={`slide ${index === 0 ? 'active' : ''}`} data-color={item.color}>
                 <div class="category" style={`color: ${item.color}`}>{item.categoria}</div>
                 <div class="title">{item.titulo}</div>
                 <div class="summary">{item.resumen_corto}</div>
-                <div class="footer">The Weekly Loop | {data.fecha}</div>
+                <div class="footer">THE LOOP | {data.fecha}</div>
             </div>
         ))}
     </div>
@@ -70,6 +88,7 @@ import data from '../content/news/semana-01.json';
     <script>
         const slides = document.querySelectorAll('.slide');
         const progressBar = document.getElementById('progress');
+        const fullscreenBtn = document.getElementById('fullscreen-btn');
         let currentSlide = 0;
         const duration = 15000; // 15 segundos por slide
         let start = Date.now();
@@ -103,12 +122,40 @@ import data from '../content/news/semana-01.json';
         progressBar.style.backgroundColor = slides[0].getAttribute('data-color');
         requestAnimationFrame(update);
 
-        // Pantalla completa al hacer clic (opcional)
+        // Función para pantalla completa
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(err => {
+                    console.error(`Error al intentar activar pantalla completa: ${err.message}`);
+                });
+                document.body.classList.add('fullscreen-hidden');
+                fullscreenBtn.innerText = 'SALIR';
+            } else {
+                document.exitFullscreen();
+                document.body.classList.remove('fullscreen-hidden');
+                fullscreenBtn.innerText = 'PANTALLA COMPLETA';
+            }
+        }
+
+        fullscreenBtn.onclick = (e) => {
+            e.stopPropagation();
+            toggleFullscreen();
+        };
+
+        // También al hacer clic en cualquier parte del fondo si no es pantalla completa
         document.body.onclick = () => {
             if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen();
+                toggleFullscreen();
             }
         };
+
+        // Escuchar cambios de pantalla completa para ajustar el botón
+        document.addEventListener('fullscreenchange', () => {
+            if (!document.fullscreenElement) {
+                document.body.classList.remove('fullscreen-hidden');
+                fullscreenBtn.innerText = 'PANTALLA COMPLETA';
+            }
+        });
     </script>
 </body>
 </html>

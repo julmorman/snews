@@ -62,9 +62,46 @@ The site will be available at `http://localhost:4321`.
 - `manual_news.json`: A file to manually inject specific news or topics into the weekly cycle.
 - `snews_plan.md`: The original project plan and detailed roadmap (in Spanish).
 
-## Workflow
+## Agent Steps (Workflow)
 
-1. **Extraction:** Run `fetch_news.py` to gather raw data.
-2. **Curation:** Review `pending_news.json` and select the headlines for the week.
-3. **Generation:** Build the site and generate the video loop for the school's screens.
-4. **Deployment:** Copy the video to a USB drive and push the site updates to the web host.
+### 1. Data Reception
+
+The agent will receive the news information (via a link to a public Google Sheet or direct text). The data is presented in columns in the following order: `section`, `title`, `image` (if applicable; otherwise, the agent will search for an image that matches the news item), and `sources` (unlimited amount).
+
+### 2. Content Creation (JSON)
+
+Create a new file in `src/content/news/` following the `week-XX.json` pattern.
+
+* **Important:** Maintain the exact format of `week-01.json`.
+* **ID:** The ID for each news item must be unique and descriptive (e.g., `energy-crisis-2026`).
+
+### 3. Updating References
+
+For the site to display the new week as the "current" one, the agent must modify:
+
+* In `src/pages/ultima.astro`: Change the import line:
+```astro
+import data from '../content/news/week-XX.json';
+
+```
+
+
+* In `src/pages/presentacion.astro`: Change the import line:
+```astro
+import data from '../content/news/week-XX.json';
+
+```
+
+
+
+### 4. Verification
+
+The file `src/pages/archivo.astro` will automatically detect the new JSON file thanks to `import.meta.glob`. No editing is required.
+
+---
+
+## Agent Rules
+
+* **Do Not Rewrite:** Do not modify the logic of the `.astro` files beyond the imports.
+* **Formatting:** Ensure that the JSON is valid and follows the existing field structure.
+* **Surgical Edits:** Use the `replace` tool to change *only* the import line within the `.astro` files.

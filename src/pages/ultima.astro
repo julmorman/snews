@@ -1,6 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import data from '../content/news/semana-01.json';
+
+// Agrupar noticias por categoría para esta vista
+const categories = ['geopolítica', 'nacional', 'ciencias', 'sustentabilidad'];
+const groupedNews = categories.map(cat => ({
+    name: cat,
+    items: data.noticias.filter(n => n.categoria.toLowerCase() === cat)
+}));
 ---
 <Layout title="THE LOOP | Última Presentación">
     <header style="text-align: center; margin-bottom: 3rem;">
@@ -8,24 +15,30 @@ import data from '../content/news/semana-01.json';
         <p style="color: #94a3b8;">{data.fecha}</p>
     </header>
 
-    <section style="display: grid; gap: 2rem;">
-        {data.noticias.map(item => (
-            <a href={`/noticia/${item.id}`} style="text-decoration: none; color: inherit; display: block;">
-                <div style={`background: #1e293b; padding: 2rem; border-radius: 1rem; border-left: 8px solid ${item.color}; transition: transform 0.2s, background 0.2s; cursor: pointer;`} 
-                     onmouseover="this.style.transform='scale(1.02)'; this.style.background='#273549'" 
-                     onmouseout="this.style.transform='scale(1)'; this.style.background='#1e293b'">
-                    
-                    <span style={`text-transform: uppercase; font-weight: bold; font-size: 0.8rem; color: ${item.color}`}>
-                        {item.categoria}
-                    </span>
-                    <h2 style="margin: 0.5rem 0;">{item.titulo}</h2>
-                    <p style="line-height: 1.6; color: #cbd5e1;">{item.resumen_corto}</p>
-                    
-                    <div style="margin-top: 1rem; color: #3b82f6; font-size: 0.9rem; font-weight: bold;">
-                        Saber más y ver fuentes →
-                    </div>
+    <div style="display: grid; gap: 4rem;">
+        {groupedNews.map(group => (
+            <section>
+                <h2 style="text-transform: uppercase; letter-spacing: 2px; color: #60a5fa; border-bottom: 2px solid #1e293b; padding-bottom: 0.5rem; margin-bottom: 1.5rem;">
+                    {group.name}
+                </h2>
+                <div style="display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));">
+                    {group.items.map(item => (
+                        <a href={`/noticia/${item.id}`} style="text-decoration: none; color: inherit; display: block;">
+                            <div style={`background: #1e293b; padding: 1.5rem; border-radius: 1rem; border-left: 6px solid ${item.color}; transition: transform 0.2s, background 0.2s; cursor: pointer; height: 100%;`} 
+                                 onmouseover="this.style.transform='scale(1.02)'; this.style.background='#273549'" 
+                                 onmouseout="this.style.transform='scale(1)'; this.style.background='#1e293b'">
+                                
+                                <h3 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;">{item.titulo}</h3>
+                                <p style="line-height: 1.5; color: #cbd5e1; font-size: 0.95rem; margin: 0;">{item.resumen_corto}</p>
+                                
+                                <div style="margin-top: 1rem; color: #3b82f6; font-size: 0.85rem; font-weight: bold;">
+                                    Saber más →
+                                </div>
+                            </div>
+                        </a>
+                    ))}
                 </div>
-            </a>
+            </section>
         ))}
-    </section>
+    </div>
 </Layout>

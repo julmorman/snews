@@ -21,32 +21,38 @@ const { noticia } = Astro.props;
     </div>
 
     <article style="margin-top: 2rem;">
-        <header style={`border-left: 8px solid ${noticia.color}; padding-left: 1rem;`}>
+        <header style={`border-left: 8px solid ${noticia.color}; padding-left: 1rem; margin-bottom: 2rem;`}>
             <p style={`color: ${noticia.color}; font-weight: bold; text-transform: uppercase; margin: 0;`}>
                 {noticia.categoria}
             </p>
             <h1 style="font-size: 2.5rem; margin: 0.5rem 0;">{noticia.titulo}</h1>
         </header>
 
-        <div style="font-size: 1.25rem; line-height: 1.7; margin: 2rem 0; color: #f1f5f9;">
-            {noticia.contexto.split('\n').map((paragraph: string) => {
-                const isBullet = paragraph.trim().startsWith('*');
-                const cleanText = isBullet ? paragraph.trim().substring(1).trim() : paragraph.trim();
-                
-                // Procesar negritas **texto**
-                const parts = cleanText.split(/(\*\*.*?\*\*)/g);
-                const content = parts.map(part => {
-                    if (part.startsWith('**') && part.endsWith('**')) {
-                        return <strong style="color: white; font-weight: 800;">{part.slice(2, -2)}</strong>;
-                    }
-                    return part;
-                });
+        <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
+            <div style="flex: 1; min-width: 300px;">
+                <img src={noticia.imagen} alt={noticia.titulo} style="width: 100%; border-radius: 1rem; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);" onerror="this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80'" />
+            </div>
+            <div style="flex: 1; min-width: 300px; font-size: 1.25rem; line-height: 1.7; color: #f1f5f9;">
+                {noticia.contexto.split('\n').map((paragraph: string) => {
+                    const isBullet = paragraph.trim().startsWith('*');
+                    const cleanText = isBullet ? paragraph.trim().substring(1).trim() : paragraph.trim();
+                    
+                    // Procesar negritas **texto**
+                    const parts = cleanText.split(/(\*\*.*?\*\*)/g);
+                    const content = parts.map(part => {
+                        if (part.startsWith('**') && part.endsWith('**')) {
+                            return <strong style="color: white; font-weight: 800;">{part.slice(2, -2)}</strong>;
+                        }
+                        return part;
+                    });
 
-                if (isBullet) {
-                    return <li style="margin-left: 1.5rem; margin-bottom: 0.5rem; list-style-type: disc;">{content}</li>;
-                }
-                return <p style="margin-bottom: 1rem;">{content}</p>;
-            })}
+                    if (isBullet) {
+                        return <li style="margin-left: 1.5rem; margin-bottom: 0.5rem; list-style-type: disc;">{content}</li>;
+                    }
+                    if (cleanText === "") return null;
+                    return <p style="margin-bottom: 1rem;">{content}</p>;
+                })}
+            </div>
         </div>
 
         <section style="background: #1e293b; padding: 2rem; border-radius: 1rem; border: 1px solid #334155;">

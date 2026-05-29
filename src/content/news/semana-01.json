@@ -8,7 +8,7 @@
       "categoria": "geopolítica",
       "titulo": "Tregua de 60 días en el Estrecho de Ormuz",
       "resumen_corto": "Se negocia un acuerdo inminente para reabrir una de las rutas marítimas más críticas del mundo.",
-      "contexto": "Se negocia un acuerdo inminente para un cese al fuego de dos meses que permitiría reabrir una de las rutas marítimas más críticas del mundo.\n\n* **Acuerdo diplomático** mediado por potencias internacionales para reducir la escalada bélica en el Golfo Pérsico.\n* **Apertura comercial** del Estrecho de Ormuz, vital para el flujo global de petróleo y la estabilidad de los precios energéticos.\n* **Tregua temporal** de 60 días que busca establecer un corredor humanitario y bases para una paz duradera.",
+      "contexto": "La comunidad internacional observa con cautela un posible punto de inflexión en la crisis de Medio Oriente. El acuerdo propuesto busca estabilizar el **Estrecho de Ormuz**, por donde transita el 20% del petróleo mundial.\n\n* **Cese de hostilidades:** La tregua de 60 días busca frenar los intercambios directos de fuego entre Israel, Irán y sus aliados regionales.\n* **Objetivo económico:** El desbloqueo es vital para estabilizar los precios de la energía y permitir la libre navegación de buques comerciales.\n* **Fragilidad diplomática:** Irán ha denunciado violaciones al pacto por parte de EE.UU., lo que mantiene el escenario bajo una alerta de alta volatilidad.",
       "enlaces": [
         {"nombre": "DW", "url": "https://www.dw.com/es/posible-acuerdo-contempla-tregua-por-60-d%C3%ADas-y-reabrir-ormuz/live-77258651"},
         {"nombre": "El País", "url": "https://elpais.com/internacional/2026-05-26/iran-acusa-a-ee-uu-de-violar-la-tregua-por-atacar-objetivos-militares-y-amenaza-con-responder.html"},
@@ -22,57 +22,11 @@
       "imagen": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/be62/live/e0d5d470-3356-11f1-8606-05fe34b06e1b.png.webp"
     },
     {
-      "id": "inflacion-abril",
-      "categoria": "nacional",
-      "titulo": "Inflación de abril: 2.6%",
-      "resumen_corto": "El INDEC confirmó una fuerte desaceleración de los precios, con el rubro de alimentos mostrando una suba de apenas el 1.5%.",
-      "contexto": "Los datos oficiales de abril muestran una tendencia a la baja en el ritmo de aumento de precios, impulsada principalmente por el rubro de alimentos.\n\n* **Cifra oficial** que marca el nivel más bajo de inflación mensual en los últimos años.\n* **Alimentos y bebidas** como el motor de la baja, impactando directamente en la canasta básica.\n* **Expectativas económicas** que sugieren una consolidación de la tendencia a la baja para el próximo trimestre.",
-      "enlaces": [
-        {"nombre": "INDEC", "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31"},
-        {"nombre": "Infobae", "url": "https://www.infobae.com/economia/2026/05/14/la-inflacion-desacelero-a-26-en-abril-y-acumulo-324-en-los-ultimos-doce-meses/"},
-        {"nombre": "INDEC Temático", "url": "https://www.indec.gob.ar/indec/web/Nivel3-Tema-3-5"},
-        {"nombre": "Página 12", "url": "https://www.pagina12.com.ar/2026/05/14/la-inflacion-de-abril-fue-del-26-segun-el-indec/"}
-      ],
-      "color": "#3eaaf7",
-      "imagen": "https://images.unsplash.com/photo-1518458084722-6a3986c73002?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "nasa-base-lunar",
-      "categoria": "ciencias",
-      "titulo": "Base permanente en la Luna",
-      "resumen_corto": "La NASA reveló los planos detallados para la construcción de una infraestructura habitable en la superficie lunar.",
-      "contexto": "El programa Artemis entra en una fase operativa detallada para establecer una presencia humana sostenida en la superficie lunar.\n\n* **Arquitectura Artemis** que define los módulos de vivienda y laboratorios científicos para astronautas.\n* **Uso de recursos** locales (regolito) para la construcción mediante impresión 3D y obtención de agua.\n* **Plataforma de salto** para futuras misiones tripuladas al planeta Marte en la próxima década.",
-      "enlaces": [
-        {"nombre": "BBC", "url": "https://www.bbc.com/news/articles/c39228nxyr4o"},
-        {"nombre": "NASA Architecture", "url": "https://www.nasa.gov/moontomarsarchitecture-architecturedefinitiondocuments/"},
-        {"nombre": "NASA Moonbase", "url": "https://www.nasa.gov/moonbase/"},
-        {"nombre": "Aerospace Global News", "url": "https://aerospaceglobalnews.com/news/nasa-moon-base-missions-robots-drones/"}
-      ],
-      "color": "#06b6d4",
-      "imagen": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "onu-clima-voto",
-      "categoria": "sustentabilidad",
-      "titulo": "Obligaciones legales climáticas",
-      "resumen_corto": "La Asamblea General de la ONU aprobó una resolución histórica que refuerza la responsabilidad jurídica ambiental.",
-      "contexto": "La ONU ha dado un paso jurídico sin precedentes al solicitar a la Corte Internacional de Justicia (CIJ) que defina las responsabilidades de los Estados ante la crisis climática.\n\n* **Hito jurídico** que permite a la Corte Internacional de Justicia emitir opiniones sobre las obligaciones climáticas de los estados.\n* **Justicia climática** para naciones insulares y vulnerables que sufren los mayores impactos ambientales.\n* **Presión internacional** para que los grandes emisores cumplan con los objetivos del Acuerdo de París.",
-      "enlaces": [
-        {"nombre": "UN News", "url": "https://news.un.org/en/story/2026/05/1167561"},
-        {"nombre": "La Nación", "url": "https://www.lanacion.com.ar/estados-unidos/onu-adopta-texto-para-reforzar-obligacion-de-los-paises-frente-al-cambio-climatico-nid20052026/"},
-        {"nombre": "Greenpeace", "url": "https://es.greenpeace.org/es/sala-de-prensa/comunicados/greenpeace-celebra-que-la-asamblea-general-de-la-onu-confirme-la-responsabilidad-legal-de-los-estados-de-frenar-el-cambio-climatico/"},
-        {"nombre": "The Guardian", "url": "https://www.theguardian.com/environment/2026/may/21/un-vote-support-icj-world-court-climate-change-opinion"},
-        {"nombre": "Perfil", "url": "https://www.perfil.com/noticias/internacional/la-onu-aprobo-una-resolucion-historica-sobre-cambio-climatico-y-la-argentina-se-abstuvo.phtml"}
-      ],
-      "color": "#10b981",
-      "imagen": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
       "id": "crisis-desplazados",
       "categoria": "geopolítica",
       "titulo": "Crisis humanitaria por desplazados",
-      "resumen_corto": "La escalada bélica regional ha provocado una alerta humanitaria transfronteriza con más de un millón de personas desplazadas.",
-      "contexto": "La intensificación de los conflictos armados ha provocado un éxodo masivo que desborda las capacidades de asistencia en múltiples fronteras.\n\n* **Éxodo masivo** de civiles que huyen de las zonas de conflicto hacia países vecinos.\n* **Colapso de servicios** básicos en campamentos de refugiados debido a la rapidez de la escalada.\n* **Llamado internacional** de la OIM y ACNUR para asistencia urgente en salud y refugio.",
+      "resumen_corto": "La escalada bélica regional ha provocado una alerta humanitaria transfronteriza masiva.",
+      "contexto": "La intensificación de los conflictos armados en el sur del **Líbano**, la **Franja de Gaza** y el norte de **Israel** ha provocado un éxodo masivo de población civil.\n\n* **Orígenes del éxodo:** Miles de familias abandonan zonas fronterizas debido a la intensificación de bombardeos y operaciones terrestres.\n* **Destinos principales:** Los desplazados buscan refugio en el centro de Líbano (Beirut), el sur de la Franja de Gaza y, en menor medida, en países vecinos como Jordania y Egipto.\n* **Colapso de servicios:** ACNUR y la OIM advierten que los centros de acogida están desbordados, faltando suministros médicos básicos y agua potable.",
       "enlaces": [
         {"nombre": "IOM", "url": "https://www.iom.int/escalation-middle-east-and-beyond-growing-humanitarian-crisis"},
         {"nombre": "ACNUR", "url": "https://www.acnur.org/noticias/comunicados-de-prensa/acnur-alerta-de-que-mas-de-330-000-personas-han-sido-desplazadas-por-la-reciente-escalada-de-violencia-en-medio-oriente-y-otras-regiones"},
@@ -83,25 +37,85 @@
       "imagen": "https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=1200&q=80"
     },
     {
+      "id": "rusia-ucrania-amenazas",
+      "categoria": "geopolítica",
+      "titulo": "Amenazas de Rusia contra Ucrania",
+      "resumen_corto": "Moscú intensifica su retórica en un momento de alta tensión estratégica.",
+      "contexto": "El conflicto entra en una fase crítica con el despliegue de nuevas tropas rusas en la frontera norte, específicamente hacia las regiones de **Járkov y Sumy**.\n\n* **Nerviosismo en el Kremlin:** Las amenazas de escalada total son vistas por analistas como una respuesta a la presión militar interna y el apoyo sostenido de Occidente a Ucrania.\n* **Zonas de amortiguamiento:** Rusia busca establecer áreas de control para alejar la artillería ucraniana de su propio territorio fronterizo.\n* **Evaluación del ISW:** Los informes de inteligencia confirman un aumento en la actividad ofensiva rusa, aunque con ganancias territoriales marginales y un alto costo logístico.",
+      "enlaces": [
+        {"nombre": "BBC Mundo", "url": "https://www.bbc.com/mundo/articles/cy022ex9wg9o"},
+        {"nombre": "Reuters", "url": "https://www.reuters.com/business/aerospace-defense/senior-ukrainian-commander-sees-imminent-turning-point-war-2026-05-27/"},
+        {"nombre": "ISW", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-may-26-2026/"},
+        {"nombre": "Kyiv Independent", "url": "https://kyivindependent.com/zelensky-warns-russian-northern-offensive/"}
+      ],
+      "color": "#ef4444",
+      "imagen": "https://www.ort.edu.uy/innovaportal/file/122490/1/las-razones-del-conflicto-entre-rusia-y-ucrania.jpg"
+    },
+    {
+      "id": "inflacion-abril",
+      "categoria": "nacional",
+      "titulo": "Inflación de abril: 2.6%",
+      "resumen_corto": "El INDEC confirmó una fuerte desaceleración de los precios mensuales.",
+      "contexto": "El INDEC reportó que la inflación de abril fue del **2.6%**, la cifra más baja en más de dos años, impulsada por un freno en el rubro de alimentos y bebidas.\n\n* **Dato clave:** Los alimentos registraron una suba del 1.5%, lo que impacta positivamente en el poder adquisitivo de la canasta básica.\n* **Contexto macro:** El gobierno atribuye la baja a su programa de ajuste monetario, mientras que el consumo interno sigue mostrando signos de retracción.\n* **Inflación interanual:** A pesar de la caída mensual, el acumulado de los últimos doce meses se mantiene en niveles críticos, superando el 300%.",
+      "enlaces": [
+        {"nombre": "INDEC", "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31"},
+        {"nombre": "Infobae", "url": "https://www.infobae.com/economia/2026/05/14/la-inflacion-desacelero-a-26-en-abril-y-acumulo-324-en-los-ultimos-doce-meses/"},
+        {"nombre": "INDEC Temático", "url": "https://www.indec.gob.ar/indec/web/Nivel3-Tema-3-5"},
+        {"nombre": "Página 12", "url": "https://www.pagina12.com.ar/2026/05/14/la-inflacion-de-abril-fue-del-26-segun-el-indec/"}
+      ],
+      "color": "#3eaaf7",
+      "imagen": "https://img.lagaceta.com.ar/fotos/notas/2026/02/10/inflacion-asi-argentina-ranking-latinoamericano-tras-dato-enero-1123832-171029.jpg"
+    },
+    {
       "id": "mendoza-desastre",
       "categoria": "nacional",
       "titulo": "Desastre agropecuario en Mendoza",
-      "resumen_corto": "El Gobierno Nacional declaró el estado de emergencia tras las devastadoras tormentas de granizo.",
-      "contexto": "La severidad de los fenómenos climáticos recientes ha obligado al Gobierno Nacional a intervenir para proteger la producción regional en Cuyo y la Patagonia.\n\n* **Pérdidas totales** en cultivos de vid y frutales en varios departamentos de la provincia.\n* **Asistencia financiera** mediante beneficios impositivos y créditos blandos para los productores afectados.\n* **Alcance nacional** de la medida que también incluye zonas productivas de Chubut y Santa Cruz.",
+      "resumen_corto": "Emergencia declarada tras devastadoras tormentas de granizo.",
+      "contexto": "El Gobierno Nacional oficializó la declaración de **Estado de Desastre Agropecuario** para diversas zonas de Mendoza, Chubut y Santa Cruz tras eventos climáticos extremos.\n\n* **Pérdidas totales:** En departamentos clave de Mendoza, el granizo destruyó hasta el 80% de los cultivos de vid y frutales de carozo.\n* **Asistencia oficial:** La medida permite la prórroga de impuestos nacionales y el acceso a líneas de crédito blandas para la recuperación productiva.\n* **Impacto regional:** Las tormentas afectaron no solo la economía local sino también la cadena de suministros de frutas frescas para el mercado nacional.",
       "enlaces": [
         {"nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/el-gobierno-nacional-declaro-la-emergencia-agropecuaria-en-distintas-zonas-productivas-de-0"},
         {"nombre": "Infobae", "url": "https://www.infobae.com/economia/2026/05/27/el-gobierno-declaro-la-emergencia-agropecuaria-en-chubut-santa-cruz-y-varios-departamentos-de-mendoza/"},
         {"nombre": "Perfil", "url": "https://www.perfil.com/noticias/economia/boletin-oficial-mendoza-fue-declarado-en-estado-de-desastre-agropecuario-por-granizo.phtml"}
       ],
       "color": "#3eaaf7",
-      "imagen": "https://fotos.perfil.com/2026/05/27/trim/987/555/granizo-en-mendoza-27052026-2248195.jpg?webp"
+      "imagen": "https://cholilaonline.ar/wp-content/uploads/2026/05/Captura-de-Pantalla-2026-05-27-a-las-9.43.00-a.-m.png"
+    },
+    {
+      "id": "salud-mental-reforma",
+      "categoria": "nacional",
+      "titulo": "Reforma Ley de Salud Mental",
+      "resumen_corto": "El Senado avanza en cambios sobre internación no voluntaria.",
+      "contexto": "Se debate en el Senado una reforma integral de la **Ley 26.657** con el objetivo de facilitar los procesos de internación en casos de riesgo inminente.\n\n* **Internación involuntaria:** El nuevo proyecto busca que el criterio médico psiquiátrico tenga mayor peso legal frente a situaciones de riesgo para el paciente o terceros.\n* **Adicciones:** Se propone considerar a los consumos problemáticos como una patología de salud mental para garantizar tratamientos más ágiles y obligatorios.\n* **Controversia:** Sectores de derechos humanos advierten sobre la necesidad de mantener el enfoque interdisciplinario para proteger las libertades individuales.",
+      "enlaces": [
+        {"nombre": "La Nación", "url": "https://www.lanacion.com.ar/sociedad/internaciones-rol-del-psiquiatra-y-riesgo-grave-puntos-destacados-de-otra-jornada-en-el-senado-por-nid13052026/"},
+        {"nombre": "Página 12", "url": "https://www.pagina12.com.ar/2026/05/21/el-senado-avanzara-con-la-reforma-de-salud-mental-que-permite-internacion-no-voluntaria/"},
+        {"nombre": "Infobae", "url": "https://www.infobae.com/politica/2026/05/12/el-senado-retoma-el-debate-para-cambiar-la-ley-de-salud-mental-expondran-mas-de-30-invitados/"},
+        {"nombre": "Comercio y Justicia", "url": "https://comercioyjusticia.info/lo-ultimo/senado-avanza-con-la-reforma-de-salud-mental-que-habilita-internaciones-no-voluntarias-e-incorpora-como-enfermedad-adicciones/"}
+      ],
+      "color": "#3eaaf7",
+      "imagen": "https://d3b5jqy5xuub7g.cloudfront.net/wp-content/uploads/2026/04/somicioens.png"
+    },
+    {
+      "id": "nasa-base-lunar",
+      "categoria": "ciencias",
+      "titulo": "Base permanente en la Luna",
+      "resumen_corto": "La NASA reveló los planos detallados para habitar la Luna.",
+      "contexto": "En el marco del programa **Artemis**, la NASA ha publicado los documentos maestros que definen la infraestructura necesaria para una presencia humana sostenida.\n\n* **Infraestructura robótica:** El plan contempla el uso de robots autónomos y drones para la construcción de hábitats antes de la llegada de las tripulaciones.\n* **Recursos locales:** Se priorizará la extracción de agua en los polos lunares y el procesamiento del regolito para generar materiales de construcción mediante impresión 3D.\n* **De la Luna a Marte:** Esta base funcionará como un centro de entrenamiento y pruebas tecnológicas para las futuras misiones tripuladas al planeta rojo.",
+      "enlaces": [
+        {"nombre": "BBC", "url": "https://www.bbc.com/news/articles/c39228nxyr4o"},
+        {"nombre": "NASA Architecture", "url": "https://www.nasa.gov/moontomarsarchitecture-architecturedefinitiondocuments/"},
+        {"nombre": "NASA Moonbase", "url": "https://www.nasa.gov/moonbase/"},
+        {"nombre": "Aerospace Global News", "url": "https://aerospaceglobalnews.com/news/nasa-moon-base-missions-robots-drones/"}
+      ],
+      "color": "#06b6d4",
+      "imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/2WJU5ASEAZEEBGURYDMTTQQYUI.JPG"
     },
     {
       "id": "ebola-alerta",
       "categoria": "ciencias",
       "titulo": "Alerta internacional por Ébola",
-      "resumen_corto": "La OMS declaró el estado de alerta máxima ante la rápida propagación de un nuevo brote en África Central.",
-      "contexto": "Un nuevo brote de Ébola en la República Democrática del Congo ha activado los protocolos de emergencia global debido a su alta tasa de mortalidad y velocidad de contagio.\n\n* **Propagación acelerada** en la República Democrática del Congo con riesgo de expansión transfronteriza.\n* **Respuesta sanitaria** que incluye el despliegue de vacunas y equipos de contención de emergencia.\n* **Vigilancia epidemiológica** reforzada en aeropuertos y fronteras terrestres de la región.",
+      "resumen_corto": "La OMS declaró alerta máxima por un brote en África Central.",
+      "contexto": "La Organización Mundial de la Salud (OMS) ha activado el nivel de emergencia internacional tras detectarse un aumento exponencial de casos de **Ébola** en la cuenca del Congo.\n\n* **Transmisión urbana:** El virus ha llegado a centros de alta movilidad poblacional, lo que eleva significativamente el riesgo de propagación regional.\n* **Contención inmediata:** Se han desplegado brigadas médicas internacionales para iniciar campañas de vacunación de emergencia y rastreo de contactos.\n* **Vigilancia sanitaria:** Los organismos internacionales instan a los países vecinos a reforzar los controles en puertos y aeropuertos para prevenir casos importados.",
       "enlaces": [
         {"nombre": "UN News", "url": "https://news.un.org/es/story/2026/05/1541495"},
         {"nombre": "DW", "url": "https://www.dw.com/es/oms-epidemia-de-%C3%A9bola-en-rd-congo-es-extremadamente-grave/a-77290667"},
@@ -109,14 +123,47 @@
         {"nombre": "CDC", "url": "https://www.cdc.gov/ebola/es/situation-summary/ebola-situacion-actual.html"}
       ],
       "color": "#06b6d4",
-      "imagen": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=1200&q=80"
+      "imagen": "https://build.cfr.org/wp-content/uploads/2026/05/Ebola_A.jpg"
+    },
+    {
+      "id": "polo-sur-lunar",
+      "categoria": "ciencias",
+      "titulo": "Ética en asentamientos lunares",
+      "resumen_corto": "Debate sobre los desafíos éticos para colonias lunares.",
+      "contexto": "Científicos y juristas internacionales debaten los marcos legales que regirán la convivencia humana en el **Polo Sur lunar**.\n\n* **Recursos estratégicos:** El hielo de agua ubicado en cráteres de sombra perpetua es el recurso más valioso para la supervivencia y producción de combustible.\n* **Gobernanza:** Se discute si las empresas privadas pueden reclamar propiedad sobre el suelo lunar o si este debe considerarse un patrimonio común de la humanidad.\n* **Preservación:** Arqueólogos espaciales advierten sobre la importancia de proteger sitios de valor científico y cultural ante la llegada masiva de misiones comerciales.",
+      "enlaces": [
+        {"nombre": "ESA", "url": "https://www.esa.int/Space_in_Member_States/Spain/Camino_al_sur_de_la_Luna"},
+        {"nombre": "NASA Ciencia", "url": "https://www.nasa.gov/es/el-polo-sur-de-la-luna-est%C3%A1-repleto-de-misterio-ciencia-intriga/"},
+        {"nombre": "BBC Mundo", "url": "https://www.bbc.com/mundo/noticias-51236858"},
+        {"nombre": "DW", "url": "https://www.dw.com/es/artemis-ii-abre-una-nueva-era-espacial-y-un-debate-que-casi-nadie-est%C3%A1-teniendo/a-76791587"},
+        {"nombre": "Perfil", "url": "https://www.perfil.com/noticias/ciencia/la-nasa-proyecta-una-base-permanente-en-la-luna-el-ambicioso-plan-para-habitar-el-polo-sur-lunar.phtml"},
+        {"nombre": "National Geographic", "url": "https://www.nationalgeographicla.com/espacio/2023/08/polo-sur-de-la-luna-5-datos-sobre-el-lugar-donde-india-realizo-su-alunizaje"}
+      ],
+      "color": "#06b6d4",
+      "imagen": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/2WJU5ASEAZEEBGURYDMTTQQYUI.JPG"
+    },
+    {
+      "id": "onu-clima-voto",
+      "categoria": "sustentabilidad",
+      "titulo": "Obligaciones legales climáticas",
+      "resumen_corto": "La ONU aprobó una resolución histórica por el clima.",
+      "contexto": "La Asamblea General de la ONU votó a favor de solicitar una opinión jurídica a la **Corte Internacional de Justicia** sobre las obligaciones climáticas de los estados.\n\n* **Responsabilidad legal:** La resolución busca determinar las consecuencias jurídicas para los países que no cumplan con la reducción de sus emisiones contaminantes.\n* **Justicia intergeneracional:** El fallo podría sentar las bases para proteger los derechos de las generaciones futuras frente a la inacción gubernamental actual.\n* **Liderazgo insular:** La iniciativa fue impulsada por Vanuatu y otras naciones del Pacífico que enfrentan una amenaza existencial por el aumento del nivel del mar.",
+      "enlaces": [
+        {"nombre": "UN News", "url": "https://news.un.org/en/story/2026/05/1167561"},
+        {"nombre": "La Nación", "url": "https://www.lanacion.com.ar/estados-unidos/onu-adopta-texto-para-reforzar-obligacion-de-los-paises-frente-al-cambio-climatico-nid20052026/"},
+        {"nombre": "Greenpeace", "url": "https://es.greenpeace.org/es/sala-de-prensa/comunicados/greenpeace-celebra-que-la-asamblea-general-de-la-onu-confirme-la-responsabilidad-legal-de-los-estados-de-frenar-el-cambio-climatico/"},
+        {"nombre": "The Guardian", "url": "https://www.theguardian.com/environment/2026/may/21/un-vote-support-icj-world-court-climate-change-opinion"},
+        {"nombre": "Perfil", "url": "https://www.perfil.com/noticias/internacional/la-onu-aprobo-una-resolucion-historica-sobre-cambio-climatico-y-la-argentina-se-abstuvo.phtml"}
+      ],
+      "color": "#10b981",
+      "imagen": "https://ayudaenaccion.org/uploads/2020/10/ONU.jpg"
     },
     {
       "id": "super-el-nino",
       "categoria": "sustentabilidad",
       "titulo": "Alerta por 'Súper El Niño'",
-      "resumen_corto": "Científicos advierten sobre un fenómeno de El Niño de intensidad extrema con temperaturas oceánicas récord.",
-      "contexto": "Los modelos meteorológicos indican una probabilidad del 82% de que el próximo fenómeno de El Niño alcance niveles de intensidad 'Súper', no vistos en décadas.\n\n* **Calentamiento anómalo** de las aguas del Pacífico que podría alterar los patrones climáticos globales.\n* **Riesgos extremos** de inundaciones en Sudamérica y sequías severas en el sudeste asiático y Australia.\n* **Impacto en biodiversidad** marina debido al blanqueamiento de corales y migración de especies.",
+      "resumen_corto": "Científicos advierten sobre un fenómeno extremo récord.",
+      "contexto": "Los modelos meteorológicos globales alertan sobre una probabilidad del 82% de que el próximo fenómeno de **El Niño** sea de intensidad extrema.\n\n* **Calentamiento marino:** Las temperaturas en la superficie del Océano Pacífico están alcanzando niveles récord, actuando como combustible para eventos climáticos severos.\n* **Consecuencias globales:** Se prevén inundaciones masivas en las costas de las Américas y sequías históricas en el sudeste asiático, Australia y partes de África.\n* **Seguridad alimentaria:** La alteración de los ciclos de lluvia amenaza las cosechas globales de granos básicos, lo que podría disparar nuevamente la inflación de alimentos.",
       "enlaces": [
         {"nombre": "CAF", "url": "https://www.caf.com/es/blog/el-super-nino-que-es-por-que-viene-y-como-prepararnos/"},
         {"nombre": "Greenpeace", "url": "https://www.greenpeace.org/colombia/blog/campanas/bosques/el-super-nino-llega-el-peor-en-140-anos-todo-lo-que-tienes-que-saber-del-fenomeno-climatico-que-esta-por-aterrizar-en-colombia/"},
@@ -127,58 +174,11 @@
       "imagen": "https://revistapesquisa.fapesp.br/wp-content/uploads/2024/02/RPF-el-nino-globo-terrestre-2023-08-1140.jpg"
     },
     {
-      "id": "rusia-ucrania-amenazas",
-      "categoria": "geopolítica",
-      "titulo": "Amenazas de Rusia contra Ucrania",
-      "resumen_corto": "Moscú intensifica su retórica contra Ucrania en un momento de alta tensión estratégica.",
-      "contexto": "El conflicto en Ucrania entra en una fase de alta incertidumbre marcada por una retórica agresiva desde el Kremlin y movimientos estratégicos en el frente norte.\n\n* **Ofensiva en el norte** advertida por el gobierno ucraniano ante el despliegue de nuevas tropas rusas.\n* **Punto de inflexión** en la guerra según comandantes militares, con un aumento de los ataques aéreos.\n* **Análisis estratégico** que sugiere una búsqueda de Moscú por forzar negociaciones bajo sus términos.",
-      "enlaces": [
-        {"nombre": "BBC Mundo", "url": "https://www.bbc.com/mundo/articles/cy022ex9wg9o"},
-        {"nombre": "Reuters", "url": "https://www.reuters.com/business/aerospace-defense/senior-ukrainian-commander-sees-imminent-turning-point-war-2026-05-27/"},
-        {"nombre": "ISW", "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-may-26-2026/"},
-        {"nombre": "Kyiv Independent", "url": "https://kyivindependent.com/zelensky-warns-russian-northern-offensive/"}
-      ],
-      "color": "#ef4444",
-      "imagen": "https://images.unsplash.com/photo-1523294587484-5b7d4965e6d2?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "salud-mental-reforma",
-      "categoria": "nacional",
-      "titulo": "Reforma Ley de Salud Mental",
-      "resumen_corto": "El Senado avanza en cambios que permitirían la internación no voluntaria y el reconocimiento de adicciones.",
-      "contexto": "El debate legislativo sobre la Ley de Salud Mental busca modificar criterios fundamentales sobre la autonomía del paciente y el rol de los profesionales médicos.\n\n* **Internación involuntaria** bajo criterio médico cuando exista riesgo cierto e inminente para sí o terceros.\n* **Rol del psiquiatra** fortalecido en la toma de decisiones clínicas dentro de los equipos interdisciplinarios.\n* **Debate social** intenso con la participación de más de 30 especialistas y organizaciones de salud.",
-      "enlaces": [
-        {"nombre": "La Nación", "url": "https://www.lanacion.com.ar/sociedad/internaciones-rol-del-psiquiatra-y-riesgo-grave-puntos-destacados-de-otra-jornada-en-el-senado-por-nid13052026/"},
-        {"nombre": "Página 12", "url": "https://www.pagina12.com.ar/2026/05/21/el-senado-avanzara-con-la-reforma-de-salud-mental-que-permite-internacion-no-voluntaria/"},
-        {"nombre": "Infobae", "url": "https://www.infobae.com/politica/2026/05/12/el-senado-retoma-el-debate-para-cambiar-la-ley-de-salud-mental-expondran-mas-de-30-invitados/"},
-        {"nombre": "Comercio y Justicia", "url": "https://comercioyjusticia.info/lo-ultimo/senado-avanza-con-la-reforma-de-salud-mental-que-habilita-internaciones-no-voluntarias-e-incorpora-como-enfermedad-adicciones/"}
-      ],
-      "color": "#3eaaf7",
-      "imagen": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
-      "id": "polo-sur-lunar",
-      "categoria": "ciencias",
-      "titulo": "Ética en asentamientos lunares",
-      "resumen_corto": "La comunidad científica debate los desafíos éticos para establecer colonias en el polo sur de la Luna.",
-      "contexto": "El Polo Sur lunar se ha convertido en el 'bienes raíces' más codiciado del sistema solar, generando un intenso debate sobre su gobernanza.\n\n* **Polo Sur lunar** como zona estratégica por la presencia de hielo de agua en cráteres de sombra perpetua.\n* **Dilemas éticos** sobre la propiedad del suelo lunar y la preservación de sitios de valor científico.\n* **Cooperación internacional** necesaria para evitar una carrera espacial descontrolada por recursos.",
-      "enlaces": [
-        {"nombre": "ESA", "url": "https://www.esa.int/Space_in_Member_States/Spain/Camino_al_sur_de_la_Luna"},
-        {"nombre": "NASA Ciencia", "url": "https://www.nasa.gov/es/el-polo-sur-de-la-luna-est%C3%A1-repleto-de-misterio-ciencia-intriga/"},
-        {"nombre": "BBC Mundo", "url": "https://www.bbc.com/mundo/noticias-51236858"},
-        {"nombre": "DW", "url": "https://www.dw.com/es/artemis-ii-abre-una-nueva-era-espacial-y-un-debate-que-casi-nadie-est%C3%A1-teniendo/a-76791587"},
-        {"nombre": "Perfil", "url": "https://www.perfil.com/noticias/ciencia/la-nasa-proyecta-una-base-permanente-en-la-luna-el-ambicioso-plan-para-habitar-el-polo-sur-lunar.phtml"},
-        {"nombre": "National Geographic", "url": "https://www.nationalgeographicla.com/espacio/2023/08/polo-sur-de-la-luna-5-datos-sobre-el-lugar-donde-india-realizo-su-alunizaje"}
-      ],
-      "color": "#06b6d4",
-      "imagen": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80"
-    },
-    {
       "id": "metano-satelites",
       "categoria": "sustentabilidad",
       "titulo": "Control satelital de metano",
-      "resumen_corto": "Organismos climáticos exigen tecnología satelital para monitorear y reducir fugas en vertederos.",
-      "contexto": "El metano es un gas de efecto invernadero mucho más potente que el CO2 a corto plazo, y los vertederos de basura son una de sus fuentes más ignoradas.\n\n* **Potencia de calentamiento** del metano, que es mucho más dañino que el CO2 a corto plazo.\n* **Detección desde el espacio** de \"superemisores\" en vertederos y plantas de energía para reparaciones rápidas.\n* **Políticas de mitigación** que buscan integrar estos datos en los planes nacionales de reducción de emisiones.",
+      "resumen_corto": "Exigencia climática para monitorear fugas en vertederos.",
+      "contexto": "Organismos climáticos internacionales urgen a los gobiernos a implementar sistemas de monitoreo satelital para detectar fugas de **metano** en tiempo real.\n\n* **Potencia contaminante:** El metano tiene una capacidad de calentamiento global 80 veces mayor que el CO2 en un horizonte de 20 años.\n* **Superemisores:** Los vertederos de basura municipales y las plantas de hidrocarburos obsoletas son las principales fuentes identificadas desde el espacio.\n* **Acción climática:** Reducir drásticamente las emisiones de metano se considera la estrategia más rápida y efectiva para frenar el aumento de la temperatura global.",
       "enlaces": [
         {"nombre": "ESA", "url": "https://www.esa.int/Space_in_Member_States/Spain/Los_satelites_ayudan_a_combatir_las_fugas_de_metano_de_los_vertederos"},
         {"nombre": "UNEP", "url": "https://www.unep.org/es/destacado-tecnico/las-alertas-satelitales-impulsan-recortes-de-metano-pero-queda-mucho-por-hacer"},
@@ -188,7 +188,7 @@
         {"nombre": "Meteored", "url": "https://www.meteored.com.ar/noticias/ciencia/cientificos-britanicos-descubren-una-fuente-oculta-de-metano-en-el-oceano-que-podria-agravar-el-calentamiento-global.html"}
       ],
       "color": "#10b981",
-      "imagen": "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=1200&q=80"
+      "imagen": "https://periferia.com.ar/wp-content/uploads/2024/02/6328ecb94f97b-800x445.jpeg"
     }
   ]
 }

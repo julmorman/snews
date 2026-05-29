@@ -1,5 +1,21 @@
 ---
 import data from '../content/news/semana-01.json';
+
+const categoriesOrder = ['geopolítica', 'nacional', 'ciencias', 'sustentabilidad'];
+const newsByCategory = categoriesOrder.map(cat => 
+    data.noticias.filter(n => n.categoria.toLowerCase() === cat)
+);
+
+const interleavedNews = [];
+const maxItems = Math.max(...newsByCategory.map(list => list.length));
+
+for (let i = 0; i < maxItems; i++) {
+    for (const categoryList of newsByCategory) {
+        if (categoryList[i]) {
+            interleavedNews.push(categoryList[i]);
+        }
+    }
+}
 ---
 <html lang="es">
 <head>
@@ -76,7 +92,7 @@ import data from '../content/news/semana-01.json';
             <div class="footer">EDICIÓN {data.fecha}</div>
         </div>
 
-        {data.noticias.map((item) => (
+        {interleavedNews.map((item) => (
             <>
                 <!-- Slide A: Título -->
                 <div class="slide" data-color={item.color} data-duration="8000">

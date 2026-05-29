@@ -1,0 +1,81 @@
+---
+import data from '../content/news/semana-01.json';
+---
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>THE LOOP | Galería de Diapositivas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap');
+        body { background-color: #0f172a; color: white; font-family: 'Inter', sans-serif; padding: 2rem; margin: 0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); gap: 2rem; }
+        .slide-preview { background: #020617; aspect-ratio: 16 / 9; border-radius: 1rem; border: 1px solid #334155; position: relative; overflow: hidden; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 1.5rem; scale: 0.95; transform-origin: top left; }
+        .label { margin-bottom: 0.5rem; color: #64748b; font-weight: bold; text-transform: uppercase; font-size: 0.8rem; }
+        
+        /* Miniatura de estilos del loop */
+        .m-title { font-size: 2rem; font-weight: 900; margin: 0; }
+        .m-category { font-size: 0.8rem; font-weight: 900; text-transform: uppercase; letter-spacing: 2px; }
+        .m-news-title { font-size: 1.5rem; font-weight: 800; margin: 0.5rem 0; }
+        .m-summary { font-size: 0.8rem; color: #94a3b8; }
+        
+        .m-detail { display: flex; gap: 1rem; text-align: left; width: 100%; height: 100%; align-items: center; }
+        .m-img { width: 45%; height: 80%; object-fit: cover; border-radius: 0.5rem; }
+        .m-text { flex: 1; }
+        .m-bullets { list-style: none; padding: 0; font-size: 0.7rem; }
+        .m-bullets li::before { content: "→ "; color: white; }
+    </style>
+</head>
+<body>
+    <h1 style="margin-bottom: 2rem;">Revisión de Diapositivas - {data.fecha}</h1>
+    
+    <div class="grid">
+        <!-- Portada -->
+        <div>
+            <div class="label">Inicio</div>
+            <div class="slide-preview">
+                <h1 class="m-title" style="background: linear-gradient(to right, #60a5fa, #34d399); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">THE LOOP</h1>
+                <p style="font-size: 0.8rem; color: #94a3b8;">Noticias que importan...</p>
+            </div>
+        </div>
+
+        {data.noticias.map((item, i) => (
+            <>
+                <div>
+                    <div class="label">Noticia {i+1} - Título</div>
+                    <div class="slide-preview">
+                        <div class="m-category" style={`color: ${item.color}`}>{item.categoria}</div>
+                        <div class="m-news-title">{item.titulo}</div>
+                        <div class="m-summary">{item.resumen_corto}</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="label">Noticia {i+1} - Detalle</div>
+                    <div class="slide-preview">
+                        <div class="m-detail">
+                            <img src={item.imagen} class="m-img" />
+                            <div class="m-text">
+                                <div class="m-category" style={`color: ${item.color}; font-size: 0.5rem;`}>{item.categoria}</div>
+                                <ul class="m-bullets">
+                                    {item.contexto.split('\n').filter(l => l.trim().startsWith('*')).map(l => (
+                                        <li>{l.replace('*', '').trim()}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </>
+        ))}
+
+        <!-- Final -->
+        <div>
+            <div class="label">Final</div>
+            <div class="slide-preview">
+                <p style="color: #94a3b8; font-size: 0.8rem;">Conocé más en:</p>
+                <p style="font-size: 1.2rem; font-weight: 900;">the-weekly-loop.vercel.app</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

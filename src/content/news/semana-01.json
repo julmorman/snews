@@ -1,14 +1,14 @@
 {
   "id": "semana-01",
   "titulo_gracioso": "Esa semana que la inflación nos dio un respiro pero el mundo siguió ardiendo",
-  "fecha": "29 Mayo",
+  "fecha": "29 de Mayo",
   "noticias": [
     {
       "id": "ormuz-tregua",
       "categoria": "geopolítica",
       "titulo": "Ormuz: Acuerdo inminente y tregua de 60 días",
       "resumen_corto": "Se negocia un acuerdo inminente para reabrir una de las rutas marítimas más críticas del mundo.",
-      "contexto": "* **Tregua de 60 días:** Se plantea un cese al fuego para permitir negociaciones.\n* **Estrecho de Ormuz:** El desbloqueo es vital para el suministro global de petróleo.\n* **Tensiones:** Irán denuncia violaciones, poniendo en riesgo la fragilidad del pacto.",
+      "contexto": "* **Tregua de 60 días:** Se plantea un cese al fuego para permitir negociaciones diplomáticas de mayor alcance.\n* **Estrecho de Ormuz:** El desbloqueo es vital para el suministro global de petróleo y la estabilidad energética.\n* **Tensiones:** Irán denuncia violaciones graves del pacto, poniendo en riesgo la fragilidad del acuerdo actual.",
       "contexto_extendido": "La comunidad internacional observa con cautela un posible punto de inflexión en la crisis de Medio Oriente. El acuerdo propuesto busca estabilizar el **Estrecho de Ormuz**, por donde transita el 20% del petróleo mundial.\n\n* **Cese de hostilidades:** La tregua de 60 días busca frenar los intercambios directos de fuego entre Israel, Irán y sus aliados regionales.\n* **Objetivo económico:** El desbloqueo es vital para estabilizar los precios de la energía y permitir la libre navegación de buques comerciales.\n* **Fragilidad diplomática:** Irán ha denunciado violaciones al pacto por parte de EE.UU., lo que mantiene el escenario bajo una alerta de alta volatilidad.",
       "enlaces": [
         {"nombre": "DW", "url": "https://www.dw.com/es/posible-acuerdo-contempla-tregua-por-60-d%C3%ADas-y-reabrir-ormuz/live-77258651"},
@@ -27,7 +27,7 @@
       "categoria": "geopolítica",
       "titulo": "Crisis humanitaria por desplazados",
       "resumen_corto": "La escalada bélica regional ha provocado una alerta humanitaria transfronteriza masiva.",
-      "contexto": "* **Éxodo masivo:** Familias abandonan zonas de conflicto por bombardeos.\n* **Destinos:** Refugiados se dirigen a Beirut, sur de Gaza y países vecinos.\n* **Servicios:** ACNUR advierte sobre la falta crítica de agua y suministros médicos.",
+      "contexto": "* **Éxodo masivo:** Familias abandonan zonas de conflicto debido a la intensificación de bombardeos y ataques.\n* **Destinos:** Los refugiados se dirigen a Beirut, el sur de Gaza y países limítrofes como Jordania.\n* **Servicios:** ACNUR advierte sobre la falta crítica de agua, alimentos y suministros médicos esenciales.",
       "contexto_extendido": "La intensificación de los conflictos armados en el sur del **Líbano**, la **Franja de Gaza** y el norte de **Israel** ha provocado un éxodo masivo de población civil.\n\n* **Orígenes del éxodo:** Miles de familias abandonan zonas fronterizas debido a la intensificación de bombardeos y operaciones terrestres.\n* **Destinos principales:** Los desplazados buscan refugio en el centro de Líbano (Beirut), el sur de la Franja de Gaza y, en menor medida, en países vecinos como Jordania y Egipto.\n* **Colapso de servicios:** ACNUR y la OIM advierten que los centros de acogida están desbordados, faltando suministros médicos básicos y agua potable.",
       "enlaces": [
         {"nombre": "IOM", "url": "https://www.iom.int/escalation-middle-east-and-beyond-growing-humanitarian-crisis"},
@@ -43,7 +43,7 @@
       "categoria": "geopolítica",
       "titulo": "Amenazas de Rusia contra Ucrania",
       "resumen_corto": "Moscú intensifica su retórica en un momento de alta tensión estratégica.",
-      "contexto": "* **Ofensiva norte:** Ucrania advierte despliegue ruso en Járkov y Sumy.\n* **Presión Kremlin:** Amenazas responden al apoyo occidental sostenido.\n* **Inteligencia:** ISW confirma aumento ofensivo con alto costo logístico.",
+      "contexto": "* **Ofensiva norte:** Ucrania advierte sobre un gran despliegue de nuevas tropas rusas en Járkov y Sumy.\n* **Presión Kremlin:** Las amenazas responden al apoyo occidental sostenido y a la presión militar interna actual.\n* **Inteligencia:** ISW confirma un aumento ofensivo significativo, aunque con un costo logístico y humano elevado.",
       "contexto_extendido": "El conflicto entra en una fase crítica con el despliegue de nuevas tropas rusas en la frontera norte, específicamente hacia las regiones de **Járkov y Sumy**.\n\n* **Nerviosismo en el Kremlin:** Las amenazas de escalada total son vistas por analistas como una respuesta a la presión militar interna y el apoyo sostenido de Occidente a Ucrania.\n* **Zonas de amortiguamiento:** Rusia busca establecer áreas de control para alejar la artillería ucraniana de su propio territorio fronterizo.\n* **Evaluación del ISW:** Los informes de inteligencia confirman un aumento en la actividad ofensiva rusa, aunque con ganancias territoriales marginales y un alto costo logístico.",
       "enlaces": [
         {"nombre": "BBC Mundo", "url": "https://www.bbc.com/mundo/articles/cy022ex9wg9o"},
@@ -59,8 +59,8 @@
       "categoria": "nacional",
       "titulo": "Inflación de abril: 2.6%",
       "resumen_corto": "El INDEC confirmó una fuerte desaceleración de los precios mensuales.",
-      "contexto": "* **Alimentos:** Suba del 1.5%, aliviando la canasta básica.\n* **Programa oficial:** El gobierno lo atribuye al ajuste monetario.\n* **Interanual:** El acumulado de 12 meses sigue superando el 300%.",
-      "contexto_extendido": "El INDEC reportó que la inflación de abril fue del **2.6%**, la cifra más baja en más de dos años, impulsada por un freno en el rubro de alimentos y bebidas.\n\n* **Dato clave:** Los alimentos registraron una suba del 1.5%, lo que impacta positivamente en el poder adquisitivo de la canasta básica.\n* **Contexto macro:** El gobierno atribuye la baja a su programa de ajuste monetario, mientras que el consumo interno sigue mostrando signos de retracción.\n* **Inflación interanual:** A pesar de la caída mensual, el acumulado de los últimos doce meses se mantiene en niveles críticos, superando el 300%.",
+      "contexto": "* **Alimentos:** Suba del 1.5%, lo que alivia considerablemente el costo de la canasta básica familiar.\n* **Programa oficial:** El gobierno nacional atribuye este descenso a la efectividad de su nuevo ajuste monetario.\n* **Interanual:** El acumulado de los últimos 12 meses se sitúa en un 32.6%, marcando un nuevo panorama económico.",
+      "contexto_extendido": "El INDEC reportó que la inflación de abril fue del **2.6%**, la cifra más baja en más de dos años, impulsada por un freno en el rubro de alimentos y bebidas.\n\n* **Dato clave:** Los alimentos registraron una suba del 1.5%, lo que impacta positivamente en el poder adquisitivo de la canasta básica.\n* **Contexto macro:** El gobierno atribuye la baja a su programa de ajuste monetario, mientras que el consumo interno sigue mostrando signos de retracción.\n* **Inflación interanual:** El acumulado de los últimos doce meses se situó oficialmente en el 32.6%.",
       "enlaces": [
         {"nombre": "INDEC", "url": "https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31"},
         {"nombre": "Infobae", "url": "https://www.infobae.com/economia/2026/05/14/la-inflacion-desacelero-a-26-en-abril-y-acumulo-324-en-los-ultimos-doce-meses/"},
@@ -75,7 +75,7 @@
       "categoria": "nacional",
       "titulo": "Desastre agropecuario en Mendoza",
       "resumen_corto": "Emergencia declarada tras devastadoras tormentas de granizo.",
-      "contexto": "* **Pérdidas:** El granizo destruyó hasta el 80% de vid y frutales.\n* **Asistencia:** Prórroga de impuestos y créditos para recuperación.\n* **Suministro:** Afectación en la cadena nacional de frutas frescas.",
+      "contexto": "* **Pérdidas:** El granizo destruyó hasta el 80% de los cultivos vitales de vid y frutales locales.\n* **Asistencia:** Prórroga de impuestos nacionales y créditos bancarios blandos para la pronta recuperación de productores.\n* **Suministro:** Se prevé una fuerte afectación en la cadena de distribución nacional de frutas frescas.",
       "contexto_extendido": "El Gobierno Nacional oficializó la declaración de **Estado de Desastre Agropecuario** para diversas zonas de Mendoza, Chubut y Santa Cruz tras eventos climáticos extremos.\n\n* **Pérdidas totales:** En departamentos clave de Mendoza, el granizo destruyó hasta el 80% de los cultivos de vid y frutales de carozo.\n* **Asistencia oficial:** La medida permite la prórroga de impuestos nacionales y el acceso a líneas de crédito blandas para la recuperación productiva.\n* **Impacto regional:** Las tormentas afectaron no solo la economía local sino también la cadena de suministros de frutas frescas para el mercado nacional.",
       "enlaces": [
         {"nombre": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/el-gobierno-nacional-declaro-la-emergencia-agropecuaria-en-distintas-zonas-productivas-de-0"},
@@ -90,7 +90,7 @@
       "categoria": "nacional",
       "titulo": "Reforma Ley de Salud Mental",
       "resumen_corto": "El Senado avanza en cambios sobre internación no voluntaria.",
-      "contexto": "* **Criterio médico:** Mayor peso legal para internaciones urgentes.\n* **Adicciones:** Consideradas patología para tratamiento ágil.\n* **Derechos:** Debate por la protección de libertades individuales.",
+      "contexto": "* **Criterio médico:** Se otorga un mayor peso legal para realizar internaciones de carácter urgente.\n* **Adicciones:** Serán consideradas patologías de salud mental para garantizar un tratamiento médico más ágil.\n* **Derechos:** Crece el debate nacional por la protección efectiva de las libertades y garantías individuales.",
       "contexto_extendido": "Se debate en el Senado una reforma integral de la **Ley 26.657** con el objetivo de facilitar los procesos de internación en casos de riesgo inminente.\n\n* **Internación involuntaria:** El nuevo proyecto busca que el criterio médico psiquiátrico tenga mayor peso legal frente a situaciones de riesgo para el paciente o terceros.\n* **Adicciones:** Se propone considerar a los consumos problemáticos como una patología de salud mental para garantizar tratamientos más ágiles y obligatorios.\n* **Controversia:** Sectores de derechos humanos advierten sobre la necesidad de mantener el enfoque interdisciplinario para proteger las libertades individuales.",
       "enlaces": [
         {"nombre": "La Nación", "url": "https://www.lanacion.com.ar/sociedad/internaciones-rol-del-psiquiatra-y-riesgo-grave-puntos-destacados-de-otra-jornada-en-el-senado-por-nid13052026/"},
@@ -106,7 +106,7 @@
       "categoria": "ciencias",
       "titulo": "Base permanente en la Luna",
       "resumen_corto": "La NASA reveló los planos detallados para habitar la Luna.",
-      "contexto": "* **Robótica:** Uso de drones para construir antes de las tripulaciones.\n* **Recursos:** Extracción de agua y uso de regolito en impresión 3D.\n* **Marte:** La base servirá como pruebas para el viaje al planeta rojo.",
+      "contexto": "* **Robótica:** Uso extensivo de drones autónomos para construir hábitats antes de la llegada humana.\n* **Recursos:** Procesamiento de regolito lunar para la impresión 3D de estructuras y obtención de agua.\n* **Marte:** La base servirá como centro logístico de pruebas para el futuro viaje al planeta rojo.",
       "contexto_extendido": "En el marco del programa **Artemis**, la NASA ha publicado los documentos maestros que definen la infraestructura necesaria para una presencia humana sostenida.\n\n* **Infraestructura robótica:** El plan contempla el uso de robots autónomos y drones para la construcción de hábitats antes de la llegada de las tripulaciones.\n* **Recursos locales:** Se priorizará la extracción de agua en los polos lunares y el procesamiento del regolito para generar materiales de construcción mediante impresión 3D.\n* **De la Luna a Marte:** Esta base funcionará como un centro de entrenamiento y pruebas tecnológicas para las futuras misiones tripuladas al planeta rojo.",
       "enlaces": [
         {"nombre": "BBC", "url": "https://www.bbc.com/news/articles/c39228nxyr4o"},
@@ -122,8 +122,8 @@
       "categoria": "ciencias",
       "titulo": "Alerta internacional por Ébola",
       "resumen_corto": "La OMS declaró alerta máxima por un brote en África Central.",
-      "contexto": "* **Urbano:** El virus llegó a centros poblados, elevando el riesgo.\n* **Vacunación:** Despliegue de brigadas y rastreo de contactos.\n* **Fronteras:** Refuerzo de controles en puertos y aeropuertos.",
-      "contexto_extendido": "La Organización Mundial de la Salud (OMS) ha activado el nivel de emergencia internacional tras detectarse un aumento exponencial de casos de **Ébola** en la cuenca del Congo.\n\n* **Transmisión urbana:** El virus ha llegado a centros de alta movilidad poblacional, lo que eleva significativamente el riesgo de propagación regional.\n* **Contención inmediata:** Se han desplegado brigadas médicas internacionales para iniciar campañas de vacunación de emergencia y rastreo de contactos.\n* **Vigilancia sanitaria:** Los organismos internacionales instan a los países vecinos a reforzar los controles en puertos y aeropuertos para prevenir casos importados.",
+      "contexto": "* **Urbano:** El virus ha llegado a grandes centros poblados, elevando el riesgo de contagio masivo.\n* **Vacunación:** Despliegue inmediato de brigadas médicas para vacunación masiva y rastreo de contactos estrechos.\n* **Fronteras:** Refuerzo estricto de controles sanitarios en puertos y aeropuertos de toda la región afectada.",
+      "context_extendido": "La Organización Mundial de la Salud (OMS) ha activado el nivel de emergencia internacional tras detectarse un aumento exponencial de casos de **Ébola** en la cuenca del Congo.\n\n* **Transmisión urbana:** El virus ha llegado a centros de alta movilidad poblacional, lo que eleva significativamente el riesgo de propagación regional.\n* **Contención inmediata:** Se han desplegado brigadas médicas internacionales para iniciar campañas de vacunación de emergencia y rastreo de contactos.\n* **Vigilancia sanitaria:** Los organismos internacionales instan a los países vecinos a reforzar los controles en puertos y aeropuertos para prevenir casos importados.",
       "enlaces": [
         {"nombre": "UN News", "url": "https://news.un.org/es/story/2026/05/1541495"},
         {"nombre": "DW", "url": "https://www.dw.com/es/oms-epidemia-de-%C3%A9bola-en-rd-congo-es-extremadamente-grave/a-77290667"},
@@ -138,7 +138,7 @@
       "categoria": "ciencias",
       "titulo": "Ética en asentamientos lunares",
       "resumen_corto": "Debate sobre los desafíos éticos para colonias lunares.",
-      "contexto": "* **Recursos:** Hielo en cráteres como fuente de combustible.\n* **Propiedad:** ¿Pueden privados reclamar suelo lunar?\n* **Preservación:** Protección de sitios con valor científico.",
+      "contexto": "* **Recursos:** El hielo en cráteres se perfila como la fuente principal de combustible espacial.\n* **Propiedad:** ¿Tienen derecho las empresas privadas a reclamar sectores estratégicos del suelo lunar?\n* **Preservación:** Creciente preocupación por la protección de sitios históricos con gran valor científico.",
       "contexto_extendido": "Científicos y juristas internacionales debaten los marcos legales que regirán la convivencia humana en el **Polo Sur lunar**.\n\n* **Recursos estratégicos:** El hielo de agua ubicado en cráteres de sombra perpetua es el recurso más valioso para la supervivencia y producción de combustible.\n* **Gobernanza:** Se discute si las empresas privadas pueden reclamar propiedad sobre el suelo lunar o si este debe considerarse un patrimonio común de la humanidad.\n* **Preservación:** Arqueólogos espaciales advierten sobre la importancia de proteger sitios de valor científico y cultural ante la llegada masiva de misiones comerciales.",
       "enlaces": [
         {"nombre": "ESA", "url": "https://www.esa.int/Space_in_Member_States/Spain/Camino_al_sur_de_la_Luna"},
@@ -156,7 +156,7 @@
       "categoria": "sustentabilidad",
       "titulo": "Obligaciones legales climáticas",
       "resumen_corto": "La ONU aprobó una resolución histórica por el clima.",
-      "contexto": "* **Fallo histórico:** Posibles juicios a estados que no reduzcan emisiones.\n* **Futuro:** Bases para proteger derechos de generaciones venideras.\n* **Vanuatu:** Impulso de islas amenazadas por el nivel del mar.",
+      "contexto": "* **Fallo histórico:** Se abre la puerta a juicios contra estados que no reduzcan emisiones.\n* **Futuro:** Sienta las bases jurídicas para proteger los derechos de las próximas generaciones venideras.\n* **Vanuatu:** La iniciativa fue impulsada por islas pequeñas amenazadas por el aumento del nivel marino.",
       "contexto_extendido": "La Asamblea General de la ONU votó a favor de solicitar una opinión jurídica a la **Corte Internacional de Justicia** sobre las obligaciones climáticas de los estados.\n\n* **Responsabilidad legal:** La resolución busca determinar las consecuencias jurídicas para los países que no cumplan con la reducción de sus emisiones contaminantes.\n* **Justicia intergeneracional:** El fallo podría sentar las bases para proteger los derechos de las generaciones futuras frente a la inacción gubernamental actual.\n* **Liderazgo insular:** La iniciativa fue impulsada por Vanuatu y otras naciones del Pacífico que enfrentan una amenaza existencial por el aumento del nivel del mar.",
       "enlaces": [
         {"nombre": "UN News", "url": "https://news.un.org/en/story/2026/05/1167561"},
@@ -173,7 +173,7 @@
       "categoria": "sustentabilidad",
       "titulo": "Alerta por 'Súper El Niño'",
       "resumen_corto": "Científicos advierten sobre un fenómeno extremo récord.",
-      "contexto": "* **Combustible:** Temperaturas del Pacífico en niveles récord.\n* **Consecuencias:** Inundaciones en las Américas y sequías en Asia.\n* **Cosechas:** Riesgo para el suministro global de granos básicos.",
+      "contexto": "* **Combustible:** Las temperaturas del Pacífico se encuentran actualmente en niveles históricos récord.\n* **Consecuencias:** Se esperan inundaciones severas en las Américas y sequías prolongadas en Asia.\n* **Cosechas:** Existe un alto riesgo para el suministro global de granos básicos y cereales.",
       "contexto_extendido": "Los modelos meteorológicos globales alertan sobre una probabilidad del 82% de que el próximo fenómeno de **El Niño** sea de intensidad extrema.\n\n* **Calentamiento marino:** Las temperaturas en la superficie del Océano Pacífico están alcanzando niveles récord, actuando como combustible para eventos climáticos severos.\n* **Consecuencias globales:** Se prevén inundaciones masivas en las costas de las Américas y sequías históricas en el sudeste asiático, Australia y partes de África.\n* **Seguridad alimentaria:** La alteración de los ciclos de lluvia amenaza las cosechas globales de granos básicos, lo que podría disparar nuevamente la inflación de alimentos.",
       "enlaces": [
         {"nombre": "CAF", "url": "https://www.caf.com/es/blog/el-super-nino-que-es-por-que-viene-y-como-prepararnos/"},
@@ -189,7 +189,7 @@
       "categoria": "sustentabilidad",
       "titulo": "Control satelital de metano",
       "resumen_corto": "Exigencia climática para monitorear fugas en vertederos.",
-      "contexto": "* **Superemisores:** Vertederos y plantas obsoletas bajo la lupa.\n* **Urgencia:** Frenar el metano es la vía más rápida para bajar el calor.\n* **Satélites:** Detección de fugas invisibles en tiempo real.",
+      "contexto": "* **Superemisores:** Vertederos y plantas energéticas obsoletas estarán bajo vigilancia constante.\n* **Urgencia:** Reducir el metano es la vía más efectiva para bajar la temperatura global.\n* **Satélites:** Detección precisa de fugas de gas invisibles en tiempo real desde el espacio.",
       "contexto_extendido": "Organismos climáticos internacionales urgen a los gobiernos a implementar sistemas de monitoreo satelital para detectar fugas de **metano** en tiempo real.\n\n* **Potencia contaminante:** El metano tiene una capacidad de calentamiento global 80 veces mayor que el CO2 en un horizonte de 20 años.\n* **Superemisores:** Los vertederos de basura municipales y las plantas de hidrocarburos obsoletas son las principales fuentes identificadas desde el espacio.\n* **Acción climática:** Reducir drásticamente las emisiones de metano se considera la estrategia más rápida y efectiva para frenar el aumento de la temperatura global.",
       "enlaces": [
         {"nombre": "ESA", "url": "https://www.esa.int/Space_in_Member_States/Spain/Los_satelites_ayudan_a_combatir_las_fugas_de_metano_de_los_vertederos"},

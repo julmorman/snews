@@ -1,9 +1,9 @@
 ---
-import data from '../content/news/semana-01.json';
+import data from '../content/news/week-01.json';
 
 const categoriesOrder = ['geopolítica', 'nacional', 'ciencias', 'sustentabilidad'];
 const newsByCategory = categoriesOrder.map(cat => 
-    data.noticias.filter(n => n.categoria.toLowerCase() === cat)
+    data.news.filter(n => n.category.toLowerCase() === cat)
 );
 
 const interleavedNews = [];
@@ -89,29 +89,29 @@ for (let i = 0; i < maxItems; i++) {
         <div class="slide active" data-duration="15000">
             <h1 class="intro-title">THE LOOP</h1>
             <p class="intro-slogan">Noticias que importan, explicadas para que formes tu propia opinión.</p>
-            <div class="footer">EDICIÓN {data.fecha}</div>
+            <div class="footer">EDICIÓN {data.date}</div>
         </div>
 
         {interleavedNews.map((item) => (
             <>
                 <!-- Slide A: Título -->
                 <div class="slide" data-color={item.color} data-duration="8000">
-                    <div class="category" style={`color: ${item.color}`}>{item.categoria}</div>
-                    <div class="title">{item.titulo}</div>
-                    <div class="summary">{item.resumen_corto}</div>
-                    <div class="footer">THE LOOP | {data.fecha}</div>
+                    <div class="category" style={`color: ${item.color}`}>{item.category}</div>
+                    <div class="title">{item.title}</div>
+                    <div class="summary">{item.short_summary}</div>
+                    <div class="footer">THE LOOP | {data.date}</div>
                 </div>
 
                 <!-- Slide B: Detalle -->
                 <div class="slide" data-color={item.color} data-duration="12000">
                     <div class="detail-container">
                         <div class="detail-image">
-                            <img src={item.imagen} alt={item.titulo} onerror="this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80'" />
+                            <img src={item.image} alt={item.title} onerror="this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80'" />
                         </div>
                         <div class="detail-text">
-                            <div class="category" style={`color: ${item.color}`}>{item.categoria}</div>
+                            <div class="category" style={`color: ${item.color}`}>{item.category}</div>
                             <div class="detail-context">
-                                {item.contexto.split('\n').map((line) => {
+                                {item.context.split('\n').map((line) => {
                                     if (!line.trim().startsWith('*') && line.trim() !== "") {
                                         const parts = line.split(/(\*\*.*?\*\*)/g);
                                         return <p>{parts.map(part => {
@@ -125,7 +125,7 @@ for (let i = 0; i < maxItems; i++) {
                                 })}
                             </div>
                             <ul class="detail-bullets">
-                                {item.contexto.split('\n').map((line) => {
+                                {item.context.split('\n').map((line) => {
                                     if (line.trim().startsWith('*')) {
                                         const cleanText = line.trim().substring(1).trim();
                                         const parts = cleanText.split(/(\*\*.*?\*\*)/g);
@@ -211,3 +211,4 @@ for (let i = 0; i < maxItems; i++) {
     </script>
 </body>
 </html>
+>

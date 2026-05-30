@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import data from '../content/news/semana-01.json';
+import data from '../content/news/week-01.json';
 
 // Colores de las secciones
 const sectionColors: Record<string, string> = {
@@ -15,13 +15,13 @@ const categories = ['geopolítica', 'nacional', 'ciencias', 'sustentabilidad'];
 const groupedNews = categories.map(cat => ({
     name: cat,
     color: sectionColors[cat] || '#3b82f6',
-    items: data.noticias.filter(n => n.categoria.toLowerCase() === cat)
+    items: data.news.filter(n => n.category.toLowerCase() === cat)
 }));
 ---
-<Layout title="THE LOOP | Semana 1">
+<Layout title={`THE LOOP | ${data.funny_title}`}>
     <header style="text-align: center; margin-bottom: 3rem;">
-        <h1 style="font-size: 3rem; margin: 0.5rem 0;">Semana 1</h1>
-        <p style="color: #94a3b8;">{data.fecha}</p>
+        <h1 style="font-size: 3rem; margin: 0.5rem 0;">{data.funny_title}</h1>
+        <p style="color: #94a3b8;">{data.date}</p>
     </header>
 
     <div style="display: flex; flex-direction: column; gap: 4rem;">
@@ -37,8 +37,8 @@ const groupedNews = categories.map(cat => ({
                                  onmouseover="this.style.transform='translateX(10px)'; this.style.background='#273549'" 
                                  onmouseout="this.style.transform='translateX(0)'; this.style.background='#1e293b'">
                                 
-                                <h3 style="margin: 0 0 0.5rem 0; font-size: 1.5rem;">{item.titulo}</h3>
-                                <p style="line-height: 1.5; color: #cbd5e1; font-size: 1rem; margin: 0;">{item.resumen_corto}</p>
+                                <h3 style="margin: 0 0 0.5rem 0; font-size: 1.5rem;">{item.title}</h3>
+                                <p style="line-height: 1.5; color: #cbd5e1; font-size: 1rem; margin: 0;">{item.short_summary}</p>
                                 
                                 <div style="margin-top: 1rem; color: #3b82f6; font-size: 0.9rem; font-weight: bold;">
                                     Ver detalles y fuentes →

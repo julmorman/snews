@@ -3,7 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
   const newsFiles = import.meta.glob('../../content/news/*.json', { eager: true });
-  const allNews = Object.values(newsFiles).flatMap((file: any) => file.default.noticias);
+  const allNews = Object.values(newsFiles).flatMap((file: any) => file.default.news);
   
   return allNews.map((n) => {
     return {
@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 
 const { noticia } = Astro.props;
 ---
-<Layout title={noticia.titulo}>
+<Layout title={noticia.title}>
     <div style="margin-top: 2rem;">
         <a href="/ultima" style="color: #94a3b8; text-decoration: none;">&larr; Volver a la presentación</a>
     </div>
@@ -23,13 +23,13 @@ const { noticia } = Astro.props;
     <article style="margin-top: 2rem;">
         <header style={`border-left: 8px solid ${noticia.color}; padding-left: 1rem; margin-bottom: 2rem;`}>
             <p style={`color: ${noticia.color}; font-weight: bold; text-transform: uppercase; margin: 0;`}>
-                {noticia.categoria}
+                {noticia.category}
             </p>
-            <h1 style="font-size: 2.5rem; margin: 0.5rem 0;">{noticia.titulo}</h1>
+            <h1 style="font-size: 2.5rem; margin: 0.5rem 0;">{noticia.title}</h1>
         </header>
 
         <div style="font-size: 1.25rem; line-height: 1.7; color: #f1f5f9; margin-bottom: 2rem;">
-            {noticia.contexto_extendido.split('\n').map((paragraph: string) => {
+            {noticia.extended_context.split('\n').map((paragraph: string) => {
                 const isBullet = paragraph.trim().startsWith('*');
                 const cleanText = isBullet ? paragraph.trim().substring(1).trim() : paragraph.trim();
                 
@@ -51,13 +51,13 @@ const { noticia } = Astro.props;
         </div>
 
         <div style="margin-bottom: 3rem;">
-            <img src={noticia.imagen} alt={noticia.titulo} style="width: 100%; max-height: 600px; object-fit: cover; border-radius: 1rem; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);" onerror="this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80'" />
+            <img src={noticia.image} alt={noticia.title} style="width: 100%; max-height: 600px; object-fit: cover; border-radius: 1rem; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);" onerror="this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80'" />
         </div>
 
         <section style="background: #1e293b; padding: 2rem; border-radius: 1rem; border: 1px solid #334155;">
             <h2 style="font-size: 1.25rem; margin-top: 0; margin-bottom: 1rem;">Fuentes para contrastar la información:</h2>
             <div style="display: flex; flex-direction: column; gap: 1rem;">
-                {noticia.enlaces.map((link) => (
+                {noticia.links.map((link) => (
                     <a 
                         href={link.url} 
                         target="_blank" 
@@ -66,7 +66,7 @@ const { noticia } = Astro.props;
                         onmouseover="this.style.borderColor='#3b82f6'; this.style.transform='translateY(-2px)'"
                         onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'"
                     >
-                        <span style="font-weight: bold;">{link.nombre}</span>
+                        <span style="font-weight: bold;">{link.name}</span>
                         <span style="color: #94a3b8; font-size: 0.9rem; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; flex: 1;">
                             {link.url}
                         </span>

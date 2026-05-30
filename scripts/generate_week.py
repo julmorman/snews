@@ -13,6 +13,10 @@ try:
 except ImportError:
     pass
 
+import warnings
+# Suppress the deprecation warning for the old SDK until the environment is updated
+warnings.filterwarnings("ignore", category=FutureWarning, module="google.generativeai")
+
 import google.generativeai as genai
 
 # Setup logging
@@ -27,11 +31,6 @@ logger = logging.getLogger(__name__)
 
 # Constants
 SRC_NEWS_PATH = Path("src/content/news")
-PAGES_TO_UPDATE = [
-    "src/pages/ultima.astro",
-    "src/pages/presentacion.astro",
-    "src/pages/revisar.astro"
-]
 
 PROMPT_TEMPLATE = """
 Please generate a new edition for Week {week_num} based on the data provided in {csv_name}.
@@ -57,7 +56,8 @@ def setup_gemini():
         sys.exit(1)
     
     genai.configure(api_key=api_key)
-    return genai.GenerativeModel('gemini-1.5-pro')
+    # Default to gemini-2.5-flash as discovered in the environment
+    return genai.GenerativeModel('gemini-2.5-flash')
 
 def get_week_number(filename):
     """Extracts week number from filename like 'news_week_02.csv' or 'week-02.csv'"""
@@ -65,36 +65,6 @@ def get_week_number(filename):
     if match:
         return match.group(1).zfill(2)
     return None
-
-def update_astro_references(json_file_name):
-    """Updates the import references in the main Astro pages."""
-    for page_path in PAGES_TO_UPDATE:
-        path = Path(page_path)
-        if not path.exists():
-            logger.warning(f"File {page_path} not found, skipping reference update.")
-            continue
-
-        try:
-            with open(path, 'r', encoding='utf-8') as f:
-                content = f.read()
-
-            # Replace import line regardless of the current week number
-            # Using a more robust regex that covers both 'semana-XX' and 'week-XX' patterns
-            new_content = re.sub(
-                r"import data from '\.\./content/news/(semana|week)-\d+\.json';",
-                f"import data from '../content/news/{json_file_name}';",
-                content
-            )
-
-            if new_content != content:
-                with open(path, 'w', encoding='utf-8') as f:
-                    f.write(new_content)
-                logger.info(f"Updated references in {page_path}")
-            else:
-                logger.debug(f"No changes needed in {page_path}")
-
-        except Exception as e:
-            logger.error(f"Failed to update references in {page_path}: {e}")
 
 def generate_week(csv_path):
     csv_path = Path(csv_path)
@@ -129,7 +99,22 @@ def generate_week(csv_path):
             json_file_name=json_file_name
         )
 
-        response = model.generate_content(prompt)
+        try:
+            response = model.generate_content(prompt)
+        except Exception as e:
+            if "404" in str(e):
+                logger.warning("Primary model not found. Attempting to find an alternative...")
+                available_models = [m.name for m in genai.list_models() if 'generateContent' in m.supported_generation_methods]
+                if available_models:
+                    alt_model_name = available_models[0].split('/')[-1]
+                    logger.info(f"Falling back to model: {alt_model_name}")
+                    alt_model = genai.GenerativeModel(alt_model_name)
+                    response = alt_model.generate_content(prompt)
+                else:
+                    raise e
+            else:
+                raise e
+
         content = response.text
         
         # Extract JSON from markdown blocks if present
@@ -146,9 +131,7 @@ def generate_week(csv_path):
             json.dump(parsed_json, f, indent=2, ensure_ascii=False)
         
         logger.info(f"Successfully created {json_path}")
-
-        # Update references in Astro files
-        update_astro_references(json_file_name)
+        logger.info("Astro content will update automatically via Content Collections.")
 
     except json.JSONDecodeError:
         logger.error("Gemini returned invalid JSON. Check the output manually.")

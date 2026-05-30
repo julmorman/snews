@@ -38,6 +38,26 @@ The primary objective is to create an automated yet human-curated weekly news cy
    pip install google-generativeai python-dotenv
    ```
 
+Debian 13 notes
+
+```bash
+# Install venv support if needed
+sudo apt update
+sudo apt install python3-full python3-venv
+
+# Create a virtual environment
+python3 -m venv .venv
+
+# Activate it
+source .venv/bin/activate
+
+# Upgrade pip
+pip install --upgrade pip
+
+# Install packages
+pip install google-generativeai python-dotenv
+```
+
 ### Running the Project
 
 #### 1. Generate New Week (Automated)

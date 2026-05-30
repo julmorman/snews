@@ -1,9 +1,12 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import CategoryTag from '../../components/CategoryTag.astro';
+import { getCollection, getEntry } from 'astro:content';
+import { SITE_TITLE } from '../../config/constants';
 
 export async function getStaticPaths() {
-  const newsFiles = import.meta.glob('../../content/news/*.json', { eager: true });
-  const allNews = Object.values(newsFiles).flatMap((file: any) => file.default.news);
+  const allEditions = await getCollection('news');
+  const allNews = allEditions.flatMap((edition) => edition.data.news);
   
   return allNews.map((n) => {
     return {
@@ -15,16 +18,14 @@ export async function getStaticPaths() {
 
 const { noticia } = Astro.props;
 ---
-<Layout title={noticia.title}>
+<Layout title={`${SITE_TITLE} | ${noticia.title}`}>
     <div style="margin-top: 2rem;">
         <a href="/ultima" style="color: #94a3b8; text-decoration: none;">&larr; Volver a la presentación</a>
     </div>
 
     <article style="margin-top: 2rem;">
         <header style={`border-left: 8px solid ${noticia.color}; padding-left: 1rem; margin-bottom: 2rem;`}>
-            <p style={`color: ${noticia.color}; font-weight: bold; text-transform: uppercase; margin: 0;`}>
-                {noticia.category}
-            </p>
+            <CategoryTag category={noticia.category} />
             <h1 style="font-size: 2.5rem; margin: 0.5rem 0;">{noticia.title}</h1>
         </header>
 

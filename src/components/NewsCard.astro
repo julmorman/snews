@@ -1,0 +1,108 @@
+---
+import { getCategoryColor } from '../config/constants';
+
+interface Props {
+  item: {
+    id: string;
+    title: string;
+    short_summary: string;
+    category: string;
+    image: string;
+  };
+}
+
+const { item } = Astro.props;
+const color = getCategoryColor(item.category);
+---
+
+<a href={`/noticia/${item.id}`} class="news-card" style={`--accent-color: ${color}`}>
+  <div class="card-content">
+    <img src={item.image} alt="" class="card-image" />
+    <div class="card-text">
+      <span class="card-category">{item.category}</span>
+      <h3 class="card-title">{item.title}</h3>
+      <p class="card-summary">{item.short_summary}</p>
+      <div class="card-footer">Ver detalles y fuentes →</div>
+    </div>
+  </div>
+</a>
+
+<style>
+  .news-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.2s;
+  }
+  
+  .news-card:hover {
+    transform: translateX(10px);
+  }
+
+  .card-content {
+    display: flex;
+    gap: 1.5rem;
+    background: #1e293b;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border-left: 6px solid var(--accent-color);
+    border-top: 1px solid #334155;
+    border-right: 1px solid #334155;
+    border-bottom: 1px solid #334155;
+    align-items: center;
+  }
+
+  .card-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    background: #0f172a;
+  }
+
+  .card-text {
+    flex: 1;
+  }
+
+  .card-category {
+    font-size: 0.7rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--accent-color);
+    letter-spacing: 1px;
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+
+  .card-title {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.3rem;
+    color: #f8fafc;
+  }
+
+  .card-summary {
+    line-height: 1.5;
+    color: #cbd5e1;
+    font-size: 0.95rem;
+    margin: 0;
+  }
+
+  .card-footer {
+    margin-top: 1rem;
+    color: #3b82f6;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+
+  @media (max-width: 600px) {
+    .card-content {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .card-image {
+      width: 100%;
+      height: 150px;
+    }
+  }
+</style>

@@ -1,9 +1,20 @@
 ---
-import data from '../content/news/week-01.json';
+import { getCollection } from 'astro:content';
+import { CATEGORIES } from '../config/constants';
 
-const categoriesOrder = ['geopolítica', 'nacional', 'ciencias', 'sustentabilidad'];
-const newsByCategory = categoriesOrder.map(cat => 
-    data.news.filter(n => n.category.toLowerCase() === cat)
+const allEditions = await getCollection('news');
+allEditions.sort((a, b) => b.id.localeCompare(a.id));
+const latestEdition = allEditions[0];
+
+if (!latestEdition) {
+  return Astro.redirect('/');
+}
+
+const { data } = latestEdition;
+
+const categoriesOrder = CATEGORIES.map(c => c.id);
+const newsByCategory = categoriesOrder.map(catId => 
+    data.news.filter(n => n.category.toLowerCase() === catId)
 );
 
 const interleavedNews = [];
@@ -211,4 +222,3 @@ for (let i = 0; i < maxItems; i++) {
     </script>
 </body>
 </html>
->

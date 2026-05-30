@@ -1,0 +1,30 @@
+---
+import { getCategoryColor } from '../config/constants';
+
+interface Props {
+  category: string;
+  className?: string;
+}
+
+const { category, className = '' } = Astro.props;
+const color = getCategoryColor(category);
+---
+
+<span class={`category-tag ${className}`} style={`--category-color: ${color}`}>
+  {category}
+</span>
+
+<style>
+  .category-tag {
+    display: inline-block;
+    color: var(--category-color);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    border: 1px solid var(--category-color);
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+</style>

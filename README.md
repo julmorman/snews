@@ -16,6 +16,7 @@ The system generates high-impact summaries for visual loops and provides a detai
 
 - **Web Interface:** [Astro](https://astro.build/) (Static Site Generator).
 - **Hosting:** [Vercel](https://vercel.com/).
+- **Live Site:** [the-weekly-loop.vercel.app](https://the-weekly-loop.vercel.app)
 
 ## Getting Started
 
@@ -27,7 +28,7 @@ The system generates high-impact summaries for visual loops and provides a detai
 
 1. Navigate to the project directory:
    ```bash
-   cd snews
+   cd the-loop
    ```
 
 2. Install web dependencies:

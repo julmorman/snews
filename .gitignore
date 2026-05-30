@@ -19,3 +19,11 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+.env
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/

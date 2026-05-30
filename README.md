@@ -38,7 +38,20 @@ The system generates high-impact summaries for visual loops and provides a detai
 
 ### Running the Project
 
-#### 1. Start the Web Dashboard
+#### 1. Generate New Week (Automated)
+You can automate the generation of a new week from a CSV file using the provided Python script.
+Ensure you have the `google-generativeai` package installed and your `GEMINI_API_KEY` set.
+
+```bash
+export GEMINI_API_KEY="your_api_key_here"
+python3 scripts/generate_week.py week-02.csv
+```
+The script will:
+- Check if the week already exists (idempotency).
+- Use Gemini to generate the JSON content in Spanish (maintaining the format).
+- Update the import references in `src/pages/ultima.astro` and `src/pages/presentacion.astro`.
+
+#### 2. Start the Web Dashboard
 Launch the Astro development server to preview the site:
 ```bash
 npm run dev
@@ -48,6 +61,7 @@ The site will be available at `http://localhost:4321`.
 ### Project Structure
 
 - `src/`: Astro components and pages for the web interface.
+- `scripts/`: Automation scripts (e.g., `generate_week.py`).
 
 ## Agent Steps (Workflow)
 

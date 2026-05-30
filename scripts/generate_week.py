@@ -4,6 +4,7 @@ import re
 import json
 import argparse
 import logging
+import warnings
 from pathlib import Path
 
 # Try to load environment variables from .env if python-dotenv is installed
@@ -13,7 +14,6 @@ try:
 except ImportError:
     pass
 
-import warnings
 # Suppress the deprecation warning for the old SDK until the environment is updated
 warnings.filterwarnings("ignore", category=FutureWarning, module="google.generativeai")
 
@@ -41,12 +41,29 @@ CSV Content:
 Follow these steps:
 1. Read the CSV to extract the news items.
 2. Create a JSON structure for src/content/news/{json_file_name}.
-    * Use English for all JSON keys (funny_title, date, news, etc.).
-    * For each news item, keep the original Spanish content for title and short_summary.
-    * Generate a detailed context (3 bullet points) and a longer extended_context in Spanish based on the news titles and sources provided.
-    * Map the source 01, 02, and 03 columns to the links array.
 
-Provide ONLY the JSON content for the file.
+CRITICAL: The JSON must strictly follow this structure and use these exact keys:
+{{
+  "id": "{json_file_name_stem}",
+  "date": "Full date description in Spanish (e.g. 30 de Mayo)",
+  "funny_title": "A creative title in English",
+  "news": [
+    {{
+      "id": "unique-kebab-case-id",
+      "category": "must be one of: geopolítica, nacional, ciencias, sustentabilidad",
+      "title": "Original Spanish Title from CSV",
+      "short_summary": "Original Spanish Short Summary or a concise version",
+      "image": "Exact URL from CSV",
+      "context": "* Point 1\\n* Point 2\\n* Point 3",
+      "extended_context": "Longer explanation in Spanish based on sources...",
+      "links": [
+        {{ "name": "Source Name (e.g. BBC, El País)", "url": "URL from CSV" }}
+      ]
+    }}
+  ]
+}}
+
+Provide ONLY the raw JSON content.
 """
 
 def setup_gemini():
@@ -78,11 +95,13 @@ def generate_week(csv_path):
         return
 
     json_file_name = f"week-{week_num}.json"
+    json_file_name_stem = f"week-{week_num}"
     json_path = SRC_NEWS_PATH / json_file_name
 
     # Idempotency check
     if json_path.exists():
         logger.info(f"Week {week_num} already exists at {json_path}. Skipping generation.")
+        # Even if it exists, we might want to check if it's valid, but for now we trust it
         return
 
     model = setup_gemini()
@@ -96,7 +115,8 @@ def generate_week(csv_path):
             week_num=week_num,
             csv_name=csv_path.name,
             csv_content=csv_content,
-            json_file_name=json_file_name
+            json_file_name=json_file_name,
+            json_file_name_stem=json_file_name_stem
         )
 
         try:

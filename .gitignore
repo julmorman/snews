@@ -1,7 +1,11 @@
-# --- ASTRO & NODE ---
+# Dependencies
 node_modules/
+
+# Build and Output
 dist/
 .astro/
+
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -10,7 +14,24 @@ yarn-error.log*
 # --- TYPESCRIPT ---
 *.tsbuildinfo
 
-# --- OS & IDE ---
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.development
+.env.*.local
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# OS files
 .DS_Store
 .DS_Store?
 ._*

@@ -4,20 +4,15 @@ The Weekly Loop is a news curation and presentation system designed for schools.
 
 ## Project Goal
 
-The primary objective is to create an automated yet human-curated weekly news cycle. It focuses on four key categories:
-- Geopolitics
-- National (Argentina)
-- Science
-- Sustainability
-
-The system generates high-impact summaries for visual loops and provides a detailed hub where students can contrast different sources, fostering critical thinking.
+The primary objective is to create an automated yet human-curated weekly news cycle focusing on: Geopolitics, National (Argentina), Science, and Sustainability.
 
 ## Technical Stack
 
-- **Data Collection:** Python (RSS/XML processing).
-- **Web Interface:** [Astro](https://astro.build/) (Static Site Generator).
-- **Hosting:** Designed for GitHub Pages (or any static hosting).
-- **Planned Visuals:** Video/Slide generation using Python libraries (Pillow, MoviePy).
+- **Web Interface:** [Astro](https://astro.build/) (Static Site Generator) with TypeScript.
+- **Content Management:** Astro Content Collections (Type-safe JSON).
+- **Automation:** Python 3 + Gemini AI (Google Generative AI).
+- **Hosting:** [Vercel](https://vercel.com/).
+- **Live Site:** [the-weekly-loop.vercel.app](https://the-weekly-loop.vercel.app)
 
 ## Getting Started
 
@@ -28,9 +23,9 @@ The system generates high-impact summaries for visual loops and provides a detai
 
 ### Installation
 
-1. Navigate to the project directory:
+1. Clone and navigate to the directory:
    ```bash
-   cd snews
+   cd the-loop
    ```
 
 2. Install web dependencies:
@@ -38,70 +33,60 @@ The system generates high-impact summaries for visual loops and provides a detai
    npm install
    ```
 
+3. (Optional) Install Python dependencies for automation:
+   ```bash
+   pip install google-generativeai python-dotenv
+   ```
+
+Debian 13 notes
+
+```bash
+# Install venv support if needed
+sudo apt update
+sudo apt install python3-full python3-venv
+
+# Create a virtual environment
+python3 -m venv .venv
+
+# Activate it
+source .venv/bin/activate
+
+# Upgrade pip
+pip install --upgrade pip
+
+# Install packages
+pip install google-generativeai python-dotenv
+```
+
 ### Running the Project
 
-#### 1. Fetch Latest News
+#### 1. Generate New Week (Automated)
+Ensure your `GEMINI_API_KEY` is set in a `.env` file (see `.env.example`).
 
-Run the Python script to fetch news from RSS feeds and merge them with manual suggestions:
 ```bash
-python3 scripts/fetch_news.py
+python3 scripts/generate_week.py week-02.csv
 ```
-This will generate/update `pending_news.json` with the latest findings.
+The script uses AI to transform your CSV data into a type-safe JSON edition and updates the site references automatically.
 
 #### 2. Start the Web Dashboard
-Launch the Astro development server to preview the site:
 ```bash
 npm run dev
 ```
 The site will be available at `http://localhost:4321`.
 
-### Project Structure
+## Project Structure
 
-- `scripts/`: Python scripts for news extraction and processing.
-- `src/`: Astro components and pages for the web interface.
-- `manual_news.json`: A file to manually inject specific news or topics into the weekly cycle.
-- `snews_plan.md`: The original project plan and detailed roadmap (in Spanish).
+- `src/components/`: Reusable Astro components.
+- `src/config/`: Centralized site settings and constants.
+- `src/content/`: Managed data editions (via Content Collections).
+- `src/layouts/`: Shared page layouts.
+- `src/pages/`: Website routes.
+- `scripts/`: Automation and maintenance scripts.
 
-## Agent Steps (Workflow)
+## Senior Engineering Standards Applied
 
-### 1. Data Reception
-
-The agent will receive the news information (via a link to a public Google Sheet or direct text). The data is presented in columns in the following order: `section`, `title`, `image` (if applicable; otherwise, the agent will search for an image that matches the news item), and `sources` (unlimited amount).
-
-### 2. Content Creation (JSON)
-
-Create a new file in `src/content/news/` following the `week-XX.json` pattern.
-
-* **Important:** Maintain the exact format of `week-01.json`.
-* **ID:** The ID for each news item must be unique and descriptive (e.g., `energy-crisis-2026`).
-
-### 3. Updating References
-
-For the site to display the new week as the "current" one, the agent must modify:
-
-* In `src/pages/ultima.astro`: Change the import line:
-```astro
-import data from '../content/news/week-XX.json';
-
-```
-
-
-* In `src/pages/presentacion.astro`: Change the import line:
-```astro
-import data from '../content/news/week-XX.json';
-
-```
-
-
-
-### 4. Verification
-
-The file `src/pages/archivo.astro` will automatically detect the new JSON file thanks to `import.meta.glob`. No editing is required.
-
----
-
-## Agent Rules
-
-* **Do Not Rewrite:** Do not modify the logic of the `.astro` files beyond the imports.
-* **Formatting:** Ensure that the JSON is valid and follows the existing field structure.
-* **Surgical Edits:** Use the `replace` tool to change *only* the import line within the `.astro` files.
+- **DRY (Don't Repeat Yourself):** Centralized categories, colors, and site metadata in `src/config/constants.ts`.
+- **Type Safety:** Implemented Astro Content Collections with Zod schemas for mandatory data validation.
+- **Component-Based Architecture:** Logic-heavy UI elements extracted into reusable `.astro` components.
+- **Robust Automation:** Python script upgraded with environment management, proper logging, and idempotent execution.
+- **GitOps Workflow:** Content is versioned in Git, providing a complete history of all news editions.

@@ -1,11 +1,22 @@
 ---
-import data from '../content/news/semana-01.json';
+import { getCollection } from 'astro:content';
+import { SITE_TITLE } from '../config/constants';
+
+const allEditions = await getCollection('news');
+allEditions.sort((a, b) => b.id.localeCompare(a.id));
+const latestEdition = allEditions[0];
+
+if (!latestEdition) {
+  return Astro.redirect('/');
+}
+
+const { data } = latestEdition;
 ---
 <html lang="es">
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>THE LOOP | Galería de Revisión</title>
+    <title>{SITE_TITLE} | Galería de Revisión</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap');
         body { background-color: #0f172a; color: white; font-family: 'Inter', sans-serif; padding: 2rem; margin: 0; }
@@ -28,7 +39,7 @@ import data from '../content/news/semana-01.json';
 </head>
 <body>
     <h1 style="margin-bottom: 0.5rem;">Galería de Diapositivas</h1>
-    <p style="color: #94a3b8; margin-bottom: 2rem;">Revisión rápida para la edición del {data.fecha}</p>
+    <p style="color: #94a3b8; margin-bottom: 2rem;">Revisión rápida para la edición del {data.date}</p>
     
     <div class="grid">
         <!-- Portada -->
@@ -40,24 +51,24 @@ import data from '../content/news/semana-01.json';
             </div>
         </div>
 
-        {data.noticias.map((item, i) => (
+        {data.news.map((item, i) => (
             <>
                 <div>
-                    <div class="label">{(i*2)+1}. {item.categoria} (Título)</div>
+                    <div class="label">{(i*2)+1}. {item.category} (Título)</div>
                     <div class="slide-preview">
-                        <div class="m-category" style={`color: ${item.color}`}>{item.categoria}</div>
-                        <div class="m-news-title">{item.titulo}</div>
-                        <div class="m-summary">{item.resumen_corto}</div>
+                        <div class="m-category" style={`color: ${item.color}`}>{item.category}</div>
+                        <div class="m-news-title">{item.title}</div>
+                        <div class="m-summary">{item.short_summary}</div>
                     </div>
                 </div>
                 <div>
-                    <div class="label">{(i*2)+2}. {item.categoria} (Detalle)</div>
+                    <div class="label">{(i*2)+2}. {item.category} (Detalle)</div>
                     <div class="slide-preview">
                         <div class="m-detail">
-                            <img src={item.imagen} class="m-img" onerror="this.style.background='#ef4444'" />
+                            <img src={item.image} class="m-img" onerror="this.style.background='#ef4444'" />
                             <div class="m-text">
                                 <ul class="m-bullets">
-                                    {item.contexto.split('\n').filter(l => l.trim().startsWith('*')).map(l => (
+                                    {item.context.split('\n').filter(l => l.trim().startsWith('*')).map(l => (
                                         <li>{l.replace('*', '').trim()}</li>
                                     ))}
                                 </ul>

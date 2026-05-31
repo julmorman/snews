@@ -1,27 +1,32 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import data from '../content/news/semana-01.json';
+import NewsCard from '../components/NewsCard.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORIES, SITE_TITLE } from '../config/constants';
 
-// Colores de las secciones
-const sectionColors: Record<string, string> = {
-    'geopolítica': '#ef4444',
-    'nacional': '#3eaaf7',
-    'ciencias': '#06b6d4',
-    'sustentabilidad': '#10b981'
-};
+// Obtener la edición más reciente
+const allEditions = await getCollection('news');
+allEditions.sort((a, b) => b.id.localeCompare(a.id));
+const latestEdition = allEditions[0];
+
+if (!latestEdition) {
+  return Astro.redirect('/');
+}
+
+const { data } = latestEdition;
 
 // Agrupar noticias por categoría para esta vista
-const categories = ['geopolítica', 'nacional', 'ciencias', 'sustentabilidad'];
-const groupedNews = categories.map(cat => ({
-    name: cat,
-    color: sectionColors[cat] || '#3b82f6',
-    items: data.noticias.filter(n => n.categoria.toLowerCase() === cat)
-}));
+const groupedNews = CATEGORIES.map(cat => ({
+    name: cat.label,
+    color: cat.color,
+    items: data.news.filter(n => n.category.toLowerCase() === cat.id)
+})).filter(group => group.items.length > 0);
 ---
-<Layout title="THE LOOP | Semana 1">
+
+<Layout title={`${SITE_TITLE} | ${data.funny_title}`}>
     <header style="text-align: center; margin-bottom: 3rem;">
-        <h1 style="font-size: 3rem; margin: 0.5rem 0;">Semana 1</h1>
-        <p style="color: #94a3b8;">{data.fecha}</p>
+        <h1 style="font-size: 3rem; margin: 0.5rem 0;">{data.funny_title}</h1>
+        <p style="color: #94a3b8;">{data.date}</p>
     </header>
 
     <div style="display: flex; flex-direction: column; gap: 4rem;">
@@ -32,19 +37,7 @@ const groupedNews = categories.map(cat => ({
                 </h2>
                 <div style="display: flex; flex-direction: column; gap: 1.5rem;">
                     {group.items.map(item => (
-                        <a href={`/noticia/${item.id}`} style="text-decoration: none; color: inherit; display: block;">
-                            <div style={`background: #1e293b; padding: 1.5rem; border-radius: 1rem; border-left: 6px solid ${item.color}; transition: transform 0.2s, background 0.2s; cursor: pointer;`} 
-                                 onmouseover="this.style.transform='translateX(10px)'; this.style.background='#273549'" 
-                                 onmouseout="this.style.transform='translateX(0)'; this.style.background='#1e293b'">
-                                
-                                <h3 style="margin: 0 0 0.5rem 0; font-size: 1.5rem;">{item.titulo}</h3>
-                                <p style="line-height: 1.5; color: #cbd5e1; font-size: 1rem; margin: 0;">{item.resumen_corto}</p>
-                                
-                                <div style="margin-top: 1rem; color: #3b82f6; font-size: 0.9rem; font-weight: bold;">
-                                    Ver detalles y fuentes →
-                                </div>
-                            </div>
-                        </a>
+                        <NewsCard item={item} />
                     ))}
                 </div>
             </section>

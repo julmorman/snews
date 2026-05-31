@@ -1,5 +1,5 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://julmorman.github.io',
+  site: 'https://the-weekly-loop.vercel.app',
 });

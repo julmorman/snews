@@ -46,7 +46,7 @@ CRITICAL: The JSON must strictly follow this structure and use these exact keys:
 {{
   "id": "{json_file_name_stem}",
   "date": "Full date description in Spanish (e.g. 30 de Mayo)",
-  "funny_title": "A creative title in English",
+  "funny_title": "Semana {week_num}",
   "news": [
     {{
       "id": "unique-kebab-case-id",

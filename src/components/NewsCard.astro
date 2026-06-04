@@ -9,9 +9,10 @@ interface Props {
     category: string;
     image: string;
   };
+  showCategory?: boolean;
 }
 
-const { item } = Astro.props;
+const { item, showCategory = true } = Astro.props;
 const color = getCategoryColor(item.category);
 ---
 
@@ -19,7 +20,7 @@ const color = getCategoryColor(item.category);
   <div class="card-content">
     <img src={item.image} alt="" class="card-image" />
     <div class="card-text">
-      <span class="card-category">{item.category}</span>
+      {showCategory && <span class="card-category">{item.category}</span>}
       <h3 class="card-title">{item.title}</h3>
       <p class="card-summary">{item.short_summary}</p>
       <div class="card-footer">Ver detalles y fuentes →</div>

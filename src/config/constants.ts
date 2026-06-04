@@ -5,7 +5,7 @@ export const SITE_URL = 'https://the-weekly-loop.vercel.app';
 export const CATEGORIES = [
   {
     id: 'geopolítica',
-    label: 'GEOPOLÍTICA',
+    label: 'GLOBAL',
     color: '#ef4444'
   },
   {

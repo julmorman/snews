@@ -37,7 +37,7 @@ const groupedNews = CATEGORIES.map(cat => ({
                 </h2>
                 <div style="display: flex; flex-direction: column; gap: 1.5rem;">
                     {group.items.map(item => (
-                        <NewsCard item={item} />
+                        <NewsCard item={item} showCategory={false} />
                     ))}
                 </div>
             </section>

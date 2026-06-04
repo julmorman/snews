@@ -1,4 +1,4 @@
-export const SITE_TITLE = 'THE LOOP';
+export const SITE_TITLE = 'The Loop';
 export const SITE_DESCRIPTION = 'Noticias que importan, explicadas para que formes tu propia opinión.';
 export const SITE_URL = 'https://the-weekly-loop.vercel.app';
 

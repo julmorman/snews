@@ -1,0 +1,50 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { getCollection, getEntry } from 'astro:content';
+import { CATEGORIES, SITE_TITLE } from '../../config/constants';
+
+export async function getStaticPaths() {
+  const allEditions = await getCollection('news');
+  return allEditions.map(edition => ({
+    params: { id: edition.id },
+    props: { edition }
+  }));
+}
+
+const { edition } = Astro.props;
+const { data } = edition;
+
+// Agrupar noticias por categoría
+const groupedNews = CATEGORIES.map(cat => ({
+    name: cat.label,
+    color: cat.color,
+    items: data.news.filter(n => n.category.toLowerCase() === cat.id)
+})).filter(group => group.items.length > 0);
+---
+
+<Layout title={`${SITE_TITLE} | ${data.funny_title}`}>
+    <div style="margin-bottom: 2rem;">
+        <a href="/archivo" style="color: #94a3b8; text-decoration: none;">&larr; Volver al Archivo</a>
+    </div>
+
+    <header style="text-align: center; margin-bottom: 3rem;">
+        <h1 style="font-size: 3rem; margin: 0.5rem 0;">{data.funny_title}</h1>
+        <p style="color: #94a3b8;">{data.date}</p>
+    </header>
+
+    <div style="display: flex; flex-direction: column; gap: 4rem;">
+        {groupedNews.map(group => (
+            <section>
+                <h2 style={`text-transform: uppercase; letter-spacing: 2px; color: ${group.color}; border-bottom: 2px solid #1e293b; padding-bottom: 0.5rem; margin-bottom: 1.5rem; font-weight: 900;`}>
+                    {group.name}
+                </h2>
+                <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                    {group.items.map(item => (
+                        <NewsCard item={item} showCategory={false} />
+                    ))}
+                </div>
+            </section>
+        ))}
+    </div>
+</Layout>

@@ -6,21 +6,20 @@ import { SITE_TITLE } from '../../config/constants';
 
 export async function getStaticPaths() {
   const allEditions = await getCollection('news');
-  const allNews = allEditions.flatMap((edition) => edition.data.news);
   
-  return allNews.map((n) => {
-    return {
+  return allEditions.flatMap((edition) => {
+    return edition.data.news.map((n) => ({
       params: { id: n.id },
-      props: { noticia: n },
-    };
+      props: { noticia: n, editionId: edition.id },
+    }));
   });
 }
 
-const { noticia } = Astro.props;
+const { noticia, editionId } = Astro.props;
 ---
 <Layout title={`${SITE_TITLE} | ${noticia.title}`}>
     <div style="margin-top: 2rem;">
-        <a href="/ultima" style="color: #94a3b8; text-decoration: none;">&larr; Volver a la presentación</a>
+        <a href={`/archivo/${editionId}`} style="color: #94a3b8; text-decoration: none;">&larr; Volver a la edición</a>
     </div>
 
     <article style="margin-top: 2rem;">

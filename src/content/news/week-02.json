@@ -1,0 +1,327 @@
+{
+  "id": "week-02",
+  "date": "4 de Junio",
+  "funny_title": "Semana 02",
+  "news": [
+    {
+      "id": "altos-costos-de-ia-impactan-finanzas-de-empresas",
+      "category": "geopolítica",
+      "title": "Altos costos de IA impactan finanzas de empresas",
+      "short_summary": "Empresas enfrentan desafíos financieros por los crecientes costos operativos de la inteligencia artificial.",
+      "image": "https://img-cdn.inc.com/image/upload/f_webp,q_auto,c_fit/vip/2026/04/tokenmaxxing-pano-1-inc.jpg",
+      "context": "* Empresas descubren que la implementación de modelos de IA conlleva elevados gastos operativos no anticipados inicialmente.\n* El consumo de \"tokens\" y recursos informáticos se traduce en un significativo impacto en sus presupuestos anuales.\n* La promesa de eficiencia mediante IA se contrapone ahora con la realidad económica de su mantenimiento a gran escala.",
+      "extended_context": "La adopción masiva de la inteligencia artificial generativa, especialmente los grandes modelos lingüísticos (LLM), está generando un dilema financiero inesperado para muchas empresas. Aunque se esperaba una mejora en la productividad y una reducción de costos, el gasto operativo asociado a estos modelos está demostrando ser considerablemente alto. Este fenómeno, a veces denominado \"tokenmaxxing\" por el consumo intensivo de \"tokens\" o unidades computacionales, implica que las empresas deben invertir sumas significativas en infraestructura, energía y procesamiento para mantener sus sistemas de IA funcionando eficazmente.\n\nAnalistas y expertos en tecnología advierten que las organizaciones deben reevaluar sus estrategias de IA, considerando no solo los beneficios a corto plazo sino también los compromisos financieros a largo plazo. La balanza entre la inversión en capital humano y la dependencia tecnológica se está inclinando hacia un modelo donde la IA requiere una subvención constante, lo que podría afectar la rentabilidad y la capacidad de innovación si no se gestiona adecuadamente. La discusión sobre si los \"tokens\" o los humanos representan la verdadera inversión a futuro está ganando tracción en el ámbito corporativo.",
+      "links": [
+        {
+          "name": "Fuente 1",
+          "url": "https://fortune.com/2026/06/03/us-companies-ai-adoption-high-costs/"
+        },
+        {
+          "name": "Fuente 2",
+          "url": "https://www.reuters.com/technology/artificial-intelligence/artificial-intelligencer-ai-chatter-turns-costs-tokens-ahead-ipos-2026-06-03/"
+        },
+        {
+          "name": "Fuente 3",
+          "url": "https://gizmodo.com/companies-are-getting-burned-by-burning-tons-of-tokens-2000765232"
+        },
+        {
+          "name": "Fuente 4",
+          "url": "https://www.cnbc.com/2026/05/29/-tokens-or-humans-the-new-corporate-trade-off.html"
+        },
+        {
+          "name": "Fuente 5",
+          "url": "https://www.inc.com/ben-sherry/what-is-tokenmaxxing-ai-productivity-hack/91328999"
+        }
+      ]
+    },
+    {
+      "id": "dron-impacta-zaporiyia-rusia-y-ucrania-se-acusan",
+      "category": "geopolítica",
+      "title": "Dron impacta Zaporiyia: Rusia y Ucrania se acusan",
+      "short_summary": "Reportan impacto de dron en Zaporiyia, reavivando tensiones y preocupaciones sobre seguridad nuclear global.",
+      "image": "https://s.france24.com/media/display/75da110e-9ec8-11f0-91d6-005056bf30b7/w:1024/p:16x9/2025-09-30T193638Z-1410058750-RC2GJ1AWM0PS-RTRMADP-3-UKRAINE-CRISIS-ZAPORIZHZHIA.jpg",
+      "context": "* Un dron impactó una instalación en la central nuclear de Zaporiyia, desencadenando una nueva escalada de acusaciones mutuas.\n* Rusia y Ucrania niegan responsabilidad, mientras la comunidad internacional expresa grave preocupación por el incidente.\n* El Organismo Internacional de Energía Atómica investiga para evaluar posibles daños y los niveles de radiación actuales.",
+      "extended_context": "La situación en la central nuclear de Zaporiyia, la más grande de Europa, ha vuelto a generar alarma internacional tras el impacto de un dron en sus instalaciones. Tanto Rusia, que ocupa la planta, como Ucrania, se han acusado mutuamente del ataque, cada uno negando su participación y culpando al otro de intentar sabotear la seguridad de la infraestructura. Este incidente marca una escalada peligrosa en el conflicto, ya que cualquier daño a la planta podría tener consecuencias devastadoras para la región y más allá.\n\nEl Organismo Internacional de Energía Atómica (OIEA) ha expresado su profunda preocupación, reiterando la necesidad de establecer una zona de seguridad alrededor de la central para prevenir futuros incidentes. Expertos están evaluando el alcance de los daños y monitoreando los niveles de radiación, aunque inicialmente no se han reportado alteraciones significativas. Sin embargo, la frecuencia de estos incidentes subraya la fragilidad de la seguridad nuclear en tiempos de guerra y la urgencia de encontrar soluciones diplomáticas que garanticen la protección de estas infraestructuras críticas.",
+      "links": [
+        {
+          "name": "Fuente 1",
+          "url": "https://www.reuters.com/world/europe/russias-rosatom-says-ukrainian-drone-struck-zaporizhzhia-nuclear-plant-2026-05-30/"
+        },
+        {
+          "name": "Fuente 2",
+          "url": "https://www.theguardian.com/world/2026/may/31/ukraine-war-briefing-kyiv-denies-its-drone-deliberately-hit-zaporiyzhzhia-nuclear-plant"
+        },
+        {
+          "name": "Fuente 3",
+          "url": "https://www.dw.com/es/un-dron-impact%C3%B3-en-la-central-nuclear-de-zaporiyia/a-77361519"
+        },
+        {
+          "name": "Fuente 4",
+          "url": "https://tn.com.ar/internacional/2026/05/31/guerra-en-ucrania-un-dron-impacto-en-la-central-nuclear-de-zaporiyia-y-analizan-los-niveles-de-radiacion/"
+        }
+      ]
+    },
+    {
+      "id": "alto-al-fuego-con-iran-se-rompe-tras-ataques",
+      "category": "geopolítica",
+      "title": "Alto al fuego con Irán se rompe tras ataques",
+      "short_summary": "Negociaciones con Irán se detienen completamente tras intensos intercambios militares y acusaciones mutuas.",
+      "image": "https://newsmedia.tasnimnews.ir/Tasnim/Uploaded/Image/1404/02/21/140402211040015732813064.jpg",
+      "context": "* El cese al fuego diplomático con Irán ha colapsado oficialmente después de una serie de nuevos ataques militares.\n* Las delegaciones internacionales suspendieron las conversaciones, reflejando la grave escalada de tensiones en la región.\n* El conflicto se intensifica, afectando la estabilidad regional y reavivando el temor a un conflicto a gran escala.",
+      "extended_context": "Las esperanzas de un alto al fuego duradero y una resolución diplomática con Irán se han desvanecido por completo esta semana, tras una serie de nuevos y violentos intercambios militares. La reanudación de los ataques ha llevado a la suspensión definitiva de las negociaciones diplomáticas, dejando un futuro incierto para la estabilidad en Oriente Medio. La comunidad internacional observa con creciente preocupación cómo la situación se deteriora, con potencias regionales y globales involucradas en una compleja red de alianzas y confrontaciones.\n\nReportes indican que se han producido ataques en varias locaciones estratégicas, incluyendo acusaciones de ofensivas contra Kuwait y Baréin, y represalias dirigidas a posiciones en Líbano e Irán. Esta escalada de violencia no solo amenaza con desestabilizar aún más la región, sino que también tiene implicaciones para el mercado energético global y la seguridad internacional. Los esfuerzos por reactivar el diálogo parecen inútiles por el momento, mientras la atención se centra en contener la propagación del conflicto y proteger a los civiles.",
+      "links": [
+        {
+          "name": "Fuente 1",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/6/3/iran-war-live-us-strikes-irans-qeshm-says-tehran-attacks-kuwait-bahrain"
+        },
+        {
+          "name": "Fuente 2",
+          "url": "https://edition.cnn.com/2026/06/01/world/live-news/iran-trump-lebanon-war-news"
+        },
+        {
+          "name": "Fuente 3",
+          "url": "https://www.reuters.com/world/middle-east/trump-says-he-has-not-heard-iran-that-they-are-suspending-talks-nbc-news-reports-2026-06-01/"
+        },
+        {
+          "name": "Fuente 4",
+          "url": "https://www.bbc.com/news/articles/c5yx135yg53o"
+        },
+        {
+          "name": "Fuente 5",
+          "url": "https://www.cbsnews.com/live-updates/trump-iran-war-attacks-kuwait-airport-israel-hezbollah-ceasefire/"
+        }
+      ]
+    },
+    {
+      "id": "fracaso-en-negociaciones-por-ley-universitaria",
+      "category": "nacional",
+      "title": "Fracaso en negociaciones por ley universitaria",
+      "short_summary": "Gobierno y universidades no logran acuerdo sobre la crucial ley de financiamiento, intensificando el conflicto.",
+      "image": "https://www.lanacion.com.ar/resizer/v2/una-bandera-con-el-reclamo-universitario-en-el-SLPTJDOX3ZG2HPKHNVHOL6GTVU.JPG?auth=01985fb3c8ac33261be8ad0aeba71df6386a3e3a73785ea06b7736af16a569f&width=1200&height=800&quality=70&smart=true",
+      "context": "* Las negociaciones entre el gobierno nacional y las universidades públicas llegaron a un punto muerto sin acuerdo final.\n* El estancamiento profundiza el conflicto por el financiamiento educativo, afectando gravemente la actividad académica del país.\n* Se anticipan nuevas medidas de fuerza por parte del sector universitario, exigiendo una pronta solución a sus demandas.",
+      "extended_context": "Las prolongadas negociaciones entre las autoridades universitarias y el gobierno nacional para destrabar la Ley de Financiamiento Universitario han fracasado, dejando el conflicto en un punto muerto. A pesar de los esfuerzos y varias rondas de diálogo, las partes no lograron conciliar sus posturas respecto a los montos y mecanismos de financiación necesarios para el sostenimiento de las casas de estudio. Este desenlace genera gran incertidumbre en la comunidad académica y estudiantil.\n\nEl fracaso de las conversaciones podría desembocar en un recrudecimiento de las protestas y paros universitarios, impactando la normalidad del ciclo lectivo. Las universidades reclaman una actualización presupuestaria que permita afrontar los crecientes costos operativos y salariales, mientras que el gobierno argumenta la necesidad de una gestión austera y eficiente de los recursos públicos. La situación ahora podría requerir la intervención de otros actores políticos o incluso judiciales para encontrar una salida al estancamiento.",
+      "links": [
+        {
+          "name": "Fuente 1",
+          "url": "https://www.pagina12.com.ar/2026/06/02/el-aumento-que-no-fue-y-una-condicion-inaceptable-por-que-fracaso-la-reunion-entre-el-gobierno-y-las-universidades/"
+        },
+        {
+          "name": "Fuente 2",
+          "url": "https://www.lanacion.com.ar/politica/avanza-una-negociacion-politica-para-destrabar-el-conflicto-por-la-ley-de-financiamiento-nid31052026/"
+        },
+        {
+          "name": "Fuente 3",
+          "url": "https://www.lagaceta.com.ar/nota/1139537/economia/universidades-inician-paro-48-horas-para-reclamar-implementacion-ley-financiamiento-universitario.html"
+        },
+        {
+          "name": "Fuente 4",
+          "url": "https://tn.com.ar/politica/2026/06/02/universidades-el-gobierno-prepara-una-oferta-para-cerrar-el-conflicto-antes-del-fallo-de-la-corte/"
+        },
+        {
+          "name": "Fuente 5",
+          "url": "https://www.clarin.com/politica/gobierno-universidades-buscan-destrabar-acuerdo-poner-fin-conflicto-universitario_0_OhPmsOo5RD.html"
+        }
+      ]
+    },
+    {
+      "id": "revocan-cautelar-de-la-ley-de-glaciares-en-santa-cruz",
+      "category": "nacional",
+      "title": "Revocan cautelar de la Ley de Glaciares en Santa Cruz",
+      "short_summary": "La justicia revoca medida que impedía modificar la Ley de Glaciares en Santa Cruz.",
+      "image": "https://www.greenpeace.org/static/planet4-argentina-stateless/2025/01/625951c9-glaciar-perito-moreno-patagonia-arg-%C2%A9-greenpeace-daniel-beltra.jpg",
+      "context": "* Una medida cautelar que paralizaba la aplicación de la Ley de Glaciares en Santa Cruz fue finalmente revocada.\n* Esta decisión judicial habilita la posibilidad de modificar la legislación ambiental provincial en dicha jurisdicción.\n* El fallo tiene implicaciones significativas para la protección ambiental y las actividades económicas en la Patagonia.",
+      "extended_context": "La justicia ha revocado la medida cautelar que mantenía en suspenso la modificación de la Ley de Glaciares en la provincia de Santa Cruz. Este fallo es un giro importante en el debate sobre la protección de los glaciares y el desarrollo de actividades económicas en la región patagónica. La medida cautelar había sido interpuesta previamente para frenar cambios que podrían haber afectado la protección de estos ecosistemas vitales.\n\nLa revocación abre nuevamente la puerta a discusiones y posibles reformas sobre cómo se aplica la Ley Nacional de Glaciares en la provincia, impactando potencialmente proyectos mineros y otras industrias extractivas. Organizaciones ambientales y diversos actores políticos ya han expresado sus posturas, destacando la tensión constante entre la conservación del patrimonio natural y los intereses de desarrollo económico en una de las regiones más ricas del país en recursos.",
+      "links": [
+        {
+          "name": "Fuente 1",
+          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/341109/20260424"
+        },
+        {
+          "name": "Fuente 2",
+          "url": "https://www.argentina.gob.ar/normativa/nacional/ley-26639-174117/texto"
+        },
+        {
+          "name": "Fuente 3",
+          "url": "https://www.infobae.com/judiciales/2026/06/01/ley-de-glaciares-la-justicia-revoco-la-cautelar-que-habia-suspendido-su-aplicacion-en-santa-cruz/"
+        },
+        {
+          "name": "Fuente 4",
+          "url": "https://www.eldestapeweb.com/politica/ley-glaciares-santa-cruz-justicia-revoco-fallo-frenaba-reforma-provincia-202663114451"
+        },
+        {
+          "name": "Fuente 5",
+          "url": "https://www.lanacion.com.ar/politica/la-justicia-revoco-una-cautelar-sobre-la-ley-de-glaciares-iniciada-por-kirchneristas-en-santa-cruz-nid01062026/"
+        }
+      ]
+    },
+    {
+      "id": "argentina-redefine-politica-nuclear-globalmente",
+      "category": "nacional",
+      "title": "Argentina redefine política nuclear globalmente",
+      "short_summary": "Argentina reorienta su política nuclear hacia la exportación de reactores y combustible de alto valor agregado.",
+      "image": "https://cenital.com/wp-content/smush-webp/2023/08/nuclear.jpg.webp",
+      "context": "* El gobierno argentino anunció una redefinición estratégica de su política nuclear, priorizando la exportación de tecnología.\n* El nuevo enfoque busca posicionar al país como proveedor global de reactores y combustible nuclear de alto valor añadido.\n* Se espera atraer inversión extranjera y potenciar la capacidad tecnológica nacional en el ámbito nuclear.",
+      "extended_context": "El gobierno argentino ha dado a conocer una ambiciosa redefinición de su política nuclear, que ahora se orientará fuertemente hacia la exportación de tecnología y productos de alto valor agregado. Este cambio estratégico busca capitalizar la reconocida experiencia y capacidad de Argentina en el desarrollo nuclear para incursionar en el mercado global, ofreciendo reactores de investigación, tecnología de enriquecimiento y combustible nuclear. La meta es generar divisas y fortalecer el rol del país como actor clave en el ámbito de la energía atómica pacífica.\n\nLa nueva directriz prioriza la atracción de inversiones internacionales y la expansión de proyectos de investigación y desarrollo, con el objetivo de impulsar la innovación y la competitividad. Esta política representa un giro significativo respecto a enfoques anteriores, focalizándose en la sustentabilidad económica y la proyección internacional de la industria nuclear argentina. Los lineamientos publicados detallan los cuatro pilares fundamentales de esta renovada visión para el sector.",
+      "links": [
+        {
+          "name": "Fuente 1",
+          "url": "https://www.lanacion.com.ar/economia/el-gobierno-redefinio-la-politica-nuclear-priorizara-las-exportaciones-y-buscara-atraer-inversion-nid31052026/"
+        },
+        {
+          "name": "Fuente 2",
+          "url": "https://www.argentina.gob.ar/sites/default/files/2026/05/lineamientos_de_la_politica_nuclear_0.pdf"
+        },
+        {
+          "name": "Fuente 3",
+          "url": "https://www.infobae.com/economia/2026/05/31/tras-los-cambios-y-la-crisis-en-el-sector-presentaron-el-plan-nuclear-argentino-cuales-son-sus-cuatro-pilares/?outputType=amp-type"
+        }
+      ]
+    },
+    {
+      "id": "glp-1-nuevo-potencial-en-tratamientos-oncologicos",
+      "category": "ciencias",
+      "title": "GLP-1: Nuevo potencial en tratamientos oncológicos",
+      "short_summary": "Medicamentos GLP-1, conocidos para diabetes, muestran prometedor potencial en la lucha contra el cáncer.",
+      "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/P6BD5UBN3JCSLPUB7KPUV7J4BM.jpg&w=1440&impolicy=high_res.jpg",
+      "context": "* Estudios recientes revelan que los fármacos GLP-1 podrían tener efectos beneficiosos en varios tipos de cáncer.\n* La investigación abre nuevas vías para el desarrollo de tratamientos oncológicos, explorando un uso distinto al original.\n* Se observa una correlación entre el uso de GLP-1 y una menor incidencia de cáncer de mama en cohortes estudiadas.",
+      "extended_context": "Los medicamentos basados en GLP-1 (péptido similar al glucagón tipo 1), ampliamente conocidos por su eficacia en el tratamiento de la diabetes tipo 2 y la obesidad, están mostrando un inesperado y prometedor potencial en el campo de la oncología. Investigaciones recientes sugieren que estos fármacos no solo ayudan a controlar el azúcar en sangre y el peso, sino que también podrían tener efectos protectores y terapéuticos contra varios tipos de cáncer.\n\nUn estudio de cohorte de gran escala, por ejemplo, ha vinculado el uso de GLP-1 con una incidencia significativamente menor de cáncer de mama. Estos hallazgos abren una fascinante frontera en la investigación médica, sugiriendo que los mecanismos de acción de GLP-1 podrían interferir con el crecimiento y la progresión tumoral. Si bien se necesitan más estudios para comprender completamente estos mecanismos y confirmar su aplicabilidad clínica, la posibilidad de reutilizar fármacos existentes para combatir el cáncer representa una esperanza considerable para pacientes y médicos.",
+      "links": [
+        {
+          "name": "Fuente 1",
+          "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/glp-1-drugs-may-have-beneficial-effect-across-many-types-cancer-2026-06-03/"
+        },
+        {
+          "name": "Fuente 2",
+          "url": "https://penntoday.upenn.edu/news/glp-1-use-linked-lower-breast-cancer-incidence-large-cohort-study"
+        },
+        {
+          "name": "Fuente 3",
+          "url": "https://abcnews.com/GMA/Wellness/doctor-breaks-study-showing-glp-1s-lower-breast/story?id=133551460"
+        }
+      ]
+    },
+    {
+      "id": "metano-en-cometa-3i-atlas-revela-formacion-solar",
+      "category": "ciencias",
+      "title": "Metano en cometa 3I/ATLAS revela formación solar",
+      "short_summary": "Detección de metano en el cometa 3I/ATLAS proporciona pistas sobre la formación de exoplanetas.",
+      "image": "https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22863764/33433274343_277deba9eb_o.jpg?quality=90&strip=all&crop=17.287878787879,0,65.424242424242,100.jpg",
+      "context": "* El telescopio Webb detectó metano en el cometa interestelar 3I/ATLAS, un descubrimiento astrofísico crucial.\n* Este hallazgo aporta valiosa información sobre la composición química de los entornos donde se forman estrellas y planetas.\n* La presencia de metano sugiere procesos químicos similares en los discos protoplanetarios de otros sistemas estelares.",
+      "extended_context": "El telescopio espacial James Webb de la NASA ha logrado un descubrimiento significativo al detectar metano en el cometa interestelar 3I/ATLAS. Este cometa, originario de fuera de nuestro sistema solar, ofrece una ventana única a la química de otras regiones de la Vía Láctea. La presencia de metano, una molécula orgánica relativamente compleja, es un indicador crucial para entender las condiciones iniciales en las que se forman los sistemas planetarios.\n\nLos científicos creen que esta composición química puede revelar similitudes en los procesos de formación de otros sistemas solares con el nuestro. El estudio de cometas interestelares como 3I/ATLAS permite a los astrónomos analizar directamente material que no ha sido alterado por la radiación solar durante miles de millones de años dentro de nuestro sistema. Estos datos son vitales para afinar los modelos de formación planetaria y para comprender mejor la distribución de los componentes esenciales para la vida en el universo.",
+      "links": [
+        {
+          "name": "Fuente 1",
+          "url": "https://science.nasa.gov/blogs/3iatlas/2026/06/01/nasas-webb-detects-methane-on-interstellar-comet-3i-atlas/"
+        },
+        {
+          "name": "Fuente 2",
+          "url": "https://www.sci.news/astronomy/webb-methane-interstellar-comet-3i-atlas-14810.html"
+        },
+        {
+          "name": "Fuente 3",
+          "url": "https://www.skyatnightmagazine.com/news/3i-atlas-james-webb-space-telescope-december-2025"
+        }
+      ]
+    },
+    {
+      "id": "blue-origin-investiga-explosion-de-cohete-new-glenn",
+      "category": "ciencias",
+      "title": "Blue Origin investiga explosión de cohete New Glenn",
+      "short_summary": "Blue Origin inicia investigación sobre explosión de su cohete New Glenn durante pruebas.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108313976-1780075877867-2026-05-29T110544Z_113529756_RC2YILAZB7RN_RTRMADP_3_BLUE-ORIGIN-TEST-EXPLOSION.JPG?v=1780075991&w=1480&h=833&ffmt=webp&vtcrop=y",
+      "context": "* Un fallo catastrófico durante una prueba del cohete New Glenn de Blue Origin resultó en una explosión.\n* La compañía ha lanzado una investigación técnica exhaustiva para determinar las causas del incidente y sus consecuencias.\n* Se estima que la plataforma de lanzamiento podría no ser restaurada hasta 2028, retrasando futuros planes espaciales.",
+      "extended_context": "Blue Origin, la compañía espacial de Jeff Bezos, ha iniciado una investigación técnica profunda tras la explosión y destrucción de varios componentes de su cohete New Glenn durante una fase de pruebas. El incidente, descrito como una \"anomalía\", representa un revés significativo para la empresa en su carrera por competir en el mercado de lanzamientos espaciales. La explosión no solo ha dañado severamente el prototipo, sino que también ha causado destrozos en la infraestructura de la plataforma de lanzamiento.\n\nExpertos de la industria y la NASA, como Isaacman, sugieren que la restauración de la plataforma de lanzamiento podría tardar hasta el año 2028, lo que implica un retraso considerable en los futuros planes de Blue Origin, incluyendo sus misiones tripuladas y lanzamientos comerciales. Este tipo de incidentes subraya los altos riesgos inherentes al desarrollo de tecnología espacial y la meticulosa ingeniería requerida para asegurar la fiabilidad y seguridad de los cohetes.",
+      "links": [
+        {
+          "name": "Fuente 1",
+          "url": "https://edition.cnn.com/2026/05/28/science/blue-origin-rocket-anomaly"
+        },
+        {
+          "name": "Fuente 2",
+          "url": "https://www.theguardian.com/science/2026/may/29/blue-origin-rocket-explodes"
+        },
+        {
+          "name": "Fuente 3",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-goes-boom-satellite-cameras-zoom-explosive-blue-origin-damage-is-visible-from-space"
+        },
+        {
+          "name": "Fuente 4",
+          "url": "https://www.cnbc.com/2026/06/01/blue-origin-launchpad-may-not-be-restored-until-2028-nasas-isaacman.html"
+        }
+      ]
+    },
+    {
+      "id": "consumo-energetico-de-ia-se-duplicara-para-2030",
+      "category": "sustentabilidad",
+      "title": "Consumo energético de IA se duplicará para 2030",
+      "short_summary": "Investigación de la ONU advierte que el consumo energético de la IA se duplicará drásticamente.",
+      "image": "https://qz.com/cdn-cgi/image/width=1920,quality=85,format=auto/https://assets.qz.com/media/c2b1ed56b1ddcfd7d3f8f6c341ba2617.jpg",
+      "context": "* Un estudio de la ONU proyecta que el consumo de energía de la IA se duplicará hacia el año 2030.\n* Este aumento significativo impactará la demanda global de electricidad y los recursos hídricos para refrigeración.\n* La expansión de centros de datos para IA plantea desafíos urgentes para la sustentabilidad ambiental.",
+      "extended_context": "La creciente expansión y adopción de la inteligencia artificial a nivel global plantea un desafío ambiental significativo. Investigadores de la ONU han advertido que el consumo energético de la IA se duplicará drásticamente para el año 2030, con implicaciones directas en la demanda mundial de electricidad y los recursos hídricos. Este aumento se debe principalmente a la operación de centros de datos masivos necesarios para entrenar y ejecutar los complejos modelos de IA, que requieren grandes cantidades de energía para el procesamiento y una considerable cantidad de agua para la refrigeración.\n\nLa proyección indica que en 2030, la IA podría consumir tanta agua como 1.300 millones de personas, lo que subraya la urgencia de buscar soluciones más eficientes y sustentables. La comunidad internacional y las empresas tecnológicas están llamadas a desarrollar estrategias para mitigar esta huella ambiental, desde la mejora de la eficiencia energética de los chips hasta la implementación de energías renovables en los centros de datos. La sustentabilidad de la inteligencia artificial se convierte así en un tema crítico para el futuro tecnológico y planetario.",
+      "links": [
+        {
+          "name": "Fuente 1",
+          "url": "https://www.reuters.com/business/energy/ai-double-data-centre-power-water-consumption-by-2030-un-researchers-say-2026-06-03/"
+        },
+        {
+          "name": "Fuente 2",
+          "url": "https://elpais.com/tecnologia/2026-06-03/la-ia-consumira-en-2030-tanta-agua-como-1300-millones-de-personas.html"
+        },
+        {
+          "name": "Fuente 3",
+          "url": "https://apnews.com/article/ai-data-centers-environment-climate-footprint-a792f184a9f2833b5388dbae8b41ca95"
+        }
+      ]
+    },
+    {
+      "id": "desalinizacion-solar-pasiva-sin-residuos-un-gran-avance",
+      "category": "sustentabilidad",
+      "title": "Desalinización solar pasiva sin residuos: un gran avance",
+      "short_summary": "Nuevo método permite desalinizar agua de mar usando energía solar pasiva y sin producir residuos.",
+      "image": "https://ingeoexpert.com/wp-content/uploads/2017/01/Planta_desaladora-1.jpg",
+      "context": "* Científicos desarrollaron un innovador sistema de desalinización de agua de mar que opera con energía solar.\n* El método es completamente pasivo y no genera residuos contaminantes, marcando un hito en la sustentabilidad.\n* Esta tecnología promete una solución eficiente y ecológica para la escasez global de agua potable.",
+      "extended_context": "Un avance significativo en la tecnología de desalinización ha sido logrado con el desarrollo de un nuevo sistema capaz de filtrar agua de mar utilizando únicamente energía solar pasiva y sin generar residuos. Este método representa una prometedora solución a la creciente escasez de agua dulce en diversas partes del mundo, ofreciendo una alternativa mucho más sostenible a las plantas desalinizadoras convencionales, que suelen ser energéticamente intensivas y producen salmuera residual.\n\nLa técnica se basa en principios de evaporación y condensación impulsados por la energía solar natural, sin necesidad de componentes complejos o un alto consumo eléctrico. Este enfoque pasivo no solo reduce drásticamente los costos operativos, sino que también minimiza el impacto ambiental, ya que evita la descarga de subproductos nocivos al ecosistema. Publicado en revistas científicas de prestigio, este descubrimiento podría transformar el acceso al agua potable, especialmente en comunidades remotas o regiones áridas con abundante luz solar.",
+      "links": [
+        {
+          "name": "Fuente 1",
+          "url": "https://www.sciencedaily.com/releases/2026/05/260530053418.htm"
+        },
+        {
+          "name": "Fuente 2",
+          "url": "https://www.nature.com/articles/s41377-026-02315-4"
+        }
+      ]
+    },
+    {
+      "id": "pasaporte-de-baterias-trazabilidad-obligatoria-para-litio",
+      "category": "sustentabilidad",
+      "title": "Pasaporte de Baterías: Trazabilidad obligatoria para litio",
+      "short_summary": "Nuevo \"Pasaporte de Baterías\" introducirá trazabilidad obligatoria para el litio y sus componentes.",
+      "image": "https://cenital.com/wp-content/smush-webp/2023/11/Litio.jpeg.webp",
+      "context": "* Se implementará un \"Pasaporte de Baterías\" obligatorio para garantizar la trazabilidad del litio.\n* Este sistema revelará el origen y la cadena de suministro de las baterías, promoviendo mayor transparencia.\n* La iniciativa busca fomentar prácticas más sustentables y éticas en la producción y reciclaje de baterías.",
+      "extended_context": "En un esfuerzo por impulsar la sustentabilidad y la transparencia en la cadena de suministro de baterías de litio, se ha anunciado la implementación de un \"Pasaporte de Baterías\" obligatorio. Este sistema, concebido como un \"DNI\" digital para cada batería, permitirá rastrear su origen, composición y huella ambiental a lo largo de todo su ciclo de vida, desde la extracción de las materias primas hasta su reciclaje. La iniciativa responde a la creciente demanda de vehículos eléctricos y dispositivos electrónicos, y la necesidad de asegurar que la producción de sus componentes sea ética y responsable.\n\nLíderes de la industria como BASF, BMW y Siemens están involucrados en el desarrollo y la implementación de estos pasaportes digitales, que se espera que sean obligatorios en la Unión Europea para vehículos eléctricos y aplicaciones industriales. El objetivo principal es promover la economía circular, reducir el impacto ambiental de la minería del litio y garantizar condiciones laborales justas. Esta medida representa un paso crucial hacia una industria de baterías más responsable y un consumo más consciente.",
+      "links": [
+        {
+          "name": "Fuente 1",
+          "url": "https://www.globalbattery.org/battery-passport/"
+        },
+        {
+          "name": "Fuente 2",
+          "url": "https://www.engineerlive.com/content/new-eu-battery-passports-evs-and-industrial-applications"
+        },
+        {
+          "name": "Fuente 3",
+          "url": "https://sustainabilitymag.com/news/basf-bmw-siemens-digital-passports-batteries"
+        },
+        {
+          "name": "Fuente 4",
+          "url": "https://www.globalbattery.org/about/"
+        },
+        {
+          "name": "Fuente 5",
+          "url": "https://www.capgemini.com/solutions/product-traceability-for-automotive/"
+        }
+      ]
+    }
+  ]
+}

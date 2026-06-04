@@ -1,5 +1,5 @@
 ---
-import { getCategoryColor } from '../config/constants';
+import { getCategoryColor, CATEGORIES } from '../config/constants';
 
 interface Props {
   category: string;
@@ -8,10 +8,12 @@ interface Props {
 
 const { category, className = '' } = Astro.props;
 const color = getCategoryColor(category);
+const categoryObj = CATEGORIES.find(c => c.id === category.toLowerCase());
+const label = categoryObj ? categoryObj.label : category;
 ---
 
 <span class={`category-tag ${className}`} style={`--category-color: ${color}`}>
-  {category}
+  {label}
 </span>
 
 <style>

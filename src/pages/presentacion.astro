@@ -103,64 +103,70 @@ for (let i = 0; i < maxItems; i++) {
             <div class="footer">EDICIÓN {data.date}</div>
         </div>
 
-        {interleavedNews.map((item) => (
-            <>
-                <!-- Slide A: Título -->
-                <div class="slide" data-color={item.color} data-duration="8000">
-                    <div class="category" style={`color: ${item.color}`}>{item.category}</div>
-                    <div class="title">{item.title}</div>
-                    <div class="summary">{item.short_summary}</div>
-                    <div class="footer">THE LOOP | {data.date}</div>
-                </div>
+        {interleavedNews.map((item) => {
+            const categoryObj = CATEGORIES.find(c => c.id === item.category.toLowerCase());
+            const categoryLabel = categoryObj ? categoryObj.label : item.category;
+            const categoryColor = categoryObj ? categoryObj.color : "#3b82f6";
 
-                <!-- Slide B: Detalle -->
-                <div class="slide" data-color={item.color} data-duration="12000">
-                    <div class="detail-container">
-                        <div class="detail-image">
-                            <img src={item.image} alt={item.title} onerror="this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80'" />
-                        </div>
-                        <div class="detail-text">
-                            <div class="category" style={`color: ${item.color}`}>{item.category}</div>
-                            <div class="detail-context">
-                                {item.context.split('\n').map((line) => {
-                                    if (!line.trim().startsWith('*') && line.trim() !== "") {
-                                        const parts = line.split(/(\*\*.*?\*\*)/g);
-                                        return <p>{parts.map(part => {
-                                            if (part.startsWith('**') && part.endsWith('**')) {
-                                                return <strong style="color: white; font-weight: 800;">{part.slice(2, -2)}</strong>;
-                                            }
-                                            return part;
-                                        })}</p>;
-                                    }
-                                    return null;
-                                })}
+            return (
+                <>
+                    <!-- Slide A: Título -->
+                    <div class="slide" data-color={categoryColor} data-duration="8000">
+                        <div class="category" style={`color: ${categoryColor}`}>{categoryLabel}</div>
+                        <div class="title" style={`color: white`}>{item.title}</div>
+                        <div class="summary">{item.short_summary}</div>
+                        <div class="footer">THE LOOP | {data.date}</div>
+                    </div>
+                    <!-- Slide B: Detalle -->
+                    <div class="slide" data-color={categoryColor} data-duration="12000">
+                        <div class="detail-container">
+                            <div class="detail-image">
+                                <img src={item.image} alt={item.title} onerror="this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80'" />
                             </div>
-                            <ul class="detail-bullets">
-                                {item.context.split('\n').map((line) => {
-                                    if (line.trim().startsWith('*')) {
-                                        const cleanText = line.trim().substring(1).trim();
-                                        const parts = cleanText.split(/(\*\*.*?\*\*)/g);
-                                        return <li>{parts.map(part => {
-                                            if (part.startsWith('**') && part.endsWith('**')) {
-                                                return <strong style="color: white; font-weight: 800;">{part.slice(2, -2)}</strong>;
+                            <div class="detail-text">
+                                <div class="category" style={`color: ${categoryColor}`}>{categoryLabel}</div>
+                                <div class="detail-text-content">
+                                    <div class="detail-context">
+                                        {item.context.split('\n').map((line) => {
+                                            if (!line.trim().startsWith('*') && line.trim() !== "") {
+                                                const parts = line.split(/(\*\*.*?\*\*)/g);
+                                                return <p>{parts.map(part => {
+                                                    if (part.startsWith('**') && part.endsWith('**')) {
+                                                        return <strong style="color: white; font-weight: 800;">{part.slice(2, -2)}</strong>;
+                                                    }
+                                                    return part;
+                                                })}</p>;
                                             }
-                                            return part;
-                                        })}</li>;
-                                    }
-                                    return null;
-                                })}
-                            </ul>
+                                            return null;
+                                        })}
+                                    </div>
+                                    <ul class="detail-bullets">
+                                        {item.context.split('\n').map((line) => {
+                                            if (line.trim().startsWith('*')) {
+                                                const cleanText = line.trim().substring(1).trim();
+                                                const parts = cleanText.split(/(\*\*.*?\*\*)/g);
+                                                return <li>{parts.map(part => {
+                                                    if (part.startsWith('**') && part.endsWith('**')) {
+                                                        return <strong style="color: white; font-weight: 800;">{part.slice(2, -2)}</strong>;
+                                                    }
+                                                    return part;
+                                                })}</li>;
+                                            }
+                                            return null;
+                                        })}
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </>
-        ))}
+                </>
+            );
+        })}
 
         <!-- Slide Final -->
         <div class="slide" data-duration="10000">
             <p style="font-size: 2.5rem; color: #94a3b8; margin-bottom: 1rem; font-weight: 700; text-align: center;">Conocé más en:</p>
             <p style="font-size: 5rem; color: white; font-weight: 900; letter-spacing: -2px; margin: 0; white-space: nowrap; text-align: center; width: 100%;">the-weekly-loop.vercel.app</p>
-            <div class="footer">¡GRACIAS POR VER!</div>
         </div>
     </div>
     

@@ -14,6 +14,47 @@ The primary objective is to create an automated yet human-curated weekly news cy
 - **Hosting:** [Vercel](https://vercel.com/).
 - **Live Site:** [the-weekly-loop.vercel.app](https://the-weekly-loop.vercel.app)
 
+## Architecture
+
+```mermaid
+graph TD
+    subgraph "Data Input"
+        CSV[CSV News Data]
+    end
+
+    subgraph "Automation Layer"
+        Python[Python Automation Script]
+        Gemini[Gemini AI API]
+        Python <-->|Prompt & CSV Data| Gemini
+    end
+
+    subgraph "Content Layer"
+        JSON[src/content/news/*.json]
+        Collections[Astro Content Collections]
+        Zod[Zod Schema Validation]
+        JSON -.-> Collections
+        Zod -.-> Collections
+    end
+
+    subgraph "Framework (Astro)"
+        Pages[Astro Pages / Static Routes]
+        Comp[Astro Components]
+        Collections --> Pages
+        Comp --> Pages
+    end
+
+    subgraph "Delivery"
+        Git[Git Repository]
+        Vercel[Vercel CI/CD]
+        Git --> Vercel
+        Vercel -->|Production Build| Web((Live Website))
+    end
+
+    CSV --> Python
+    Python -->|Generates| JSON
+    Pages --> Git
+```
+
 ## Getting Started
 
 ### Prerequisites

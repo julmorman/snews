@@ -66,7 +66,7 @@ Ensure your `GEMINI_API_KEY` is set in a `.env` file (see `.env.example`).
 ```bash
 python3 scripts/generate_week.py week-02.csv
 ```
-The script uses AI to transform your CSV data into a type-safe JSON edition and updates the site references automatically.
+The script uses AI to transform your CSV data into a type-safe JSON edition and updates the site references automatically. The CSV input file must follow the schema and structure specified in [news_example.csv](./news_example.csv).
 
 #### 2. Start the Web Dashboard
 ```bash
@@ -82,6 +82,7 @@ The site will be available at `http://localhost:4321`.
 - `src/layouts/`: Shared page layouts.
 - `src/pages/`: Website routes.
 - `scripts/`: Automation and maintenance scripts.
+- [news_example.csv](./news_example.csv): Reference CSV template detailing the columns and data structure required for weekly imports.
 
 ## Senior Engineering Standards Applied
 

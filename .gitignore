@@ -48,3 +48,7 @@ __pycache__/
 *$py.class
 .venv/
 venv/
+
+# Curation and weekly inputs
+pending_news.json
+week-*.csv

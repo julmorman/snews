@@ -16,6 +16,51 @@ export async function getStaticPaths() {
 }
 
 const { noticia, editionId } = Astro.props;
+
+// Función para obtener el nombre legible de la fuente desde la URL
+const getSourceName = (link: { name: string, url: string }) => {
+    // Si el nombre no es genérico (tipo "Fuente 1"), lo usamos
+    if (link.name && !link.name.toLowerCase().startsWith('fuente')) {
+        return link.name;
+    }
+
+    try {
+        const url = new URL(link.url);
+        let domain = url.hostname.replace('www.', '');
+        
+        // Mapeo de dominios comunes a nombres legibles
+        const commonSources: Record<string, string> = {
+            'lanacion.com.ar': 'La Nación',
+            'infobae.com': 'Infobae',
+            'clarin.com': 'Clarín',
+            'pagina12.com.ar': 'Página 12',
+            'reuters.com': 'Reuters',
+            'bbc.com': 'BBC',
+            'dw.com': 'DW',
+            'elpais.com': 'El País',
+            'aljazeera.com': 'Al Jazeera',
+            'nytimes.com': 'The New York Times',
+            'theguardian.com': 'The Guardian',
+            'cnn.com': 'CNN',
+            'fortune.com': 'Fortune',
+            'gizmodo.com': 'Gizmodo',
+            'cnbc.com': 'CNBC',
+            'inc.com': 'Inc',
+            'france24.com': 'France 24',
+            'tn.com.ar': 'TN',
+            'ambito.com': 'Ámbito',
+            'cronista.com': 'Cronista'
+        };
+
+        if (commonSources[domain]) return commonSources[domain];
+        
+        // Fallback: Capitalizar el primer nombre del dominio
+        const part = domain.split('.')[0];
+        return part.charAt(0).toUpperCase() + part.slice(1);
+    } catch (e) {
+        return link.name;
+    }
+};
 ---
 <Layout title={`${SITE_TITLE} | ${noticia.title}`}>
     <div style="margin-top: 2rem;">
@@ -66,7 +111,7 @@ const { noticia, editionId } = Astro.props;
                         onmouseover="this.style.borderColor='#3b82f6'; this.style.transform='translateY(-2px)'"
                         onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'"
                     >
-                        <span style="font-weight: bold;">{link.name}</span>
+                        <span style="font-weight: bold;">{getSourceName(link)}</span>
                         <span style="color: #94a3b8; font-size: 0.9rem; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; flex: 1;">
                             {link.url}
                         </span>

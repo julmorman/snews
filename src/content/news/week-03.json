@@ -1,0 +1,187 @@
+{
+  "id": "week-03",
+  "date": "11 de Junio",
+  "funny_title": "Semana 03",
+  "news": [
+    {
+      "id": "ee-uu-bombardea-objetivos-militares-en-iran",
+      "category": "geopolítica",
+      "title": "EE.UU. bombardea objetivos militares en Irán elevando la tensión regional",
+      "short_summary": "El conflicto escala tras ataques aéreos estadounidenses contra infraestructura militar estratégica en diversas regiones de Irán.",
+      "image": "https://images.axios.com/gtWblcQXGkZVU28ec435zEz6q-U=/0x0:4000x2250/1920x1080/2026/06/10/1781121950670.jpeg?w=1920",
+      "context": "* Los bombardeos ordenados por Trump responden al derribo de un helicóptero y buscan degradar capacidades defensivas clave.\n* Teherán prometió una respuesta contundente mientras miles de ciudadanos enfrentan cortes de agua por daños en infraestructura pública.\n* La comunidad internacional observa con alarma el riesgo inminente de una guerra abierta con graves consecuencias globales.",
+      "extended_context": "La administración estadounidense ha intensificado sus operaciones militares en territorio iraní, ejecutando ataques aéreos contra lo que describe como objetivos estratégicos de defensa. Estos bombardeos representan la escalada más significativa en años, marcando un punto de inflexión en la volátil relación bilateral. Según informes oficiales, la ofensiva busca neutralizar las capacidades de respuesta de Irán tras incidentes previos que involucraron el derribo de aeronaves norteamericanas.\n\nEn Irán, la situación es crítica debido a que los ataques han afectado indirectamente servicios esenciales, dejando a miles de personas sin acceso a agua potable en medio de una ola de calor. El gobierno de Teherán ha denunciado estas acciones ante organismos internacionales, calificándolas de agresión directa y advirtiendo sobre represalias inminentes que podrían desestabilizar aún más la región del Golfo Pérsico.",
+      "links": [
+        { "name": "Fuente 1", "url": "https://www.bbc.com/news/articles/c4gyp9v0e93o" },
+        { "name": "Fuente 2", "url": "https://www.aljazeera.com/news/liveblog/2026/6/10/iran-war-live-tehran-vows-response-as-us-strikes-over-downed-helicopter" },
+        { "name": "Fuente 3", "url": "https://www.axios.com/2026/06/10/trump-iran-strike-situation-room-meeting" },
+        { "name": "Fuente 4", "url": "https://www.foxnews.com/video/6398103385112" },
+        { "name": "Fuente 5", "url": "https://www.scmp.com/news/world/middle-east/article/3356630/thousands-iranians-left-without-water-searing-heat-after-us-hits-reservoirs" },
+        { "name": "Fuente 6", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-us-strikes-apache/" }
+      ]
+    },
+    {
+      "id": "denuncian-uso-de-fosforo-blanco-en-ataques-israelies-al-libano",
+      "category": "geopolítica",
+      "title": "Denuncian uso de fósforo blanco en ataques israelíes al Líbano",
+      "short_summary": "Investigaciones internacionales analizan evidencia visual sobre el uso de municiones prohibidas contra zonas civiles del sur libanés.",
+      "image": "https://img.turkiyetoday.com/images/2026/6/6/visual-evidence-strengthens-allegations-of-israeli-white-phosphorus-use-in-lebanon-3221440_202606062318_20260606231801_1.jpg",
+      "context": "* La ONU iniciará una investigación formal sobre posibles violaciones al derecho internacional humanitario tras los recientes ataques aéreos.\n* Israel ordenó evacuaciones masivas en la ciudad histórica de Tiro afectando gravemente a la numerosa comunidad cristiana local.\n* El uso de fósforo blanco genera riesgos extremos para la salud humana y daños ecológicos severos en áreas forestales.",
+      "extended_context": "Las denuncias sobre el uso de fósforo blanco por parte de las fuerzas de defensa de Israel en el sur del Líbano han generado una fuerte condena internacional. Organizaciones de derechos humanos han presentado material visual que sugiere el despliegue de este agente químico inflamable en áreas con alta densidad poblacional, lo cual está estrictamente regulado por tratados internacionales. La situación ha forzado el desplazamiento de miles de personas que huyen de los incesantes bombardeos en la zona fronteriza.\n\nSimultáneamente, las órdenes de evacuación emitidas por el ejército israelí han alcanzado ciudades históricas como Tiro, donde la diversidad cultural y religiosa se ve amenazada por el avance del conflicto. La ONU ha manifestado su intención de enviar observadores para documentar posibles crímenes de guerra, mientras el gobierno libanés solicita una intervención urgente para frenar la escalada de violencia que afecta desproporcionadamente a los civiles.",
+      "links": [
+        { "name": "Fuente 1", "url": "https://www.npr.org/2026/06/06/nx-s1-5848668/israel-lebanon-white-phosphorus" },
+        { "name": "Fuente 2", "url": "https://www.reuters.com/world/middle-east/israeli-military-issues-evacuation-order-lebanons-tyre-including-christian-2026-06-09/" },
+        { "name": "Fuente 3", "url": "https://www.aljazeera.com/news/2026/6/10/israel-kills-16-in-lebanon-un-to-probe-international-law-violations" },
+        { "name": "Fuente 4", "url": "https://www.bbc.com/news/articles/cpq3d44l907o" },
+        { "name": "Fuente 5", "url": "https://www.nbcnews.com/world/iran/trump-iran-deal-israel-lebanon-strikes-tyre-christians-rcna349149" }
+      ]
+    },
+    {
+      "id": "drones-ucranianos-atacan-san-petersburgo-en-ofensiva-sin-precedentes",
+      "category": "geopolítica",
+      "title": "Drones ucranianos atacan San Petersburgo en ofensiva sin precedentes",
+      "short_summary": "Ucrania golpea terminales petroleras rusas en una incursión aérea profunda que desafía los sistemas defensivos de Moscú.",
+      "image": "https://s.france24.com/media/display/7c0573b6-5f48-11f1-a4a9-005056a90284/w:720/p:16x9/2026-06-03T090021Z-1627125782-RC27MLAX7XSB-RTRMADP-3-UKRAINE-CRISIS-ST-PETERSBURG-ATTACK.jpg",
+      "context": "* Los ataques alcanzaron una terminal de petróleo estratégica mientras Vladimir Putin rechazaba nuevas propuestas de diálogo diplomático internacional.\n* Rusia calificó la incursión como un hecho sin precedentes debido a la gran distancia recorrida por los drones.\n* La ofensiva busca interrumpir el suministro logístico ruso y debilitar la economía de guerra en centros industriales clave.",
+      "extended_context": "Ucrania ha llevado la guerra al corazón industrial de Rusia mediante un sofisticado ataque coordinado con drones de largo alcance dirigidos a San Petersburgo. Esta operación representa un salto tecnológico significativo para las fuerzas ucranianas, demostrando su capacidad para golpear infraestructura crítica a más de mil kilómetros de la línea del frente. El impacto en las terminales petroleras no solo afecta la logística militar rusa, sino que envía un mensaje político directo al Kremlin sobre la vulnerabilidad de sus fronteras.\n\nPor su parte, el gobierno ruso ha respondido reforzando las defensas antiaéreas en las principales ciudades y calificando el ataque como un acto de desesperación por parte de Kiev. La destrucción de instalaciones energéticas estratégicas ocurre en un momento de estancamiento en las negociaciones de paz, lo que sugiere que ambos bandos están apostando por una intensificación de los golpes económicos para ganar ventaja en el terreno diplomático.",
+      "links": [
+        { "name": "Fuente 1", "url": "https://www.bbc.com/news/articles/cg7498kz808o" },
+        { "name": "Fuente 2", "url": "https://www.dw.com/en/ukraine-hits-st-petersburg-again-after-putin-rejects-talks/a-77445845" },
+        { "name": "Fuente 3", "url": "https://www.bbc.com/news/articles/cpqpqx5qe40o" },
+        { "name": "Fuente 4", "url": "https://www.reuters.com/world/europe/ukrainian-drones-strike-oil-terminal-st-petersburg-putins-davos-gets-under-way-2026-06-03/" }
+      ]
+    },
+    {
+      "id": "argentina-firma-historico-acuerdo-comercial-con-el-reino-unido",
+      "category": "nacional",
+      "title": "Argentina firma histórico acuerdo comercial con el Reino Unido",
+      "short_summary": "El pacto marca el mayor acercamiento económico bilateral entre ambas naciones desde el fin de la guerra.",
+      "image": "https://www.gob.mx/cms/uploads/article/main_image/60234/blog_13mzo-CPTPP.jpg",
+      "context": "* La integración en este bloque comercial busca potenciar las exportaciones argentinas y diversificar socios estratégicos en mercados globales.\n* Representa un giro significativo en la política exterior argentina priorizando el pragmatismo económico sobre disputas históricas territoriales pendientes.\n* Sectores productivos locales aguardan detalles sobre aranceles y beneficios específicos que traerá este renovado vínculo comercial con Londres.",
+      "extended_context": "En un movimiento que rompe con décadas de distanciamiento diplomático, Argentina ha formalizado un acuerdo de libre comercio con el Reino Unido. Este tratado busca facilitar el intercambio de bienes y servicios, eliminando barreras arancelarias en sectores clave como el agroindustrial y el tecnológico. La decisión ha sido celebrada por cámaras empresariales que ven una oportunidad única para acceder a capitales británicos y fortalecer la competitividad de los productos nacionales en el exterior.\n\nSin embargo, el anuncio también ha generado intensos debates internos sobre la postura del país respecto a la soberanía de las Islas Malvinas. El gobierno ha enfatizado que este acuerdo es estrictamente comercial y no implica una renuncia a los reclamos territoriales, sino que adopta un enfoque pragmático para mejorar la situación económica nacional. La implementación de este pacto será monitoreada de cerca por ambos países para asegurar que los beneficios mutuos se materialicen sin afectar las sensibilidades políticas históricas.",
+      "links": [
+        { "name": "Fuente 1", "url": "https://www.perfil.com/noticias/politica/argentina-y-un-acuerdo-de-comercio-con-reino-unido.phtml" },
+        { "name": "Fuente 2", "url": "https://www.clarin.com/politica/primera-vez-guerra-malvinas-argentina-integra-acuerdo-comercial-socio-reino-unido_0_Y8QuqQamvN.html" },
+        { "name": "Fuente 3", "url": "https://es.mercopress.com/2026/06/07/argentina-busca-un-acuerdo-comercial-que-la-uniria-al-reino-unido-por-primera-vez-desde-1982" }
+      ]
+    },
+    {
+      "id": "el-gobierno-publica-el-dato-oficial-de-inflacion-de-mayo",
+      "category": "nacional",
+      "title": "El Gobierno publica el dato oficial de inflación de mayo",
+      "short_summary": "Consultoras privadas y el mercado financiero anticipan cifras que reflejan la dinámica de precios del mes pasado.",
+      "image": "https://www.bbva.es/content/dam/public-web/bbvaes/images/finanzas-vistazo/ef/finanzas-personales/2400x1600/2400x1600-inflacion-subyacente.jpg",
+      "context": "* La inflación en la Ciudad de Buenos Aires registró un alza mensual mientras el acumulado interanual sigue elevado.\n* El Ministerio de Economía espera que el índice oficial ratifique el sendero de desaceleración propuesto por el programa actual.\n* Los alimentos y servicios básicos continúan siendo los rubros con mayor incidencia en el bolsillo de los consumidores.",
+      "extended_context": "La expectativa crece en torno a la publicación del Índice de Precios al Consumidor (IPC) correspondiente al mes de mayo, un indicador vital para medir la efectividad de las medidas económicas vigentes. Analistas privados sugieren que, aunque se observa una tendencia a la baja en ciertos rubros, los ajustes en las tarifas de servicios públicos podrían haber presionado el índice general al alza. Este dato definirá en gran medida la política de tasas de interés y los futuros acuerdos salariales del sector público.\n\nEn las góndolas, la realidad sigue siendo compleja para los sectores de menores ingresos, quienes destinan la mayor parte de su presupuesto a alimentos básicos. El gobierno confía en que la estabilidad del tipo de cambio y el control de la emisión monetaria sigan contribuyendo a una baja gradual de la inflación en el segundo semestre. El mercado, por su parte, observa con atención si la cifra final se alinea con las proyecciones más optimistas o si muestra una resistencia mayor a la esperada.",
+      "links": [
+        { "name": "Fuente 1", "url": "https://www.cronista.com/economia-politica/se-publica-la-inflacion-de-mayo-el-numero-que-anticipan-las-principales-consultoras-y-que-espera-el-gobierno/" },
+        { "name": "Fuente 2", "url": "https://www.infobae.com/economia/2026/06/08/la-inflacion-en-la-ciudad-de-buenos-aires-fue-del-21-en-mayo-y-acumula-un-alza-de-331-en-los-ultimos-doce-meses/" }
+      ]
+    },
+    {
+      "id": "gobierno-y-universidades-firman-acuerdo-tras-tres-años-de-conflicto",
+      "category": "nacional",
+      "title": "Gobierno y universidades firman acuerdo tras tres años de conflicto",
+      "short_summary": "Se selló un pacto salarial y presupuestario que busca garantizar el normal funcionamiento de las casas de estudio.",
+      "image": "https://www.infobae.com/resizer/v2/EYDIFAPBCVHKLBEA3MCG4MZJA4.jpg?auth=e52e4dc6478866b79c607368412be82e22d8fefdaa88c59f4850761d8258a70d&smart=true&width=992&height=660&quality=85",
+      "context": "* A pesar del acuerdo firmado por los rectores la demanda judicial ante la Corte Suprema por fondos adeudados continúa.\n* El incremento presupuestario busca normalizar las actividades académicas tras un periodo prolongado de incertidumbre y de paros docentes.\n* Estudiantes y sindicatos mantienen cautela esperando que las promesas de financiamiento se materialicen en los próximos meses fiscales.",
+      "extended_context": "Tras casi tres años de tensiones y movilizaciones masivas, el gobierno nacional y las autoridades universitarias han logrado sellar un acuerdo histórico para el financiamiento de la educación superior. El pacto incluye un aumento significativo en las partidas destinadas a gastos de funcionamiento y una recomposición salarial para los trabajadores docentes y no docentes. Este paso es visto como una tregua necesaria para evitar la paralización total del sistema educativo público en un año académico crítico.\n\nNo obstante, la desconfianza persiste entre los gremios, quienes advierten que el acuerdo es apenas un piso mínimo para recuperar el poder adquisitivo perdido. Mientras tanto, el proceso judicial iniciado por las universidades contra el Estado nacional sigue su curso en la Corte Suprema, ya que los rectores buscan asegurar que la transferencia de fondos sea automática y no discrecional. La implementación efectiva de estos recursos será fundamental para determinar si el conflicto se ha resuelto de manera definitiva o si solo se trata de una pausa temporal.",
+      "links": [
+        { "name": "Fuente 1", "url": "https://www.infobae.com/politica/2026/06/10/el-gobierno-y-las-universidades-sellaron-un-acuerdo-salarial-y-presupuestario-pero-continua-la-demanda-en-la-corte/" },
+        { "name": "Fuente 2", "url": "https://tn.com.ar/politica/2026/06/10/el-gobierno-y-las-universidades-se-reunien-para-cerrar-el-acuerdo-por-el-financiamiento-y-una-suba-salarial/" },
+        { "name": "Fuente 3", "url": "https://www.lanacion.com.ar/sociedad/tras-casi-tres-anos-de-conflicto-el-gobierno-y-los-rectores-firmaron-un-acuerdo-por-el-nid10062026/" },
+        { "name": "Fuente 4", "url": "https://www.perfil.com/noticias/politica/las-universidades-y-el-gobierno-ante-un-acuerdo-que-no-frena-la-demanda-en-la-corte-suprema-de-justicia.phtml" },
+        { "name": "Fuente 5", "url": "https://www.pagina12.com.ar/2026/06/09/el-gobierno-va-a-firmar-un-acuerdo-con-las-universidades-pero-el-reclamo-sigue-en-la-corte-suprema-de-cuanto-sera-el-aumento/" }
+      ]
+    },
+    {
+      "id": "la-nasa-anuncia-la-tripulacion-para-la-mision-artemis-iii",
+      "category": "ciencias",
+      "title": "La NASA anuncia la tripulación para la misión Artemis III",
+      "short_summary": "Seleccionan a los astronautas que protagonizarán el histórico regreso de la humanidad a la superficie de la Luna.",
+      "image": "https://www.nasa.gov/wp-content/uploads/2026/06/jsc2026e392659.jpg",
+      "context": "* La misión programada para el año 2027 incluirá por primera vez a astronautas de diversas agencias espaciales internacionales.\n* Los elegidos realizarán caminatas lunares en el polo sur del satélite buscando depósitos de agua congelada y minerales.\n* La NASA reafirmó su compromiso con la exploración profunda pese a las críticas por la composición de la tripulación.",
+      "extended_context": "La NASA ha dado un paso fundamental hacia el regreso de los seres humanos a la Luna al anunciar oficialmente a los cuatro miembros de la tripulación de Artemis III. Esta misión no solo representa un hito técnico por ser la primera en aterrizar cerca del polo sur lunar, sino que también simboliza una nueva era de cooperación internacional en el espacio. Entre los seleccionados se encuentran especialistas veteranos y científicos jóvenes que llevarán a cabo experimentos cruciales para futuras bases lunares permanentes.\n\nEl objetivo central de Artemis III es explorar regiones previamente inalcanzables del satélite donde se cree que existen depósitos significativos de hielo de agua. Estos recursos son vitales para la producción de combustible y soporte vital en misiones de larga duración, incluyendo el eventual viaje a Marte. A pesar de los desafíos logísticos y presupuestarios, la agencia espacial confía en que este equipo logrará establecer las bases científicas necesarias para la presencia humana sostenible más allá de la órbita terrestre.",
+      "links": [
+        { "name": "Fuente 1", "url": "https://www.nasa.gov/image-article/artemis-iii-crew-announced/#:~:text=NASA%20astronaut%20Andre%20Douglas%2C%20ESA,as%20the%20Artemis%20III%20crew." },
+        { "name": "Fuente 2", "url": "https://www.skyatnightmagazine.com/news/nasa-artemis-iii-crew" },
+        { "name": "Fuente 3", "url": "https://www.nasa.gov/news-release/nasa-marches-toward-artemis-iii-mission-in-2027-names-crew-members/" },
+        { "name": "Fuente 4", "url": "https://www.nbcnews.com/science/space/nasa-artemis-iii-mission-astronauts-all-male-responds-criticism-rcna349462" },
+        { "name": "Fuente 5", "url": "https://www.aljazeera.com/news/2026/6/9/nasa-announces-astronauts-for-artemis-iii-spaceflight-scheduled-for-2027" }
+      ]
+    },
+    {
+      "id": "anthropic-pide-pausar-el-desarrollo-de-modelos-de-ia-avanzados",
+      "category": "ciencias",
+      "title": "Anthropic pide pausar el desarrollo de modelos de IA avanzados",
+      "short_summary": "La empresa advierte sobre riesgos existenciales y la necesidad de un plan de seguridad global coordinado y urgente.",
+      "image": "https://s.yimg.com/os/en/reuters.ca/d0cf5a7c5e00851ffcc220e780d19850",
+      "context": "* La advertencia surge ante el temor fundado de que los humanos pierdan el control sobre sistemas de inteligencia artificial.\n* Anthropic propone una pausa temporal para establecer marcos éticos y protocolos de seguridad robustos antes de continuar progresando.\n* La propuesta ha generado un intenso debate en el sector tecnológico sobre el equilibrio entre innovación y seguridad social.",
+      "extended_context": "En un giro inesperado para la industria tecnológica, Anthropic, una de las empresas líderes en inteligencia artificial, ha hecho un llamado público a sus competidores para detener temporalmente el desarrollo de modelos más potentes. La compañía argumenta que la velocidad actual del progreso supera nuestra capacidad para comprender y controlar los riesgos potenciales asociados con sistemas altamente autónomos. Según sus fundadores, sin una gobernanza global clara, el riesgo de accidentes catastróficos aumenta de manera exponencial.\n\nEsta petición ha resonado con fuerza en los círculos académicos y gubernamentales, donde se discute la necesidad de regulaciones más estrictas. Mientras algunos ven en esta pausa una oportunidad necesaria para la reflexión ética, otros críticos sugieren que podría ser una maniobra comercial para frenar el avance de rivales directos. Independientemente de las motivaciones, el debate sobre la seguridad de la IA ha pasado de ser una preocupación teórica a un tema central de la agenda geopolítica contemporánea.",
+      "links": [
+        { "name": "Fuente 1", "url": "https://www.reuters.com/business/anthropic-says-ai-labs-need-coordinated-plan-halt-development-if-risks-rise-2026-06-04/" },
+        { "name": "Fuente 2", "url": "https://www.aljazeera.com/economy/2026/6/5/anthropic-urges-ai-labs-to-pause-warns-humans-risk-losing-control" },
+        { "name": "Fuente 3", "url": "https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks" }
+      ]
+    },
+    {
+      "id": "anthropic-lanza-claude-fable-tras-advertir-riesgos-de-la-ia",
+      "category": "ciencias",
+      "title": "Anthropic lanza Claude Fable tras advertir riesgos de la IA",
+      "short_summary": "El nuevo modelo promete capacidades avanzadas de razonamiento manteniendo un enfoque estricto en la seguridad del usuario.",
+      "image": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/3a65/live/82edf440-642b-11f1-a08b-a904eba6340c.jpg.webp",
+      "context": "* Claude Fable representa una evolución en el procesamiento de lenguaje natural diseñada para integrarse en flujos de trabajo complejos.\n* El lanzamiento ocurre pocos días después de que la compañía pidiera cautela global en el desarrollo de redes neuronales.\n* Expertos analizan si las nuevas funcionalidades del modelo respetan los límites éticos propuestos previamente por la propia empresa.",
+      "extended_context": "Apenas unos días después de abogar por una pausa en la industria, Anthropic ha lanzado su modelo más avanzado hasta la fecha: Claude Fable. Esta aparente contradicción ha generado sorpresa, aunque la empresa asegura que este sistema ha sido desarrollado bajo los estándares de seguridad más rigueros que ellos mismos proponen. Claude Fable destaca por su capacidad para manejar razonamientos lógicos extremadamente complejos y por una reducción significativa en los sesgos detectados en versiones anteriores.\n\nEl nuevo modelo está diseñado específicamente para aplicaciones empresariales y científicas donde la precisión es fundamental. Anthropic afirma que la transparencia en el desarrollo de Claude Fable sirve como ejemplo de cómo la innovación puede coexistir con la responsabilidad. Sin embargo, la comunidad tecnológica observa con lupa este lanzamiento, evaluando si las salvaguardas implementadas son realmente tan efectivas como afirma la compañía en su campaña de comunicación.",
+      "links": [
+        { "name": "Fuente 1", "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5" },
+        { "name": "Fuente 2", "url": "https://www.bbc.com/news/articles/ckg701v1dp6o" },
+        { "name": "Fuente 3", "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/" }
+      ]
+    },
+    {
+      "id": "una-anomalia-fria-en-el-atlantico-indica-un-punto-critico",
+      "category": "sustentabilidad",
+      "title": "Una anomalía fría en el Atlántico indica un punto crítico",
+      "short_summary": "El enfriamiento inusual de las aguas sugiere un debilitamiento peligroso de las principales corrientes oceánicas globales actuales.",
+      "image": "https://cdn.mos.cms.futurecdn.net/PAhEBqQ879tgxxyiF3H5dQ-965-80.jpg",
+      "context": "* Científicos advierten que el fenómeno podría alterar drásticamente el clima en Europa y la costa este de Estados Unidos.\n* El debilitamiento de la circulación oceánica es un indicio preocupante del impacto acelerado del cambio climático en los mares.\n* Se estima que estamos cerca de un punto de no retorno que transformaría los ecosistemas marinos de forma permanente.",
+      "extended_context": "Una región del Océano Atlántico Norte ha registrado temperaturas inusualmente bajas, un fenómeno conocido como la \"mancha fría\" que tiene a la comunidad científica en alerta máxima. Este enfriamiento es una señal clara de que la Circulación Meridional de Retorno del Atlántico (AMOC), responsable de distribuir el calor por todo el globo, se está debilitando. Si esta corriente colapsara, las consecuencias climáticas serían catastróas y de gran alcance para la civilización humana.\n\nEl debilitamiento de la AMOC provocaría inviernos mucho más crudos en Europa y un aumento acelerado del nivel del mar en la costa este de Norteamérica. Además, alteraría los patrones de lluvia en los trópicos, afectando la seguridad alimentaria de millones de personas. Los investigadores enfatizan que este \"punto de inflexión\" podría estar mucho más cerca de lo proyectado anteriormente, instando a una acción climática radical y global para evitar una transformación irreversible del sistema climático terrestre.",
+      "links": [
+        { "name": "Fuente 1", "url": "https://www.livescience.com/planet-earth/rivers-oceans/mysterious-cold-blob-in-the-atlantic-is-a-sign-of-the-gulf-stream-weakening-and-thats-bad-news-for-the-us-east-coast" },
+        { "name": "Fuente 2", "url": "https://www.newscientist.com/article/2529078-mysterious-cold-blob-in-the-atlantic-suggests-the-amoc-is-weakening/" },
+        { "name": "Fuente 3", "url": "https://www.newsweek.com/the-atlantics-cold-blob-could-change-weather-across-america-12045642" },
+        { "name": "Fuente 4", "url": "https://www.sciencealert.com/a-strange-cold-blob-in-the-atlantic-signals-were-almost-at-a-tipping-point" }
+      ]
+    },
+    {
+      "id": "google-y-american-airlines-firman-acuerdo-por-combustible-sostenible",
+      "category": "sustentabilidad",
+      "title": "Google y American Airlines firman acuerdo por combustible sostenible",
+      "short_summary": "El pacto busca reducir las emisiones de carbono en la aviación utilizando combustibles alternativos generados con residuos.",
+      "image": "https://imageio.forbes.com/specials-images/imageserve/6a2925b075e4838faf31e010/US-AVIATION-TRANSPORTATION/960x0.jpg?format=jpg&width=1440",
+      "context": "* Esta alianza estratégica representa una inversión masiva en tecnologías verdes para descarbonizar una de las industrias más contaminantes.\n* Google aportará análisis de datos para optimizar rutas y maximizar la eficiencia en el consumo de este nuevo carburante.\n* El acuerdo establece un precedente importante para otras aerolíneas que buscan cumplir con objetivos ambientales a largo plazo.",
+      "extended_context": "En un esfuerzo conjunto por mitigar el impacto ambiental del transporte aéreo, American Airlines y Google han firmado el acuerdo más grande hasta la fecha para el suministro de combustible de aviación sostenible (SAF). Este combustible, producido a partir de materias primas renovables y residuos, permite reducir significativamente las emisiones de gases de efecto invernadero en comparación con el queroseno tradicional. El pacto subraya el papel crucial que las grandes corporaciones tecnológicas pueden desempeñar en la transición energética de otros sectores.\n\nMás allá de la compra de combustible, la colaboración incluye el uso de inteligencia artificial para optimizar las operaciones de vuelo. Algoritmos desarrollados por Google ayudarán a la aerolínea a reducir la formación de estelas de condensación, las cuales contribuyen al calentamiento global. Esta iniciativa integral demuestra que la sostenibilidad en la aviación requiere tanto innovaciones en materiales como una gestión de datos más inteligente para lograr metas de emisiones netas cero en las próximas décadas.",
+      "links": [
+        { "name": "Fuente 1", "url": "https://news.aa.com/news/news-details/2026/American-Airlines-and-Google-sign-record-breaking-sustainable-aviation-fuel-agreement-OPS-OTH-06/default.aspx" },
+        { "name": "Fuente 2", "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/american-airlines-sustainable-aviation-fuel/" },
+        { "name": "Fuente 3", "url": "https://www.forbes.com/sites/marisagarcia/2026/06/10/from-fryers-to-flight-american-and-google-strike-record-saf-deal/" },
+        { "name": "Fuente 4", "url": "https://www.esgdive.com/news/google-american-airlines-sign-long-term-corporate-saf-deal/822521/" }
+      ]
+    },
+    {
+      "id": "detectan-en-buenos-aires-el-basural-mas-contaminante-del-mundo",
+      "category": "sustentabilidad",
+      "title": "Detectan en Buenos Aires el basural más contaminante del mundo",
+      "short_summary": "Un informe satelital revela que el CEAMSE emite siete toneladas de gas metano por cada hora transcurrida.",
+      "image": "https://infoberisso.com.ar/wp-content/uploads/2019/06/Ceamse-portada.jpg",
+      "context": "* El estudio global posiciona al relleno sanitario argentino como el principal foco emisor de gases de efecto invernadero mundial.\n* Autoridades locales se encuentran bajo la lupa por la gestión de residuos y la falta de infraestructura de captura.\n* El metano tiene un potencial de calentamiento mucho mayor que el dióxido de carbono afectando seriamente las metas climáticas.",
+      "extended_context": "Un estudio realizado con tecnología satelital de última generación ha identificado al relleno sanitario del CEAMSE, en las afueras de Buenos Aires, como la mayor fuente individual de metano proveniente de residuos en todo el planeta. Los datos indican que la instalación libera aproximadamente 7.6 toneladas de este potente gas de efecto invernadero por hora, una cifra que supera a cualquier otro basural monitoreado globalmente. El hallazgo pone de manifiesto los graves fallos en el sistema de gestión y tratamiento de desechos urbanos.\n\nEl metano es responsable de una gran parte del calentamiento global antropogénico, y su mitigación es considerada una de las formas más rápidas de frenar el aumento de las temperaturas. Los expertos señalan que el CEAMSE carece de sistemas adecuados para capturar y quemar este gas, lo que permitiría convertirlo en energía o al menos reducir su impacto climático. Este informe aumenta la presión sobre los gobiernos provinciales y nacionales para que realicen inversiones urgentes en infraestructura ambiental y promuevan políticas de reciclaje más agresivas y efectivas.",
+      "links": [
+        { "name": "Fuente 1", "url": "https://www.canal26.com/planeta/2026/05/12/un-basural-argentino-es-el-mayor-emisor-de-gas-metano-del-mundo-ubicado-en-las-afueras-de-buenos-aires-encabeza-el-ranking-mundial-de-contaminacion/" },
+        { "name": "Fuente 2", "url": "https://www.infobae.com/america/medio-ambiente/2026/06/10/un-estudio-global-evaluo-los-basurales-mas-contaminantes-localizo-en-argentina-al-mayor-emisor-de-metano/?outputType=amp-type" },
+        { "name": "Fuente 3", "url": "https://www.meteored.com.ar/noticias/actualidad/el-mayor-emisor-de-metano-entre-basurales-del-mundo-esta-en-buenos-aires-el-informe-que-pone-bajo-la-lupa-al-ceamse.html" },
+        { "name": "Fuente 4", "url": "https://www.clarin.com/zonales/ceamse-campo-mayo-mayor-emisora-metano-mundo_0_7nM2ZXbRA1.html" }
+      ]
+    }
+  ]
+}

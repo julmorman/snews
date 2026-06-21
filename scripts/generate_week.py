@@ -66,7 +66,7 @@ JSON Structure:
   "news": [
     {{
       "id": "unique-kebab-case-id",
-      "category": "must be one of: geopolítica, nacional, ciencias, sustentabilidad",
+      "category": "must be one of: geopolítica, nacional, ciencias, sustentabilidad, opinión",
       "title": "Short, objective title",
       "short_summary": "Unique, non-repetitive brief summary (max 15 words)",
       "image": "EXACT URL FROM CSV",

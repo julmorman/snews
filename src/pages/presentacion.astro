@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { CATEGORIES } from '../config/constants';
+import { CATEGORIES, matchCategory } from '../config/constants';
 
 const allEditions = await getCollection('news');
 allEditions.sort((a, b) => b.id.localeCompare(a.id));
@@ -14,7 +14,7 @@ const { data } = latestEdition;
 
 const categoriesOrder = CATEGORIES.map(c => c.id);
 const newsByCategory = categoriesOrder.map(catId => 
-    data.news.filter(n => n.category.toLowerCase() === catId)
+    data.news.filter(n => matchCategory(n.category, catId))
 );
 
 const interleavedNews = [];
@@ -210,7 +210,7 @@ for (let i = 0; i < maxItems; i++) {
         </div>
 
         {interleavedNews.map((item) => {
-            const categoryObj = CATEGORIES.find(c => c.id === item.category.toLowerCase());
+            const categoryObj = CATEGORIES.find(c => matchCategory(c.id, item.category));
             const categoryLabel = categoryObj ? categoryObj.label : item.category;
             const categoryColor = categoryObj ? categoryObj.color : "#3b82f6";
 

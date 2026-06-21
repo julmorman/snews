@@ -22,10 +22,27 @@ export const CATEGORIES = [
     id: 'sustentabilidad',
     label: 'SUSTENTABILIDAD',
     color: '#10b981'
+  },
+  {
+    id: 'opinión',
+    label: 'OPINIÓN',
+    color: '#8b5cf6'
   }
 ];
 
+export const normalizeCategory = (cat: string) => {
+  return cat.toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/s$/, ''); // maps 'ciencias' to 'ciencia' or vice versa just in case
+};
+
+export const matchCategory = (catA: string, catB: string) => {
+  return normalizeCategory(catA) === normalizeCategory(catB);
+};
+
 export const getCategoryColor = (categoryId: string) => {
-  const category = CATEGORIES.find(c => c.id === categoryId.toLowerCase());
+  const category = CATEGORIES.find(c => matchCategory(c.id, categoryId));
   return category ? category.color : '#3b82f6';
 };
+

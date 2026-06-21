@@ -1,6 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
-import { SITE_TITLE } from '../config/constants';
+import { SITE_TITLE, getCategoryColor } from '../config/constants';
 
 const allEditions = await getCollection('news');
 allEditions.sort((a, b) => b.id.localeCompare(a.id));
@@ -56,7 +56,7 @@ const { data } = latestEdition;
                 <div>
                     <div class="label">{(i*2)+1}. {item.category} (Título)</div>
                     <div class="slide-preview">
-                        <div class="m-category" style={`color: ${item.color}`}>{item.category}</div>
+                        <div class="m-category" style={`color: ${getCategoryColor(item.category)}`}>{item.category}</div>
                         <div class="m-news-title">{item.title}</div>
                         <div class="m-summary">{item.short_summary}</div>
                     </div>
@@ -65,7 +65,7 @@ const { data } = latestEdition;
                     <div class="label">{(i*2)+2}. {item.category} (Detalle)</div>
                     <div class="slide-preview">
                         <div class="m-detail">
-                            <img src={item.image} class="m-img" onerror="this.style.background='#ef4444'" />
+                            <img src={item.image} class="m-img" onerror={`this.style.background='${getCategoryColor(item.category)}'`} />
                             <div class="m-text">
                                 <ul class="m-bullets">
                                     {item.context.split('\n').filter(l => l.trim().startsWith('*')).map(l => (

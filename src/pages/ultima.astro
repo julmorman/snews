@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import NewsCard from '../components/NewsCard.astro';
 import { getCollection } from 'astro:content';
-import { CATEGORIES, SITE_TITLE } from '../config/constants';
+import { CATEGORIES, SITE_TITLE, matchCategory } from '../config/constants';
 
 // Obtener la edición más reciente
 const allEditions = await getCollection('news');
@@ -19,7 +19,7 @@ const { data } = latestEdition;
 const groupedNews = CATEGORIES.map(cat => ({
     name: cat.label,
     color: cat.color,
-    items: data.news.filter(n => n.category.toLowerCase() === cat.id)
+    items: data.news.filter(n => matchCategory(n.category, cat.id))
 })).filter(group => group.items.length > 0);
 ---
 

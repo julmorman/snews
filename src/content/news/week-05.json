@@ -1,0 +1,329 @@
+{
+  "id": "week-05",
+  "date": "25 de Junio",
+  "funny_title": "Semana 05",
+  "news": [
+    {
+      "id": "iran-us-conversaciones-contradicciones-israel-libano",
+      "category": "geopolítica",
+      "title": "Inician conversaciones Irán-EE. UU: Contradicciones y amenazas persistentes.",
+      "short_summary": "Diálogos complejos entre Washington y Teherán. Israel continúa involucrado en Líbano.",
+      "image": "https://www.vaticannews.va/content/dam/vaticannews/agenzie/images/afp/2026/06/21/16/1782050493906.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.1500.844.jpeg",
+      "context": "* Negociaciones entre Irán y EE.UU. continúan con desafíos constantes y declaraciones cruzadas. \n* Amenazas del presidente Trump complican el ambiente de las ya frágiles conversaciones. \n* Israel mantiene presencia militar en Líbano, añadiendo tensión regional al conflicto. ",
+      "extended_context": "Las negociaciones entre Irán y Estados Unidos permanecen en un ciclo de avances y retrocesos, caracterizado por profundas contradicciones. A pesar de los esfuerzos diplomáticos para abordar la cuestión nuclear y la estabilidad regional, las posturas divergentes de ambas naciones dificultan un consenso duradero. La reciente aparición de amenazas por parte del expresidente Trump añade una capa adicional de incertidumbre, sugiriendo una posible regresión en cualquier progreso alcanzado.\n\nLa situación se complica aún más con la constante presencia y actividad de Israel en Líbano. Esta dinámica regional introduce un elemento de alta tensión, ya que las acciones de Israel son percibidas por Irán como una amenaza directa a sus aliados y su influencia en la región. La interconexión de estos factores geopolíticos crea un escenario volátil donde cada movimiento puede tener repercusiones significativas.\n\nLos mediadores internacionales continúan buscando vías para estabilizar el diálogo y prevenir una escalada mayor, pero la complejidad de los intereses en juego y la desconfianza mutua representan obstáculos formidables para un acuerdo integral y sostenible en el futuro cercano.",
+      "links": [
+        {
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com/2026/06/23/us/politics/trump-iran-talks-contradictions.html"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/23/iran-says-technical-talks-with-us-in-switzerland-conclude-successfully"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/24/israel-defence-minister-israel-katzrefuses-to-pull-out-of-southern-lebanon-undermining-iran-peace-talks"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/iran-us-war-talks-suspended-trump-mou-israel-lebanon-hezbollah-fighting/"
+        },
+        {
+          "name": "Vatican News",
+          "url": "https://www.vaticannews.va/en/world/news/2026-06/us-iran-israel-talks-switzerland-war-strait-hormuz-lebanon.html"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/23/what-the-us-and-iran-agreed-and-disagreed-on-first-day-of-talks"
+        }
+      ]
+    },
+    {
+      "id": "israel-libano-escalada-conflicto",
+      "category": "geopolítica",
+      "title": "Escalada del conflicto Israel-Líbano.",
+      "short_summary": "Tensión aumenta con ataques. Hezbolá denuncia violación de tregua.",
+      "image": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/f126/live/8b76c460-6f1c-11f1-8546-8f19e4fe30f4.jpg",
+      "context": "* Nuevos ataques israelíes en Líbano provocaron la muerte de dos personas, elevando la tensión. \n* Hezbolá condenó las acciones, calificándolas como una grave violación directa a la tregua. \n* La violencia eleva la preocupación por la estabilidad en la ya volátil frontera. ",
+      "extended_context": "El conflicto entre Israel y Líbano ha experimentado una nueva escalada esta semana, con informes de ataques israelíes que resultaron en la muerte de dos personas en territorio libanés. Estos incidentes han sido fuertemente condenados por Hezbolá, que acusa a Israel de violar los acuerdos de tregua existentes y de desestabilizar la región. La situación en la frontera se vuelve cada vez más tensa, con un aumento en los intercambios de fuego y las declaraciones beligerantes.\n\nLa preocupación internacional crece ante la posibilidad de una escalada mayor que podría arrastrar a otros actores regionales. La comunidad diplomática ha instado a ambas partes a la contención y al respeto de los acuerdos previos, buscando evitar un conflicto a gran escala que tendría consecuencias devastadoras para la población civil y la infraestructura de ambos países.\n\nEste resurgimiento de la violencia subraya la fragilidad de la paz en la región y la necesidad urgente de soluciones políticas que aborden las causas profundas del conflicto, garantizando la seguridad y estabilidad a largo plazo.",
+      "links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/6/23/israeli-fire-kills-two-in-lebanon-as-hezbollah-slams-truce-violation"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c36ykpw0yego"
+        },
+        {
+          "name": "The Jerusalem Post",
+          "url": "https://www.jpost.com/middle-east/article-900368"
+        },
+        {
+          "name": "NPR",
+          "url": "https://www.npr.org/2026/06/21/nx-s1-5865705/lebanon-turtle-conservationist-killed-israeli-airstrike"
+        }
+      ]
+    },
+    {
+      "id": "inspecciones-nucleares-iran-onu-acuerdo",
+      "category": "geopolítica",
+      "title": "Posible renovación de inspecciones nucleares en Irán",
+      "short_summary": "Jefe nuclear de la ONU confirma visitas aunque Teherán condiciona a acuerdo final.",
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-860w,f_avif,q_auto:eco,dpr_2/rockcms/2025-08/250829-Bushehr-mb-1629-722087.jpg",
+      "context": "* El director del organismo nuclear de la ONU anunció próximas visitas a sitios iraníes. \n* Irán condiciona estas inspecciones estrictamente a la firma de un acuerdo nuclear definitivo. \n* La temporalidad de las visitas es un punto clave en las negociaciones nucleares. ",
+      "extended_context": "El jefe del organismo nuclear de las Naciones Unidas ha anunciado que sus inspectores visitarán sitios nucleares en Irán, un paso crucial en la supervisión del programa atómico iraní. Sin embargo, Teherán ha respondido que estas visitas solo se permitirán una vez que se alcance un acuerdo final y completo sobre el controvertido programa. Esta divergencia en los plazos y condiciones subraya las persistentes tensiones entre Irán y la comunidad internacional.\n\nLa cuestión de cuándo y cómo se realizarán estas inspecciones es un punto central en las negociaciones. Mientras la ONU y las potencias occidentales buscan una mayor transparencia y acceso inmediato para verificar el cumplimiento, Irán insiste en que las inspecciones son parte de un paquete más amplio de concesiones que deben acordarse primero. Esto refleja la profunda desconfianza y la complejidad de las negociaciones diplomáticas.\n\nLa resolución de este desacuerdo sobre la secuencia de los eventos es fundamental para desescalar las tensiones y avanzar hacia una solución pacífica del programa nuclear iraní, que ha sido una fuente de preocupación global durante años.",
+      "links": [
+        {
+          "name": "NBC News",
+          "url": "https://www.nbcnews.com/world/iran/un-inspectors-will-visit-irans-nuclear-sites-us-deal-nuclear-agency-bo-rcna351494"
+        },
+        {
+          "name": "Iran International",
+          "url": "https://www.iranintl.com/en/202606237072"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/22/iran-us-talks-progress-pakistan-qatar-lebanon-israel"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cpd395zv81vo"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/live-updates/us-iran-trump-deal-nuclear-inspections-iaea-timing-not-essential/"
+        }
+      ]
+    },
+    {
+      "id": "china-taiwan-tension-estrecho",
+      "category": "geopolítica",
+      "title": "Tensión en el Estrecho de Taiwán.",
+      "short_summary": "Países occidentales preocupados por actividades marítimas chinas cerca de Taiwán.",
+      "image": "https://img.taipeitimes.com/images/2026/06/23/p02-260623-pic2cAAA.jpg",
+      "context": "* Reino Unido, Francia y Alemania expresan alarma por crecientes actividades chinas cerca de Taiwán. \n* Pekín realiza mapeos detallados del lecho marino en aguas orientales de la isla. \n* Las maniobras militares y de exploración aumentan la preocupación sobre la estabilidad regional. ",
+      "extended_context": "La tensión en el Estrecho de Taiwán se ha incrementado esta semana, con Reino Unido, Francia y Alemania manifestando su alarma por las recientes actividades marítimas de China en las cercanías de la isla. Pekín ha estado realizando extensos mapeos del lecho marino en las aguas orientales de Taiwán, una acción que los aliados occidentales interpretan como una escalada de la presión sobre la nación autogobernada.\n\nEstas acciones chinas son vistas como un desafío directo a la soberanía de Taiwán y a la estabilidad en la región del Indo-Pacífico. La preocupación global se centra en el potencial de desestabilización que estas maniobras militares y de exploración podrían generar, aumentando el riesgo de un conflicto en una de las zonas geopolíticas más sensibles del mundo.\n\nLos llamados a la calma y al respeto del statu quo son constantes, pero las operaciones chinas continúan, lo que mantiene la atención internacional sobre este punto crítico. La situación subraya la compleja dinámica de poder y los intereses estratégicos en juego entre China, Taiwán y las potencias occidentales.",
+      "links": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/china/uk-france-germany-raise-alarm-about-chinese-activities-off-eastern-taiwan-2026-06-24/"
+        },
+        {
+          "name": "Focus Taiwan",
+          "url": "https://focustaiwan.tw/politics/202606240009"
+        },
+        {
+          "name": "Taipei Times",
+          "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/06/23/2003859578"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/International/wireStory/uk-germany-france-express-concern-chinese-actions-east-134164362"
+        },
+        {
+          "name": "South China Morning Post",
+          "url": "https://www.scmp.com/news/china/politics/article/3356782/whats-behind-beijings-seabed-mapping-east-taiwan"
+        },
+        {
+          "name": "The Independent",
+          "url": "https://www.the-independent.com/asia/china/china-taiwan-martime-surveys-east-sovereignty-b2999876.html"
+        }
+      ]
+    },
+    {
+      "id": "ucrania-rusia-guerra-drones-contraofensivas",
+      "category": "geopolítica",
+      "title": "Guerra en Ucrania: Drones y contraofensivas.",
+      "short_summary": "Rusia se enfrenta a un flujo masivo de drones ucranianos.",
+      "image": "https://static.themoscowtimes.com/image/article_1360/3e/711643539_1348176347495440_1993868342188175173_n.jpg",
+      "context": "* Crimea implementa medidas de seguridad ante el aumento significativo de drones ucranianos. \n* Putin reconoce la magnitud del flujo de ataques con vehículos no tripulados. \n* Ucrania golpea logística rusa con drones de alcance medio, intensificando el conflicto. ",
+      "extended_context": "La guerra en Ucrania continúa evolucionando con una intensificación de los ataques con drones por parte de ambos bandos. Esta semana, Crimea ha implementado medidas de seguridad reforzadas ante la \"enorme corriente\" de drones ucranianos, según ha reconocido el propio presidente ruso, Vladimir Putin. Este reconocimiento subraya la creciente capacidad de Ucrania para lanzar ataques en profundidad dentro del territorio controlado por Rusia.\n\nLos drones de alcance medio de Ucrania han demostrado ser particularmente efectivos, impactando la logística rusa y obligando a las fuerzas de Moscú a ajustar sus estrategias. La escalada de ataques con drones, incluyendo incursiones en Moscú, ha elevado la retórica de ambas partes y ha generado preocupaciones sobre una mayor escalada del conflicto.\n\nAnalistas militares debaten si esta nueva fase de ataques aéreos representa un punto de inflexión en la guerra o si es parte de una táctica de desgaste prolongada. Lo que es innegable es el impacto psicológico y material de estos ataques en las operaciones militares y la moral de la población.",
+      "links": [
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jun/24/ukraine-war-briefing-crimea-locks-down-as-putin-acknowledges-huge-stream-of-ukrainian-drones"
+        },
+        {
+          "name": "The Moscow Times",
+          "url": "https://www.themoscowtimes.com/2026/06/04/has-the-tide-turned-against-russia-in-the-ukraine-war-a92933"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/06/24/ukraine-russia-drone-strikes-moscow-escalation.html"
+        },
+        {
+          "name": "TASS",
+          "url": "https://tass.com/politics/2151215"
+        },
+        {
+          "name": "CNN",
+          "url": "https://edition.cnn.com/2026/06/20/europe/ukraine-mid-range-drones-russia-logistics-intl-cmd"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c3ryv72pjqno"
+        }
+      ]
+    },
+    {
+      "id": "diputados-debate-proyecto-super-rigi",
+      "category": "nacional",
+      "title": "Diputados debaten \"Super RIGI\".",
+      "short_summary": "Claves del incentivo a inversiones millonarias en el país.",
+      "image": "https://www.infobae.com/resizer/v2/Q67K245BPVWSKQCII4E2R5GDMU.jpg?auth=ae9752157046c891b78bccb3d4aa59b6fd93823d21d32de578cf3fd7c8958ec1&smart=true&width=992&height=661&quality=85",
+      "context": "* La Cámara de Diputados de Argentina debate intensamente el ambicioso proyecto \"Super RIGI\". \n* Busca atraer inversiones millonarias ofreciendo un régimen especial de incentivos fiscales. \n* Se espera que impulse la economía y genere empleo registrado a nivel nacional. ",
+      "extended_context": "La Cámara de Diputados de Argentina está inmersa en el debate del proyecto conocido como \"Super RIGI\" (Régimen de Incentivo a Grandes Inversiones). Este ambicioso programa busca atraer capitales extranjeros y nacionales para proyectos de gran envergadura, prometiendo beneficios fiscales y regulatorios significativos a las empresas que decidan invertir en el país. El objetivo principal es reactivar la economía y generar un impulso considerable en la creación de empleo.\n\nEl \"Super RIGI\" ha generado un amplio debate tanto en el ámbito político como económico. Sus defensores argumentan que es una herramienta indispensable para destrabar grandes inversiones paralizadas y para posicionar a Argentina como un destino atractivo para el capital global. Sin embargo, los críticos expresan preocupaciones sobre la posible concesión de ventajas excesivas que podrían ir en detrimento de la industria nacional o de los pequeños y medianos inversores.\n\nLa aprobación de este proyecto se considera clave para la agenda económica del gobierno, y su impacto potencial en el desarrollo productivo y el mercado laboral es objeto de intensos análisis y expectativas. La sesión en Diputados es crucial para su futuro.",
+      "links": [
+        {
+          "name": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/06/24/10-claves-del-super-rigi-el-proyecto-para-incentivar-inversiones-millonarias-que-se-debate-en-diputados/"
+        },
+        {
+          "name": "Perfil",
+          "url": "https://www.perfil.com/noticias/economia/super-rigi-todos-los-detalles-del-proyecto-que-promete-atraer-nuevas-inversiones-en-el-pais-a40.phtml"
+        },
+        {
+          "name": "Chequeado",
+          "url": "https://chequeado.com/el-explicador/super-rigi-las-3-claves-del-proyecto-que-trata-la-camara-de-diputados/"
+        },
+        {
+          "name": "HCDN",
+          "url": "https://www.hcdn.gob.ar/prensa/noticia/OBTUVO-DICTAMEN-DE-MAYORIA-EL-PROYECTO-DEL-PODER-EJECUTIVO-QUE-ESTABLECE-EL-SUPER-RIGI/"
+        },
+        {
+          "name": "Clarín",
+          "url": "https://www.clarin.com/politica/diputados-hoy-vivo-gobierno-busca-aprobar-super-rigi-acuerdo-fondos-buitre-atrasa-avanzada-opositora-adorni_0_OU9KuRskFi.html"
+        },
+        {
+          "name": "Perfil",
+          "url": "https://www.perfil.com/noticias/politica/diputados-debate-el-super-rigi-y-acuerdos-con-acreedores-en-una-sesion-clave-impulsada-por-el-oficialismo.phtml"
+        },
+        {
+          "name": "IProfesional",
+          "url": "https://www.iprofesional.com/management/458072-se-debate-en-diputados-puede-el-nuevo-super-rigi-mover-la-aguja-del-empleo-registrado"
+        }
+      ]
+    },
+    {
+      "id": "senado-bonaerense-sesion-inaugural",
+      "category": "nacional",
+      "title": "Senado bonaerense sesiona por primera vez en el año.",
+      "short_summary": "Legisladores debaten importantes leyes y la interna política.",
+      "image": "https://dptdsbsas.nyc3.digitaloceanspaces.com/wp-content/uploads/2026/06/23185222/senado2-1536x1027.png",
+      "context": "* El Senado de la provincia de Buenos Aires se reúne en su primera sesión. \n* La agenda legislativa incluye el debate de nuevas leyes y la crucial \"Zona Fría\". \n* La sesión se da en un complejo contexto de intensa interna política bonaerense. ",
+      "extended_context": "El Senado de la provincia de Buenos Aires ha celebrado su primera sesión del año, un evento largamente esperado que marca el inicio formal de su actividad legislativa. La reunión se desarrolla en un contexto de ebullición política, con fuertes internas partidarias que han demorado el inicio de los debates parlamentarios. La agenda es nutrida y abarca temas cruciales para la provincia.\n\nEntre los puntos más destacados, se encuentran la discusión de nuevas leyes que buscan abordar diversas problemáticas provinciales, así como el análisis de la \"Zona Fría\", una normativa que genera particular interés y debate por sus implicancias en la región. La sesión también sirve como escenario para visibilizar las diferentes posturas y alianzas dentro del oficialismo y la oposición.\n\nEste primer encuentro es fundamental para destrabar la actividad legislativa y comenzar a dar curso a los proyectos pendientes, definiendo el ritmo y la dirección de la política bonaerense para el resto del año.",
+      "links": [
+        {
+          "name": "Diputados PBA",
+          "url": "https://diputadosbsas.com.ar/senado-bonaerense-suspension-comisiones/"
+        },
+        {
+          "name": "Ámbito",
+          "url": "https://www.ambito.com/ambito-nacional/el-senado-bonaerense-volvio-sesionar-interna-cielo-abierto-nuevas-leyes-y-el-debate-zona-fria-n6292427"
+        },
+        {
+          "name": "El Editor Platense",
+          "url": "https://eleditorplatense.com/politica/el-senado-bonaerense-sale-de-las-gateras-nd8279aa5-f628-4a2c-9b12-f969f437de64"
+        },
+        {
+          "name": "Infocronos",
+          "url": "https://infocronos.com.ar/nota/56411/el-senado-bonaerense-realizo-la-primera-sesion-ordinaria-del-2026/"
+        }
+      ]
+    },
+    {
+      "id": "meta-lanza-nuevas-gafas-inteligentes",
+      "category": "ciencias",
+      "title": "Meta lanza sus nuevas gafas inteligentes.",
+      "short_summary": "Los \"Meta Glasses\" llegan al mercado con un precio inicial de 299 dólares.",
+      "image": "https://s.yimg.com/lo/mysterio/api/325FCE7B87F8ABDEC47FF846690CDD81A76C688BD9E6A30C23BF6D65583F0904/subgraphmysterio/resizefit_w960;quality_80;format_webp/https:%2F%2Fd29szjachogqwa.cloudfront.net%2Fimages%2Fuser-uploaded%2Fmeta-glasses_8572.jpg",
+      "context": "* Meta presentó sus innovadoras gafas inteligentes, los muy esperados y avanzados \"Meta Glasses\".\n* El nuevo dispositivo sale al mercado con un precio inicial de 299 dólares. \n* La privacidad del usuario y la duración de la batería son puntos clave, aunque debatibles, de su diseño",
+      "extended_context": "Meta ha irrumpido nuevamente en el mercado de la tecnología vestible con el lanzamiento oficial de sus \"Meta Glasses\", unas gafas inteligentes que prometen integrar la realidad aumentada en la vida cotidiana. Presentadas con un precio inicial de 299 dólares, estas gafas buscan ser accesibles para un público más amplio, consolidando la visión de Meta de un futuro inmersivo.\n\nEl diseño y las funcionalidades de los \"Meta Glasses\" han generado interés, especialmente en torno a aspectos como la duración de la batería y las implicaciones de privacidad. La empresa ha trabajado en mejorar estos puntos, buscando equilibrar la innovación tecnológica con la confianza del usuario. La aparición de figuras públicas como Kylie Jenner utilizando el dispositivo ha amplificado su visibilidad.\n\nEste lanzamiento representa un paso significativo en la estrategia de Meta para expandir su ecosistema de realidad virtual y aumentada, apostando por dispositivos que faciliten la interacción digital de una manera más fluida y menos intrusiva. El éxito dependerá de la aceptación del público y de cómo la tecnología se integre en sus hábitos diarios.",
+      "links": [
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html"
+        },
+        {
+          "name": "CNN",
+          "url": "https://edition.cnn.com/2026/06/23/tech/meta-glasses-price"
+        },
+        {
+          "name": "The Verge",
+          "url": "https://www.theverge.com/tech/954052/meta-glasses-hands-on-kylie-jenner-smart-glasses-price-battery-privacy"
+        },
+        {
+          "name": "Elle",
+          "url": "https://www.elle.com/fashion/celebrity-style/a71664812/kylie-jenner-meta-glasses-interview-2026/"
+        }
+      ]
+    },
+    {
+      "id": "spacex-desafios-financieros-mercado",
+      "category": "geopolítica",
+      "title": "SpaceX enfrenta desafíos financieros y de mercado.",
+      "short_summary": "Especulación sobre su verdadera valoración y tras la oferta pública inicial.",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2281235852.jpg?c=16x9&q=w_1544,c_fill/f_avif",
+      "context": "* SpaceX experimenta una desaceleración en su crecimiento, afectando su valoración de mercado. \n* El mercado de bonos y la estructura de deuda generan importantes interrogantes sobre su futuro. \n* Inversionistas vendieron sus acciones tecnológicas ante el temor por tasas de interés y una posible burbuja de IA.",
+      "extended_context": "SpaceX, la compañía aeroespacial de Elon Musk, está enfrentando un período de desafíos financieros y de mercado, lo que ha llevado a una considerable especulación sobre su valoración y el rumbo futuro. Aunque conocida por sus innovadoras misiones espaciales y su tecnología de cohetes reutilizables, los informes sugieren una desaceleración en su expansión, generando preguntas entre inversores y analistas.\n\nEl mercado de bonos y la estructura de deuda de SpaceX son puntos de análisis clave, en un contexto donde el rendimiento de otras grandes empresas tecnológicas también ha fluctuado. \n\nLa empresa se encuentra en una encrucijada, buscando mantener su liderazgo en la industria espacial mientras navega por un panorama económico complejo. La decisión sobre su estrategia financiera, será determinante para su trayectoria a largo plazo y su capacidad de seguir innovando.",
+      "links": [
+        {
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/37bf4703-f441-4adf-bd68-9131299c4171?syn-25a6b1a6=1"
+        },
+        {
+          "name": "CNBC",
+          "url": "https://www.cnbc.com/2026/06/23/spacex-debt-bond-market-ipo.html"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/technology/2026/jun/24/elon-musk-trillionaire-spacex"
+        },
+        {
+          "name": "CNN",
+          "url": "https://edition.cnn.com/2026/06/24/science/spacex-ipo-identity-crisis"
+        },
+        {
+          "name": "The Atlantic",
+          "url": "https://www.theatlantic.com/ideas/2026/06/spacex-ipo-tech-companies/687659/"
+        }
+      ]
+    },
+    {
+      "id": "keir-starmer-renuncia-crisis-politica-reino-unido",
+      "category": "geopolítica",
+      "title": "Keir Starmer renuncia: ¿Crisis política en Reino Unido?",
+      "short_summary": "Líder laborista dimite tras revuelta interna y derrotas electorales.",
+      "image": "https://images.theconversation.com/files/743204/original/file-20260622-57-209g41.jpg?ixlib=rb-4.1.0&rect=0%2C1%2C6384%2C4256&q=50&auto=format&w=768&h=512&fit=crop&dpr=2",
+      "context": "* Keir Starmer dimitió como Primer Ministro del Reino Unido, marcando un nuevo cambio. \n* La renuncia ocurre tras una revuelta laborista y significativas pérdidas en elecciones locales. \n* Reino Unido ha tenido siete primeros ministros en diez años, generando inestabilidad. ",
+      "extended_context": "El panorama político del Reino Unido se ve sacudido una vez más con la dimisión de Keir Starmer como Primer Ministro. Esta renuncia, producto de una creciente revuelta dentro de su propio partido laborista y de los decepcionantes resultados en las elecciones locales, subraya la profunda inestabilidad que ha caracterizado a la política británica en la última década. Starmer es el séptimo primer ministro en diez años, una estadística que resalta la dificultad de mantener un liderazgo estable.\n\nLa salida de Starmer abre una nueva carrera por el liderazgo del Partido Laborista y, potencialmente, una nueva fase de incertidumbre para el país. La inestabilidad política ha tenido un impacto palpable en la economía británica y en su posición internacional. Los continuos cambios en el liderazgo sugieren una crisis más profunda en el sistema político, donde los líderes luchan por consolidar el apoyo y cumplir con las expectativas del electorado.\n\nLa pregunta ahora es quién asumirá el mando y si el próximo líder logrará traer la estabilidad tan necesaria al Reino Unido. La situación pone de manifiesto los desafíos inherentes a la gobernanza en un entorno post-Brexit y en medio de presiones económicas y sociales.",
+      "links": [
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/live/ckger03mrl0t"
+        },
+        {
+          "name": "ABC News",
+          "url": "https://abcnews.com/International/uk-prime-minister-keir-starmer-resign/story?id=134087581"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/world/keir-starmer-resigns-british-prime-minister-after-devastating-labour-revolt-local-election-losses"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/politics/live/2026/jun/22/keir-starmer-resignation-timeable-andy-burnham-labour-leadership-prime-minister-latest-news-updates"
+        },
+        {
+          "name": "CNN",
+          "url": "https://edition.cnn.com/2026/06/23/business/uk-prime-ministers-economy-intl"
+        },
+        {
+          "name": "RNZ",
+          "url": "https://www.rnz.co.nz/news/world/617267/explainer-why-has-britain-gone-through-seven-prime-ministers-in-10-years"
+        }
+      ]
+    }
+  ]
+}

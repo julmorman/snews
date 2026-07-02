@@ -1,0 +1,194 @@
+{
+  "id": "week-06",
+  "date": "2 de Julio",
+  "funny_title": "Semana 06",
+  "news": [
+    {
+      "id": "burbuja-ia-advertencias-mercados",
+      "category": "geopolítica",
+      "title": "Crece la preocupación por una posible burbuja de IA",
+      "short_summary": "Bancos centrales y medios advierten sobre los riesgos de un colapso tecnológico.",
+      "image": "https://www.syfe.com/magazine/wp-content/uploads/2025/10/2048x1365-Article-AI-bubble-1024x683.jpg",
+      "context": "* El Banco de Pagos Internacionales alertó sobre el riesgo de recesión ligado a las gigantescas inversiones en centros de datos. \n* Medios como The Guardian y Reuters analizan si el mercado bursátil tecnológico está sobrevalorado por el auge de la IA. \n* Analistas financieros debaten si el crecimiento impulsado por la inteligencia artificial es sostenible o simplemente una moda pasajera. ",
+      "extended_context": "El Banco de Pagos Internacionales (BIS) encendió las alarmas al advertir que la creciente inversión de las grandes tecnológicas en centros de datos e infraestructura de inteligencia artificial podría estar generando una burbuja financiera de proporciones considerables. Según el organismo, una eventual corrección abrupta en las valuaciones de estas compañías podría tener efectos de contagio sobre el resto de la economía global, incluyendo un posible escenario de recesión.\n\nMedios como The Guardian y Reuters han señalado que los mercados bursátiles ya muestran signos de nerviosismo, con inversores cuestionando si las valuaciones de las empresas vinculadas a la IA reflejan ganancias reales o expectativas infladas. Analistas citados por Japan Today y The Hill sostienen posturas divergentes: mientras algunos ven un ajuste natural del mercado, otros temen una corrección similar a la burbuja de las puntocom de comienzos de siglo.\n\nPor su parte, voces más optimistas, recogidas por Reuters, sostienen que el miedo a una burbuja podría estar exagerado, dado que muchas de las compañías involucradas ya generan ingresos concretos a diferencia de episodios especulativos anteriores. El debate sobre la sostenibilidad del boom de la inteligencia artificial continuará marcando la agenda económica global en los próximos meses.",
+      "links": [
+        { "name": "Fortune", "url": "https://fortune.com/2026/06/29/bis-central-bank-warning-hyperscaler-data-center-1-trillion-gamble-recession/" },
+        { "name": "The Guardian", "url": "https://www.theguardian.com/business/2026/jun/27/ai-bubble-crash-tech-firms-stock-markets" },
+        { "name": "Japan Today", "url": "https://japantoday.com/category/tech/should-we-fear-an-ai-bubble-bust" },
+        { "name": "The Hill", "url": "https://thehill.com/opinion/finance/5925202-tech-bubble-ai-driven-growth/" },
+        { "name": "Reuters", "url": "https://www.reuters.com/commentary/reuters-open-interest/bis-dares-blaspheme-ai-bubble-fears-wane-2026-06-30/" }
+      ]
+    },
+    {
+      "id": "eeuu-iran-conversaciones-doha",
+      "category": "geopolítica",
+      "title": "Avanzan las conversaciones entre Estados Unidos e Irán",
+      "short_summary": "Ambas partes se reúnen en Doha mientras persisten diferencias sobre el estrecho de Ormuz.",
+      "image": "https://ichef.bbci.co.uk/news/480/cpsprodpb/3c18/live/00d7c990-7209-11f1-aede-9f478c3ece44.jpg.webp",
+      "context": "* Representantes de Estados Unidos e Irán se reunieron en Doha, Qatar, para continuar negociando tras la reciente escalada regional. \n* Irán mantiene su postura firme sobre sus condiciones, mientras Washington insiste en garantías de seguridad para la región. \n* El tránsito marítimo por el estrecho de Ormuz continúa siendo uno de los puntos más sensibles de la negociación. ",
+      "extended_context": "Delegados de Estados Unidos e Irán retomaron las conversaciones en Doha, Qatar, en un nuevo intento por destrabar la crisis abierta tras la reciente escalada militar entre ambos países. Según Al Jazeera y Axios, las partes lograron ciertos avances puntuales, aunque acordaron reagruparse luego del funeral del líder supremo iraní para definir los próximos pasos.\n\nThe Guardian y The Times of Israel reportan que Teherán continúa sosteniendo condiciones firmes antes de cualquier acuerdo definitivo, mientras que Washington reclama garantías concretas vinculadas a la seguridad regional y al programa nuclear iraní. El estrecho de Ormuz, una de las rutas marítimas más importantes para el transporte de petróleo, se mantiene como uno de los ejes centrales de la negociación.\n\nAnálisis publicados por Iran Watch y Britannica señalan que, pese a los gestos de acercamiento, persiste una fuerte desconfianza mutua entre ambas delegaciones, lo que podría prolongar las conversaciones durante las próximas semanas sin garantías de una resolución rápida.",
+      "links": [
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/7/1/iran-war-live-qatars-pm-meets-us-envoys-tehran-holds-firm-on-conditions" },
+        { "name": "Axios", "url": "https://www.axios.com/2026/07/01/iran-talks-doha-tolls-strait-hormuz" },
+        { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/jun/29/trump-iran-peace-talks-doha" },
+        { "name": "The Times of Israel", "url": "https://www.timesofisrael.com/liveblog_entry/us-iran-made-progress-at-doha-talks-agree-to-regroup-after-khamenei-funeral-qatar/" },
+        { "name": "Iran Watch", "url": "https://www.iranwatch.org/our-publications/policy-briefs/us-iran-mou-lopsided-arrangement" },
+        { "name": "Britannica", "url": "https://www.britannica.com/event/2026-Iran-war" }
+      ]
+    },
+    {
+      "id": "despidos-cnea-argentina",
+      "category": "nacional",
+      "title": "Despidos en la Comisión Nacional de Energía Atómica",
+      "short_summary": "Cerca de un centenar de trabajadores fueron desvinculados del organismo nuclear argentino.",
+      "image": "https://www.lanacion.com.ar/resizer/v2/el-ingreso-del-personal-de-la-gendarmeria-en-la-2LH7AGV3QVED7IWR57AAV2CUDA.png?auth=7c5278d6bbe25e307ff47d3abb48bc690593fe0c2003afc691d0baf2f656df78&width=1200&height=800&quality=70&smart=true",
+      "context": "* El Gobierno argentino despidió a cerca de un centenar de trabajadores de la Comisión Nacional de Energía Atómica esta semana. \n* Gendarmería desalojó una protesta gremial en las inmediaciones del organismo, generando fuertes cuestionamientos de los trabajadores afectados. \n* El Gobierno defendió las desvinculaciones citando motivos administrativos, mientras gremios denuncian una persecución política contra los empleados. ",
+      "extended_context": "La Comisión Nacional de Energía Atómica (CNEA) atraviesa una nueva ola de despidos que afectó a cerca de un centenar de trabajadores, según informó Página/12. La medida generó un fuerte rechazo entre los gremios del sector, que consideran que la decisión debilita las capacidades científicas y tecnológicas del organismo, clave para el desarrollo nuclear argentino.\n\nLa tensión escaló cuando Gendarmería desalojó una protesta gremial realizada en las inmediaciones de la CNEA, según reportó La Nación. Trabajadores y sindicatos denunciaron un uso excesivo de la fuerza frente a un reclamo pacífico, mientras el Gobierno, de acuerdo con Infobae, defendió la medida argumentando razones de reestructuración administrativa y eficiencia del organismo.\n\nDistintos sectores gremiales, citados por El Destape, rechazaron esa justificación y advirtieron que los despidos responden a una lógica de ajuste que pone en riesgo la soberanía tecnológica del país. Nuevas concentraciones de trabajadores continuaron esta semana en reclamo por la reincorporación del personal desvinculado.",
+      "links": [
+        { "name": "Página/12", "url": "https://www.pagina12.com.ar/2026/07/01/un-centenar-de-despidos-en-la-comision-nacional-de-energia-atomica-y-un-golpe-a-la-soberania/" },
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/politica/la-gendarmeria-desalojo-una-protesta-gremial-por-despidos-en-la-comision-nacional-de-energia-atomica-nid30062026/" },
+        { "name": "Infobae", "url": "https://www.infobae.com/politica/2026/06/30/el-gobierno-informo-los-motivos-de-las-desvinculaciones-en-la-comision-nacional-de-energia-atomica/" },
+        { "name": "El Destape", "url": "https://www.eldestapeweb.com/politica/despidos-cnea-desmienten-gobierno-denuncian-persecucion-202671164215" },
+        { "name": "Infobae", "url": "https://www.infobae.com/politica/2026/07/01/nueva-concentracion-en-la-cnea-trabajadores-reclamaron-por-las-desvinculaciones-y-el-desalojo/" }
+      ]
+    },
+    {
+      "id": "record-produccion-petroleo-vaca-muerta",
+      "category": "nacional",
+      "title": "Argentina marca un nuevo récord en producción petrolera",
+      "short_summary": "Vaca Muerta impulsa la producción nacional a niveles históricos de barriles diarios.",
+      "image": "https://energia360.com.ar/wp-content/uploads/2025/10/Vaca-Muerta-la-historia-del-subsuelo-que-resucito-la-energia-argentina.jpg",
+      "context": "* Argentina superó por primera vez los 900.000 barriles diarios de petróleo gracias al desarrollo continuo de Vaca Muerta. \n* La provincia de Neuquén duplicó sus exportaciones petroleras en los últimos cinco meses, según datos oficiales recientes. \n* El boom petrolero consolida a la formación de Vaca Muerta como un pilar central de la economía argentina. ",
+      "extended_context": "La producción de petróleo en Argentina alcanzó un nuevo hito histórico al superar por primera vez los 900.000 barriles diarios, un logro impulsado principalmente por el desarrollo sostenido del yacimiento de Vaca Muerta, según informó La Nación. El crecimiento consolida al país como un actor cada vez más relevante en el mapa energético regional.\n\nDe acuerdo con El Economista, la provincia de Neuquén, epicentro de la actividad no convencional, duplicó sus exportaciones petroleras en los últimos cinco meses, reflejando la creciente capacidad de producción y logística de transporte hacia los mercados internacionales.\n\nEste nuevo récord, reportado también por Ámbito, refuerza las expectativas sobre el rol de Vaca Muerta como motor de divisas para la economía argentina, en un contexto donde el sector energético se perfila como una de las principales fuentes de crecimiento del país en los próximos años.",
+      "links": [
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/economia/de-la-mano-de-vaca-muerta-la-argentina-marco-un-nuevo-hito-en-la-produccion-de-petroleo-nid30062026/" },
+        { "name": "El Economista", "url": "https://eleconomista.com.ar/energia/el-boom-petrolero-afloja-neuquen-duplico-sus-exportaciones-cinco-meses-n96292" },
+        { "name": "Ámbito", "url": "https://www.ambito.com/energia/nuevo-record-produccion-petroleo-gracias-vaca-muerta-la-argentina-supero-primera-vez-los-900000-barriles-diarios-n6294765" }
+      ]
+    },
+    {
+      "id": "acuerdo-israel-libano-seguridad",
+      "category": "geopolítica",
+      "title": "Israel y Líbano firman un marco de seguridad",
+      "short_summary": "El acuerdo busca ordenar el repliegue militar israelí, aunque genera dudas sobre su implementación.",
+      "image": "https://static-cdn.toi-media.com/www/uploads/2026/06/AP26177670488494-640x400.jpg",
+      "context": "* Israel y Líbano firmaron un acuerdo marco de seguridad que contempla un eventual repliegue de las fuerzas israelíes. \n* Analistas advierten que el pacto podría consolidar un estancamiento prolongado en lugar de poner fin real al conflicto. \n* En Líbano, sectores de la sociedad expresaron su rechazo al acuerdo mediante protestas y fuertes críticas públicas. ",
+      "extended_context": "Israel y Líbano firmaron un acuerdo marco de seguridad que establece las condiciones para un eventual repliegue de las tropas israelíes desplegadas en el sur del país, según informó The Times of Israel, que publicó el texto completo del anexo de seguridad del pacto.\n\nSin embargo, análisis de Reuters advierten que el acuerdo podría terminar consolidando un estancamiento a largo plazo en lugar de poner fin definitivo al conflicto, dado que no resuelve varias de las tensiones estructurales entre ambas partes. The Washington Institute señaló catorce puntos clave para evaluar los verdaderos alcances del entendimiento.\n\nEn el plano interno libanés, Al Jazeera reportó que el anuncio del acuerdo generó protestas y fuertes críticas de distintos sectores de la sociedad, que cuestionan las condiciones pactadas. The Jerusalem Post agregó que la implementación efectiva del pacto dependerá en gran medida de la voluntad política de ambos gobiernos en las próximas semanas.",
+      "links": [
+        { "name": "Reuters", "url": "https://www.reuters.com/world/middle-east/israel-lebanon-deal-may-entrench-stalemate-rather-than-end-war-analysts-say-2026-06-29/" },
+        { "name": "The Times of Israel", "url": "https://www.timesofisrael.com/eventual-idf-redeployment-from-lebanon-full-text-of-israel-lebanon-deal-security-annex/" },
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/features/2026/6/28/in-lebanon-framework-agreement-signed-with-israel-spurs-protest-criticism" },
+        { "name": "The Washington Institute", "url": "https://www.washingtoninstitute.org/policy-analysis/14-points-14-points-assessing-israel-lebanon-framework-agreement" },
+        { "name": "The Jerusalem Post", "url": "https://www.jpost.com/middle-east/article-900828" }
+      ]
+    },
+    {
+      "id": "papiros-herculano-ia-descifrados",
+      "category": "ciencias",
+      "title": "La inteligencia artificial descifra papiros de Herculano",
+      "short_summary": "Científicos lograron leer fragmentos de un tratado filosófico sellado por la erupción del Vesubio.",
+      "image": "https://th-thumbnailer.cdn-si-edu.com/5DKu0swmrrgdT-3ba_8ocmK17eA=/fit-in/1072x0/filters:focal(650x362:651x363)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/0b/6b/0b6b2860-9aa4-47c6-8d00-93ade00545f4/img_0788.jpeg",
+      "context": "* Investigadores utilizaron inteligencia artificial para descifrar fragmentos de un papiro carbonizado durante la erupción del Vesubio. \n* El texto recuperado pertenece a un tratado filosófico que permaneció ilegible durante casi dos mil años. \n* El hallazgo abre la puerta a descifrar cientos de rollos similares hallados en la biblioteca de Herculano. ",
+      "extended_context": "Un equipo de investigadores logró descifrar, con la ayuda de inteligencia artificial, fragmentos de un papiro carbonizado durante la erupción del volcán Vesubio en el año 79 d.C., según informó CNN. La técnica combina imágenes de alta resolución con modelos capaces de reconstruir la escritura sin necesidad de desenrollar físicamente el frágil documento.\n\nDe acuerdo con Smithsonian Magazine, el texto recuperado corresponde a un tratado filosófico que había permanecido ilegible durante casi dos milenios, sellado dentro de la ceniza volcánica que preservó la antigua biblioteca de Herculano. National Geographic destacó que este avance representa un salto significativo respecto a los intentos anteriores de lectura de estos manuscritos.\n\nGlobal News señaló que el logro renueva las esperanzas de poder leer, en los próximos años, cientos de rollos adicionales hallados en el mismo sitio arqueológico, muchos de los cuales se creían perdidos para siempre debido a su estado de conservación extremadamente frágil.",
+      "links": [
+        { "name": "CNN", "url": "https://edition.cnn.com/2026/06/26/science/papyrus-scroll-vesuvius-ai-scli-intl" },
+        { "name": "National Geographic", "url": "https://www.nationalgeographic.com/history/article/herculaneum-scrolls-mount-vesuvius-ai" },
+        { "name": "Global News", "url": "https://globalnews.ca/news/11939788/mount-vesuvius-scrolls-read-for-first-time-ai-imaging/" },
+        { "name": "Smithsonian Magazine", "url": "https://www.smithsonianmag.com/smart-news/scientists-have-deciphered-the-surviving-fragments-of-a-2000-year-old-philosophical-treatise-frozen-in-time-by-mount-vesuvius-eruption-180989036/" }
+      ]
+    },
+    {
+      "id": "edicion-genetica-embriones-humanos-debate",
+      "category": "ciencias",
+      "title": "La edición genética de embriones humanos reabre el debate ético",
+      "short_summary": "Investigadores confirman la viabilidad técnica de editar el genoma embrionario humano.",
+      "image": "https://d2eehagpk5cl65.cloudfront.net/img/c1920x1080-w1920-q80/uploads/2026/06/06.08.26-v2.jpg.webp",
+      "context": "* Un nuevo estudio confirma que es técnicamente posible editar con precisión el genoma de embriones humanos. \n* Investigadores de la Universidad de Cambridge identificaron el rol de un gen clave en el desarrollo embrionario temprano. \n* El avance reaviva preocupaciones éticas sobre los límites de la manipulación genética en seres humanos. ",
+      "extended_context": "Un estudio publicado en Nature confirmó la viabilidad técnica de editar con precisión el genoma de embriones humanos, reabriendo un intenso debate científico y ético sobre los alcances de esta tecnología. La investigación demuestra avances concretos en la capacidad de intervenir el material genético en etapas muy tempranas del desarrollo.\n\nSegún Columbia Spectator, el trabajo confirma que la edición genética de embriones ya es factible desde el punto de vista técnico, aunque plantea interrogantes profundos sobre su regulación y sus posibles aplicaciones futuras. Investigadores de la Universidad de Cambridge, por su parte, lograron identificar el rol de un gen clave en el desarrollo embrionario temprano mediante técnicas de edición de precisión.\n\nFuturism advirtió que este tipo de avances podría abrir la puerta a aplicaciones más controvertidas si no se establecen marcos regulatorios claros, reavivando el histórico debate sobre los límites éticos de la manipulación genética en seres humanos.",
+      "links": [
+        { "name": "Nature", "url": "https://www.nature.com/articles/d41586-026-01827-8" },
+        { "name": "Columbia Spectator", "url": "https://www.columbiaspectator.com/news/2026/06/29/columbia-scientists-research-confirms-feasibility-of-human-embryo-genome-editing-raises-ethics-questions/" },
+        { "name": "University of Cambridge", "url": "https://www.cam.ac.uk/research/news/first-use-of-precision-editing-to-study-human-embryo-development-reveals-role-of-master-gene" },
+        { "name": "Futurism", "url": "https://futurism.com/health-medicine/latest-gene-editing-human-embryos-open-floodgates" }
+      ]
+    },
+    {
+      "id": "avioneta-choca-rascacielos-beijing",
+      "category": "geopolítica",
+      "title": "Una avioneta choca contra el rascacielos más alto de Pekín",
+      "short_summary": "El accidente dejó al menos un muerto y trece heridos en la capital china.",
+      "image": "https://www.reuters.com/resizer/v2/AFFDGOS7D5O55KWHPNLKRJ6CU4.jpg?auth=138dd3cb883d155e5d2547fd7934f0d5c05d3fe56a228c51c92e456ccd5989d2&width=720&quality=80",
+      "context": "* Una pequeña avioneta se estrelló contra el rascacielos más alto de Pekín, dejando al menos un muerto. \n* El accidente dejó además trece personas heridas y generó una fuerte conmoción en la capital china. \n* Las autoridades chinas suspendieron temporalmente los entrenamientos de vuelo en todo el país tras el siniestro. ",
+      "extended_context": "Una pequeña avioneta se estrelló contra el rascacielos más alto de Pekín, provocando la muerte de su piloto y dejando al menos trece personas heridas, según informó la BBC. El impacto generó gran conmoción en una de las zonas más transitadas de la capital china.\n\nDe acuerdo con el South China Morning Post, las autoridades chinas ordenaron la suspensión temporal de los entrenamientos de vuelo en todo el país mientras se investigan las causas exactas del accidente. CNN reportó que equipos de emergencia trabajaron rápidamente para asistir a los heridos y asegurar la zona afectada del edificio.\n\nEl New York Post señaló que el hecho reavivó el debate sobre los protocolos de seguridad aérea en zonas urbanas densamente pobladas, en momentos en que China busca expandir su industria de aviación civil y de entrenamiento de pilotos.",
+      "links": [
+        { "name": "South China Morning Post", "url": "https://www.scmp.com/video/china/3358873/china-suspends-flight-training-nationwide-after-plane-crashes-beijing-skyscraper" },
+        { "name": "BBC News", "url": "https://www.bbc.com/news/articles/crlwe28dz44o" },
+        { "name": "CNN", "url": "https://edition.cnn.com/2026/06/26/china/small-plane-crashes-into-beijing-skyscraper-intl" },
+        { "name": "New York Post", "url": "https://nypost.com/2026/06/27/world-news/pilot-dies-after-plane-crashes-into-beijings-tallest-skyscraper-injuring-13-authorities/" }
+      ]
+    },
+    {
+      "id": "terremotos-venezuela-crisis-humanitaria",
+      "category": "geopolítica",
+      "title": "Terremotos en Venezuela dejan miles de víctimas",
+      "short_summary": "Dos fuertes sismos consecutivos provocaron muertes, heridos y una creciente crisis humanitaria.",
+      "image": "https://chequeado.com/wp-content/uploads/2026/06/IMG_1613-1.webp",
+      "context": "* Dos fuertes terremotos consecutivos sacudieron a Venezuela, dejando miles de muertos y heridos según autoridades locales. \n* Organizaciones internacionales advierten que la magnitud del desastre requiere una respuesta humanitaria urgente y coordinada. \n* Una semana después, las autoridades registraron más de dos mil muertos y once mil heridos en total. ",
+      "extended_context": "Venezuela sufrió dos fuertes terremotos consecutivos que provocaron una devastación considerable en distintas regiones del país, según reportó Reuters. Las autoridades locales reportaron un alto número de víctimas fatales y heridos, mientras los equipos de rescate continúan trabajando en las zonas más afectadas.\n\nUna semana después de los sismos, Efecto Cocuyo informó que las autoridades registraron más de dos mil doscientos muertos y más de once mil heridos, cifras que continúan actualizándose a medida que avanzan las tareas de rescate en las áreas más golpeadas.\n\nOrganizaciones internacionales como el Comité Internacional de Rescate y World Vision advirtieron que la magnitud del desastre exige una respuesta humanitaria urgente y coordinada, poniendo el foco en la asistencia médica, el acceso a agua potable y la reconstrucción de viviendas para las miles de familias desplazadas.",
+      "links": [
+        { "name": "International Rescue Committee", "url": "https://www.rescue.org/article/how-help-survivors-earthquakes-venezuela" },
+        { "name": "World Vision", "url": "https://www.worldvision.org/disaster-relief-news-stories/venezuela-earthquake-facts" },
+        { "name": "Efecto Cocuyo", "url": "https://efectococuyo.com/la-humanidad/una-semana-despues-de-los-terremotos-autoridades-registran-2-295-muertos-y-mas-de-11-mil-heridos/" },
+        { "name": "CNN", "url": "https://edition.cnn.com/2026/06/29/world/live-news/venezuela-earthquake-hnk" },
+        { "name": "Reuters", "url": "https://www.reuters.com/world/venezuela-earthquake-live-high-casualties-likely-after-two-strong-quakes-2026-06-25/" }
+      ]
+    },
+    {
+      "id": "corredor-bioceanico-capricornio-sudamerica",
+      "category": "geopolítica",
+      "title": "Avanza el Corredor Bioceánico de Capricornio en Sudamérica",
+      "short_summary": "El proyecto busca conectar los puertos del Atlántico y el Pacífico a través del continente.",
+      "image": "https://www.iadb.org/sites/default/files/styles/home_card_large_landscape_3_2_960_480_1x/public/2026-06/Imagen%20Un%20corredor%2C%20cuatro%20paises%20y%20una%20vision%20compartida_V2.webp?h=ec041e41&itok=E3Ig5yDq",
+      "context": "* El Corredor Bioceánico de Capricornio busca unir los puertos del Atlántico brasileño con los del norte chileno. \n* El proyecto integra a Brasil, Paraguay, Argentina y Chile en una vía logística clave para la región. \n* Expertos ambientales advierten sobre posibles impactos de la megaobra en ecosistemas sensibles de la región amazónica. ",
+      "extended_context": "El Corredor Bioceánico de Capricornio avanza como uno de los principales proyectos de integración logística de Sudamérica, con el objetivo de conectar los puertos del océano Atlántico en Brasil con los del norte de Chile en el Pacífico, según informó el Banco Interamericano de Desarrollo (BID). La iniciativa busca reducir tiempos y costos de transporte para el comercio regional e internacional.\n\nSegún Infobae, Chile avanza en paralelo con la expansión del puerto de San Antonio, en un contexto de creciente competencia regional por consolidarse como punta de salida hacia los mercados asiáticos. Canal 26 destacó que el corredor integrará a Brasil, Paraguay, Argentina y Chile en una vía logística de catorce kilómetros que funcionará durante todo el año.\n\nSin embargo, especialistas citados por Mongabay advirtieron sobre los posibles impactos ambientales de la megaobra, particularmente en ecosistemas sensibles de la región amazónica, y llamaron a incorporar estudios de impacto ambiental rigurosos antes de avanzar con las etapas finales del proyecto.",
+      "links": [
+        { "name": "BID", "url": "https://www.iadb.org/es/blog/integracion-regional/el-corredor-bioceanico-de-capricornio-paraguay-en-el-centro-de-la-integracion-sudamericana" },
+        { "name": "Infobae", "url": "https://www.infobae.com/movant/2026/05/27/chile-avanza-con-expansion-del-puerto-de-san-antonio-en-plena-competencia-regional-por-el-pacifico/" },
+        { "name": "Canal 26", "url": "https://www.canal26.com/internacionales/2026/06/28/uniendo-sudamerica-bajo-tierra-el-corredor-bioceanico-de-14-kilometros-que-conectara-a-dos-paises-durante-todo-el-ano/" },
+        { "name": "Mongabay", "url": "https://es.mongabay.com/2026/02/rutas-tren-bioceanico-expertos-advierten-impactos-megaobra-amazonia/" }
+      ]
+    },
+    {
+      "id": "ola-calor-europa-record",
+      "category": "geopolítica",
+      "title": "Una histórica ola de calor golpea a Europa",
+      "short_summary": "El fenómeno provocó cientos de muertes y disrupciones en distintos países del continente.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-sbHtZtQP8EbxgknSxvVsSo4gAvVtIQQZtnbpQB3bekdG9AsbyloRh70&s=10",
+      "context": "* Europa atraviesa una ola de calor histórica que ya provocó cientos de muertes en distintos países. \n* Científicos vinculan la intensidad del fenómeno con el cambio climático provocado por las emisiones de combustibles fósiles. \n* Francia registró más de mil muertes adicionales durante el período de temperaturas extremas según reportes oficiales. ",
+      "extended_context": "Europa atraviesa una de las olas de calor más intensas de su historia reciente, con temperaturas récord registradas en múltiples países y un fuerte impacto sobre la salud pública, según informó Euronews. Las autoridades sanitarias emitieron alertas en distintas regiones ante el riesgo para los grupos más vulnerables.\n\nDe acuerdo con World Weather Attribution, la intensidad y frecuencia de este tipo de fenómenos está directamente vinculada al cambio climático provocado por las emisiones de combustibles fósiles, que han acelerado el calentamiento del continente en las últimas décadas. Reuters informó que Francia registró más de mil muertes adicionales durante el período de temperaturas extremas.\n\nBBC y Al Jazeera reportaron disrupciones significativas en el transporte, la educación y la actividad económica en varios países europeos, mientras Fox Weather señaló que se espera que este tipo de eventos climáticos extremos se repita con mayor frecuencia en los próximos veranos.",
+      "links": [
+        { "name": "Euronews", "url": "https://www.euronews.com/health/2026/06/29/europes-record-breaking-heatwave-what-you-need-to-know" },
+        { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cn4d2vv935lo" },
+        { "name": "World Weather Attribution", "url": "https://www.worldweatherattribution.org/fossil-fuel-emissions-have-rapidly-worsened-european-heatwaves-in-just-a-few-decades/" },
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/6/24/deaths-disruptions-across-europe-what-you-should-know-about-the-heatwave" },
+        { "name": "Reuters", "url": "https://www.reuters.com/business/environment/france-records-1000-excess-deaths-during-record-breaking-heatwave-2026-06-28/" },
+        { "name": "Fox Weather", "url": "https://www.foxweather.com/weather-news/dangerous-record-shattering-heat-wave-bakes-europe" }
+      ]
+    },
+    {
+      "id": "malvinas-onu-militarizacion-reclamo",
+      "category": "nacional",
+      "title": "Argentina reclama en la ONU por la militarización de Malvinas",
+      "short_summary": "El Gobierno pidió al Reino Unido retomar las negociaciones de soberanía sobre las islas.",
+      "image": "https://statics.corta.com/2023/09/crop/02a7d219eede0b004a9c6bad9293a78b__800x578.webp",
+      "context": "* El Gobierno argentino denunció ante la ONU la creciente militarización británica de las Islas Malvinas. \n* La Argentina reclamó formalmente al Reino Unido que retome las negociaciones de soberanía sobre el archipiélago. \n* Un organismo de la ONU exigió al Reino Unido sentarse a negociar la soberanía de las islas. ",
+      "extended_context": "El Gobierno argentino denunció ante las Naciones Unidas la creciente militarización británica de las Islas Malvinas, reclamando formalmente al Reino Unido que retome las negociaciones bilaterales sobre la soberanía del archipiélago, según informó La Nación. El planteo se suma a una larga historia de reclamos diplomáticos argentinos ante organismos internacionales.\n\nSegún TN, un organismo de las Naciones Unidas exigió públicamente al Reino Unido que se siente a negociar con la Argentina la soberanía de las islas, en una resolución que fue interpretada como un respaldo a la posición argentina en el escenario internacional. Perfil señaló que la ONU acorraló a los británicos con este pronunciamiento.\n\nThe Conversation destacó que, más allá de la disputa histórica sobre la autodeterminación y la integridad territorial, la creciente relevancia de los recursos petroleros en la región podría introducir nuevas variables en la discusión sobre la soberanía de las islas en los próximos años.",
+      "links": [
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/politica/el-gobierno-denuncio-en-la-onu-la-militarizacion-de-malvinas-y-le-reclamo-a-gran-bretana-retomar-las-nid25062026/" },
+        { "name": "The Conversation", "url": "https://theconversation.com/territorial-integrity-and-self-determination-still-dominate-the-falklands-discussion-but-oil-may-change-that-281998" },
+        { "name": "TN", "url": "https://tn.com.ar/politica/2026/06/25/la-onu-le-exigio-al-reino-unido-que-negocie-con-argentina-la-soberania-de-las-islas-malvinas/" },
+        { "name": "Perfil", "url": "https://www.perfil.com/noticias/politica/la-onu-acorralo-al-reino-unido-y-le-exigio-sentarse-a-negociar-por-malvinas.phtml" }
+      ]
+    }
+  ]
+}

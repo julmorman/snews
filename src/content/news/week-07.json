@@ -1,0 +1,145 @@
+{
+  "id": "week-07",
+  "date": "9 de Julio",
+  "funny_title": "Semana 07",
+  "news": [
+    {
+      "id": "hezbollah-tunel-destruido-libano",
+      "category": "geopolítica",
+      "title": "Israel destruye un túnel de Hezbollah en el sur de Líbano",
+      "short_summary": "El ataque ocurre pese al reciente acuerdo de seguridad mediado por Estados Unidos.",
+      "image": "https://static.srpcdigital.com/styles/1037xauto/public/2026-06/1631358_0.jpeg.webp",
+      "context": "* Israel afirmó haber destruido un túnel subterráneo de doscientos metros perteneciente a Hezbollah en el sur del Líbano. \n* El ataque se produjo apenas dos días después de que Líbano e Israel acordaran un arreglo de seguridad mediado por Estados Unidos. \n* Hezbollah advirtió que se reserva el derecho de defender su territorio, mientras persisten los intercambios de disparos en la zona fronteriza. ",
+      "extended_context": "El ejército israelí informó que destruyó un túnel subterráneo de aproximadamente doscientos metros de longitud, atribuido a Hezbollah, ubicado en el sur del Líbano. Según Al Jazeera, la operación generó una fuerte explosión visible desde varios kilómetros de distancia y reavivó la tensión en la zona fronteriza entre ambos países.\n\nEl ataque llegó apenas dos días después de que Líbano e Israel alcanzaran un acuerdo de seguridad mediado por Estados Unidos, destinado a reducir las hostilidades a lo largo de la frontera. Reuters y Ynet informaron que la infraestructura destruida formaba parte de una red subterránea utilizada históricamente por el grupo armado libanés.\n\nHezbollah respondió advirtiendo que se reserva el derecho de defender su territorio frente a lo que calificó como una violación del acuerdo recién firmado. Medios como France 24 y Asharq Al-Awsat señalaron que Irán, aliado de Hezbollah, amenazó con interrumpir por completo las conversaciones con Washington tras el intercambio de ataques, complicando aún más el frágil proceso de distensión regional.",
+      "links": [
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/video/newsfeed/2026/6/29/israel-triggers-huge-explosion-in-southern-lebanon" },
+        { "name": "Ynet News", "url": "https://www.ynetnews.com/article/hjqfumkxmx" },
+        { "name": "Reuters", "url": "https://www.reuters.com/world/middle-east/israel-destroys-hezbollah-underground-infrastructure-southern-lebanon-2026-06-28/" },
+        { "name": "Asharq Al-Awsat", "url": "https://english.aawsat.com/arab-world/5289837-hezbollah-says-reserves-right-defend-its-homeland-israel-destroys-tunnel" },
+        { "name": "France 24", "url": "https://www.france24.com/en/middle-east/20260628-middle-east-live-iran-threatens-a-completely-halt-in-talks-with-us-following-exchange-of-fire#post=AsyF9erA1bYYbsmwj5up" }
+      ]
+    },
+    {
+      "id": "ataques-rusos-kiev-tercera-semana",
+      "category": "geopolítica",
+      "title": "Rusia ataca Kiev por tercera vez en una semana",
+      "short_summary": "Un nuevo bombardeo con misiles dejó al menos once muertos en la capital ucraniana.",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-07-06t022536z-244790913-rc218ma8tpzh-rtrmadp-3-ukraine-crisis-attack-kyiv.JPG?c=original&q=w_860,c_fill/f_webp",
+      "context": "* Rusia atacó Kiev con misiles balísticos por tercera vez en una semana, dejando al menos once personas muertas. \n* El bombardeo alcanzó viviendas y edificios civiles, intensificando la ya crítica situación humanitaria en la capital ucraniana. \n* Medios internacionales como la BBC y CNN reportaron nuevas víctimas mientras Ucrania denuncia una escalada sostenida de ataques rusos. ",
+      "extended_context": "Rusia lanzó un nuevo ataque con misiles balísticos contra Kiev, la tercera ofensiva de este tipo contra la capital ucraniana en apenas una semana, según informó Al Jazeera. El bombardeo dejó al menos once personas muertas y decenas de heridos, de acuerdo con cifras difundidas por las autoridades locales.\n\nThe Kyiv Independent y The Moscow Times reportaron que los ataques impactaron directamente sobre zonas residenciales, dañando edificios de viviendas y agravando la ya crítica situación humanitaria que enfrenta la ciudad desde el inicio de la guerra. DW agregó que los equipos de emergencia trabajaron durante horas para rescatar a personas atrapadas entre los escombros.\n\nCNN y BBC News señalaron que la sostenida escalada de ataques rusos contra la capital ucraniana renueva las dudas sobre la posibilidad de alcanzar un alto el fuego duradero en el corto plazo, en momentos en que las negociaciones internacionales continúan estancadas.",
+      "links": [
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/7/7/russian-missile-strikes-hit-ukraines-capital-kyiv-for-third-time-in-a-week" },
+        { "name": "The Kyiv Independent", "url": "https://kyivindependent.com/russian-attack-july-6/" },
+        { "name": "The Moscow Times", "url": "https://www.themoscowtimes.com/2026/07/06/fresh-russian-attack-on-kyiv-kills-at-least-11-a93168" },
+        { "name": "DW", "url": "https://www.dw.com/en/ukraine-several-killed-in-renewed-attacks-on-kyiv/a-77841452" },
+        { "name": "CNN", "url": "https://edition.cnn.com/2026/07/05/europe/kyiv-ballistic-missile-attack-july-6-intl-hnk" },
+        { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c4gyv05gk4do" }
+      ]
+    },
+    {
+      "id": "crisis-combustible-rusia-sanciones",
+      "category": "geopolítica",
+      "title": "Rusia enfrenta una creciente crisis de combustible",
+      "short_summary": "Los ataques con drones ucranianos agravan la escasez de nafta en varias regiones rusas.",
+      "image": "https://i.guim.co.uk/img/media/7a8a7dbf1659e41b262a5d15e99ef1960b61559e/1114_0_6240_4992/master/6240.jpg?width=620&dpr=2&s=none&crop=none",
+      "context": "* Varias regiones de Rusia enfrentan una escasez creciente de combustible provocada por ataques ucranianos con drones sobre refinerías. \n* El país, históricamente uno de los mayores exportadores de petróleo, comenzó a importar combustible para abastecer su propio mercado interno. \n* Analistas advierten que la crisis energética podría profundizar el impacto económico de las sanciones internacionales sobre Rusia. ",
+      "extended_context": "Varias regiones de Rusia enfrentan una creciente escasez de combustible provocada por una serie de ataques ucranianos con drones dirigidos contra refinerías e infraestructura petrolera, según informó CNN. La situación generó largas filas en las estaciones de servicio y racionamiento en distintas ciudades del país.\n\nThe Moscow Times y The Guardian reportaron que el fenómeno resulta particularmente llamativo porque Rusia, históricamente uno de los mayores exportadores de petróleo del mundo, se ha visto obligada a importar combustible para abastecer su propio mercado interno. Modern Diplomacy señaló que este cambio de rol expone la vulnerabilidad de la infraestructura energética rusa frente a los ataques sostenidos.\n\nAsia Times advirtió que, de no revertirse rápidamente, la crisis energética podría profundizar el impacto económico de las sanciones internacionales, afectando tanto a la industria como al consumo doméstico en un momento en que el Kremlin busca sostener su esfuerzo bélico en Ucrania.",
+      "links": [
+        { "name": "CNN", "url": "https://edition.cnn.com/2026/07/06/europe/russia-fuel-crisis-ukraine-drone-attacks-intl-vis" },
+        { "name": "The Moscow Times", "url": "https://www.themoscowtimes.com/2026/06/25/regions-calling-as-fuel-crisis-widens-russias-regions-brace-for-the-worst-a93073" },
+        { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/jul/07/russia-cities-feel-pinch-amid-worsening-fuel-shortages" },
+        { "name": "Asia Times", "url": "https://asiatimes.com/2026/07/barring-a-russian-counter-to-oil-damage-economy-seen-in-crisis/" },
+        { "name": "Modern Diplomacy", "url": "https://moderndiplomacy.eu/2026/07/04/russias-energy-crisis-an-exporter-becomes-importer/" }
+      ]
+    },
+    {
+      "id": "hamas-disuelve-gobierno-gaza",
+      "category": "geopolítica",
+      "title": "Hamás anuncia la disolución de su gobierno en Gaza",
+      "short_summary": "El grupo abriría paso a un panel tecnocrático dentro del estancado plan de paz.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/AFP__20260706__B9DN9AW__v1__HighRes__PalestinianIsraelConflictGaza-1783404418.jpg?w=770&resize=770%2C513&quality=100",
+      "context": "* Hamás anunció su decisión de disolver el organismo que gobierna la Franja de Gaza desde hace años. \n* La medida busca dar paso a un panel administrativo tecnocrático como parte del estancado plan de paz regional. \n* Analistas consideran el anuncio un gesto político clave para destrabar el proceso de reconstrucción y gobernanza de Gaza. ",
+      "extended_context": "Hamás anunció que disolverá el organismo que ha gobernado la Franja de Gaza durante años, en un movimiento que, según Al Jazeera, busca dar paso a una nueva administración de carácter tecnocrático. La decisión se produce en medio de negociaciones internacionales para definir el futuro político del territorio.\n\nThe Times of Israel y Reuters informaron que el plan contempla la creación de un panel administrativo independiente, sin vínculos formales con el grupo armado, que se encargaría de las tareas de gobierno mientras avanza el estancado proceso de paz. AP News señaló que la propuesta responde a la presión de mediadores internacionales para desmilitarizar la gestión civil de Gaza.\n\nDW destacó que, aunque el anuncio es visto como un gesto político relevante, persisten fuertes dudas sobre la implementación real del nuevo esquema administrativo y sobre el rol que conservará Hamás en la seguridad y la vida cotidiana del territorio en los próximos meses.",
+      "links": [
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/7/7/what-is-the-new-gaza-administration-as-hamas-dissolves-government" },
+        { "name": "The Times of Israel", "url": "https://www.timesofisrael.com/report-hamas-plans-to-dissolve-its-gaza-government-to-allow-in-technocratic-panel/" },
+        { "name": "AP News", "url": "https://apnews.com/article/israel-gaza-palestinians-hamas-war-government-146f9a609580d4c8c42ab35fbe60d5b3" },
+        { "name": "DW", "url": "https://www.dw.com/en/hamas-to-dissolve-gaza-governing-body/a-77847836" },
+        { "name": "Reuters", "url": "https://www.reuters.com/world/middle-east/hamas-dissolves-gaza-government-presses-progress-stalled-peace-plan-2026-07-06/" }
+      ]
+    },
+    {
+      "id": "debate-milei-trump-doctrina-shock",
+      "category": "opinión",
+      "title": "Se profundiza el debate sobre el rumbo económico de Milei",
+      "short_summary": "Distintos análisis cuestionan el desmantelamiento del desarrollo nuclear estatal y el ajuste en curso.",
+      "image": "https://www.lanacion.com.ar/resizer/v2/retratos-de-javier-milei-y-de-donald-trump-IH3MGAMF7NGA5O3F5N5XINJ6IA.JPG?auth=1800bf39817abedcb8058377603d6913bb453aea6d1c8767a228dc9e00293b99&width=1200&height=800&quality=70&smart=true",
+      "context": "* La Nación analiza el plan de Donald Trump para redefinir su relación económica y geopolítica con la Argentina. \n* El País señala que el Gobierno de Javier Milei desmanteló el desarrollo estatal de energía nuclear mediante despidos y privatizaciones. \n* Página/12 plantea que las políticas económicas actuales responden a lo que describe como una doctrina de shock. ",
+      "extended_context": "Distintos medios analizaron esta semana el rumbo económico y geopolítico del Gobierno de Javier Milei y su vínculo con la administración de Donald Trump. La Nación describió cómo Washington buscaría redefinir su relación con la Argentina en el marco de una alianza estratégica cada vez más estrecha entre ambos gobiernos.\n\nEl País, por su parte, señaló que el Gobierno argentino avanzó en el desmantelamiento del desarrollo estatal de energía nuclear, a través de despidos y un proceso de privatizaciones que generó fuertes cuestionamientos dentro y fuera del sector científico. El artículo advierte sobre las implicancias de esta decisión para la soberanía tecnológica del país.\n\nPágina/12 planteó una lectura crítica del conjunto de estas medidas, enmarcándolas dentro de lo que define como una doctrina de shock económico, aplicada de manera acelerada y con escasa discusión pública. El debate sobre el verdadero costo y beneficio de este rumbo continúa dividiendo a analistas y a la opinión pública.",
+      "links": [
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/politica/el-plan-de-trump-para-redefinir-el-mapa-de-la-argentina-nid04072026/" },
+        { "name": "El País", "url": "https://elpais.com/argentina/2026-07-07/milei-desmantela-el-desarrollo-estatal-de-energia-nuclear-ajuste-despidos-y-privatizaciones.html" },
+        { "name": "Página/12", "url": "https://www.pagina12.com.ar/2026/07/05/milei-y-la-doctrina-del-shock/" }
+      ]
+    },
+    {
+      "id": "polemica-festejo-planetario-independencia-eeuu",
+      "category": "nacional",
+      "title": "Polémica por festejo de EE.UU. en el Planetario",
+      "short_summary": "Un show de drones celebró los 250 años de independencia de Estados Unidos en Buenos Aires.",
+      "image": "https://www.lanacion.com.ar/resizer/v2/un-show-de-drones-sello-el-fin-del-festejo-CGU44HXNOBGJRJ7FK6MLGQJRSU.jpg?auth=23f34abe3a2f16f6dace89411a40ef987af6ac4672e1d4393b1e40fb4152bb29&width=780&height=520&quality=70&smart=true",
+      "context": "* El Gobierno porteño avaló un festejo al aire libre por los doscientos cincuenta años de independencia de Estados Unidos en el Planetario. \n* Un espectáculo de drones iluminó el cielo de Buenos Aires como cierre de la celebración organizada en el predio. \n* Sectores políticos y sociales repudiaron la iniciativa y cuestionaron la decisión del jefe de Gobierno porteño de autorizarla. ",
+      "extended_context": "El Gobierno de la Ciudad de Buenos Aires avaló la realización de un festejo al aire libre por los doscientos cincuenta años de la independencia de Estados Unidos, llevado a cabo en las inmediaciones del Planetario, según informó La Nación. El evento contó con la participación de autoridades locales y representantes diplomáticos.\n\nDe acuerdo con Perfil, el cierre del festejo estuvo marcado por un espectáculo de drones que iluminó el cielo porteño, en una de las postales más comentadas de la jornada. El Destape agregó que la organización del evento contó con una fuerte logística montada especialmente para la ocasión.\n\nSin embargo, Política Argentina reportó que distintos sectores políticos y sociales repudiaron la iniciativa, cuestionando que el jefe de Gobierno porteño, Jorge Macri, haya avalado un festejo de estas características en un espacio público emblemático de la ciudad.",
+      "links": [
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/sociedad/en-el-planetario-celebracion-al-aire-libre-de-los-250-anos-de-la-independencia-de-estados-unidos-nid04072026/" },
+        { "name": "Perfil", "url": "https://www.perfil.com/noticias/efemerides/show-de-drones-en-buenos-aires-por-los-250-anos-de-estados-unidos.phtml" },
+        { "name": "Política Argentina", "url": "https://www.politicargentina.com/notas/202607/74953-los-repudiados-festejos-por-la-independencia-de-estados-unidos-que-avalo-jorge-macri-en-la-ciudad.html" },
+        { "name": "El Destape", "url": "https://www.eldestapeweb.com/sociedad/show-drones-iluminara-cielo-buenos-aires-cuando-donde-verlo-gratis-202672185156" }
+      ]
+    },
+    {
+      "id": "vencimientos-deuda-argentina-9-julio",
+      "category": "nacional",
+      "title": "Gobierno detalla cómo pagará vencimientos de deuda externa",
+      "short_summary": "Caputo explicó el origen de los dólares para afrontar un pago de 4.200 millones.",
+      "image": "https://www.pagina12.com.ar/resizer/v2/JWFPP6RG7BGXDD27ALWX5CYN5Q.jpg?quality=75&auth=24c09c3cfc5d53a875d9d9f631130325a2d41b5dd6e681e2adba6b04a75cc55d&width=980",
+      "context": "* El ministro de Economía, Luis Caputo, detalló de dónde saldrán los dólares para pagar cuatro mil doscientos millones de dólares. \n* El Gobierno explicó el programa financiero previsto para enfrentar los vencimientos de deuda durante el año electoral. \n* Economistas analizan si la estrategia de blindaje en dólares alcanza para sostener los pagos hasta 2027. ",
+      "extended_context": "El ministro de Economía, Luis Caputo, detalló a tres días del vencimiento de dónde saldrán los dólares necesarios para afrontar un pago de cuatro mil doscientos millones el 9 de julio, según informó Infobae. El anuncio buscó despejar dudas sobre la disponibilidad de reservas para cumplir con los compromisos financieros de corto plazo.\n\nLa Nación agregó que el funcionario también anticipó las líneas generales del programa financiero previsto para el resto del año electoral, en un contexto de alta sensibilidad cambiaria. Página/12 describió la estrategia oficial como un blindaje en dólares destinado a garantizar el pago de la deuda externa hasta el año 2027.\n\nInfobae señaló que el Gobierno explicó en detalle cómo planea afrontar todos los vencimientos de deuda hasta después de las elecciones, aunque distintos economistas continúan debatiendo si la estrategia resulta sostenible en caso de que se modifiquen las condiciones del mercado financiero internacional.",
+      "links": [
+        { "name": "Infobae", "url": "https://www.infobae.com/economia/2026/07/06/a-tres-dias-del-vencimiento-caputo-detallo-de-donde-saldran-los-dolares-para-pagar-usd-4200-millones-el-9-de-julio/" },
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/economia/el-ministro-de-economia-anticipa-el-programa-financiero-para-el-ano-electoral-nid06072026/?utm_source=newsshowcase&utm_medium=gnews&utm_campaign=CDAqDggAKgYICjDU_nMwvYEMMObP4QQ&utm_content=rundown&gaa_at=la&gaa_n=AVngi4hMTkall_0V7qWT01JNTMRf8n7oqj6uhZAhTfLT5WHrfO30YSdPLgyXzNWQnVCxRd4Qsz3YwNAzUptcruos6F4UI16yjA%3D%3D&gaa_ts=6a4c3cbd&gaa_sig=JrF-rXqGxFQpmaR3KMzNNOrXbdj-gh60hYayc0yosXA9yMkP1Bp9PbcYNTOMuL0E-sq3M5wXOaJJ6LKeviJVaQ%3D%3D" },
+        { "name": "Página/12", "url": "https://www.pagina12.com.ar/2026/07/06/blindaje-en-dolares-caputo-explico-como-va-a-pagar-la-deuda-externa-hasta-2027/" },
+        { "name": "Infobae", "url": "https://www.infobae.com/economia/2026/07/06/el-gobierno-explico-como-pagara-todos-los-vencimientos-de-deuda-hasta-despues-de-las-elecciones-las-claves-de-la-estrategia/" }
+      ]
+    },
+    {
+      "id": "recalculo-meta-privatizaciones-argentina",
+      "category": "nacional",
+      "title": "El Gobierno recalcula la meta de privatizaciones",
+      "short_summary": "Caputo ajustó el objetivo a un combo de dos mil trescientos millones de dólares.",
+      "image": "https://www.infobae.com/resizer/v2/ZEYQYRQS7ZCDDKOMKIX2Q5IASI.JPG?auth=4f53d91fd640a43d7496318f32bc40bd86b1aa3d9419d4fec6b6f298d7742d80&smart=true&width=992&height=578&quality=85",
+      "context": "* El Gobierno argentino recalculó su meta de privatizaciones y ahora apunta a recaudar dos mil trescientos millones de dólares. \n* La lista de empresas en la mira oficial continúa siendo revisada antes de que finalice el año. \n* El equipo económico estima sumar mil cuatrocientos millones de dólares adicionales antes de las próximas elecciones. ",
+      "extended_context": "El Gobierno argentino recalculó su meta de privatizaciones y ahora apunta a un combo de dos mil trescientos millones de dólares, según informó La Nación. El ajuste se da en un contexto de revisión permanente de los activos estatales que el equipo económico busca transferir al sector privado.\n\nDe acuerdo con Infobae, la lista completa de empresas que continúan en la mira oficial sigue siendo objeto de análisis, con distintos plazos y condiciones según el sector y la complejidad del proceso de venta. El organismo económico espera concretar buena parte de estas operaciones antes de fin de año.\n\nTN agregó que el Gobierno calcula sumar mil cuatrocientos millones de dólares adicionales a través de privatizaciones hasta las elecciones, una cifra que forma parte de la estrategia financiera general destinada a reforzar las reservas y sostener el programa económico oficial.",
+      "links": [
+        { "name": "Infobae", "url": "https://www.infobae.com/economia/2026/06/21/la-lista-completa-de-privatizaciones-que-empresas-siguen-en-la-mira-oficial-y-cuanto-espera-recaudar-el-gobierno-antes-de-fin-de-ano/" },
+        { "name": "TN", "url": "https://tn.com.ar/economia/2026/07/06/el-gobierno-calcula-que-sumara-us1400-millones-con-las-privatizaciones-hasta-las-elecciones/" },
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/economia/caputo-recalculo-la-meta-de-privatizaciones-y-ahora-apunta-a-un-combo-de-us2300-millones-nid06072026/" }
+      ]
+    },
+    {
+      "id": "ola-polar-nieve-buenos-aires",
+      "category": "nacional",
+      "title": "Una histórica ola polar deja nieve en Buenos Aires",
+      "short_summary": "No se registraba una nevada similar en la ciudad desde hacía veintidós años.",
+      "image": "https://media.lmneuquen.com/p/82d91255fba07263fefca7e020cd7f68/adjuntos/195/imagenes/008/299/0008299056/770x0/651x448:671x468/nieve-mar-del-plata.jpg",
+      "context": "* Una intensa ola polar provocó una inusual nevada en Mar del Plata y otras zonas bonaerenses. \n* Las autoridades emitieron alerta amarilla por temperaturas extremas cercanas a los cero grados en varias regiones. \n* No se registraba un fenómeno similar en la zona desde hacía veintidós años, según medios locales. ",
+      "extended_context": "Una intensa ola polar provocó una inusual nevada en distintas localidades de la provincia de Buenos Aires, incluyendo Mar del Plata, según informó Perfil. El fenómeno generó postales poco habituales para la región y sorprendió tanto a vecinos como a turistas.\n\nÁmbito detalló que las autoridades emitieron una alerta amarilla por frío extremo, con temperaturas cercanas a los cero grados en amplias zonas del país, mientras Clarín publicó imágenes del impacto de la nevada en distintos puntos del territorio argentino.\n\nCanal 26 señaló que Mar del Plata amaneció completamente blanca, en lo que fue descrito como una de las postales más llamativas de la ola de frío, un fenómeno que, según medios locales, no se registraba en la región desde hacía veintidós años.",
+      "links": [
+        { "name": "Perfil", "url": "https://www.perfil.com/noticias/sociedad/nieve-en-mar-del-plata-tras-22-anos-una-de-las-postales-mas-lindas-de-la-ola-de-frio.phtml" },
+        { "name": "Ámbito", "url": "https://www.ambito.com/informacion-general/nieve-buenos-aires-la-ola-polar-frio-extremo-y-alerta-amarilla-temperaturas-cero-n6295194" },
+        { "name": "Clarín", "url": "https://www.clarin.com/fotogalerias/ola-polar-nieve-argentina-imagenes-impactantes-frio-extremo-sorpresivas-nevadas-pais_5_LxewAF8z2s.html" },
+        { "name": "Canal 26", "url": "https://www.canal26.com/clima/2026/07/02/mar-del-plata-amanecio-de-blanco-las-impactantes-imagenes-de-la-nieve-que-dejo-la-ola-polar/" }
+      ]
+    }
+  ]
+}

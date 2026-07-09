@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import CategoryTag from '../../components/CategoryTag.astro';
 import { getCollection, getEntry } from 'astro:content';
-import { SITE_TITLE } from '../../config/constants';
+import { SITE_TITLE, getCategoryColor } from '../../config/constants';
 
 export async function getStaticPaths() {
   const allEditions = await getCollection('news');
@@ -68,7 +68,7 @@ const getSourceName = (link: { name: string, url: string }) => {
     </div>
 
     <article style="margin-top: 2rem;">
-        <header style={`border-left: 8px solid ${noticia.color}; padding-left: 1rem; margin-bottom: 2rem;`}>
+        <header style={`border-left: 8px solid ${noticia.color || getCategoryColor(noticia.category)}; padding-left: 1rem; margin-bottom: 2rem;`}>
             <CategoryTag category={noticia.category} />
             <h1 style="font-size: 2.5rem; margin: 0.5rem 0;">{noticia.title}</h1>
         </header>

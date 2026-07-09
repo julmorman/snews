@@ -191,7 +191,7 @@
     },
     {
       "id": "nueva-especie-roedor-descubierta",
-      "category": "ciencias",
+      "category": "ciencia-ambiente",
       "title": "Nueva especie de roedor descubierta",
       "short_summary": "Científicos nombran una nueva especie de roedor en honor a Parques Nacionales.",
       "image": "https://www.pagina12.com.ar/resizer/v2/RNFJFMHBCNGCDKIHPBX2OULPLY.jpg?quality=75&auth=72de88372efedb6e6e42faa816ac62a3dbb4c31b3753c54696d59ccd76f36770&width=980",
@@ -214,7 +214,7 @@
     },
     {
       "id": "debate-biocombustibles-argentina",
-      "category": "sustentabilidad",
+      "category": "ciencia-ambiente",
       "title": "Debate de biocombustibles en Argentina",
       "short_summary": "El futuro del sector de biocombustibles genera controversia y presión política.",
       "image": "https://ruralnet.com.ar/wp-content/uploads/2026/05/planta-bioetanol-maiz-industria-agroenergia-argentina-ruralnet-1024x576.jpg.webp",
@@ -287,7 +287,7 @@
     },
     {
       "id": "mina-chilena-capstone-problemas-hidricos",
-      "category": "sustentabilidad",
+      "category": "ciencia-ambiente",
       "title": "Mina chilena Capstone con problemas hídricos",
       "short_summary": "Capstone Copper detecta serios problemas de agua subterránea antes de su expansión.",
       "image": "https://cisp.cachefly.net/assets/articles/images/resized/0001280010_resized_capstonecopperchile10251022.jpeg",

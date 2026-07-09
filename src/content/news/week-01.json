@@ -103,7 +103,7 @@
     },
     {
       "id": "nasa-base-lunar",
-      "category": "ciencias",
+      "category": "ciencia-ambiente",
       "title": "Base permanente en la Luna",
       "short_summary": "La NASA reveló los planos detallados para habitar la Luna.",
       "context": "* **Robótica:** Uso extensivo de drones autónomos para construir los hábitats antes de la llegada humana.\n* **Recursos:** Procesamiento de regolito lunar para la impresión 3D de estructuras y obtención de agua local.\n* **Marte:** La base servirá como centro logístico de pruebas para el futuro viaje tripulado al planeta rojo.",
@@ -114,12 +114,11 @@
         {"name": "NASA Moonbase", "url": "https://www.nasa.gov/moonbase/"},
         {"name": "Aerospace Global News", "url": "https://aerospaceglobalnews.com/news/nasa-moon-base-missions-robots-drones/"}
       ],
-      "color": "#06b6d4",
       "image": "https://tn.com.ar/resizer/v2/la-nasa-presento-su-plan-para-colonizar-la-luna-asi-sera-la-base-permanente-que-costara-us-20000-millones-HYO2WCVGB5CUDOIQTRUE7D7IL4.png?auth=3d477d43523d468d865741ad01a03aca4a96d1aeb3f04723c4223fecbeea1289&width=767"
     },
     {
       "id": "ebola-alerta",
-      "category": "ciencias",
+      "category": "ciencia-ambiente",
       "title": "Alerta internacional por Ébola",
       "short_summary": "La OMS declaró alerta máxima por un brote en África Central.",
       "context": "* **Urbano:** El virus ha llegado a grandes centros urbanos poblados, elevando el riesgo de contagio masivo.\n* **Vacunación:** Despliegue inmediato de brigadas médicas para vacunación masiva y rastreo de todos los contactos estrechos.\n* **Fronteras:** Refuerzo estricto de controles sanitarios en puertos y aeropuertos internacionales de toda la región afectada.",
@@ -130,12 +129,11 @@
         {"name": "BBC Mundo", "url": "https://www.bbc.com/mundo/articles/clypevlx88no"},
         {"name": "CDC", "url": "https://www.cdc.gov/ebola/es/situation-summary/ebola-situacion-actual.html"}
       ],
-      "color": "#06b6d4",
       "image": "https://build.cfr.org/wp-content/uploads/2026/05/Ebola_A.jpg"
     },
     {
       "id": "polo-sur-lunar",
-      "category": "ciencias",
+      "category": "ciencia-ambiente",
       "title": "Ética en asentamientos lunares",
       "short_summary": "Debate sobre los desafíos éticos para colonias lunares.",
       "context": "* **Recursos:** El hielo en cráteres se perfila como la fuente principal de combustible para viajes espaciales.\n* **Propiedad:** ¿Tienen derecho las empresas privadas a reclamar sectores estratégicos del suelo y suelo lunar?\n* **Preservación:** Creciente preocupación internacional por la protección de sitios históricos con gran valor científico.",
@@ -148,12 +146,11 @@
         {"name": "Perfil", "url": "https://www.perfil.com/noticias/ciencia/la-nasa-proyecta-una-base-permanente-en-la-luna-el-ambicioso-plan-para-habitar-el-polo-sur-lunar.phtml"},
         {"name": "National Geographic", "url": "https://www.nationalgeographicla.com/espacio/2023/08/polo-sur-de-la-luna-5-datos-sobre-el-lugar-donde-india-realizo-su-alunizaje"}
       ],
-      "color": "#06b6d4",
       "image": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/2WJU5ASEAZEEBGURYDMTTQQYUI.JPG"
     },
     {
       "id": "onu-clima-voto",
-      "category": "sustentabilidad",
+      "category": "ciencia-ambiente",
       "title": "Obligaciones legales climáticas",
       "short_summary": "La ONU aprobó una resolución histórica por el clima.",
       "context": "* **Fallo histórico:** Se abre la puerta legal a juicios contra estados que no reduzcan emisiones contaminantes.\n* **Futuro:** Sienta las bases jurídicas internacionales para proteger los derechos de las próximas generaciones venideras.\n* **Vanuatu:** La iniciativa fue impulsada por islas pequeñas que se ven amenazadas por el nivel marino.",
@@ -165,12 +162,11 @@
         {"name": "The Guardian", "url": "https://www.theguardian.com/environment/2026/may/21/un-vote-support-icj-world-court-climate-change-opinion"},
         {"name": "Perfil", "url": "https://www.perfil.com/noticias/internacional/la-onu-aprobo-una-resolucion-historica-sobre-cambio-climatico-y-la-argentina-se-abstuvo.phtml"}
       ],
-      "color": "#10b981",
       "image": "https://ayudaenaccion.org/uploads/2020/10/ONU.jpg"
     },
     {
       "id": "super-el-nino",
-      "category": "sustentabilidad",
+      "category": "ciencia-ambiente",
       "title": "Alerta por 'Súper El Niño'",
       "short_summary": "Científicos advierten sobre un fenómeno extremo récord.",
       "context": "* **Combustible:** Las temperaturas del Pacífico se encuentran actualmente en niveles históricos récord globales.\n* **Consecuencias:** Se esperan inundaciones severas en las Américas y sequías muy prolongadas en Asia.\n* **Cosechas:** Existe un alto riesgo para el suministro global de granos básicos, cereales y alimentos.",
@@ -181,12 +177,11 @@
         {"name": "National Geographic", "url": "https://www.nationalgeographic.com.es/medio-ambiente/nino-podria-desatar-su-version-mas-extrema-10-anos-noaa-ya-alerta-82-probabilidad-y-cientificos-temen-superevento_28335"},
         {"name": "BBC Mundo", "url": "https://www.bbc.com/mundo/articles/cvgz4dx1yeno"}
       ],
-      "color": "#10b981",
       "image": "https://revistapesquisa.fapesp.br/wp-content/uploads/2024/02/RPF-el-nino-globo-terrestre-2023-08-1140.jpg"
     },
     {
       "id": "metano-satelites",
-      "category": "sustentabilidad",
+      "category": "ciencia-ambiente",
       "title": "Control satelital de metano",
       "short_summary": "Exigencia climática para monitorear fugas en vertederos.",
       "context": "* **Superemisores:** Vertederos y plantas energéticas obsoletas estarán bajo una vigilancia satelital constante.\n* **Urgencia:** Reducir el metano es la vía más efectiva para bajar rápido la temperatura global.\n* **Satélites:** Detección precisa de fugas de gas invisibles en tiempo real desde el espacio exterior.",
@@ -199,8 +194,7 @@
         {"name": "FARN", "url": "https://farn.org.ar/wp-content/uploads/2025/04/Mitigacion-de-emisiones-de-metano-desde-el-sector-energetico-en-Argentina.pdf"},
         {"name": "Meteored", "url": "https://www.meteored.com.ar/noticias/ciencia/cientificos-britanicos-descubren-una-fuente-oculta-de-metano-en-el-oceano-que-podria-agravar-el-calentamiento-global.html"}
       ],
-      "color": "#10b981",
-      "image": "https://www.sanluisreal.com.ar/wordpress/wp-content/uploads/2024/02/AQ3IZ7JYRPRGFCUSHNIPDZIOGU.jpg"
+      "image": "https://www.sanluisreal.com.ar/wordpress/wp-content/uploads/2024/02/AQ3IZ7YJRPRGFCUSHNIPDZIOGU.jpg"
     }
   ]
 }

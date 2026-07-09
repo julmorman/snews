@@ -96,7 +96,7 @@
     },
     {
       "id": "la-nasa-anuncia-la-tripulacion-para-la-mision-artemis-iii",
-      "category": "ciencias",
+      "category": "ciencia-ambiente",
       "title": "La NASA anuncia la tripulación para la misión Artemis III",
       "short_summary": "Seleccionan a los astronautas que protagonizarán el histórico regreso de la humanidad a la superficie de la Luna.",
       "image": "https://www.nasa.gov/wp-content/uploads/2026/06/jsc2026e392659.jpg",
@@ -112,7 +112,7 @@
     },
     {
       "id": "anthropic-pide-pausar-el-desarrollo-de-modelos-de-ia-avanzados",
-      "category": "ciencias",
+      "category": "ciencia-ambiente",
       "title": "Anthropic pide pausar el desarrollo de modelos de IA avanzados",
       "short_summary": "La empresa advierte sobre riesgos existenciales y la necesidad de un plan de seguridad global coordinado y urgente.",
       "image": "https://s.yimg.com/os/en/reuters.ca/d0cf5a7c5e00851ffcc220e780d19850",
@@ -126,7 +126,7 @@
     },
     {
       "id": "anthropic-lanza-claude-fable-tras-advertir-riesgos-de-la-ia",
-      "category": "ciencias",
+      "category": "ciencia-ambiente",
       "title": "Anthropic lanza Claude Fable tras advertir riesgos de la IA",
       "short_summary": "El nuevo modelo promete capacidades avanzadas de razonamiento manteniendo un enfoque estricto en la seguridad del usuario.",
       "image": "https://ichef.bbci.co.uk/news/1024/cpsprodpb/3a65/live/82edf440-642b-11f1-a08b-a904eba6340c.jpg.webp",
@@ -140,7 +140,7 @@
     },
     {
       "id": "una-anomalia-fria-en-el-atlantico-indica-un-punto-critico",
-      "category": "sustentabilidad",
+      "category": "ciencia-ambiente",
       "title": "Una anomalía fría en el Atlántico indica un punto crítico",
       "short_summary": "El enfriamiento inusual de las aguas sugiere un debilitamiento peligroso de las principales corrientes oceánicas globales actuales.",
       "image": "https://cdn.mos.cms.futurecdn.net/PAhEBqQ879tgxxyiF3H5dQ-965-80.jpg",
@@ -155,7 +155,7 @@
     },
     {
       "id": "google-y-american-airlines-firman-acuerdo-por-combustible-sostenible",
-      "category": "sustentabilidad",
+      "category": "ciencia-ambiente",
       "title": "Google y American Airlines firman acuerdo por combustible sostenible",
       "short_summary": "El pacto busca reducir las emisiones de carbono en la aviación utilizando combustibles alternativos generados con residuos.",
       "image": "https://imageio.forbes.com/specials-images/imageserve/6a2925b075e4838faf31e010/US-AVIATION-TRANSPORTATION/960x0.jpg?format=jpg&width=1440",
@@ -170,7 +170,7 @@
     },
     {
       "id": "detectan-en-buenos-aires-el-basural-mas-contaminante-del-mundo",
-      "category": "sustentabilidad",
+      "category": "ciencia-ambiente",
       "title": "Detectan en Buenos Aires el basural más contaminante del mundo",
       "short_summary": "Un informe satelital revela que el CEAMSE emite siete toneladas de gas metano por cada hora transcurrida.",
       "image": "https://infoberisso.com.ar/wp-content/uploads/2019/06/Ceamse-portada.jpg",

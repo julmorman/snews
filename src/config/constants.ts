@@ -14,14 +14,14 @@ export const CATEGORIES = [
     color: '#3eaaf7'
   },
   {
-    id: 'ciencias',
-    label: 'CIENCIAS',
-    color: '#06b6d4'
+    id: 'ciencia-ambiente',
+    label: 'CIENCIA & AMBIENTE',
+    color: '#14b8a6'
   },
   {
-    id: 'sustentabilidad',
-    label: 'SUSTENTABILIDAD',
-    color: '#10b981'
+    id: 'negocios-tecnologia',
+    label: 'NEGOCIOS & TECNOLOGÍA',
+    color: '#f59e0b'
   },
   {
     id: 'opinión',

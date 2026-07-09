@@ -179,7 +179,7 @@
     },
     {
       "id": "glp-1-nuevo-potencial-en-tratamientos-oncologicos",
-      "category": "ciencias",
+      "category": "ciencia-ambiente",
       "title": "GLP-1: Nuevo potencial en tratamientos oncológicos",
       "short_summary": "Medicamentos GLP-1, conocidos para diabetes, muestran prometedor potencial en la lucha contra el cáncer.",
       "image": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://cloudfront-us-east-1.images.arcpublishing.com/wapo/P6BD5UBN3JCSLPUB7KPUV7J4BM.jpg&w=1440&impolicy=high_res.jpg",
@@ -202,7 +202,7 @@
     },
     {
       "id": "metano-en-cometa-3i-atlas-revela-formacion-solar",
-      "category": "ciencias",
+      "category": "ciencia-ambiente",
       "title": "Metano en cometa 3I/ATLAS revela formación solar",
       "short_summary": "Detección de metano en el cometa 3I/ATLAS proporciona pistas sobre la formación de exoplanetas.",
       "image": "https://platform.vox.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/22863764/33433274343_277deba9eb_o.jpg?quality=90&strip=all&crop=17.287878787879,0,65.424242424242,100.jpg",
@@ -225,7 +225,7 @@
     },
     {
       "id": "blue-origin-investiga-explosion-de-cohete-new-glenn",
-      "category": "ciencias",
+      "category": "ciencia-ambiente",
       "title": "Blue Origin investiga explosión de cohete New Glenn",
       "short_summary": "Blue Origin inicia investigación sobre explosión de su cohete New Glenn durante pruebas.",
       "image": "https://image.cnbcfm.com/api/v1/image/108313976-1780075877867-2026-05-29T110544Z_113529756_RC2YILAZB7RN_RTRMADP_3_BLUE-ORIGIN-TEST-EXPLOSION.JPG?v=1780075991&w=1480&h=833&ffmt=webp&vtcrop=y",
@@ -252,7 +252,7 @@
     },
     {
       "id": "consumo-energetico-de-ia-se-duplicara-para-2030",
-      "category": "sustentabilidad",
+      "category": "ciencia-ambiente",
       "title": "Consumo energético de IA se duplicará para 2030",
       "short_summary": "Investigación de la ONU advierte que el consumo energético de la IA se duplicará drásticamente.",
       "image": "https://qz.com/cdn-cgi/image/width=1920,quality=85,format=auto/https://assets.qz.com/media/c2b1ed56b1ddcfd7d3f8f6c341ba2617.jpg",
@@ -275,7 +275,7 @@
     },
     {
       "id": "desalinizacion-solar-pasiva-sin-residuos-un-gran-avance",
-      "category": "sustentabilidad",
+      "category": "ciencia-ambiente",
       "title": "Desalinización solar pasiva sin residuos: un gran avance",
       "short_summary": "Nuevo método permite desalinizar agua de mar usando energía solar pasiva y sin producir residuos.",
       "image": "https://ingeoexpert.com/wp-content/uploads/2017/01/Planta_desaladora-1.jpg",
@@ -294,7 +294,7 @@
     },
     {
       "id": "pasaporte-de-baterias-trazabilidad-obligatoria-para-litio",
-      "category": "sustentabilidad",
+      "category": "ciencia-ambiente",
       "title": "Pasaporte de Baterías: Trazabilidad obligatoria para litio",
       "short_summary": "Nuevo \"Pasaporte de Baterías\" introducirá trazabilidad obligatoria para el litio y sus componentes.",
       "image": "https://cenital.com/wp-content/smush-webp/2023/11/Litio.jpeg.webp",

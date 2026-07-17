@@ -1,0 +1,285 @@
+{
+  "id": "week-08",
+  "date": "18 de Julio",
+  "funny_title": "Semana 08",
+  "news": [
+    {
+      "id": "chat-control-parlamento-europeo",
+      "category": "geopolítica",
+      "title": "Eurodiputados prorrogan el rastreo de mensajes conocido como Chat Control",
+      "short_summary": "Excluye a apps cifradas como WhatsApp y Signal, pero abarca otras plataformas hasta 2028.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a4c4d2623df-1783385382.jpg?resize=770%2C513&quality=80",
+      "context": "* El 9 de julio, el Parlamento Europeo votó prorrogar el escaneo voluntario de mensajes hasta abril de 2028.\n* La moción de rechazo obtuvo 314 votos a favor, pero no alcanzó la mayoría absoluta necesaria para bloquearla.\n* Una enmienda excluye a apps con cifrado extremo a extremo como WhatsApp y Signal, pero afecta a otras plataformas.",
+      "extended_context": "El 9 de julio de 2026, el Parlamento Europeo votó a favor de prorrogar “Chat Control 1.0”, el mecanismo que permite a plataformas como Meta, Google y Microsoft escanear voluntariamente los mensajes privados de sus usuarios en busca de material de abuso sexual infantil, según informó Euronews. La votación para rechazar la prórroga sumó 314 votos en contra, 276 a favor y 17 abstenciones, pero no logró la mayoría absoluta de 361 votos necesaria para bloquear la medida, por lo que la norma avanzó mediante un tecnicismo procedimental. Brussels Signal detalló que la nueva fecha de caducidad se fijó para abril de 2028.\n\nWired remarcó que la votación se realizó el último día antes del receso de verano del Parlamento, con 112 eurodiputados ausentes, lo que facilitó que la propuesta avanzara pese al rechazo mayoritario expresado semanas antes. El exeurodiputado Patrick Breyer calificó el proceso de “antidemocrático”, mientras que la liberal Svenja Hahn lo llamó “una vergüenza” que abre la puerta a la vigilancia masiva. Ambos medios coinciden en que la medida no obliga a las empresas a escanear mensajes, sino que mantiene la opción voluntaria vigente desde 2021.\n\nLa Vanguardia y Europa Today precisaron que una enmienda de última hora excluyó del escaneo a los servicios con cifrado de extremo a extremo, como WhatsApp y Signal, aunque sí abarca mensajes directos en Instagram, Discord, Snapchat, Skype y Xbox, además de correos de Gmail e iCloud. El texto enmendado regresó ahora al Consejo de la Unión Europea, que tiene tres meses para aceptarlo o rechazarlo antes de que comience una negociación de conciliación entre ambas instituciones.",
+      "links": [
+        {
+          "name": "Euronews",
+          "url": "https://es.euronews.com/next/2026/07/10/chat-control-10-supera-el-tramite-en-el-parlamento-europeo-por-la-puerta-trasera"
+        },
+        {
+          "name": "Brussels Signal",
+          "url": "https://brusselssignal.eu/2026/07/european-parliament-approves-mini-chat-control/"
+        },
+        {
+          "name": "Europa Today",
+          "url": "https://europa.today.it/en/chat-control-eu-whatsapp-monitoring-private-conversations.html"
+        },
+        {
+          "name": "La Vanguardia",
+          "url": "https://www.lavanguardia.com/vida/verificacion/20260711/11589345/chat-control-ley-nueva-como-funciona-cuales-son-redes-protegen-tus-mensajes.html"
+        },
+        {
+          "name": "Wired",
+          "url": "https://www.wired.com/story/a-majority-of-european-lawmakers-voted-against-letting-big-tech-read-our-messages-theyre-going-to-anyway/"
+        }
+      ]
+    },
+    {
+      "id": "onu-bloqueo-estados-unidos-cuba",
+      "category": "geopolítica",
+      "title": "ONU debate el bloqueo de EEUU a Cuba",
+      "short_summary": "Pentágono evalúa opciones militares mientras crece la crisis humanitaria en la isla.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a4c4d2623df-1783385382.jpg?resize=770%2C513&quality=80",
+      "context": "* Cuba denunció ante la Asamblea General pérdidas económicas por ocho mil millones de dólares a causa del bloqueo estadounidense.\n* La Asamblea General votó ciento treinta y seis a favor, nueve en contra y treinta abstenciones para continuar el debate.\n* El Pentágono analiza opciones militares, incluido un posible asalto aéreo, ante la crisis de combustible y apagones en la isla.",
+      "extended_context": "El 7 y 8 de julio de 2026, la Asamblea General de la ONU retomó el debate sobre el embargo estadounidense contra Cuba, según informaron Al Jazeera y el comunicado oficial de prensa de la ONU (press.un.org). El canciller cubano Bruno Rodríguez describió el bloqueo como una \"guerra multidimensional no convencional\" que lleva casi siete décadas, con daños calculados en ocho mil millones de dólares entre marzo de 2025 y febrero de 2026. El embajador estadounidense Mike Waltz rechazó la existencia de un bloqueo y responsabilizó al gobierno cubano por la crisis interna. La votación para continuar el debate reflejó una erosión del respaldo histórico a Cuba, con 136 votos a favor, 9 en contra y 30 abstenciones, frente a los 165 votos favorables registrados en octubre del año anterior.\n\nEn paralelo, CBS News reportó que funcionarios del Pentágono examinan un abanico de opciones militares frente al agravamiento de la crisis en la isla, marcada por escasez de combustible, apagones y protestas. Entre las alternativas evaluadas figura un operativo aéreo con miles de soldados de la 101ª División Aerotransportada, aunque la Casa Blanca y el propio Pentágono aclararon que estos análisis no implican una decisión de intervención. El secretario de Estado Marco Rubio acusó al gobierno cubano de aferrarse a una \"ideología marxista quebrantada\", mientras el secretario de Defensa Pete Hegseth advirtió sobre riesgos de seguridad vinculados a la base de Guantánamo.\n\nEl Departamento de Estado de Estados Unidos, a través de su sitio oficial de sanciones a Cuba, ha sostenido durante 2026 una campaña sostenida de sanciones contra funcionarios, empresas estatales y redes de financiamiento del gobierno cubano, amparada en la Orden Ejecutiva 14404. Según el propio Departamento de Estado, el objetivo declarado de estas medidas no es castigar sino \"provocar un cambio positivo de conducta\" en la isla, en un contexto donde organismos internacionales y gran parte de la comunidad global reclaman el fin del embargo por su impacto humanitario.",
+      "links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/8/at-un-cuba-rallies-support-against-ruthless-us-blockade"
+        },
+        {
+          "name": "ONU - Press Release (press.un.org)",
+          "url": "https://press.un.org/en/2026/ga12769.doc.htm"
+        },
+        {
+          "name": "CBS News",
+          "url": "https://www.cbsnews.com/news/cuba-military-options-pentagon/"
+        },
+        {
+          "name": "Departamento de Estado de EE.UU.",
+          "url": "https://www.state.gov/cuba-sanctions"
+        }
+      ]
+    },
+    {
+      "id": "trump-restablece-bloqueo-naval-estrecho-ormuz",
+      "category": "geopolítica",
+      "title": "Trump restablece el bloqueo naval en el Estrecho de Ormuz",
+      "short_summary": "EEUU bombardea infraestructura civil iraní y exige un peaje del 20% en Ormuz.",
+      "image": "https://warontherocks.com/wp-content/uploads/2026/03/Attack_on_residential_homes_in_central_Tehran_1.jpg?v=1773142967",
+      "context": "* Estados Unidos reimpuso el bloqueo naval a los puertos iraníes y anunció un peaje del 20% para la carga.\n* Las fuerzas estadounidenses bombardearon puentes, aeropuertos y estaciones ferroviarias en el sur de Irán durante la sexta noche de ataques.\n* El Ministerio de Salud iraní reportó decenas de muertos y heridos, mientras el petróleo Brent subió por la escalada.",
+      "extended_context": "El conflicto entre Estados Unidos e Irán volvió a escalar después de que un memorando de entendimiento, firmado apenas un mes antes y que había garantizado un alto al fuego temporal, se derrumbara tras ataques iraníes contra buques comerciales en el Estrecho de Ormuz. Según reportó CBS News, Donald Trump declaró terminado el cese al fuego y ordenó reanudar el bloqueo naval a los puertos iraníes a partir del 14 de julio, además de anunciar un cobro del 20% sobre toda la carga que transite por el estrecho. El propio Trump dijo a Fox News que Estados Unidos 'se quedará con el Estrecho' y se convertirá en su 'guardián', proponiendo incluso llamarlo el 'Ángel Guardián del Estrecho'.\n\nAl Jazeera documentó que las fuerzas estadounidenses llevaron a cabo su sexta noche consecutiva de ataques aéreos, alcanzando infraestructura civil en el sur de Irán, entre ella puentes, un aeropuerto, una estación de trenes e instalaciones eléctricas en la provincia de Hormozgan. Ese medio contabilizó al menos ocho muertos y veinte heridos en esa jornada, mientras Fox News citó cifras similares de siete muertos y nueve heridos en los bombardeos más recientes. CBS News, citando al Ministerio de Salud iraní, elevó el saldo acumulado desde el 22 de junio a 38 muertos y 400 heridos, y señaló que Irán respondió con ataques de represalia contra bases estadounidenses y aliados regionales como Kuwait, Jordania y Qatar.\n\nLa escalada también golpeó la economía global: el petróleo Brent trepó hasta los 85 dólares por barril y las bolsas de Asia y Europa registraron pérdidas, según CBS News. La Casa Blanca, a través de la vocera Karoline Leavitt, sostuvo que Trump 'no se va a quedar de brazos cruzados' ante lo que calificó como actos de terrorismo iraní, mientras medios como BBC Mundo y BBC News dieron seguimiento a la crisis diplomática y humanitaria derivada del colapso del acuerdo y a las dudas legales que genera el cobro de un peaje unilateral en una vía marítima internacional.",
+      "links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/7/16/iran-war-live-us-carries-out-strikes-on-civilian-infrastructure-in-south"
+        },
+        {
+          "name": "BBC Mundo",
+          "url": "https://www.bbc.com/mundo/articles/c9q28zz403no"
+        },
+        {
+          "name": "BBC News",
+          "url": "https://www.bbc.com/news/articles/c151gdjwd10o"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/live-news/us-iran-war-trump-hormuz-israel-july-16"
+        },
+        {
+          "name": "CBS News",
+          "url": "http://cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-attacks-persian-gulf/"
+        }
+      ]
+    },
+    {
+      "id": "milei-shutdown-poder-ejecutivo-argentina",
+      "category": "nacional",
+      "title": "Milei busca replicar el shutdown de EEUU en Argentina",
+      "short_summary": "El proyecto apagaría el Estado cuando se agote el presupuesto asignado, según trascendió.",
+      "image": "https://www.pagina12.com.ar/resizer/v2/L6GM5LNQJZF4HO4KWJ775XSTWQ.jpg?quality=75&auth=0abc042451470f097ebb11724af9e1244c2b39be832fae4a1ec9ee799dd1f9bb&width=980",
+      "context": "* El Presidente anticipó que trabaja en un proyecto de ley para aplicar un shutdown del Poder Ejecutivo en Argentina.\n* A diferencia de EEUU, el mecanismo se activaría cuando un organismo agote su presupuesto asignado, sin depender del Congreso.\n* El anuncio surgió tras una reunión con Caputo, Sturzenegger y Bausili sobre la reforma de la Carta del Banco Central.",
+      "extended_context": "El martes 8 de julio de 2026, en medio de la euforia por el Mundial, Javier Milei anticipó que su gobierno prepara un proyecto de ley para instaurar un mecanismo de \"shutdown\" del Poder Ejecutivo en Argentina, inspirado en el cierre de gobierno que ocurre periódicamente en Estados Unidos. Según reprodujeron Página/12 y Ámbito, el mandatario resumió la lógica con la frase \"cuando te agotás el presupuesto no se puede gastar más y se apaga el Estado\", y confirmó que la iniciativa se tramitaría por ley cuando se le preguntó explícitamente al respecto.\n\nÁmbito y Clarín explicaron que el shutdown estadounidense se produce cuando el Congreso no logra aprobar a tiempo las leyes de presupuesto o una autorización de financiamiento transitoria, lo que obliga a las agencias federales a suspender actividades no esenciales; en el cierre de 2025 quedaron afectados más de 750.000 empleados públicos, muchos de ellos enviados a sus casas sin goce de sueldo. La versión que impulsa Milei sería distinta en su origen, ya que no dependería de un bloqueo legislativo sino que se activaría automáticamente cuando un organismo consuma la totalidad de los fondos que le fueron asignados en el presupuesto.\n\nEl proyecto, de acuerdo con lo publicado por Ámbito, todavía no fue reglamentado y deberá definir aspectos clave como qué partidas quedarían exceptuadas (salarios, jubilaciones, seguridad o salud), a qué nivel se aplicaría el corte y qué autoridad tendría la potestad de activarlo, además de un marco legal que resista eventuales impugnaciones judiciales. El anuncio se dio en el marco de una reunión del equipo económico —con el ministro Luis Caputo, el ministro de Desregulación Federico Sturzenegger y el titular del Banco Central Santiago Bausili— convocada para definir los últimos detalles de la reforma de la Carta orgánica del Banco Central, lo que ubica al shutdown como una pieza más del paquete de reformas fiscales que negocia el Ejecutivo.",
+      "links": [
+        {
+          "name": "Página/12",
+          "url": "https://www.pagina12.com.ar/2026/07/08/milei-quiere-imitar-el-shutdown-de-estados-unidos-busca-apagar-el-estado-para-limitar-el-gasto/"
+        },
+        {
+          "name": "Clarín",
+          "url": "https://www.clarin.com/estados-unidos/government-shutdown-medida-cierre-gobierno-eeuu-quiere-replicarse-argentina_0_RLmJ7qdjiD.html"
+        },
+        {
+          "name": "Ámbito",
+          "url": "https://www.ambito.com/politica/shutdown-como-funciona-el-cierre-gobierno-eeuu-que-javier-milei-quiere-aplicar-argentina-n6297402"
+        }
+      ]
+    },
+    {
+      "id": "ciudadania-por-inversion-pasaporte-dorado-argentina",
+      "category": "nacional",
+      "title": "Argentina prepara un pasaporte dorado para millonarios",
+      "short_summary": "Peter Thiel se instaló en Buenos Aires mientras el Gobierno define el esquema.",
+      "image": "https://images.ft.com/v3/image/raw/ftcms%3A41707019-3278-4a8c-a7cb-6a407339621f?source=next-article&fit=scale-down&quality=highest&width=1440&dpr=1",
+      "context": "* El Gobierno creó en julio de 2025 una agencia para gestionar programas de ciudadanía a cambio de inversión extranjera.\n* El esquema ofrecería la nacionalidad por una donación de 500.000 dólares o bonos soberanos por un millón de dólares.\n* Peter Thiel se mudó a Buenos Aires y se reunió varias veces con Javier Milei y ministros del gabinete económico.",
+      "extended_context": "El Financial Times reveló que el Gobierno de Javier Milei avanza en un programa de ciudadanía por inversión, conocido como \"pasaporte dorado\", que permitiría a extranjeros naturalizarse sin cumplir el requisito habitual de dos años de residencia. Según el medio británico, la iniciativa busca captar \"decenas de miles de millones\" de dólares para ayudar a Argentina a afrontar vencimientos de deuda externa, ya que el país no accede a los mercados globales de capital desde la reestructuración de 2020. El pasaporte otorgaría acceso sin visa a alrededor de 170 países, según estas fuentes.\n\nFortune y el Financial Times destacaron el rol de Peter Thiel, cofundador de PayPal y presidente de Palantir, quien se instaló en una mansión del barrio porteño de Barrio Parque junto a su familia y mantuvo encuentros con Milei, el ministro de Economía Luis Caputo y el ministro de Desregulación Federico Sturzenegger. Una encuesta citada por Fortune entre asesores de inversión encontró que el 61% de sus clientes adinerados en Estados Unidos consideraría mudarse en los próximos cinco años, lo que según los consultores refleja una búsqueda de \"diversificación de pasaportes\" antes que una simple estrategia de evasión fiscal.\n\nEl Economista y otros medios locales reportaron que Thiel funciona como una suerte de \"embajador\" informal del programa, aunque el Gobierno negó haberle ofrecido residencia o ciudadanía directa. Los detalles definitivos del esquema, como los montos exactos y los controles de antecedentes, todavía no fueron reglamentados. El Financial Times también advirtió sobre los riesgos de este tipo de programas, recordando que la Corte de Justicia de la Unión Europea declaró ilegal un esquema similar en Malta por convertir la nacionalidad en \"una mera transacción comercial\", en medio de señalamientos de expertos sobre posibles riesgos de seguridad y lavado de dinero.",
+      "links": [
+        {
+          "name": "Financial Times",
+          "url": "https://www.ft.com/content/2f32bd0f-ea86-4ff6-858a-475f3ce8f6ad?syn-25a6b1a6=1"
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/07/16/the-global-rich-peter-thiel-safe-haven-argentina/"
+        },
+        {
+          "name": "El Economista",
+          "url": "https://eleconomista.com.ar/politica/peter-thiel-desembarca-argentina-gobierno-acelera-plan-pasaporte-dorado-millonarios-n95362"
+        }
+      ]
+    },
+    {
+      "id": "ley-tierras-reforma-senado-extranjeros",
+      "category": "nacional",
+      "title": "El Senado posterga la reforma de la ley de tierras",
+      "short_summary": "Es el cuarto intento fallido: el oficialismo no logró los votos necesarios.",
+      "image": "https://resizer.iproimg.com/unsafe/928x/filters:format(webp):quality(75):max_bytes(102400)/https://assets.iprofesional.com/assets/jpg/2026/02/612394.jpg",
+      "context": "* El proyecto elimina el tope del 15% a la compra de tierras rurales por parte de extranjeros en el país.\n* El texto prohíbe la compra de campos por parte de estados extranjeros y frena el avance de capitales chinos.\n* El Senado postergó por cuarta vez la votación ante la falta de votos propios y desacuerdos internos del oficialismo.",
+      "extended_context": "Según informó Infobae, el Gobierno de Javier Milei impulsa en el Senado una reforma integral al régimen de tierras rurales como parte de un proyecto más amplio de \"inviolabilidad de la propiedad privada\". La iniciativa prohíbe la compra de tierras por parte de estados extranjeros y exige autorización de la provincia y del Poder Ejecutivo nacional para empresas con participación estatal foránea, con requisitos aún más estrictos en zonas de frontera. Aunque el texto no nombra a China, Página/12 explicó que el proyecto también busca reducir los límites vigentes a la extranjerización de tierras y flexibilizar restricciones sobre terrenos afectados por incendios, además de dificultar las expropiaciones.\n\nDe acuerdo con Ámbito, la reforma fracasó por cuarta vez consecutiva en el recinto: el oficialismo contaba con unos 35 votos propios pero no logró sumar el respaldo de bloques aliados, lo que obligó a Patricia Bullrich a pedir que el debate se postergara hasta el 6 de agosto. iProfesional agregó que, tras quince borradores distintos, el ministro de Desregulación, Federico Sturzenegger, rechazó la última redacción negociada por Bullrich, y que varios espacios que suelen acompañar al Gobierno no dieron quórum. La tensión interna entre Bullrich y la vicepresidenta Victoria Villarruel también quedó expuesta durante la sesión.\n\nEl debate no es nuevo: El Destape recordó que la actual Ley 26.737, sancionada en 2011, surgió tras un escándalo en La Rioja en 2008, cuando un ciudadano extranjero compró en un remate del Banco Nación unas 200.000 hectáreas que incluían un pueblo entero y una de las principales reservas de agua dulce de la provincia. Aquel caso derivó en la norma vigente, que limita al 15% la extranjerización de tierras rurales en el país, el mismo tope que ahora el oficialismo busca eliminar.",
+      "links": [
+        {
+          "name": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/07/16/las-claves-de-la-nueva-ley-de-tierras-que-impulsa-el-gobierno-venta-a-extranjeros-y-el-bloqueo-a-la-amenaza-china/"
+        },
+        {
+          "name": "Ámbito",
+          "url": "https://www.ambito.com/politica/se-cayo-la-reforma-la-ley-tierras-que-paso-y-como-reaccionaron-el-senado-n6300384"
+        },
+        {
+          "name": "iProfesional",
+          "url": "https://www.iprofesional.com/politica/460126-reforma-ley-tierras-vuelve-a-postergarse-senado-por-falta-acuerdo"
+        },
+        {
+          "name": "Página/12",
+          "url": "https://www.pagina12.com.ar/2026/07/16/que-es-y-que-implica-la-ley-de-inviolabilidad-de-la-propiedad-privada-que-impulsa-el-gobierno/"
+        },
+        {
+          "name": "El Destape",
+          "url": "https://www.eldestapeweb.com/informacion-general/ley-tierras-historia-rioja-dio-origen-ley-busca-derogar-milei-senado-202671615818"
+        }
+      ]
+    },
+    {
+      "id": "reforma-carta-organica-banco-central",
+      "category": "nacional",
+      "title": "Milei impulsa reforma de la Carta Orgánica del BCRA",
+      "short_summary": "El proyecto busca un mandato único: preservar el valor de la moneda.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrrlQKSZFiEg-_8uv5lqHhLRhMeVbSysPUIq3EPgkGfQ&s=10",
+      "context": "* El proyecto prohíbe de forma explícita que el Banco Central financie al Tesoro con adelantos transitorios o emisión monetaria directa.\n* La reforma establece un mandato único de preservar el valor de la moneda, reemplazando los objetivos múltiples vigentes desde 2012.\n* El texto elimina las letras intransferibles, restringe el giro de utilidades al Tesoro y prevé penas para infractores.",
+      "extended_context": "Según informaron La Nación e Infobae, el Gobierno de Javier Milei prepara un proyecto de reforma de la Carta Orgánica del Banco Central de la República Argentina (BCRA) que busca redefinir por completo el funcionamiento de la entidad monetaria. El eje central es reemplazar los múltiples objetivos vigentes —estabilidad financiera, empleo y desarrollo con equidad social— por un mandato único: preservar el valor de la moneda. Además, el proyecto prohíbe de manera explícita el financiamiento directo o indirecto del Banco Central al Tesoro Nacional, tanto por adelantos transitorios como por compra de títulos públicos.\n\nLa Nación detalló, en una nota previa, que la reforma apunta a revertir los cambios introducidos en 2012 durante la gestión de Mercedes Marcó del Pont, que habían ampliado la capacidad del BCRA para asistir financieramente al Estado y ampliado su misión institucional. El nuevo texto también elimina las llamadas letras intransferibles —los títulos que el Tesoro entregó al Banco Central a cambio de reservas— y restringe la distribución de utilidades del organismo, que solo podrían transferirse al Tesoro en escenarios excepcionales de deflación. Asimismo, se incorporan penas para funcionarios que autoricen emisión monetaria no permitida y se refuerzan los mecanismos de estabilidad e independencia de las autoridades del Banco Central frente a presiones políticas.\n\nSegún Página/12, Milei reunió a la bancada libertaria en la Casa Rosada para explicar los detalles del proyecto antes de enviarlo al Congreso, en lo que el medio describió como la próxima gran batalla legislativa del oficialismo. El objetivo declarado por el propio Milei es blindar por ley el modelo económico libertario, evitando que futuros gobiernos puedan volver a usar la emisión monetaria como herramienta de financiamiento del déficit fiscal.",
+      "links": [
+        {
+          "name": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/07/11/reforma-de-la-carta-organica-del-banco-central-las-claves-del-proyecto-que-el-gobierno-enviara-al-congreso/"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.lanacion.com.ar/economia/las-claves-de-la-reforma-de-la-carta-organica-del-banco-central-que-impulsa-el-gobierno-nid14072026/"
+        },
+        {
+          "name": "El Economista",
+          "url": "https://eleconomista.com.ar/economia/milei-va-todo-banco-central-revelo-seis-claves-reforma-cambia-reglas-siempre-n96665"
+        },
+        {
+          "name": "La Nación",
+          "url": "https://www.lanacion.com.ar/economia/milei-prepara-una-reforma-de-la-carta-organica-del-banco-central-para-revertir-los-cambios-que-el-nid01072026/"
+        },
+        {
+          "name": "Página/12",
+          "url": "https://www.pagina12.com.ar/2026/07/13/milei-busca-blindar-por-ley-el-modelo-libertario-y-reunio-a-su-tropa-para-avanzar-con-la-reforma-del-banco-central/"
+        }
+      ]
+    },
+    {
+      "id": "ley-inocencia-fiscal-caputo-diputados",
+      "category": "nacional",
+      "title": "Inocencia fiscal: el proyecto de Caputo avanza hacia Diputados",
+      "short_summary": "Contadores y gobernadores negocian cambios clave antes del debate legislativo en el Congreso.",
+      "image": "https://media.ambito.com/p/d9c02ece6643ded5c3cd9106f6733f4d/adjuntos/239/imagenes/043/081/0043081627/pagar-dolares.png",
+      "context": "* El proyecto llegaría a la Cámara de Diputados la próxima semana, en medio de una fuerte parálisis legislativa.\n* Caputo se reunió varias veces con contadores para definir si se posterga el vencimiento del impuesto a las Ganancias.\n* Contadores advirtieron una contradicción legal en el proyecto y gobernadores temen el impacto en la coparticipación de Ganancias.",
+      "extended_context": "El Gobierno impulsa una nueva versión de la ley de \"inocencia fiscal\", un régimen que busca sacar del colchón dólares no declarados y canalizarlos hacia la inversión productiva. Según relató Infobae, el ministro de Economía Luis Caputo sostuvo que unos 170.000 millones de dólares guardados fuera del sistema representan una pérdida de poder adquisitivo y de oportunidades para el país, y el proyecto podría ingresar a la Cámara de Diputados la semana próxima, en un Congreso con la actividad casi paralizada tras el freno al debate de la ley de inviolabilidad de la propiedad privada en el Senado. Página/12, en cambio, remarcó con tono crítico que esta reforma llega apenas seis meses después de que se sancionara la ley anterior, lo que evidenciaría que el diseño original no logró resolver sus propios problemas.\n\nEl Economista e iProfesional relataron las sucesivas reuniones entre Caputo y especialistas tributarios para terminar de definir la letra del proyecto. El punto más sensible fue si el Gobierno posterga el vencimiento de las declaraciones de Ganancias, Bienes Personales y aportes de las cooperadoras previsto para el 27 de julio, ya que el tratamiento legislativo de la reforma no llegaría a tiempo. Como salida, se acordó que quienes presenten y paguen en término puedan luego optar por adherirse al nuevo esquema simplificado. También se discutió eliminar los topes de ingresos y patrimonio que hoy limitan el acceso al régimen, y redefinir qué se considera una \"discrepancia significativa\", trasladando a ARCA la carga de la prueba.\n\nÁmbito difundió el reclamo de contadores agrupados en la FAGCE, que detectaron una contradicción entre dos artículos de la ley vigente: uno impide que ARCA revise períodos anteriores al último ejercicio si no hay discrepancias relevantes, mientras otro mantiene vigentes las órdenes de fiscalización ya iniciadas sobre esos mismos períodos, lo que anularía en la práctica el beneficio prometido. Los profesionales pidieron además graduar las multas según el tamaño del contribuyente. A la vez, como el impuesto a las Ganancias se coparticipa con las provincias, cualquier postergación sin anticipos preocupa a los gobernadores, justo cuando el Gobierno intenta recomponer el vínculo con ellos.",
+      "links": [
+        {
+          "name": "Infobae",
+          "url": "https://www.infobae.com/politica/2026/07/17/la-ley-de-inocencia-fiscal-llegara-a-diputados-la-proxima-semana-en-medio-de-una-paralisis-legislativa/"
+        },
+        {
+          "name": "El Economista",
+          "url": "https://eleconomista.com.ar/economia/caputo-acelera-ley-inocencia-fiscal-define-ganancias-presion-contadores-gobernadores-n96745"
+        },
+        {
+          "name": "iProfesional",
+          "url": "https://www.iprofesional.com/impuestos/459996-nueva-reunion-entre-contadores-y-luis-caputo-para-ajustar-la-reforma-de-inocencia-fiscal"
+        },
+        {
+          "name": "Página/12",
+          "url": "https://www.pagina12.com.ar/2026/07/09/inocencia-fiscal-recargada/"
+        },
+        {
+          "name": "Ámbito",
+          "url": "https://www.ambito.com/novedades-fiscales/inocencia-fiscal-contadores-advierten-una-contradiccion-el-proyecto-reforma-n6299867"
+        }
+      ]
+    },
+    {
+      "id": "eritrulosa-primer-azucar-espacio-interestelar",
+      "category": "ciencia-ambiente",
+      "title": "Hallan azúcar interestelar cerca del centro de la Vía Láctea",
+      "short_summary": "Científicos españoles detectaron eritrulosa, un azúcar clave para el origen de la vida.",
+      "image": "https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/9c0c/live/a31be030-8053-11f1-a10f-077d9cf2208e.jpg.webp",
+      "context": "* La eritrulosa, un azúcar de cuatro carbonos presente en frambuesas, fue detectada en la nube molecular G+0.693-0.027.\n* Investigadores del Centro de Astrobiología usaron los radiotelescopios de Yebes e IRAM para identificar esta molécula compleja.\n* El estudio calcula que millones de toneladas de azúcar llegaron a la Tierra hace miles de millones de años.",
+      "extended_context": "El Centro de Astrobiología (CAB, CSIC-INTA), liderado por la investigadora Izaskun Jiménez-Serra, anunció la detección de eritrulosa, un azúcar de cuatro átomos de carbono, en la nube molecular G+0.693-0.027, ubicada cerca del centro de la Vía Láctea. Según el comunicado del CSIC, el hallazgo se logró mediante espectroscopía de altísima sensibilidad con el radiotelescopio de 40 metros del Observatorio de Yebes y el de 30 metros del IRAM en Pico Veleta, y fue publicado en la revista Nature Astronomy. Es la primera vez que se identifica un azúcar de este tipo fuera del sistema solar.\n\nLa cadena alemana DW destacó el costado más curioso del descubrimiento: como la eritrulosa es el mismo compuesto que le da su aroma característico a las frambuesas y que se usa en productos autobronceantes, algunos medios bromearon con que el centro de la Vía Láctea podría 'saber' a frambuesa. Más allá de la anécdota, el dato científico central es que confirma que azúcares complejos pueden formarse en el medio interestelar, mucho antes de que existan planetas o estrellas como el Sol.\n\nBBC Mundo puso el foco en las implicancias sobre el origen de la vida: según los cálculos del equipo, entre 0,5 y 50 millones de toneladas de eritrulosa podrían haber llegado a la Tierra primitiva durante el Bombardeo Intenso Tardío, hace entre 4.100 y 3.800 millones de años, aportando piezas químicas básicas para la formación de ácidos nucleicos como el ADN y el ARN. Jiménez-Serra explicó que el hallazgo 'abre la posibilidad de que la vida pueda desarrollarse en otros mundos de forma similar a como lo hizo en la Tierra'.",
+      "links": [
+        {
+          "name": "CSIC",
+          "url": "https://www.csic.es/es/actualidad-del-csic/la-primera-molecula-de-azucar-detectada-en-el-espacio-interestelar-aporta-nuevas-claves-sobre-el-origen-de-la-vida"
+        },
+        {
+          "name": "BBC Mundo",
+          "url": "https://www.bbc.com/mundo/articles/c2dyd9p4ry8o"
+        },
+        {
+          "name": "DW",
+          "url": "https://www.dw.com/es/la-v%C3%ADa-l%C3%A1ctea-sabe-a-frambuesa-as%C3%AD-lo-sugiere-el-az%C3%BAcar-hallado-en-el-espacio-interestelar/a-77959456"
+        }
+      ]
+    },
+    {
+      "id": "gaza-alto-el-fuego-muertes-continuan-plan-piloto",
+      "category": "geopolítica",
+      "title": "Gaza: los ataques continúan pese al alto el fuego",
+      "short_summary": "El plan de reconstrucción de Trump se reduce a un piloto pese al acuerdo.",
+      "image": "https://i.guim.co.uk/img/media/10dfb9aeae89e462deb1ea780a92134db7b3f9b7/174_0_4583_3667/master/4583.jpg?width=1020&dpr=2&s=none&crop=none",
+      "context": "* El 16 de julio, ataques aéreos israelíes mataron a al menos cinco palestinos en distintos puntos de Gaza.\n* Un día antes, un bombardeo israelí en Deir al-Balah mató a una familia entera, incluida una niña de seis años.\n* El plan de reconstrucción del 'Board of Peace' de Trump se redujo a un pequeño campamento piloto cerca de Rafah.",
+      "extended_context": "A pesar del alto el fuego entre Israel y Hamás vigente desde octubre de 2025, los ataques israelíes en la Franja de Gaza no se detuvieron. Según Al Jazeera, el 16 de julio murieron al menos cinco palestinos en ataques separados: dos cerca del barrio de Tuffah, uno en un campamento de desplazados en Gaza City, otro por fuego de tanque y uno más en Khan Younis. AP News reportó que, en los dos días previos, las fuerzas israelíes mataron a una docena de personas, incluido un ataque contra una comisaría en el campo de refugiados de Jabaliya que dejó una mujer y seis policías muertos. De acuerdo con el Ministerio de Salud de Gaza, más de 1.100 palestinos murieron desde que comenzó la tregua, dentro de un saldo total de guerra que supera los 73.000 muertos.\n\nReuters detalló que, el 15 de julio, un bombardeo destruyó un edificio en Deir al-Balah y mató a Omar Abu Qassem, su esposa Asma y su hija Habeeba, de seis años; el hijo menor de la pareja sobrevivió herido. El ejército israelí afirmó que el ataque apuntaba a un miliciano de Hamás. Estos episodios se dan mientras las negociaciones para avanzar en el acuerdo de alto el fuego pierden impulso y, según Al Jazeera, con Netanyahu enfrentando elecciones el 27 de octubre, lo que genera temores de una escalada con fines electorales.\n\nEn paralelo, The Guardian reveló que el ambicioso plan de reconstrucción de Gaza impulsado por el 'Board of Peace' de Donald Trump —que originalmente proyectaba rehacer todo el territorio— quedó reducido a un pequeño campamento piloto cerca de Rafah, pensado para alojar solo a una fracción de los dos millones de desplazados. El proyecto contempla una administración palestina, policía local y un pequeño contingente de la Fuerza de Seguridad Internacional, pero no comenzaría antes de fin de año y, según imágenes satelitales, la construcción todavía no arrancó. Además, gran parte de los 17.000 millones de dólares prometidos para el plan de paz de 20 puntos nunca se materializó.",
+      "links": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/7/16/israeli-attacks-kill-at-least-five-palestinians-in-gaza-despite-ceasefire"
+        },
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/world/middle-east/israel-kills-four-people-gaza-including-child-medics-say-2026-07-15/"
+        },
+        {
+          "name": "AP News",
+          "url": "https://apnews.com/article/israel-gaza-hamas-strikes-casualties-265d48b73dedab69cf3b100947d17f58"
+        },
+        {
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com/world/2026/jul/16/trumps-board-of-peace-drops-full-gaza-recovery-plan-for-tiny-pilot-scheme"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import NewsCard from '../components/NewsCard.astro';
+import EditionNewsGrid from '../components/EditionNewsGrid.astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIES, SITE_TITLE, matchCategory } from '../config/constants';
 
@@ -15,11 +15,21 @@ if (!latestEdition) {
 
 const { data } = latestEdition;
 
+const glossaryEntries = await getCollection('glosario');
+const glossaryMap = new Map(glossaryEntries.map(e => [e.data.id, e.data.term]));
+
 // Agrupar noticias por categoría para esta vista
 const groupedNews = CATEGORIES.map(cat => ({
     name: cat.label,
     color: cat.color,
-    items: data.news.filter(n => matchCategory(n.category, cat.id))
+    items: data.news
+        .filter(n => matchCategory(n.category, cat.id))
+        .map(n => ({
+            ...n,
+            relatedTerms: (n.related_terms || [])
+                .filter(id => glossaryMap.has(id))
+                .map(id => ({ id, term: glossaryMap.get(id)! })),
+        })),
 })).filter(group => group.items.length > 0);
 ---
 
@@ -29,18 +39,5 @@ const groupedNews = CATEGORIES.map(cat => ({
         <p style="color: #94a3b8;">{data.date}</p>
     </header>
 
-    <div style="display: flex; flex-direction: column; gap: 4rem;">
-        {groupedNews.map(group => (
-            <section>
-                <h2 style={`text-transform: uppercase; letter-spacing: 2px; color: ${group.color}; border-bottom: 2px solid #1e293b; padding-bottom: 0.5rem; margin-bottom: 1.5rem; font-weight: 900;`}>
-                    {group.name}
-                </h2>
-                <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-                    {group.items.map(item => (
-                        <NewsCard item={item} showCategory={false} />
-                    ))}
-                </div>
-            </section>
-        ))}
-    </div>
+    <EditionNewsGrid groupedNews={groupedNews} />
 </Layout>

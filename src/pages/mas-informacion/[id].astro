@@ -1,0 +1,97 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { SITE_TITLE } from '../../config/constants';
+
+export async function getStaticPaths() {
+  const allTerms = await getCollection('glosario');
+  return allTerms.map((entry) => ({
+    params: { id: entry.data.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+---
+
+<Layout title={`${SITE_TITLE} | ${data.term}`}>
+    <div style="margin-top: 2rem;">
+        <a href="/mas-informacion" style="color: #94a3b8; text-decoration: none;">&larr; Volver al glosario</a>
+    </div>
+
+    <article style="margin-top: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+        <header style="border-left: 8px solid #8b5cf6; padding-left: 1rem; margin-bottom: 2rem;">
+            {data.topic && (
+                <span style="display: inline-block; color: #c4b5fd; font-weight: bold; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; border: 1px solid #8b5cf6; padding: 0.2rem 0.6rem; border-radius: 4px; background: rgba(139, 92, 246, 0.1);">
+                    {data.topic}
+                </span>
+            )}
+            <h1 style="font-size: 2.2rem; margin: 0.5rem 0;">{data.term}</h1>
+            <p style="color: #94a3b8; font-size: 1.1rem; margin: 0;">{data.short_description}</p>
+        </header>
+
+        {data.images && data.images.length > 0 && (
+            <div style="margin-bottom: 2rem; display: flex; flex-direction: column; gap: 1rem;">
+                {data.images.map((img) => (
+                    <figure style="margin: 0;">
+                        <img src={img.url} alt={img.caption || data.term} style="width: 100%; max-height: 500px; object-fit: cover; border-radius: 1rem;" />
+                        {img.caption && <figcaption style="color: #64748b; font-size: 0.85rem; margin-top: 0.5rem;">{img.caption}</figcaption>}
+                    </figure>
+                ))}
+            </div>
+        )}
+
+        <div style="font-size: 1.1rem; line-height: 1.7; color: #f1f5f9;">
+            {data.sections.map((section) => (
+                <section style="margin-bottom: 2rem;">
+                    {section.heading && (
+                        <h2 style="font-size: 1.3rem; color: #a78bfa; margin-bottom: 1rem;">{section.heading}</h2>
+                    )}
+                    {section.text.split('\n').map((line: string) => {
+                        const isBullet = line.trim().startsWith('*');
+                        const cleanText = isBullet ? line.trim().substring(1).trim() : line.trim();
+                        if (cleanText === '') return null;
+
+                        const parts = cleanText.split(/(\*\*.*?\*\*)/g);
+                        const content = parts.map((part) => {
+                            if (part.startsWith('**') && part.endsWith('**')) {
+                                return <strong style="color: white; font-weight: 800;">{part.slice(2, -2)}</strong>;
+                            }
+                            return part;
+                        });
+
+                        if (isBullet) {
+                            return <li style="margin-left: 1.5rem; margin-bottom: 0.5rem; list-style-type: disc;">{content}</li>;
+                        }
+                        return <p style="margin-bottom: 1rem;">{content}</p>;
+                    })}
+                </section>
+            ))}
+        </div>
+
+        {data.sources && data.sources.length > 0 && (
+            <section style="background: #1e293b; padding: 2rem; border-radius: 1rem; border: 1px solid #334155;">
+                <h2 style="font-size: 1.25rem; margin-top: 0; margin-bottom: 1rem;">Fuentes:</h2>
+                <div style="display: flex; flex-direction: column; gap: 1rem;">
+                    {data.sources.map((source) => (
+                        <a
+                            href={source.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style="display: flex; align-items: center; gap: 0.5rem; padding: 1rem; background: #0f172a; border-radius: 0.5rem; text-decoration: none; color: white; border: 1px solid transparent; transition: all 0.2s;"
+                            onmouseover="this.style.borderColor='#8b5cf6'; this.style.transform='translateY(-2px)'"
+                            onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'"
+                        >
+                            <span style="font-weight: bold;">{source.name}</span>
+                            <span style="color: #94a3b8; font-size: 0.9rem; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; flex: 1;">
+                                {source.url}
+                            </span>
+                            <span style="color: #8b5cf6; font-weight: bold;">&nearrow;</span>
+                        </a>
+                    ))}
+                </div>
+            </section>
+        )}
+    </article>
+</Layout>

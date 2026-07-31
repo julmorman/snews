@@ -1,0 +1,149 @@
+---
+import NewsCard from './NewsCard.astro';
+
+interface RelatedTerm {
+  id: string;
+  term: string;
+}
+
+interface Props {
+  groupedNews: {
+    name: string;
+    color: string;
+    items: Array<{
+      id: string;
+      title: string;
+      short_summary: string;
+      category: string;
+      image: string;
+      relatedTerms?: RelatedTerm[];
+    }>;
+  }[];
+}
+
+const { groupedNews } = Astro.props;
+---
+
+<div class="edition-grid">
+    <div class="grid-header-spacer" aria-hidden="true"></div>
+    <div class="grid-header-label">Más información</div>
+
+    {groupedNews.map(group => (
+        <>
+            <h2 class="category-header" style={`color: ${group.color};`}>{group.name}</h2>
+            {group.items.map(item => (
+                <>
+                    <NewsCard item={item} showCategory={false} />
+                    <div class="info-buttons">
+                        {item.relatedTerms && item.relatedTerms.map(t => (
+                            <a href={`/mas-informacion/${t.id}`} class="info-btn" title={t.term}>
+                                <span class="info-icon">?</span>
+                                <span class="info-label">{t.term}</span>
+                            </a>
+                        ))}
+                    </div>
+                </>
+            ))}
+        </>
+    ))}
+</div>
+
+<style>
+    .edition-grid {
+        display: grid;
+        grid-template-columns: 1fr 190px;
+        gap: 1rem 1.5rem;
+        align-items: stretch;
+    }
+
+    .grid-header-spacer {
+        grid-column: 1;
+    }
+
+    .grid-header-label {
+        grid-column: 2;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: #a78bfa;
+        font-weight: 900;
+        text-align: center;
+        align-self: end;
+        padding-bottom: 0.5rem;
+        border-bottom: 2px solid #1e293b;
+    }
+
+    .category-header {
+        grid-column: 1 / -1;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border-bottom: 2px solid #1e293b;
+        padding-bottom: 0.5rem;
+        margin: 2.5rem 0 0.5rem;
+        font-weight: 900;
+    }
+
+    .category-header:first-of-type {
+        margin-top: 0.5rem;
+    }
+
+    .info-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .info-btn {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: rgba(139, 92, 246, 0.1);
+        border: 1px solid rgba(139, 92, 246, 0.4);
+        color: #c4b5fd;
+        text-decoration: none;
+        padding: 0.6rem 0.7rem;
+        border-radius: 0.6rem;
+        font-size: 0.75rem;
+        font-weight: bold;
+        line-height: 1.2;
+        transition: all 0.2s;
+    }
+
+    .info-btn:hover {
+        background: rgba(139, 92, 246, 0.2);
+        border-color: #a78bfa;
+        transform: translateY(-2px);
+    }
+
+    .info-icon {
+        width: 1.2rem;
+        height: 1.2rem;
+        border-radius: 50%;
+        background: #8b5cf6;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.7rem;
+        flex-shrink: 0;
+    }
+
+    @media (max-width: 700px) {
+        .edition-grid {
+            grid-template-columns: 1fr;
+        }
+        .grid-header-spacer,
+        .grid-header-label {
+            display: none;
+        }
+        .category-header {
+            grid-column: 1;
+        }
+        .info-buttons {
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 0 0 0.5rem;
+        }
+    }
+</style>

@@ -1,0 +1,25 @@
+{
+  "id": "estrecho-de-ormuz",
+  "term": "Estrecho de Ormuz",
+  "short_description": "El paso marítimo más angosto y estratégico del mundo para el transporte de petróleo, ubicado entre Irán y la península arábiga.",
+  "topic": "Geopolítica",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "El **Estrecho de Ormuz** es un paso marítimo muy angosto (de apenas 33 kilómetros en su punto más estrecho) que conecta el Golfo Pérsico con el Golfo de Omán y, desde ahí, con el resto del océano.\nEs la única salida por mar que tienen varios de los países petroleros del Golfo —como Arabia Saudita, Irak, Kuwait, Emiratos Árabes Unidos e Irán— para exportar su producción hacia el resto del mundo."
+    },
+    {
+      "heading": "Importancia global",
+      "text": "* Por el estrecho circula más del **20% del petróleo y el gas natural licuado (GNL) que se comercia en todo el mundo**, lo que lo convierte en el cuello de botella energético más importante del planeta.\n* No existe una ruta marítima alternativa comparable: si el estrecho se cerrara o bloqueara, sería extremadamente difícil reemplazar esos volúmenes de petróleo y gas a corto plazo.\n* Por eso, cualquier tensión militar en la zona —ataques, minas o amenazas de bloqueo— genera de inmediato **subas en el precio internacional del petróleo**, afectando a la economía global."
+    },
+    {
+      "heading": "¿Quién lo controla?",
+      "text": "Las rutas de navegación del estrecho pasan principalmente por aguas territoriales de **Omán**, y en parte por aguas de **Irán**, pero están reguladas por el derecho marítimo internacional (la Convención de la ONU sobre el Derecho del Mar).\n**Irán controla la costa norte** del estrecho —con bases navales y militares sobre la orilla— mientras que **Omán y los Emiratos Árabes Unidos controlan la costa sur**.\nEsa cercanía le da a Irán una posición de fuerza: en distintos momentos de tensión con Estados Unidos y sus aliados, el gobierno iraní amenazó con **cerrar el estrecho** como forma de presión, aunque nunca lo bloqueó por completo."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Britannica — Strait of Hormuz", "url": "https://www.britannica.com/place/Strait-of-Hormuz" },
+    { "name": "Congressional Research Service (Library of Congress)", "url": "https://www.congress.gov/crs-product/R45281" }
+  ]
+}

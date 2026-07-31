@@ -57,6 +57,7 @@ STANDARD OPERATING PROCEDURE (CRITICAL RULES):
 6. DATE: Use exactly "{next_day_date}".
 7. WEEK TITLE: Use exactly "Semana {week_num}".
 8. GRAMMAR: Perfect Spanish with all necessary accents (tildes).
+9. RELATED_TERMS: The CSV has an optional "related_terms" column with glossary entry ids separated by "|" (e.g. "estrecho-de-ormuz|chat-control"), curated by hand by the editor. Copy those ids VERBATIM into the "related_terms" array for that news item. Do NOT invent, translate, or guess ids that are not explicitly present in that column. If the column is empty for a row, omit "related_terms" entirely for that item.
 
 JSON Structure:
 {{
@@ -74,7 +75,8 @@ JSON Structure:
       "extended_context": "Detailed explanation for the news page...",
       "links": [
         {{ "name": "Source Name", "url": "URL from CSV" }}
-      ]
+      ],
+      "related_terms": ["glossary-id-from-csv-column"]
     }}
   ]
 }}

@@ -1,0 +1,25 @@
+{
+  "id": "chat-control",
+  "term": "Chat Control",
+  "short_description": "Propuesta de la Unión Europea para escanear mensajes privados en busca de contenido de abuso infantil, que enfrenta la seguridad de los chicos con el derecho a la privacidad.",
+  "topic": "Tecnología y Privacidad",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "**Chat Control** es el apodo con el que se conoce a un proyecto de regulación de la Unión Europea que busca combatir la distribución de material de abuso sexual infantil (CSAM, por sus siglas en inglés) en internet.\nLa propuesta oficial se llama **Reglamento CSA** (Child Sexual Abuse Regulation) y su punto más discutido es que obligaría a las plataformas de mensajería —como WhatsApp, Instagram o Signal— a escanear automáticamente los mensajes de los usuarios, incluso los que están cifrados de extremo a extremo, para detectar contenido ilegal antes de enviarlos.\nExisten dos versiones: una temporal y voluntaria (**Chat Control 1.0**), vigente desde 2021, y una permanente y obligatoria (**Chat Control 2.0**), que es la que sigue en negociación."
+    },
+    {
+      "heading": "¿Por qué genera tanta polémica?",
+      "text": "* Para escanear un chat cifrado, las apps tendrían que revisar el contenido de los mensajes antes de cifrarlos, lo que en la práctica **debilita la privacidad de todas las conversaciones**, no solo las de quienes cometen delitos.\n* Organizaciones de derechos digitales advierten que se crea un sistema de **vigilancia masiva** aplicado a toda la población, sin sospecha previa de ningún delito.\n* Quienes lo defienden argumentan que es una herramienta necesaria para **proteger a menores** de la explotación sexual online, un problema real y en crecimiento."
+    },
+    {
+      "heading": "Estado actual (julio de 2026)",
+      "text": "El Reglamento CSA permanente (Chat Control 2.0) todavía no es ley: sigue trabado en negociaciones entre el Parlamento Europeo, el Consejo y la Comisión (los llamados **trílogos**), que fracasaron en su último intento de junio de 2026.\nEl 9 de julio de 2026, el Parlamento Europeo votó una moción para frenar la extensión de la versión temporal (Chat Control 1.0): 314 eurodiputados votaron a favor de bloquearla, pero se necesitaban 361 votos para lograrlo, así que la medida temporal **sigue vigente hasta 2028**.\nLas negociaciones sobre la versión permanente y obligatoria se retoman en **septiembre de 2026**."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Wikipedia — Chat Control", "url": "https://en.wikipedia.org/wiki/Chat_Control" },
+    { "name": "GDPR Register — EU Chat Control explicado", "url": "https://www.gdprregister.eu/articles/eu-chat-control-scanning-privacy/" }
+  ]
+}

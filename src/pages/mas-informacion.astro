@@ -1,0 +1,76 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { SITE_TITLE } from '../config/constants';
+
+const allTerms = await getCollection('glosario');
+allTerms.sort((a, b) => a.data.term.localeCompare(b.data.term, 'es'));
+---
+
+<Layout title={`${SITE_TITLE} | Glosario`}>
+    <header style="text-align: center; margin-bottom: 3rem; padding-top: 2rem;">
+        <h1 style="font-size: 3rem; margin-bottom: 1rem; font-weight: 900;">Glosario</h1>
+        <p style="color: #94a3b8; font-size: 1.1rem; max-width: 600px; margin: 0 auto;">
+            Términos, conceptos y contexto extra para entender mejor las noticias de la semana.
+        </p>
+    </header>
+
+    <div style="max-width: 600px; margin: 0 auto 3rem;">
+        <input
+            id="glossary-search"
+            type="text"
+            placeholder="Buscar un término... (ej: Ormuz, shutdown, cifrado)"
+            style="width: 100%; box-sizing: border-box; padding: 1rem 1.25rem; font-size: 1rem; font-family: var(--font-body); background: #1e293b; border: 1px solid #334155; border-radius: 0.75rem; color: #f8fafc;"
+        />
+    </div>
+
+    <div id="glossary-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; max-width: 1000px; margin: 0 auto;">
+        {allTerms.map(entry => (
+            <a
+                href={`/mas-informacion/${entry.data.id}`}
+                class="glossary-card"
+                data-search={`${entry.data.term} ${entry.data.short_description} ${entry.data.topic || ''}`.toLowerCase()}
+                style="text-decoration: none; color: inherit; display: block; background: #1e293b; padding: 1.5rem; border-radius: 1rem; border: 1px solid #334155; border-left: 6px solid #8b5cf6; transition: all 0.2s;"
+            >
+                {entry.data.topic && (
+                    <span style="display: block; font-size: 0.7rem; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; color: #a78bfa; margin-bottom: 0.4rem;">
+                        {entry.data.topic}
+                    </span>
+                )}
+                <h2 style="color: white; margin: 0 0 0.5rem 0; font-size: 1.2rem;">{entry.data.term}</h2>
+                <p style="color: #94a3b8; margin: 0; font-size: 0.9rem; line-height: 1.4;">{entry.data.short_description}</p>
+            </a>
+        ))}
+    </div>
+
+    <p id="glossary-empty" style="display: none; text-align: center; color: #64748b; margin-top: 2rem;">
+        No encontramos ningún término que coincida con tu búsqueda.
+    </p>
+
+    <style>
+        .glossary-card:hover {
+            border-color: #8b5cf6;
+            transform: translateY(-4px);
+            box-shadow: 0 10px 20px -5px rgba(139, 92, 246, 0.2);
+        }
+    </style>
+
+    <script>
+        const input = document.getElementById('glossary-search') as HTMLInputElement;
+        const cards = Array.from(document.querySelectorAll<HTMLAnchorElement>('.glossary-card'));
+        const emptyState = document.getElementById('glossary-empty') as HTMLElement;
+
+        input.addEventListener('input', () => {
+            const query = input.value.trim().toLowerCase();
+            let visibleCount = 0;
+
+            cards.forEach((card) => {
+                const matches = card.dataset.search?.includes(query);
+                card.style.display = matches ? 'block' : 'none';
+                if (matches) visibleCount++;
+            });
+
+            emptyState.style.display = visibleCount === 0 ? 'block' : 'none';
+        });
+    </script>
+</Layout>

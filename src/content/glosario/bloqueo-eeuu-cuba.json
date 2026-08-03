@@ -1,0 +1,30 @@
+{
+  "id": "bloqueo-eeuu-cuba",
+  "term": "Bloqueo de Estados Unidos a Cuba",
+  "short_description": "El conjunto de sanciones económicas que Estados Unidos aplica a Cuba desde hace más de sesenta años, y que sigue generando debate por su impacto en la población cubana.",
+  "sections": [
+    {
+      "heading": "¿Desde cuándo existe y por qué empezó?",
+      "text": "Estados Unidos impuso las primeras sanciones comerciales a Cuba en 1960, poco después de que la Revolución Cubana liderada por Fidel Castro nacionalizara empresas y propiedades estadounidenses en la isla, y se profundizaron cuando Cuba se acercó a la Unión Soviética en plena Guerra Fría. En 1962, Estados Unidos convirtió esas sanciones en un embargo comercial casi total, que sigue vigente hoy."
+    },
+    {
+      "heading": "¿Cómo funciona?",
+      "text": "* El embargo prohíbe a las empresas estadounidenses comerciar con Cuba, con excepciones puntuales para alimentos y medicamentos.\n* También restringe los viajes de ciudadanos estadounidenses a la isla y bloquea a filiales de empresas de EE. UU. en otros países para que no vendan productos a Cuba.\n* Como consecuencia, Cuba tiene que importar insumos desde lugares mucho más lejanos, como Europa o Asia, lo que encarece los costos de casi todo."
+    },
+    {
+      "heading": "¿Cómo afecta a la población?",
+      "text": "El embargo golpea de forma directa la vida diaria de los cubanos: genera escasez de alimentos, combustible y medicamentos, y contribuye a los frecuentes apagones que dificultan el trabajo y la producción en la isla. El cierre de oficinas de envío de dinero en 2020 también afectó a muchas familias que dependen de la ayuda de parientes en el exterior.\nEl gobierno cubano estima que el embargo le costó al país cerca de 144.000 millones de dólares en total, aunque especialistas señalan que también existen otros factores internos, como el propio modelo económico cubano, que influyen en la crisis del país."
+    },
+    {
+      "heading": "¿Por qué sigue existiendo?",
+      "text": "Estados Unidos sostiene que el embargo busca presionar al gobierno cubano para que adopte reformas democráticas y de mercado. Sus críticos, en cambio, argumentan que después de seis décadas no logró ese objetivo y que perjudica principalmente a la población civil. La Asamblea General de la ONU votó en más de treinta ocasiones a favor de pedir el fin del embargo, aunque esas resoluciones no son de cumplimiento obligatorio."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "WOLA: Understanding the Failure of the U.S. Embargo on Cuba", "url": "https://www.wola.org/analysis/understanding-failure-of-us-cuba-embargo/" },
+    { "name": "Britannica: Cuba Embargo, Pros, Cons, Debate", "url": "https://www.britannica.com/procon/Cuba-Embargo-debate" },
+    { "name": "Sam Nunn School of International Affairs (Georgia Tech)", "url": "https://inta.gatech.edu/projects/impacts-of-the-us-embargo-on-cuba" },
+    { "name": "ONU: Asamblea General sobre el bloqueo a Cuba", "url": "https://press.un.org/en/2025/ga12722.doc.htm" }
+  ]
+}

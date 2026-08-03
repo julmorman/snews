@@ -18,7 +18,9 @@
   ],
   "images": [],
   "sources": [
-    { "name": "Wikipedia: Chat Control", "url": "https://en.wikipedia.org/wiki/Chat_Control" },
-    { "name": "GDPR Register: EU Chat Control explicado", "url": "https://www.gdprregister.eu/articles/eu-chat-control-scanning-privacy/" }
+    { "name": "GDPR Register: EU Chat Control explicado", "url": "https://www.gdprregister.eu/articles/eu-chat-control-scanning-privacy/" },
+    { "name": "Wired", "url": "https://www.wired.com/story/a-majority-of-european-lawmakers-voted-against-letting-big-tech-read-our-messages-theyre-going-to-anyway/" },
+    { "name": "Euronews", "url": "https://es.euronews.com/next/2026/07/10/chat-control-10-supera-el-tramite-en-el-parlamento-europeo-por-la-puerta-trasera" },
+    { "name": "Brussels Signal", "url": "https://brusselssignal.eu/2026/07/european-parliament-approves-mini-chat-control/" }
   ]
 }

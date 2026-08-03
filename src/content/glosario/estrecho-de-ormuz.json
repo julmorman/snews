@@ -19,6 +19,7 @@
   "images": [],
   "sources": [
     { "name": "Britannica: Strait of Hormuz", "url": "https://www.britannica.com/place/Strait-of-Hormuz" },
-    { "name": "Congressional Research Service (Library of Congress)", "url": "https://www.congress.gov/crs-product/R45281" }
+    { "name": "Congressional Research Service (Library of Congress)", "url": "https://www.congress.gov/crs-product/R45281" },
+    { "name": "Council on Foreign Relations: The Strait of Hormuz, a U.S.-Iran Maritime Flash Point", "url": "https://www.cfr.org/articles/strait-hormuz-us-iran-maritime-flash-point" }
   ]
 }

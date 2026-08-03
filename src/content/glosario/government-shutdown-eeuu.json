@@ -22,7 +22,8 @@
   ],
   "images": [],
   "sources": [
-    { "name": "Wikipedia: 2025 United States federal government shutdown", "url": "https://en.wikipedia.org/wiki/2025_United_States_federal_government_shutdown" },
-    { "name": "Ballotpedia: Federal government shutdown, 2025", "url": "https://ballotpedia.org/Federal_government_shutdown,_2025" }
+    { "name": "Ballotpedia: Federal government shutdown, 2025", "url": "https://ballotpedia.org/Federal_government_shutdown,_2025" },
+    { "name": "Brookings: What is a government shutdown and why are we likely to have another one?", "url": "https://www.brookings.edu/articles/what-is-a-government-shutdown-and-why-are-we-likely-to-have-another-one/" },
+    { "name": "Center for Homeland Defense and Security: 2025 Government Shutdown Timeline", "url": "https://www.chds.us/c/timeline/2025-government-shutdown/" }
   ]
 }

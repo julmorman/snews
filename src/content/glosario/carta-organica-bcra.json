@@ -1,0 +1,26 @@
+{
+  "id": "carta-organica-bcra",
+  "term": "Carta Orgánica del Banco Central",
+  "short_description": "La ley que define cómo funciona el Banco Central de la República Argentina, cuáles son sus objetivos y qué límites tiene.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "La Carta Orgánica del Banco Central de la República Argentina (BCRA) es la ley que establece cómo funciona la entidad: define su misión, fija sus objetivos, determina qué facultades tiene y pone límites a su actuación. La versión vigente es la Ley 24.144, sancionada en 1992."
+    },
+    {
+      "heading": "Un poco de historia",
+      "text": "El Banco Central se creó en 1935, en gran parte inspirado en las ideas del economista Raúl Prebisch tras la Gran Depresión, con un esquema mixto donde el Estado compartía el control del directorio con bancos privados. Desde entonces tuvo varias reformas importantes: la nacionalización total en 1946 y, más recientemente, la de 2012, que reemplazó el objetivo único de preservar el valor de la moneda por objetivos múltiples, como el empleo y el desarrollo económico."
+    },
+    {
+      "heading": "¿Por qué es un tema de debate hoy?",
+      "text": "* Las discusiones actuales sobre una nueva reforma giran en torno a si el Banco Central debería tener un mandato único, preservar el valor de la moneda, o mandatos múltiples que también incluyan objetivos como el empleo.\n* Otro punto central es si se le debería prohibir al Banco Central financiar al Tesoro Nacional emitiendo dinero o comprando títulos públicos, algo que en el pasado se usó para cubrir el déficit fiscal.\n* También se discute cuánta independencia debería tener el organismo frente al gobierno de turno a la hora de tomar decisiones."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "La Nación: Qué es la Carta Orgánica del Banco Central y qué implica una reforma", "url": "https://www.lanacion.com.ar/economia/cadena-nacional-de-milei-que-es-la-carta-organica-del-banco-central-y-que-implica-una-reforma-nid29072026/" },
+    { "name": "Infobae: Qué es la Carta Orgánica del BCRA y por qué el Gobierno quiere reformarla", "url": "https://www.infobae.com/economia/2026/07/28/cadena-nacional-de-milei-que-es-la-carta-organica-del-bcra-y-por-que-el-gobierno-quiere-reformarla/" },
+    { "name": "Ámbito: Qué es la Carta Orgánica del BCRA y cuáles son los cambios que impulsa Milei", "url": "https://www.ambito.com/economia/que-es-la-carta-organica-del-bcra-y-cuales-son-los-cambios-que-impulsa-javier-milei-la-reforma-n6304751" },
+    { "name": "Perfil: Las cinco reformas que se le hicieron a la Carta Orgánica en 91 años del Banco Central", "url": "https://www.perfil.com/noticias/columnistas/las-cinco-reformas-que-se-le-hicieron-a-la-carta-organica-en-los-91-anos-del-banco-central-por-carlos-burgueno.phtml" }
+  ]
+}

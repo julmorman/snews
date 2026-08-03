@@ -1,0 +1,29 @@
+{
+  "id": "burbuja-ia",
+  "term": "Burbuja de inteligencia artificial",
+  "short_description": "La posibilidad de que las inversiones multimillonarias en empresas de inteligencia artificial estén infladas por expectativas exageradas, y puedan desplomarse como pasó con otras burbujas financieras.",
+  "sections": [
+    {
+      "heading": "¿Qué significaría que la IA es una burbuja?",
+      "text": "Una burbuja financiera ocurre cuando el precio de algo, una empresa o una industria entera, sube mucho más de lo que justifican sus ganancias reales, impulsado más por expectativas y entusiasmo que por resultados concretos. Si eso pasa con la inteligencia artificial, significaría que buena parte del valor que hoy tienen las empresas de IA en la bolsa no se sostiene en sus ganancias reales, y que en algún momento esos precios podrían caer con fuerza."
+    },
+    {
+      "heading": "¿Por qué algunos economistas creen que puede pasar?",
+      "text": "* El economista Ruchir Sharma señaló que el boom de la IA cumple con las cuatro señales clásicas de una burbuja: sobreinversión, sobrevaloración, tenencia excesiva de acciones relacionadas y un uso creciente de deuda para financiar la expansión.\n* Grandes empresas como Meta, Amazon y Microsoft, que durante años invirtieron con caja propia, ahora emiten grandes cantidades de deuda para financiar sus centros de datos de IA.\n* Una suba en las tasas de interés podría encarecer esa deuda y funcionar como el disparador que haga estallar la burbuja."
+    },
+    {
+      "heading": "¿Y por qué otros creen que esta vez es distinto?",
+      "text": "* A diferencia de las empresas de la burbuja de las 'punto com' de 2000, las grandes compañías de IA actuales, como Microsoft, Google, Amazon y Meta, ya generan ganancias reales y enormes flujos de caja con sus otros negocios.\n* La demanda de inteligencia artificial no depende solo de empresas privadas: gobiernos y sectores de defensa también están invirtiendo, lo que le da un sostén adicional a la industria.\n* Las valuaciones actuales, aunque altas, todavía se explican en parte por el crecimiento real de las ganancias, y no únicamente por especulación pura."
+    },
+    {
+      "heading": "Impacto global si estalla",
+      "text": "Si la burbuja de IA estallara, el golpe no se limitaría a las empresas tecnológicas: gran parte del crecimiento reciente del mercado bursátil de Estados Unidos depende de un puñado de compañías ligadas a la inteligencia artificial, por lo que una caída fuerte de sus acciones podría arrastrar a fondos de pensión, ahorros de particulares y a la economía global en general."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Fortune: One AI bubble has already burst", "url": "https://fortune.com/2026/03/29/ai-bubble-already-burst-rare-one-still-growing/" },
+    { "name": "CNBC: AI sector now checks all the classic bubble signs", "url": "https://www.cnbc.com/video/2026/07/09/ai-sector-now-checks-all-the-classic-bubble-signs-says-rockefeller-internationals-ruchir-sharma.html" },
+    { "name": "Fidelity: Is AI a bubble? 5 signs to watch for", "url": "https://www.fidelity.com/learning-center/trading-investing/ai-bubble" }
+  ]
+}

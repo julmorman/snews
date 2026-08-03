@@ -1,0 +1,25 @@
+{
+  "id": "hezbollah",
+  "term": "Hezbollah",
+  "short_description": "Un partido político y grupo armado chiita libanés, aliado de Irán, que combina actividad política y militar en el Líbano.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "**Hezbollah**, que significa 'Partido de Dios' en árabe, es una organización libanesa que combina un partido político con un brazo armado. Nació entre 1982 y 1985, durante la guerra civil libanesa, como respuesta armada a la invasión israelí del sur del Líbano, y con fuerte inspiración en la Revolución Islámica de Irán de 1979."
+    },
+    {
+      "heading": "Relación con Irán y el Líbano",
+      "text": "Hezbollah recibe apoyo político, económico y militar de Irán desde su fundación, y comparte con ese país la rama chiita del Islam. Dentro del Líbano funciona como partido político, con bancas en el Parlamento y ministerios en el gobierno, además de contar con su propia estructura militar, algo poco habitual para una organización que no es un Estado.\nA diferencia de otras milicias de la guerra civil libanesa, Hezbollah nunca se desarmó por completo cuando terminó el conflicto en 1990."
+    },
+    {
+      "heading": "¿Por qué aparece tan seguido en las noticias?",
+      "text": "* Hezbollah mantiene un conflicto histórico con Israel, con enfrentamientos armados recurrentes en la frontera sur del Líbano.\n* Estados Unidos, Israel y otros países lo clasifican como una organización terrorista, mientras que otros gobiernos lo reconocen como un actor político legítimo dentro del Líbano.\n* Una ofensiva militar israelí en 2024 debilitó considerablemente su liderazgo y su capacidad militar, aunque el grupo se mantiene activo en la región."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Council on Foreign Relations: What Is Hezbollah?", "url": "https://www.cfr.org/backgrounders/what-hezbollah" },
+    { "name": "PBS NewsHour: What is Hezbollah? Origins, structure and history", "url": "https://www.pbs.org/newshour/world/what-is-hezbollah-what-to-know-about-its-origins-structure-and-history" },
+    { "name": "Infobae DEF: Hezbollah, historia de la organización", "url": "https://www.infobae.com/def/2024/01/06/video-hezbollah-historia-de-la-organizacion-y-su-rol-clave-como-ejecutor-politico-y-militar-de-iran-en-medio-oriente/" }
+  ]
+}

@@ -131,6 +131,7 @@ Al escribir o editar entradas en `src/content/glosario/`:
 
 - No usar rayas em (—) en el texto. Redactar las oraciones sin ellas (comas, paréntesis o punto seguido en su lugar).
 - No agregar un campo de categoría/tema inventado: la entrada es solo `term`, `short_description`, `sections`, `images` y `sources`.
+- Cada entrada necesita al menos 3 fuentes en `sources`. No usar Wikipedia como fuente: preferir medios, organismos oficiales, universidades o centros de investigación.
 - Dentro de `sections[].text`, usar `* ` (asterisco + espacio) al inicio de una línea para viñetas y `**texto**` para negrita. Si una oración no es una viñeta pero arranca en negrita, escribir algo antes del `**` en esa línea para que no se confunda con una viñeta.
 
 ## Senior Engineering Standards Applied

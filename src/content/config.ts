@@ -30,7 +30,6 @@ const glossaryCollection = defineCollection({
     id: z.string(),
     term: z.string(),
     short_description: z.string(),
-    topic: z.string().optional(),
     sections: z.array(z.object({
       heading: z.string().optional(),
       text: z.string(),

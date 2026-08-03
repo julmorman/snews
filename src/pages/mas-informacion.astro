@@ -24,21 +24,15 @@ allTerms.sort((a, b) => a.data.term.localeCompare(b.data.term, 'es'));
         />
     </div>
 
-    <div id="glossary-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; max-width: 1000px; margin: 0 auto;">
+    <div id="glossary-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; max-width: 1000px; margin: 0 auto;">
         {allTerms.map(entry => (
             <a
                 href={`/mas-informacion/${entry.data.id}`}
                 class="glossary-card"
-                data-search={`${entry.data.term} ${entry.data.short_description} ${entry.data.topic || ''}`.toLowerCase()}
-                style="text-decoration: none; color: inherit; display: block; background: #1e293b; padding: 1.5rem; border-radius: 1rem; border: 1px solid #334155; border-left: 6px solid #8b5cf6; transition: all 0.2s;"
+                data-search={`${entry.data.term} ${entry.data.short_description}`.toLowerCase()}
+                style="text-decoration: none; color: inherit; display: block; background: #1e293b; padding: 1.25rem 1.5rem; border-radius: 0.75rem; border: 1px solid #334155;"
             >
-                {entry.data.topic && (
-                    <span style="display: block; font-size: 0.7rem; font-weight: 900; text-transform: uppercase; letter-spacing: 1px; color: #a78bfa; margin-bottom: 0.4rem;">
-                        {entry.data.topic}
-                    </span>
-                )}
-                <h2 style="color: white; margin: 0 0 0.5rem 0; font-size: 1.2rem;">{entry.data.term}</h2>
-                <p style="color: #94a3b8; margin: 0; font-size: 0.9rem; line-height: 1.4;">{entry.data.short_description}</p>
+                <h2 style="color: white; margin: 0; font-size: 1.05rem;">{entry.data.term}</h2>
             </a>
         ))}
     </div>
@@ -49,9 +43,7 @@ allTerms.sort((a, b) => a.data.term.localeCompare(b.data.term, 'es'));
 
     <style>
         .glossary-card:hover {
-            border-color: #8b5cf6;
-            transform: translateY(-4px);
-            box-shadow: 0 10px 20px -5px rgba(139, 92, 246, 0.2);
+            border-color: #3b82f6;
         }
     </style>
 

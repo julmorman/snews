@@ -2,11 +2,10 @@
   "id": "government-shutdown-eeuu",
   "term": "Government Shutdown (cierre de gobierno) en Estados Unidos",
   "short_description": "El cierre parcial del gobierno federal de EE. UU. que ocurre cuando el Congreso no logra aprobar el presupuesto a tiempo.",
-  "topic": "Política — Estados Unidos",
   "sections": [
     {
       "heading": "¿Qué es y cómo funciona?",
-      "text": "En Estados Unidos, el **Congreso** (la Cámara de Representantes y el Senado) tiene que aprobar cada año las leyes de presupuesto que financian al gobierno federal. Si no llegan a un acuerdo antes de que se termine el financiamiento vigente, se produce un **government shutdown** (cierre de gobierno).\nDurante un shutdown, las agencias federales sin fondos deben suspender las actividades consideradas 'no esenciales' y mandar a sus empleados a un permiso forzado sin goce de sueldo (furlough). Los servicios esenciales —como el control de tráfico aéreo, la seguridad fronteriza o el Ejército— siguen funcionando, pero muchas veces sin que su personal cobre hasta que termine el conflicto.\nEl cierre termina recién cuando el Congreso aprueba una nueva ley de financiamiento y el presidente la firma."
+      "text": "En Estados Unidos, el **Congreso** (la Cámara de Representantes y el Senado) tiene que aprobar cada año las leyes de presupuesto que financian al gobierno federal. Si no llegan a un acuerdo antes de que se termine el financiamiento vigente, se produce un **government shutdown** (cierre de gobierno).\nDurante un shutdown, las agencias federales sin fondos deben suspender las actividades consideradas 'no esenciales' y mandar a sus empleados a un permiso forzado sin goce de sueldo (furlough). Los servicios esenciales, como el control de tráfico aéreo, la seguridad fronteriza o el Ejército, siguen funcionando, pero muchas veces sin que su personal cobre hasta que termine el conflicto.\nEl cierre termina recién cuando el Congreso aprueba una nueva ley de financiamiento y el presidente la firma."
     },
     {
       "heading": "El cierre récord de 2025",
@@ -23,7 +22,7 @@
   ],
   "images": [],
   "sources": [
-    { "name": "Wikipedia — 2025 United States federal government shutdown", "url": "https://en.wikipedia.org/wiki/2025_United_States_federal_government_shutdown" },
-    { "name": "Ballotpedia — Federal government shutdown, 2025", "url": "https://ballotpedia.org/Federal_government_shutdown,_2025" }
+    { "name": "Wikipedia: 2025 United States federal government shutdown", "url": "https://en.wikipedia.org/wiki/2025_United_States_federal_government_shutdown" },
+    { "name": "Ballotpedia: Federal government shutdown, 2025", "url": "https://ballotpedia.org/Federal_government_shutdown,_2025" }
   ]
 }

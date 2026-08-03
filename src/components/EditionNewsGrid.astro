@@ -19,27 +19,27 @@ interface Props {
       relatedTerms?: RelatedTerm[];
     }>;
   }[];
+  editionId: string;
+  editionLabel: string;
 }
 
-const { groupedNews } = Astro.props;
+const { groupedNews, editionId, editionLabel } = Astro.props;
+const infoQuery = `from=${encodeURIComponent(editionId)}&fromLabel=${encodeURIComponent(editionLabel)}`;
 ---
 
 <div class="edition-grid">
-    <div class="grid-header-spacer" aria-hidden="true"></div>
-    <div class="grid-header-label">Más información</div>
-
-    {groupedNews.map(group => (
+    {groupedNews.map((group, i) => (
         <>
-            <h2 class="category-header" style={`color: ${group.color};`}>{group.name}</h2>
+            <h2 class="category-title" style={`color: ${group.color};${i === 0 ? ' margin-top: 0.5rem;' : ''}`}>{group.name}</h2>
+            <div class="more-info-label" style={i === 0 ? 'margin-top: 0.5rem;' : ''}>
+                <span class="more-info-icon">ⓘ</span> Más información
+            </div>
             {group.items.map(item => (
                 <>
                     <NewsCard item={item} showCategory={false} />
                     <div class="info-buttons">
                         {item.relatedTerms && item.relatedTerms.map(t => (
-                            <a href={`/mas-informacion/${t.id}`} class="info-btn" title={t.term}>
-                                <span class="info-icon">?</span>
-                                <span class="info-label">{t.term}</span>
-                            </a>
+                            <a href={`/mas-informacion/${t.id}?${infoQuery}`} class="info-btn">{t.term}</a>
                         ))}
                     </div>
                 </>
@@ -51,98 +51,76 @@ const { groupedNews } = Astro.props;
 <style>
     .edition-grid {
         display: grid;
-        grid-template-columns: 1fr 190px;
+        grid-template-columns: 1fr 170px;
         gap: 1rem 1.5rem;
         align-items: stretch;
     }
 
-    .grid-header-spacer {
-        grid-column: 1;
-    }
-
-    .grid-header-label {
-        grid-column: 2;
-        font-size: 0.75rem;
+    .category-title {
         text-transform: uppercase;
         letter-spacing: 2px;
-        color: #a78bfa;
         font-weight: 900;
-        text-align: center;
-        align-self: end;
-        padding-bottom: 0.5rem;
-        border-bottom: 2px solid #1e293b;
-    }
-
-    .category-header {
-        grid-column: 1 / -1;
-        text-transform: uppercase;
-        letter-spacing: 2px;
         border-bottom: 2px solid #1e293b;
         padding-bottom: 0.5rem;
         margin: 2.5rem 0 0.5rem;
-        font-weight: 900;
     }
 
-    .category-header:first-of-type {
-        margin-top: 0.5rem;
+    .more-info-label {
+        display: flex;
+        align-items: center;
+        gap: 0.35rem;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #60a5fa;
+        font-weight: 900;
+        white-space: nowrap;
+        border-bottom: 2px solid #1e293b;
+        padding-bottom: 0.5rem;
+        margin: 2.5rem 0 0.5rem;
+    }
+
+    .more-info-icon {
+        font-size: 0.95rem;
     }
 
     .info-buttons {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        gap: 0.5rem;
+        gap: 0.4rem;
     }
 
     .info-btn {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        background: rgba(139, 92, 246, 0.1);
-        border: 1px solid rgba(139, 92, 246, 0.4);
-        color: #c4b5fd;
+        color: #93c5fd;
         text-decoration: none;
-        padding: 0.6rem 0.7rem;
-        border-radius: 0.6rem;
-        font-size: 0.75rem;
-        font-weight: bold;
-        line-height: 1.2;
-        transition: all 0.2s;
+        font-size: 0.8rem;
+        padding: 0.2rem 0;
+        border-bottom: 1px solid transparent;
+        line-height: 1.3;
     }
 
     .info-btn:hover {
-        background: rgba(139, 92, 246, 0.2);
-        border-color: #a78bfa;
-        transform: translateY(-2px);
+        color: #fff;
+        border-bottom-color: #3b82f6;
     }
 
-    .info-icon {
-        width: 1.2rem;
-        height: 1.2rem;
-        border-radius: 50%;
-        background: #8b5cf6;
-        color: white;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 0.7rem;
-        flex-shrink: 0;
+    .info-btn::before {
+        content: "+ ";
+        color: #3b82f6;
     }
 
     @media (max-width: 700px) {
         .edition-grid {
             grid-template-columns: 1fr;
         }
-        .grid-header-spacer,
-        .grid-header-label {
+        .more-info-label {
             display: none;
-        }
-        .category-header {
-            grid-column: 1;
         }
         .info-buttons {
             flex-direction: row;
             flex-wrap: wrap;
+            gap: 0.75rem 1rem;
             margin: 0 0 0.5rem;
         }
     }

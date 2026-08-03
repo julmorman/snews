@@ -16,19 +16,14 @@ const { data } = entry;
 ---
 
 <Layout title={`${SITE_TITLE} | ${data.term}`}>
-    <div style="margin-top: 2rem;">
-        <a href="/mas-informacion" style="color: #94a3b8; text-decoration: none;">&larr; Volver al glosario</a>
+    <div style="margin-top: 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <a id="back-link" href="/mas-informacion" style="color: #94a3b8; text-decoration: none;">&larr; Volver al glosario</a>
+        <a id="glossary-link" href="/mas-informacion" style="color: #94a3b8; text-decoration: none; display: none;">Ir al glosario &rarr;</a>
     </div>
 
     <article style="margin-top: 2rem; max-width: 800px; margin-left: auto; margin-right: auto;">
-        <header style="border-left: 8px solid #8b5cf6; padding-left: 1rem; margin-bottom: 2rem;">
-            {data.topic && (
-                <span style="display: inline-block; color: #c4b5fd; font-weight: bold; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; border: 1px solid #8b5cf6; padding: 0.2rem 0.6rem; border-radius: 4px; background: rgba(139, 92, 246, 0.1);">
-                    {data.topic}
-                </span>
-            )}
-            <h1 style="font-size: 2.2rem; margin: 0.5rem 0;">{data.term}</h1>
-            <p style="color: #94a3b8; font-size: 1.1rem; margin: 0;">{data.short_description}</p>
+        <header style="margin-bottom: 2rem;">
+            <h1 style="font-size: 2.2rem; margin: 0;">{data.term}</h1>
         </header>
 
         {data.images && data.images.length > 0 && (
@@ -46,10 +41,10 @@ const { data } = entry;
             {data.sections.map((section) => (
                 <section style="margin-bottom: 2rem;">
                     {section.heading && (
-                        <h2 style="font-size: 1.3rem; color: #a78bfa; margin-bottom: 1rem;">{section.heading}</h2>
+                        <h2 style="font-size: 1.3rem; color: #60a5fa; margin-bottom: 1rem;">{section.heading}</h2>
                     )}
                     {section.text.split('\n').map((line: string) => {
-                        const isBullet = line.trim().startsWith('*');
+                        const isBullet = /^\*\s/.test(line.trim());
                         const cleanText = isBullet ? line.trim().substring(1).trim() : line.trim();
                         if (cleanText === '') return null;
 
@@ -80,18 +75,33 @@ const { data } = entry;
                             target="_blank"
                             rel="noopener noreferrer"
                             style="display: flex; align-items: center; gap: 0.5rem; padding: 1rem; background: #0f172a; border-radius: 0.5rem; text-decoration: none; color: white; border: 1px solid transparent; transition: all 0.2s;"
-                            onmouseover="this.style.borderColor='#8b5cf6'; this.style.transform='translateY(-2px)'"
+                            onmouseover="this.style.borderColor='#3b82f6'; this.style.transform='translateY(-2px)'"
                             onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='transparent'"
                         >
                             <span style="font-weight: bold;">{source.name}</span>
                             <span style="color: #94a3b8; font-size: 0.9rem; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; flex: 1;">
                                 {source.url}
                             </span>
-                            <span style="color: #8b5cf6; font-weight: bold;">&nearrow;</span>
+                            <span style="color: #3b82f6; font-weight: bold;">&nearrow;</span>
                         </a>
                     ))}
                 </div>
             </section>
         )}
     </article>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const fromEdition = params.get('from');
+        const fromLabel = params.get('fromLabel');
+
+        if (fromEdition && fromLabel) {
+            const backLink = document.getElementById('back-link') as HTMLAnchorElement;
+            const glossaryLink = document.getElementById('glossary-link') as HTMLAnchorElement;
+
+            backLink.href = `/archivo/${fromEdition}`;
+            backLink.textContent = `← Volver a ${fromLabel}`;
+            glossaryLink.style.display = 'inline';
+        }
+    </script>
 </Layout>

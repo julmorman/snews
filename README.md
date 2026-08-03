@@ -125,6 +125,14 @@ The site will be available at `http://localhost:4321`.
 - `scripts/`: Automation and maintenance scripts.
 - [news_example.csv](./news_example.csv): Reference CSV template detailing the columns and data structure required for weekly imports.
 
+## Convenciones del Glosario
+
+Al escribir o editar entradas en `src/content/glosario/`:
+
+- No usar rayas em (—) en el texto. Redactar las oraciones sin ellas (comas, paréntesis o punto seguido en su lugar).
+- No agregar un campo de categoría/tema inventado: la entrada es solo `term`, `short_description`, `sections`, `images` y `sources`.
+- Dentro de `sections[].text`, usar `* ` (asterisco + espacio) al inicio de una línea para viñetas y `**texto**` para negrita. Si una oración no es una viñeta pero arranca en negrita, escribir algo antes del `**` en esa línea para que no se confunda con una viñeta.
+
 ## Senior Engineering Standards Applied
 
 - **DRY (Don't Repeat Yourself):** Centralized categories, colors, and site metadata in `src/config/constants.ts`.

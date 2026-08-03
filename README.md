@@ -109,6 +109,20 @@ python3 scripts/generate_week.py week-02.csv
 ```
 The script uses AI to transform your CSV data into a type-safe JSON edition and updates the site references automatically. The CSV input file must follow the schema and structure specified in [news_example.csv](./news_example.csv).
 
+**Columnas del CSV:**
+
+| # | Columna | Obligatoria | Descripción |
+|---|---|---|---|
+| 1 | `section` | Sí | `geopolítica`, `nacional`, `ciencia-ambiente`, `negocios-tecnologia` u `opinión` |
+| 2 | `title` | Sí | Título crudo de la noticia (Gemini lo va a pulir) |
+| 3 | `image` | Sí | URL exacta de la imagen |
+| 4-11 | `source_1` … `source_8` | Al menos 1 | Hasta 8 URLs de fuentes para esa noticia |
+| 12 | `glossary_term` | No | Nombre del término a explicar en "Más información" (ver abajo) |
+| 13 | `glossary_image` | No | Imagen para ese término, solo si es un término nuevo |
+| 14-17 | `glossary_source_1` … `glossary_source_4` | No | Hasta 4 fuentes del término (mínimo 3, sin Wikipedia) |
+
+**Cómo funciona la columna 12 (glosario):** si el término escrito en `glossary_term` ya existe en `src/content/glosario/` (comparando por nombre normalizado), esa noticia simplemente se enlaza a la entrada existente y las columnas 13-17 se ignoran. Si no existe, el script le pide a Gemini que redacte una entrada nueva usando las fuentes de las columnas 14-17 (no busca fuentes por su cuenta) y la guarda como un archivo nuevo. Podés poner más de un término separándolos con `|` en la columna 12, pero en ese caso comparten las mismas columnas 13-17. Al correr el script, se listan en la consola los términos que ya existen para que puedas copiar el nombre exacto y evitar crear duplicados por escribirlo distinto.
+
 #### 2. Start the Web Dashboard
 ```bash
 npm run dev

@@ -1,0 +1,26 @@
+{
+  "id": "ley-de-tierras",
+  "term": "Ley de Tierras",
+  "short_description": "La ley argentina que limita la compra de tierras rurales por parte de extranjeros, y que el Gobierno de Milei busca reformar.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "La **Ley de Tierras** (Ley 26.737) es la norma argentina, vigente desde 2011, que limita al 15% la proporción de tierras rurales que pueden estar en manos de personas o empresas extranjeras en todo el país. También exige autorización previa para las operaciones grandes y prohíbe directamente la compra de campos por parte de Estados extranjeros."
+    },
+    {
+      "heading": "¿Por qué existe?",
+      "text": "La ley surgió después de un caso muy resonado en 2008: en un remate del Banco Nación en La Rioja, un ciudadano extranjero compró unas 200.000 hectáreas que incluían un pueblo entero y una de las principales reservas de agua dulce de la provincia. Ese episodio impulsó el debate que terminó en la sanción de la ley en 2011, bajo la idea de proteger recursos estratégicos como la tierra y el agua."
+    },
+    {
+      "heading": "¿Por qué está en discusión ahora?",
+      "text": "* El Gobierno de Javier Milei impulsa una reforma que eliminaría el tope del 15% a la compra de tierras por parte de extranjeros.\n* La última versión del proyecto permite que cada provincia fije sus propios límites, en vez de un tope único nacional.\n* Quienes defienden la reforma argumentan que atraería más inversión extranjera al campo. Quienes la critican advierten sobre la pérdida de control sobre recursos estratégicos."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Infobae: Las claves de la nueva ley de tierras", "url": "https://www.infobae.com/economia/2026/07/16/las-claves-de-la-nueva-ley-de-tierras-que-impulsa-el-gobierno-venta-a-extranjeros-y-el-bloqueo-a-la-amenaza-china/" },
+    { "name": "El Destape: la historia detrás de la ley que Milei busca derogar", "url": "https://www.eldestapeweb.com/informacion-general/ley-tierras-historia-rioja-dio-origen-ley-busca-derogar-milei-senado-202671615818" },
+    { "name": "Ámbito", "url": "https://www.ambito.com/el-oficialismo-reunio-el-quorum-el-senado-avanzar-los-cambios-la-ley-tierras-n6300262" },
+    { "name": "BAE Negocios", "url": "https://www.baenegocios.com/amp/ley-de-tierras-el-senado-definira-la-reforma-de-milei-el-6-de-agosto-y-crece-la-tension/" }
+  ]
+}

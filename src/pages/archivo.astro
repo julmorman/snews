@@ -20,7 +20,14 @@ allEditions.sort((a, b) => b.id.localeCompare(a.id));
                      onmouseover="this.style.transform='translateX(10px)'; this.style.borderColor='#3b82f6'"
                      onmouseout="this.style.transform='translateX(0)'; this.style.borderColor='#334155'">
                     <div style="text-align: left;">
-                        <h2 style="color: white; margin: 0; font-size: 1.4rem; font-weight: 800;">{edition.data.funny_title}</h2>
+                        <h2 style="color: white; margin: 0; font-size: 1.4rem; font-weight: 800; display: flex; align-items: center; gap: 0.6rem;">
+                            {edition.data.funny_title}
+                            {edition.data.intro_label && (
+                                <span style="color: #06b6d4; font-weight: 900; text-transform: uppercase; font-size: 0.7rem; letter-spacing: 2px; border: 1px solid #06b6d4; padding: 0.15rem 0.6rem; border-radius: 100px;">
+                                    {edition.data.intro_label}
+                                </span>
+                            )}
+                        </h2>
                         <p style="color: #94a3b8; margin: 0.2rem 0 0 0; font-size: 1rem;">{edition.data.date}</p>
                     </div>
                     <div style="color: #3b82f6; font-weight: bold; font-size: 1.2rem;">Explorar &rarr;</div>

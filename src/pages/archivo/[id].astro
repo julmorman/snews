@@ -1,6 +1,8 @@
 ---
 import Layout from '../../layouts/Layout.astro';
+import EditionHeader from '../../components/EditionHeader.astro';
 import EditionNewsGrid from '../../components/EditionNewsGrid.astro';
+import WorldMap from '../../components/WorldMap.astro';
 import { getCollection, getEntry } from 'astro:content';
 import { CATEGORIES, SITE_TITLE, matchCategory } from '../../config/constants';
 
@@ -38,10 +40,11 @@ const groupedNews = CATEGORIES.map(cat => ({
         <a href="/archivo" style="color: #94a3b8; text-decoration: none;">&larr; Volver al Archivo</a>
     </div>
 
-    <header style="text-align: center; margin-bottom: 3rem;">
-        <h1 style="font-size: 3rem; margin: 0.5rem 0;">{data.funny_title}</h1>
-        <p style="color: #94a3b8;">{data.date}</p>
-    </header>
+    <EditionHeader funnyTitle={data.funny_title} date={data.date} introLabel={data.intro_label} />
+
+    {data.map_points && data.map_points.length > 0 && (
+        <WorldMap points={data.map_points} />
+    )}
 
     <EditionNewsGrid groupedNews={groupedNews} editionId={edition.id} editionLabel={data.funny_title} />
 </Layout>

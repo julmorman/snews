@@ -1,0 +1,88 @@
+{
+  "id": "week-09",
+  "date": "6 de Agosto",
+  "funny_title": "Semana 09",
+  "intro_label": "RECAP",
+  "map_points": [
+    { "label": "Carta Orgánica BCRA", "lat": -34.6, "lng": -58.4, "newsId": "carta-organica-bcra-ingresa-diputados" },
+    { "label": "Estrecho de Ormuz", "lat": 26.5, "lng": 56.3, "newsId": "iran-eeuu-negociaciones-oman-ormuz" },
+    { "label": "Líbano", "lat": 33.85, "lng": 35.86, "newsId": "libano-invasion-terrestre-israel-desarme-hezbollah" },
+    { "label": "Gaza", "lat": 31.5, "lng": 34.47, "newsId": "gaza-hamas-acepta-desarme-israel-sin-confirmar" },
+    { "label": "Ucrania", "lat": 49.0, "lng": 31.0, "newsId": "ucrania-rusia-escalada-ataques-agosto" }
+  ],
+  "news": [
+    {
+      "id": "carta-organica-bcra-ingresa-diputados",
+      "category": "nacional",
+      "title": "Milei envía al Congreso la reforma de la Carta Orgánica del BCRA",
+      "short_summary": "El proyecto ingresa por Diputados y el oficialismo busca aprobarlo antes de fin de mes.",
+      "image": "https://www.infobae.com/resizer/v2/PZQCPY5VNVHLHEWA5UIS7FSXDA.jpg?auth=90c3753ea67e16e281bcaaf9c1a3fff1b01e3517d6c85ee2c6959d7a7d39d684&smart=true&width=1200&quality=85",
+      "context": "* El Gobierno formalizó el envío al Congreso del proyecto que busca reformar la Carta Orgánica del Banco Central.\n* La iniciativa ingresa por la Cámara de Diputados y establece un mandato único: preservar el valor de la moneda.\n* El oficialismo planea votarla en agosto junto a la ampliación de la Inocencia Fiscal y la Ley de Tierras.",
+      "extended_context": "Hace dos ediciones te explicamos, en el glosario, qué es la Carta Orgánica del Banco Central y por qué una reforma de ese tipo puede cambiar por completo cómo funciona la entidad. En la última edición antes del receso contábamos que Milei estaba preparando el proyecto; ahora ese anuncio se concretó.\n\nSegún informaron Infobae y La Nación, el presidente confirmó por cadena nacional, el 30 de julio, que el proyecto de reforma ya está redactado y explicó que buscará dotar al Banco Central de mayor autonomía. La iniciativa prohíbe que la entidad financie al Tesoro nacional, a las provincias o a los municipios, elimina las llamadas letras intransferibles y limita la distribución de utilidades del organismo. El texto ingresará por la Cámara de Diputados.\n\nEl oficialismo ya evalúa una o dos sesiones extraordinarias durante agosto para tratar, en paralelo, tres proyectos: esta reforma del Banco Central, la ampliación del régimen de Inocencia Fiscal y la Ley de Tierras que se vota este mismo 6 de agosto en el Senado.",
+      "links": [
+        { "name": "Infobae", "url": "https://www.infobae.com/politica/2026/07/31/la-reforma-de-la-carta-organica-del-bcra-entrara-por-diputados-y-el-gobierno-buscara-aprobarla-en-agosto/" },
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/politica/javier-milei-presenta-la-reforma-de-la-carta-organica-del-blanco-central-por-cadena-nacional-nid30072026/" },
+        { "name": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/el-presidente-milei-anuncio-en-cadena-nacional-el-envio-al-congreso-del-proyecto-de-reforma" }
+      ],
+      "related_terms": ["carta-organica-bcra"]
+    },
+    {
+      "id": "iran-eeuu-negociaciones-oman-ormuz",
+      "category": "geopolítica",
+      "title": "Trump anuncia negociaciones con Irán tras cancelar un ataque masivo",
+      "short_summary": "Teherán lo desmiente en público mientras negocia con Omán una ruta alternativa en Ormuz.",
+      "image": "https://s.yimg.com/lo/mysterio/api/1a6b4b32732c1adacf7427384cf31a173b095f1033546f1171d7a97f278f5b0a/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fal_jazeera_289%2Fbc4d6d6f1ba19226982344339fcbcfaf",
+      "context": "* Trump canceló un ataque que, según dijo, iba a ser el más grande desde la Segunda Guerra Mundial.\n* El presidente estadounidense anunció negociaciones para el 3 de agosto, pero Irán negó públicamente que fueran a reanudarse.\n* En paralelo, Irán negocia con Omán una ruta marítima alternativa para reabrir parcialmente el tránsito por el estrecho.",
+      "extended_context": "En la última edición antes del receso te contamos que Trump había reinstalado el bloqueo naval a los puertos iraníes y anunciado un peaje del 20% para la carga que cruzara el Estrecho de Ormuz, mientras Estados Unidos bombardeaba infraestructura civil en el sur de Irán. Si te perdiste esa nota o no sabés bien qué es el Estrecho de Ormuz, lo explicamos en el glosario.\n\nEl fin de semana del 1 y 2 de agosto, Trump anunció que había cancelado un ataque que, según sus propias palabras, iba a ser 'el más grande desde la Segunda Guerra Mundial', y que en su lugar comenzarían negociaciones con Irán la tarde del 3 de agosto. Horas después, el Ministerio de Asuntos Exteriores iraní desmintió que fuera a recibir ninguna delegación, lo que llevó a Trump a calificar al liderazgo iraní de 'increíblemente falso' en sus redes sociales.\n\nEn paralelo, Irán confirmó que negocia con Omán, no con Estados Unidos, una ruta marítima alternativa que permitiría reabrir parcialmente el tránsito por la zona, sin ceder el control que reclama sobre el estrecho. Por ahora, el bloqueo naval estadounidense a los puertos iraníes sigue vigente.",
+      "links": [
+        { "name": "Yahoo News", "url": "https://www.yahoo.com/news/politics/articles/trump-says-iran-negotiations-starting-094453011.html" },
+        { "name": "The Spokesman-Review", "url": "https://www.spokesman.com/stories/2026/aug/03/iran-says-hormuz-talks-ongoing-after-trump-calls-o/" },
+        { "name": "CNN", "url": "https://www.cnn.com/2026/08/02/world/live-news/iran-war-trump" }
+      ],
+      "related_terms": ["estrecho-de-ormuz"]
+    },
+    {
+      "id": "libano-invasion-terrestre-israel-desarme-hezbollah",
+      "category": "geopolítica",
+      "title": "Israel controla el 20% de Líbano tras su invasión terrestre",
+      "short_summary": "Más de un millón de personas desplazadas mientras el retiro israelí sigue condicionado al desarme de Hezbollah.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/03/2025-11-28T171701Z_431458401_RC2M5IAPYWN1_RTRMADP_3_LEBANON-ARMY-TOUR-SOUTH-1771942421-1-1773142856.jpg",
+      "context": "* Israel lanzó en marzo una invasión terrestre en el sur del Líbano y hoy controla cerca del 20% del país.\n* La ofensiva dejó cerca de 500 muertos y obligó a más de un millón de personas a abandonar sus hogares.\n* Estados Unidos condiciona el retiro israelí al desarme de Hezbollah, algo que el grupo rechaza hasta el momento.",
+      "extended_context": "En la semana 7 te contamos que Israel había destruido un túnel de Hezbollah en el sur del Líbano apenas dos días después de un acuerdo de seguridad mediado por Estados Unidos, y que Hezbollah advertía que se reservaba el derecho de defender su territorio. Lo que no habíamos contado todavía es que, en marzo, ese conflicto había escalado a una invasión terrestre israelí completa. Si no sabés bien qué es Hezbollah, lo explicamos en el glosario.\n\nSegún Al Jazeera y Axios, Israel ordenó una incursión terrestre en el sur del Líbano que dejó a sus fuerzas en control de aproximadamente el 20% del territorio libanés, con una campaña aérea que mató a cerca de 500 personas, entre ellas 83 chicos, y desplazó a más de un millón de libaneses de sus casas.\n\nUn marco de trabajo impulsado por Estados Unidos en junio condicionó cualquier retiro israelí a que Hezbollah entregara sus armas, una exigencia que el grupo rechazó. Esa negativa mantiene a las tropas israelíes desplegadas en el sur del país, complicando además los intentos del propio gobierno libanés de avanzar con el desarme por su cuenta.",
+      "links": [
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/features/2026/3/10/as-israel-intensifies-lebanon-attacks-hezbollah-disarmament-takes-backseat" },
+        { "name": "Axios", "url": "https://www.axios.com/2026/03/14/israel-lebanon-ground-invasion-hezbollah" },
+        { "name": "Council on Foreign Relations", "url": "https://www.cfr.org/global-conflict-tracker/conflict/political-instability-lebanon" }
+      ],
+      "related_terms": ["hezbollah"]
+    },
+    {
+      "id": "gaza-hamas-acepta-desarme-israel-sin-confirmar",
+      "category": "geopolítica",
+      "title": "Hamás acepta desarmarse pero Israel todavía no confirmó el acuerdo",
+      "short_summary": "El plan busca terminar la guerra en etapas, mientras los ataques israelíes ya dejaron más de 1.200 muertos pese a la tregua.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a6a17818bbe-1785337729.jpg",
+      "context": "* Hamás aceptó un plan para desarmarse en etapas, mediado por Egipto, Qatar, Turquía y Estados Unidos.\n* Israel todavía no confirmó públicamente el acuerdo y exige que se cumplan primero otras condiciones pactadas.\n* Desde que empezó la tregua en octubre, los ataques israelíes ya mataron a más de 1.200 palestinos.",
+      "extended_context": "En la última edición te contamos que, pese al alto el fuego vigente desde octubre de 2025, los ataques israelíes en Gaza no se habían detenido, con más de 1.100 palestinos muertos desde que empezó la tregua. Ese número ya subió a más de 1.200.\n\nLo nuevo es que, según Al Jazeera y AP News, Hamás aceptó un plan para poner fin a la guerra en etapas, que incluye la entrega gradual de sus armas. El anuncio lo hizo Donald Trump a fines de julio, después de que el Board of Peace liderado por Estados Unidos y mediadores de Egipto, Qatar y Turquía terminaran de acordar una hoja de ruta para esta nueva fase.\n\nSin embargo, Israel todavía no dio su aprobación pública a la propuesta, y Hamás advirtió que no va a cumplir su parte si Israel no retira antes sus tropas de las zonas que había prometido abandonar según el acuerdo original. El plan de reconstrucción de Gaza que impulsa Trump, que en la edición pasada contamos que se había reducido a un pequeño campamento piloto cerca de Rafah, todavía no arrancó su construcción.",
+      "links": [
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/7/31/gaza-board-of-peace-announces-hamas-disarmament-agreement-what-we-know" },
+        { "name": "News4Jax (AP)", "url": "https://www.news4jax.com/news/world/2026/07/31/hamas-says-a-deal-has-been-reached-in-gaza-and-other-developments-in-the-middle-east/" },
+        { "name": "The Detroit News", "url": "https://www.detroitnews.com/story/news/world/2026/07/30/gaza-ceasefire-talks-see-rare-progress-sources-say/91107714007/" }
+      ]
+    },
+    {
+      "id": "ucrania-rusia-escalada-ataques-agosto",
+      "category": "geopolítica",
+      "title": "Rusia y Ucrania intercambian sus ataques más intensos en semanas",
+      "short_summary": "Zelensky destituyó a la embajadora en Estados Unidos mientras las chances de un acuerdo de paz siguen bajas.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/14191114-1785767290.jpg?resize=770%2C513&quality=80",
+      "context": "* Rusia lanzó más de treinta misiles y miles de drones contra posiciones ucranianas en un solo día.\n* Ucrania respondió con un ataque de su nuevo dron Magura contra objetivos rusos en Crimea.\n* Zelensky destituyó sin explicaciones a la embajadora ucraniana en Estados Unidos en medio de la escalada.",
+      "extended_context": "En ediciones anteriores veníamos siguiendo los sucesivos bombardeos rusos contra Kiev; en las últimas semanas, la escalada no bajó el ritmo. El 1 de agosto, Rusia lanzó 31 misiles, 66 ataques aéreos, 201 bombas guiadas y más de 6.600 drones kamikaze contra posiciones ucranianas, según datos militares recopilados por GlobalSecurity.\n\nAl Jazeera reportó que, entre el 1 y el 3 de agosto, los ataques cruzados dejaron al menos 16 muertos del lado ruso y 11 del lado ucraniano, incluidos un socorrista y su hijo de ocho años en un ataque contra una estación de servicio en Krivói Rog. Ucrania, por su parte, usó por primera vez su nuevo dron naval Magura para atacar objetivos rusos en Crimea, y aplicó una nueva ronda de sanciones contra la industria de defensa rusa.\n\nEn el plano diplomático, el presidente Volodímir Zelensky destituyó sin dar explicaciones a la embajadora ucraniana en Estados Unidos, Olha Stefanishyna, justo cuando distintas fuentes evalúan que las conversaciones de paz entre Rusia y Ucrania tienen pocas chances de prosperar en el corto plazo.",
+      "links": [
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/3/more-than-10-killed-as-russia-and-ukraine-trade-heavy-attacks" },
+        { "name": "GlobalSecurity", "url": "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-08-01.htm" },
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/2/ukrainian-drone-attacks-kill-eight-in-response-to-russian-missiles" }
+      ]
+    }
+  ]
+}

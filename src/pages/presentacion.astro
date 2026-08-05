@@ -85,7 +85,21 @@ for (let i = 0; i < maxItems; i++) {
             text-shadow: 0 0 20px var(--accent-glow), 0 0 40px rgba(139, 92, 246, 0.3);
             text-transform: uppercase;
         }
-        .intro-slogan { 
+        .intro-badge {
+            font-family: var(--font-title);
+            font-size: 1.3rem;
+            font-weight: 700;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--accent);
+            border: 2px solid var(--accent);
+            border-radius: 100px;
+            padding: 0.5rem 1.75rem;
+            margin-bottom: 2rem;
+            text-shadow: 0 0 10px var(--accent-glow);
+            box-shadow: 0 0 20px var(--accent-glow);
+        }
+        .intro-slogan {
             font-size: 1.5rem; 
             color: var(--accent); 
             margin-top: 1rem; 
@@ -204,6 +218,7 @@ for (let i = 0; i < maxItems; i++) {
     <div id="slides-container">
         <!-- Portada Inicial -->
         <div class="slide active" data-duration="15000">
+            {data.intro_label && <div class="intro-badge">{data.intro_label} &middot; {data.funny_title}</div>}
             <h1 class="intro-title">THE LOOP</h1>
             <p class="intro-slogan">Noticias que importan, explicadas para que formes tu propia opinión.</p>
             <div class="footer">EDICIÓN {data.date}</div>

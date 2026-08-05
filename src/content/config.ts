@@ -6,6 +6,13 @@ const newsCollection = defineCollection({
     id: z.string(),
     funny_title: z.string(),
     date: z.string(),
+    intro_label: z.string().optional(),
+    map_points: z.array(z.object({
+      label: z.string(),
+      lat: z.number(),
+      lng: z.number(),
+      newsId: z.string(),
+    })).optional(),
     news: z.array(z.object({
       id: z.string(),
       category: z.string(),

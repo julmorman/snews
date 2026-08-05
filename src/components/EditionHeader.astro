@@ -1,0 +1,23 @@
+---
+interface Props {
+  funnyTitle: string;
+  date: string;
+  introLabel?: string;
+}
+
+const { funnyTitle, date, introLabel } = Astro.props;
+---
+
+<header style="text-align: center; margin-bottom: 3rem;">
+    {introLabel ? (
+        <>
+            <h1 style="font-size: 3.5rem; margin: 0.5rem 0; letter-spacing: 6px; color: #06b6d4; text-transform: uppercase; text-shadow: 0 0 20px rgba(6, 182, 212, 0.4);">{introLabel}</h1>
+            <p style="color: #cbd5e1; font-size: 1.2rem; font-weight: bold;">{funnyTitle} &middot; {date}</p>
+        </>
+    ) : (
+        <>
+            <h1 style="font-size: 3rem; margin: 0.5rem 0;">{funnyTitle}</h1>
+            <p style="color: #94a3b8;">{date}</p>
+        </>
+    )}
+</header>

@@ -1,0 +1,25 @@
+{
+  "id": "board-of-peace",
+  "term": "Board of Peace",
+  "short_description": "El organismo creado por Donald Trump para supervisar la reconstrucción, el desarme y la transición política en Gaza tras el alto el fuego.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "El **Board of Peace** es un organismo creado por el presidente estadounidense Donald Trump para supervisar la reconstrucción, el desarme de los grupos armados y la transición política en la Franja de Gaza tras el fin de la guerra. Trump anunció su creación en septiembre de 2025, durante la firma del primer alto el fuego entre Israel y Hamás, y se designó a sí mismo como su presidente."
+    },
+    {
+      "heading": "¿Quién lo integra?",
+      "text": "Entre sus miembros clave figuran el secretario de Estado estadounidense Marco Rubio, el exprimer ministro británico Tony Blair, el enviado especial de Trump Steve Witkoff, el presidente del Banco Mundial Ajay Banga, y el asesor Jared Kushner, entre otros funcionarios y empresarios."
+    },
+    {
+      "heading": "¿Qué rol cumple hoy?",
+      "text": "El Board of Peace fue el organismo que, junto a mediadores de Egipto, Catar y Turquía, presentó a fines de julio de 2026 una hoja de ruta para que Hamás se desarme en etapas y transfiera el control civil y de seguridad de Gaza a un nuevo gobierno tecnocrático palestino. Esa hoja de ruta es la que, hasta el momento, Israel no confirmó públicamente que acepta."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Haaretz: Board of Peace Unveils Roadmap for Trump's Gaza Peace Plan", "url": "https://www.haaretz.com/gaza/2026-07-31/ty-article/.premium/board-of-peace-unveils-roadmap-for-trumps-gaza-peace-plan/0000019f-b853-d3fa-a19f-b9d3fc210000" },
+    { "name": "The Jerusalem Post: texto completo de la hoja de ruta del Board of Peace", "url": "https://www.jpost.com/middle-east/article-904230" },
+    { "name": "CNN: Trump announces Gaza breakthrough but uncertainty remains", "url": "https://www.cnn.com/2026/07/30/politics/hamas-disarmament-agreement-trump-board-of-peace" }
+  ]
+}

@@ -18,6 +18,7 @@
       "id": "carta-organica-bcra-reforma",
       "category": "nacional",
       "title": "Reforma de la Carta Orgánica del BCRA",
+      "presentation_title": "Milei envía al Congreso la reforma de la Carta Orgánica del BCRA",
       "short_summary": "Cronología del envío al Congreso del proyecto de reforma del Banco Central.",
       "image": "https://www.infobae.com/resizer/v2/PZQCPY5VNVHLHEWA5UIS7FSXDA.jpg?auth=90c3753ea67e16e281bcaaf9c1a3fff1b01e3517d6c85ee2c6959d7a7d39d684&smart=true&width=1200&quality=85",
       "context": "* Javier Milei anunció por cadena nacional el envío al Congreso de la reforma de la Carta Orgánica del Banco Central.\n* El proyecto establece un mandato único para el Banco Central: preservar el valor de la moneda.\n* La iniciativa prohíbe el financiamiento del Banco Central al Tesoro, a las provincias y a los municipios.",
@@ -41,6 +42,7 @@
       "id": "ley-inocencia-fiscal-reforma",
       "category": "nacional",
       "title": "Ley de Inocencia Fiscal",
+      "presentation_title": "Diputados debate la nueva versión de la Ley de Inocencia Fiscal",
       "short_summary": "Cronología de la nueva versión del régimen de blanqueo de capitales enviada al Congreso.",
       "image": "https://www.infobae.com/resizer/v2/CVCCZSOT75FI3DF5XP5KRZQ2OM.jpeg?auth=670ce8ef03b6fb04536b888e61f73a84fa210c406fefc4505074de10b62d03d8&smart=true&width=1200&quality=85",
       "context": "* El Gobierno reescribió el proyecto de Inocencia Fiscal tras las críticas recibidas por la primera versión de la ley.\n* La oposición exige excluir a funcionarios públicos y personas políticamente expuestas de los beneficios del régimen.\n* El proyecto busca incorporar al circuito formal parte de los 170.000 millones de dólares fuera del sistema financiero.",
@@ -57,12 +59,14 @@
         { "name": "APFDigital", "url": "https://www.apfdigital.com.ar/noticias/2026/07/24/464371-ley-de-inocencia-fiscal-el-gobierno-envio-el-proyecto-a-diputados" },
         { "name": "El Litoral", "url": "https://www.ellitoral.com/politica/congreso-nacion-ley-hojarasca-reforma-electoral-super-rigi-inocencia-fiscal_0_MriQQNumvw.html" },
         { "name": "El Cronista", "url": "https://www.cronista.com/economia-politica/inocencia-fiscal-ii-que-cambio-en-el-nuevo-proyecto-y-la-definicion-tras-el-caso-adorni/" }
-      ]
+      ],
+      "related_terms": ["regimen-de-inocencia-fiscal"]
     },
     {
       "id": "ley-tierras-reforma-senado",
       "category": "nacional",
       "title": "Ley de Tierras",
+      "presentation_title": "El Gobierno retira el capítulo sobre venta de tierras a extranjeros",
       "short_summary": "Cronología de los cambios al proyecto de reforma de tierras rurales en el Senado.",
       "image": "https://www.infobae.com/resizer/v2/KTOGOQF3AZDTZPQUBYESRWJOOM.jpg?auth=c6997a1f0cafe6c76805302508cad7c8844bcceed235eecf66b366ece8231c50&smart=true&width=1200&quality=85",
       "context": "* El oficialismo elevó del 15% al 25% el límite a la compra de tierras rurales por parte de extranjeros.\n* El Gobierno retiró ese capítulo del proyecto tras no reunir el apoyo necesario de senadores aliados.\n* El Senado convocó una nueva sesión para tratar el resto del proyecto sin ese capítulo.",
@@ -88,6 +92,7 @@
       "id": "guerra-iran-estados-unidos",
       "category": "geopolítica",
       "title": "Guerra entre Irán y Estados Unidos",
+      "presentation_title": "Irán y Omán acuerdan una ruta para reabrir el Estrecho de Ormuz",
       "short_summary": "Cronología de las negociaciones por la reapertura del Estrecho de Ormuz.",
       "image": "https://s.yimg.com/lo/mysterio/api/1a6b4b32732c1adacf7427384cf31a173b095f1033546f1171d7a97f278f5b0a/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fal_jazeera_289%2Fbc4d6d6f1ba19226982344339fcbcfaf",
       "context": "* Trump canceló un ataque que, según sus palabras, iba a ser el más grande desde la Segunda Guerra Mundial.\n* Irán negó que fuera a recibir una delegación estadounidense, mientras negocia con Omán una ruta alternativa por Ormuz.\n* Irán y Omán confirmaron el 5 de agosto que acordaron la ruta marítima, en la etapa final de la negociación.",
@@ -112,6 +117,7 @@
       "id": "invasion-de-libano",
       "category": "geopolítica",
       "title": "Invasión de Líbano",
+      "presentation_title": "Israel ataca el sur del Líbano en medio de conversaciones en Roma",
       "short_summary": "Cronología de la séptima ronda de conversaciones entre Israel y Líbano en Roma, y de los choques en el sur del país.",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a7355b11ebf7-1785943473.jpg",
       "context": "* Israel y Líbano iniciaron en Roma la séptima ronda de conversaciones mediadas por Estados Unidos el 4 de agosto.\n* Israel descartó discutir el retiro de una segunda zona piloto, mientras Líbano exige nuevas zonas al sur del río Litani.\n* Israel realizó ataques en el sur de Líbano tras acusar a Hezbollah de violar el alto el fuego vigente.",
@@ -128,12 +134,13 @@
         { "name": "Haaretz", "url": "https://www.haaretz.com/middle-east-news/lebanonnews/2026-08-04/ty-article/.premium/israel-lebanon-return-to-rome-for-seventh-round-of-u-s-brokered-talks/0000019f-cb81-d22f-a79f-cf99fae40000" },
         { "name": "Al-Monitor", "url": "https://www.al-monitor.com/originals/2026/08/lebanon-and-israel-hold-new-round-direct-talks-rome" }
       ],
-      "related_terms": ["hezbollah"]
+      "related_terms": ["hezbollah", "linea-azul", "zona-piloto-libano"]
     },
     {
       "id": "guerra-en-gaza",
       "category": "geopolítica",
       "title": "Guerra en Gaza",
+      "presentation_title": "Netanyahu declara que Israel no aceptó el plan de desarme de Hamás",
       "short_summary": "Cronología del plan de desarme de Hamás y su disputa con Israel.",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a6a17818bbe-1785337729.jpg",
       "context": "* Hamás aceptó un plan para desarmarse en etapas, mediado por Egipto, Catar, Turquía y Estados Unidos.\n* El plan exige que Israel se retire a la Línea Amarilla original y detenga sus operaciones militares.\n* El primer ministro Benjamín Netanyahu declaró públicamente que Israel no aceptó los términos del acuerdo.",
@@ -151,12 +158,14 @@
         { "name": "The Washington Times", "url": "https://www.washingtontimes.com/news/2026/aug/2/israel-expresses-serious-concerns-hamas-disarmament-deal/" },
         { "name": "The National", "url": "https://www.thenationalnews.com/news/mena/2026/08/05/netanyahu-rejects-us-backed-hamas-disarmament-deal/" },
         { "name": "AP News (via News4Jax)", "url": "https://www.news4jax.com/news/world/2026/07/31/hamas-says-a-deal-has-been-reached-in-gaza-and-other-developments-in-the-middle-east/" }
-      ]
+      ],
+      "related_terms": ["linea-amarilla", "board-of-peace"]
     },
     {
       "id": "guerra-rusia-ucrania",
       "category": "geopolítica",
       "title": "Guerra entre Rusia y Ucrania",
+      "presentation_title": "Un ataque ruso a Kiev deja 15 muertos en la última semana",
       "short_summary": "Cronología de los principales hechos del conflicto.",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/14191114-1785767290.jpg?resize=770%2C513&quality=80",
       "context": "* Rusia lanzó en julio la mayor cantidad de misiles mensuales del año, superando su propia capacidad de producción.\n* Un ataque ruso con misiles y drones sobre Kiev dejó 15 muertos y 51 heridos el 5 de agosto.\n* Ucrania destituyó a su embajadora en Estados Unidos y usó por primera vez un dron naval contra Crimea.",

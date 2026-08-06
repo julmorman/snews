@@ -1,0 +1,25 @@
+{
+  "id": "linea-amarilla",
+  "term": "Línea Amarilla",
+  "short_description": "La línea de repliegue israelí trazada dentro de la Franja de Gaza tras el alto el fuego de octubre de 2025, que delimita el territorio bajo control militar israelí.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "La **Línea Amarilla** es una demarcación establecida dentro de la Franja de Gaza como parte del alto el fuego firmado por Israel y Hamás el 9 de octubre de 2025. Marca las áreas hasta donde debían replegarse las fuerzas israelíes durante la primera fase de la tregua, sin retirarse por completo del territorio. Las Fuerzas de Defensa de Israel colocaron marcadores de hormigón pintados de amarillo para señalizarla sobre el terreno."
+    },
+    {
+      "heading": "¿Cuánto territorio abarca?",
+      "text": "Cuando se estableció, la línea dejaba a Israel con presencia y control directo sobre alrededor del 53% de la superficie de la Franja. Según la Oficina de Coordinación de Asuntos Humanitarios de la ONU (OCHA), esa proporción había subido al 64,9% hacia junio de 2026."
+    },
+    {
+      "heading": "¿Por qué genera controversia?",
+      "text": "Para buena parte de la población de Gaza resulta difícil saber con precisión por dónde pasa la línea en cada tramo, mientras las fuerzas israelíes tienen instrucciones de disparar contra quienes se acerquen o la crucen. Analistas advierten que, si se mantiene en el tiempo, la Línea Amarilla podría consolidarse como una frontera de facto, en vez de ser un límite temporal propio de la primera fase del acuerdo."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Al Jazeera: Israel weaponises Yellow Line to annex Gaza", "url": "https://www.aljazeera.com/news/2026/7/22/creeping-death-israel-weaponises-yellow-line-to-annex-gaza" },
+    { "name": "CBC News: Israel's yellow line in Gaza is moving, expanding IDF's control", "url": "https://www.cbc.ca/news/investigates/satellite-images-gaza-yellow-line-9.7257822" },
+    { "name": "NBC News: Israel's yellow line in Gaza", "url": "https://www.nbcnews.com/world/middle-east/israel-yellow-line-gaza-trump-ceasefire-hamas-rcna239994" }
+  ]
+}

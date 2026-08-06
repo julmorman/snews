@@ -1,0 +1,25 @@
+{
+  "id": "regimen-de-inocencia-fiscal",
+  "term": "Régimen de Inocencia Fiscal",
+  "short_description": "Un mecanismo impositivo argentino que invierte la carga de la prueba fiscal: en vez de presumir que el contribuyente ocultó ingresos, presume que dijo la verdad.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "El **Régimen de Inocencia Fiscal** es un mecanismo impositivo argentino que cambia el punto de partida de la relación entre el contribuyente y el fisco. En lugar de presumir que una persona ocultó ingresos o los declaró de forma incompleta, el régimen parte de la base de que dijo la verdad, y traslada a la Agencia de Recaudación y Control Aduanero (ARCA) la carga de demostrar lo contrario si sospecha que hay un delito, como evasión."
+    },
+    {
+      "heading": "¿Es lo mismo que un blanqueo de capitales?",
+      "text": "No. A diferencia de los blanqueos tradicionales, que ofrecen un perdón explícito sobre fondos no declarados a cambio del pago de un impuesto especial, el régimen de Inocencia Fiscal no exime de responsabilidad penal ni tributaria si ARCA logra probar que hubo un delito. Según el propio organismo, se trata de un cambio en el criterio de fiscalización, no de una amnistía."
+    },
+    {
+      "heading": "¿Por qué está en debate ahora?",
+      "text": "* El Gobierno impulsa una segunda versión del régimen que busca incorporar al circuito formal parte de los dólares que hoy están fuera del sistema financiero.\n* La nueva versión elimina los topes de ingresos y patrimonio que limitaban el acceso a la primera edición del régimen.\n* La oposición reclama excluir de sus beneficios a funcionarios públicos y personas políticamente expuestas."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "El Cronista: por qué los dólares del blanqueo te pueden excluir del régimen", "url": "https://www.cronista.com/economia-politica/inocencia-fiscal-por-que-los-dolares-del-blanqueo-te-pueden-excluir-del-nuevo-regimen/" },
+    { "name": "Argentina.gob.ar: el Gobierno reglamentó el Régimen de Inocencia Fiscal", "url": "https://www.argentina.gob.ar/noticias/el-gobierno-reglamento-el-regimen-de-inocencia-fiscal-0" },
+    { "name": "Infobae: lo que cambia para quienes declaran dólares", "url": "https://www.infobae.com/economia/2026/02/09/que-cambia-para-los-contribuyentes-con-la-ley-de-inocencia-fiscal-el-estado-deja-de-indagar-el-origen-de-los-dolares-declarados/" }
+  ]
+}

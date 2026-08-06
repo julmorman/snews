@@ -1,0 +1,25 @@
+{
+  "id": "zona-piloto-libano",
+  "term": "Zona piloto (Líbano)",
+  "short_description": "Áreas del sur del Líbano donde se prueba, a pequeña escala, el retiro gradual de tropas israelíes y el despliegue del Ejército libanés.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "Las **zonas piloto** son un puñado de aldeas en el sur del Líbano, ubicadas a ambos lados del río Litani, elegidas para poner a prueba a pequeña escala el mecanismo de retirada israelí y despliegue del Ejército libanés, antes de extenderlo a otras zonas del país. Las primeras tres zonas piloto establecidas fueron Froun, Srifa y Zawtar al Gharbiya."
+    },
+    {
+      "heading": "¿De dónde surgen?",
+      "text": "El mecanismo forma parte del Marco Tripartito firmado en junio de 2026 entre Líbano, Israel y Estados Unidos, que busca la retirada gradual de las fuerzas israelíes del sur del Líbano a cambio del desarme de Hezbollah. Las operaciones para implementar las primeras zonas piloto comenzaron el 20 de julio de 2026, bajo supervisión del Grupo de Coordinación Militar para el Líbano."
+    },
+    {
+      "heading": "¿Cómo funciona?",
+      "text": "* La seguridad de cada zona piloto pasa de forma gradual a manos del Ejército libanés, a medida que Israel considera que existen garantías suficientes.\n* El objetivo declarado es que, si el mecanismo funciona en estas zonas reducidas, se extienda progresivamente a otras áreas del sur del Líbano.\n* La cantidad de zonas piloto adicionales a habilitar, y en qué condiciones, sigue siendo uno de los principales puntos de fricción en las negociaciones entre Israel y el Líbano."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Infobae: Líbano e Israel acordaron avances en la estructura de las zonas piloto", "url": "https://www.infobae.com/america/mundo/2026/07/15/libano-e-israel-acordaron-avances-en-la-estructura-de-las-zonas-piloto-durante-las-negociaciones-en-roma/" },
+    { "name": "Infobae: EEUU confirma el inicio de las operaciones para la implementación de zonas piloto", "url": "https://www.infobae.com/america/agencias/2026/07/20/eeuu-confirma-el-inicio-de-las-operaciones-para-la-implementacion-de-zonas-piloto-en-libano/" },
+    { "name": "La Nación (Paraguay): Líbano comienza a tomar el control de las zonas piloto", "url": "https://www.lanacion.com.py/mundo/2026/07/22/libano-comienza-a-tomar-el-control-de-las-zonas-piloto-por-retirada-israeli/" }
+  ]
+}

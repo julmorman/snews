@@ -234,7 +234,7 @@ for (let i = 0; i < maxItems; i++) {
                     <!-- Slide A: Título -->
                     <div class="slide" data-color={categoryColor} data-duration="8000">
                         <div class="category" style={`color: ${categoryColor}`}>{categoryLabel}</div>
-                        <div class="title" style={`color: white`}>{item.title}</div>
+                        <div class="title" style={`color: white`}>{item.presentation_title || item.title}</div>
                         <div class="summary">{item.short_summary}</div>
                         <div class="footer">THE LOOP | {data.date}</div>
                     </div>

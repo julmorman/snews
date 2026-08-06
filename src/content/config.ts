@@ -19,6 +19,7 @@ const newsCollection = defineCollection({
       id: z.string(),
       category: z.string(),
       title: z.string(),
+      presentation_title: z.string().optional(),
       short_summary: z.string(),
       context: z.string(),
       extended_context: z.string().optional(),

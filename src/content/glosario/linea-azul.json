@@ -1,0 +1,25 @@
+{
+  "id": "linea-azul",
+  "term": "Línea Azul",
+  "short_description": "La demarcación trazada por la ONU en 2000 entre Israel y el Líbano, usada como referencia de retirada militar aunque no es una frontera oficial.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "La **Línea Azul** es una demarcación de unos 120 kilómetros trazada por las Naciones Unidas entre el 24 de mayo y el 7 de junio del año 2000, con el objetivo de confirmar la retirada de las fuerzas israelíes del sur del Líbano después de 22 años de ocupación. Un equipo de cartógrafos de la ONU, con apoyo de la Fuerza Provisional de las Naciones Unidas para el Líbano (FINUL), trazó la línea a lo largo de la frontera entre ambos países."
+    },
+    {
+      "heading": "¿Es una frontera oficial?",
+      "text": "No. La propia ONU aclara que la Línea Azul se estableció 'sin perjuicio de futuros acuerdos de fronteras entre los Estados miembros interesados', y la define como una línea de retirada, no como un límite internacional reconocido. Israel y el Líbano nunca delimitaron formalmente una frontera común."
+    },
+    {
+      "heading": "¿Por qué sigue siendo relevante?",
+      "text": "La Línea Azul funciona como referencia central en las negociaciones actuales entre Israel y el Líbano, incluida la disputa por el repliegue de tropas israelíes y el establecimiento de las llamadas 'zonas piloto' en el sur libanés. La FINUL sigue supervisando la zona a lo largo de esta línea."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "El Orden Mundial: ¿Qué es la Línea Azul entre Israel y Líbano?", "url": "https://elordenmundial.com/linea-azul-israel-libano/" },
+    { "name": "Newtral: Qué es la Resolución 1701 de la ONU para Israel y el Líbano", "url": "https://www.newtral.es/que-es-resolucion-onu-israel-libano/20241127/" },
+    { "name": "LISA News: Así es la Línea Azul, la demarcación entre Israel y Líbano", "url": "https://www.lisanews.org/internacional/asi-es-la-linea-azul-la-demarcacion-entre-israel-y-libano/" }
+  ]
+}

@@ -10,6 +10,7 @@ interface Point {
   lat: number;
   lng: number;
   newsId: string;
+  labelPos?: 'top' | 'bottom' | 'left' | 'right';
 }
 
 interface Props {
@@ -26,21 +27,28 @@ const project = ([lat, lng]: [number, number]) => {
 
 const toPath = (coords: [number, number][]) => `M ${coords.map(project).join(' L ')} Z`;
 
+const LABEL_OFFSETS = {
+  top: { dx: 0, dy: -16, anchor: 'middle' },
+  bottom: { dx: 0, dy: 26, anchor: 'middle' },
+  left: { dx: -12, dy: 5, anchor: 'end' },
+  right: { dx: 12, dy: 5, anchor: 'start' },
+} as const;
+
 const NORTH_AMERICA: [number, number][] = [
   [71, -156], [66, -165], [60, -145], [55, -130], [49, -125], [40, -124],
-  [32, -117], [28, -114], [23, -106], [19, -105], [16, -95], [14, -92],
-  [9, -79], [12, -84], [18, -88], [21, -97], [25, -97], [29, -95],
-  [30, -81], [25, -80], [30, -81], [33, -78], [35, -76], [38, -75],
-  [41, -70], [44, -67], [47, -60], [52, -56], [58, -63], [60, -65],
-  [63, -80], [68, -95], [70, -125],
+  [34, -120], [32, -117], [28, -114], [23, -110], [23, -106], [19, -105],
+  [16, -95], [14, -92], [9, -79], [12, -84], [18, -88], [21, -97],
+  [25, -97], [29, -95], [30, -81], [25, -80], [30, -81], [33, -78],
+  [35, -76], [38, -75], [41, -70], [44, -67], [47, -60], [52, -56],
+  [58, -63], [60, -65], [63, -80], [68, -95], [70, -125],
 ];
 
 const SOUTH_AMERICA: [number, number][] = [
   [12, -72], [11, -66], [10, -61], [5, -52], [0, -50], [-3, -39],
-  [-8, -35], [-13, -38], [-18, -39], [-23, -43], [-28, -48], [-34, -54],
-  [-34, -58], [-40, -62], [-47, -66], [-52, -69], [-54, -68], [-49, -73],
-  [-42, -73], [-33, -71], [-27, -70], [-23, -70], [-18, -70], [-14, -76],
-  [-4, -81], [0, -80], [4, -77], [8, -77],
+  [-8, -35], [-13, -38], [-18, -39], [-23, -43], [-25, -48], [-28, -48],
+  [-34, -54], [-34, -58], [-37, -57], [-40, -62], [-47, -66], [-52, -69],
+  [-54, -68], [-49, -73], [-42, -73], [-33, -71], [-27, -70], [-23, -70],
+  [-18, -70], [-14, -76], [-4, -81], [0, -80], [4, -77], [8, -77],
 ];
 
 const AFRICA: [number, number][] = [
@@ -72,28 +80,38 @@ const CONTINENTS = [NORTH_AMERICA, SOUTH_AMERICA, AFRICA, EURASIA, AUSTRALIA];
 ---
 
 <div class="world-map">
-    <svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mapa con las noticias principales de esta edición">
-        <rect x="0" y="0" width="1000" height="500" class="map-bg" />
-        {Array.from({ length: 11 }, (_, i) => i * 100).map((x) => (
-            <line x1={x} y1="0" x2={x} y2="500" class="graticule" />
-        ))}
-        {Array.from({ length: 5 }, (_, i) => i * 125).map((y) => (
-            <line x1="0" y1={y} x2="1000" y2={y} class="graticule" />
-        ))}
-        {CONTINENTS.map((coords) => <path d={toPath(coords)} class="landmass" />)}
+    <div class="map-toolbar">
+        <button type="button" class="map-btn" id="map-zoom-out" aria-label="Alejar">&minus;</button>
+        <button type="button" class="map-btn" id="map-zoom-reset" aria-label="Restablecer zoom">100%</button>
+        <button type="button" class="map-btn" id="map-zoom-in" aria-label="Acercar">&plus;</button>
+    </div>
+    <div class="map-viewport" id="map-viewport">
+        <svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mapa con las noticias principales de esta edición" id="map-svg">
+            <g id="map-content">
+                <rect x="0" y="0" width="1000" height="500" class="map-bg" />
+                {Array.from({ length: 11 }, (_, i) => i * 100).map((x) => (
+                    <line x1={x} y1="0" x2={x} y2="500" class="graticule" />
+                ))}
+                {Array.from({ length: 5 }, (_, i) => i * 125).map((y) => (
+                    <line x1="0" y1={y} x2="1000" y2={y} class="graticule" />
+                ))}
+                {CONTINENTS.map((coords) => <path d={toPath(coords)} class="landmass" />)}
 
-        {points.map((point, i) => {
-            const [x, y] = project([point.lat, point.lng]).split(',').map(Number);
-            const labelUp = i % 2 === 0;
-            return (
-                <a href={`/noticia/${point.newsId}`} class="map-point-link">
-                    <circle cx={x} cy={y} r="14" class="map-point-ping" />
-                    <circle cx={x} cy={y} r="5" class="map-point-dot" />
-                    <text x={x} y={labelUp ? y - 14 : y + 24} class="map-point-label" text-anchor="middle">{point.label}</text>
-                </a>
-            );
-        })}
-    </svg>
+                {points.map((point) => {
+                    const [x, y] = project([point.lat, point.lng]).split(',').map(Number);
+                    const offset = LABEL_OFFSETS[point.labelPos ?? 'top'];
+                    return (
+                        <a href={`/noticia/${point.newsId}`} class="map-point-link">
+                            <circle cx={x} cy={y} r="14" class="map-point-ping" />
+                            <circle cx={x} cy={y} r="5" class="map-point-dot" />
+                            <text x={x + offset.dx} y={y + offset.dy} class="map-point-label" text-anchor={offset.anchor}>{point.label}</text>
+                        </a>
+                    );
+                })}
+            </g>
+        </svg>
+    </div>
+    <p class="map-hint">Scroll o los botones para hacer zoom. Arrastrá el mapa para moverlo.</p>
 </div>
 
 <style>
@@ -104,6 +122,52 @@ const CONTINENTS = [NORTH_AMERICA, SOUTH_AMERICA, AFRICA, EURASIA, AUSTRALIA];
         border: 1px solid #1e293b;
         border-radius: 1rem;
         padding: 1rem;
+    }
+
+    .map-toolbar {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .map-btn {
+        background: #1e293b;
+        border: 1px solid #334155;
+        color: #cbd5e1;
+        border-radius: 0.4rem;
+        padding: 0.3rem 0.7rem;
+        font-family: var(--font-body);
+        font-size: 0.85rem;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.15s;
+    }
+
+    .map-btn:hover {
+        border-color: #3b82f6;
+        color: #fff;
+    }
+
+    #map-zoom-reset {
+        min-width: 4.2rem;
+    }
+
+    .map-viewport {
+        overflow: hidden;
+        border-radius: 0.5rem;
+        cursor: grab;
+        touch-action: none;
+    }
+
+    .map-viewport.dragging {
+        cursor: grabbing;
+    }
+
+    .map-viewport svg {
+        display: block;
+        width: 100%;
+        height: auto;
     }
 
     .map-bg {
@@ -150,11 +214,22 @@ const CONTINENTS = [NORTH_AMERICA, SOUTH_AMERICA, AFRICA, EURASIA, AUSTRALIA];
         font-size: 15px;
         font-weight: 700;
         font-family: var(--font-body);
+        paint-order: stroke;
+        stroke: #0f172a;
+        stroke-width: 4px;
+        stroke-linejoin: round;
         transition: fill 0.2s;
     }
 
     .map-point-link:hover .map-point-label {
         fill: #fff;
+    }
+
+    .map-hint {
+        margin: 0.5rem 0 0;
+        text-align: center;
+        color: #64748b;
+        font-size: 0.75rem;
     }
 
     @keyframes map-ping {
@@ -168,3 +243,93 @@ const CONTINENTS = [NORTH_AMERICA, SOUTH_AMERICA, AFRICA, EURASIA, AUSTRALIA];
         }
     }
 </style>
+
+<script>
+    const viewport = document.getElementById('map-viewport') as HTMLDivElement;
+    const content = document.getElementById('map-content') as unknown as SVGGElement;
+    const zoomInBtn = document.getElementById('map-zoom-in') as HTMLButtonElement;
+    const zoomOutBtn = document.getElementById('map-zoom-out') as HTMLButtonElement;
+    const zoomResetBtn = document.getElementById('map-zoom-reset') as HTMLButtonElement;
+
+    const MIN_SCALE = 1;
+    const MAX_SCALE = 5;
+    let scale = 1;
+    let panX = 0;
+    let panY = 0;
+
+    const clampPan = () => {
+        const maxPanX = ((scale - 1) * 1000) / 2;
+        const maxPanY = ((scale - 1) * 500) / 2;
+        panX = Math.min(maxPanX, Math.max(-maxPanX, panX));
+        panY = Math.min(maxPanY, Math.max(-maxPanY, panY));
+    };
+
+    const apply = () => {
+        clampPan();
+        content.setAttribute('transform', `translate(${panX} ${panY}) scale(${scale})`);
+        content.style.transformOrigin = '500px 250px';
+        zoomResetBtn.textContent = `${Math.round(scale * 100)}%`;
+    };
+
+    const setScale = (next: number, focusX = 500, focusY = 250) => {
+        const clamped = Math.min(MAX_SCALE, Math.max(MIN_SCALE, next));
+        const ratio = clamped / scale;
+        panX = focusX - (focusX - panX) * ratio;
+        panY = focusY - (focusY - panY) * ratio;
+        scale = clamped;
+        apply();
+    };
+
+    zoomInBtn.addEventListener('click', () => setScale(scale * 1.4));
+    zoomOutBtn.addEventListener('click', () => setScale(scale / 1.4));
+    zoomResetBtn.addEventListener('click', () => { scale = 1; panX = 0; panY = 0; apply(); });
+
+    viewport.addEventListener('wheel', (e) => {
+        e.preventDefault();
+        const rect = viewport.getBoundingClientRect();
+        const focusX = ((e.clientX - rect.left) / rect.width) * 1000;
+        const focusY = ((e.clientY - rect.top) / rect.height) * 500;
+        setScale(scale * (e.deltaY < 0 ? 1.15 : 1 / 1.15), focusX, focusY);
+    }, { passive: false });
+
+    let dragging = false;
+    let lastX = 0;
+    let lastY = 0;
+
+    const startDrag = (clientX: number, clientY: number) => {
+        if (scale <= 1) return;
+        dragging = true;
+        lastX = clientX;
+        lastY = clientY;
+        viewport.classList.add('dragging');
+    };
+
+    const moveDrag = (clientX: number, clientY: number) => {
+        if (!dragging) return;
+        const rect = viewport.getBoundingClientRect();
+        panX += ((clientX - lastX) / rect.width) * 1000;
+        panY += ((clientY - lastY) / rect.height) * 500;
+        lastX = clientX;
+        lastY = clientY;
+        apply();
+    };
+
+    const endDrag = () => {
+        dragging = false;
+        viewport.classList.remove('dragging');
+    };
+
+    viewport.addEventListener('mousedown', (e) => startDrag(e.clientX, e.clientY));
+    window.addEventListener('mousemove', (e) => moveDrag(e.clientX, e.clientY));
+    window.addEventListener('mouseup', endDrag);
+
+    viewport.addEventListener('touchstart', (e) => {
+        const t = e.touches[0];
+        startDrag(t.clientX, t.clientY);
+    }, { passive: true });
+    viewport.addEventListener('touchmove', (e) => {
+        const t = e.touches[0];
+        moveDrag(t.clientX, t.clientY);
+    }, { passive: true });
+    viewport.addEventListener('touchend', endDrag);
+</script>

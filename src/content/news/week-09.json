@@ -3,85 +3,177 @@
   "date": "6 de Agosto",
   "funny_title": "Semana 09",
   "intro_label": "RECAP",
+  "map_caption": "Lo que sucedió globalmente durante las vacaciones de invierno",
   "map_points": [
-    { "label": "Carta Orgánica BCRA", "lat": -34.6, "lng": -58.4, "newsId": "carta-organica-bcra-ingresa-diputados" },
-    { "label": "Estrecho de Ormuz", "lat": 26.5, "lng": 56.3, "newsId": "iran-eeuu-negociaciones-oman-ormuz" },
-    { "label": "Líbano", "lat": 33.85, "lng": 35.86, "newsId": "libano-invasion-terrestre-israel-desarme-hezbollah" },
-    { "label": "Gaza", "lat": 31.5, "lng": 34.47, "newsId": "gaza-hamas-acepta-desarme-israel-sin-confirmar" },
-    { "label": "Ucrania", "lat": 49.0, "lng": 31.0, "newsId": "ucrania-rusia-escalada-ataques-agosto" }
+    { "label": "Carta Orgánica BCRA", "lat": -34.6, "lng": -58.4, "newsId": "carta-organica-bcra-reforma", "labelPos": "bottom" },
+    { "label": "Inocencia Fiscal", "lat": -34.6, "lng": -60.5, "newsId": "ley-inocencia-fiscal-reforma", "labelPos": "left" },
+    { "label": "Ley de Tierras", "lat": -32.0, "lng": -63.0, "newsId": "ley-tierras-reforma-senado", "labelPos": "right" },
+    { "label": "Estrecho de Ormuz", "lat": 26.5, "lng": 56.3, "newsId": "guerra-iran-estados-unidos", "labelPos": "top" },
+    { "label": "Líbano", "lat": 33.85, "lng": 35.86, "newsId": "invasion-de-libano", "labelPos": "right" },
+    { "label": "Gaza", "lat": 31.5, "lng": 34.47, "newsId": "guerra-en-gaza", "labelPos": "left" },
+    { "label": "Ucrania", "lat": 49.0, "lng": 31.0, "newsId": "guerra-rusia-ucrania", "labelPos": "top" }
   ],
   "news": [
     {
-      "id": "carta-organica-bcra-ingresa-diputados",
+      "id": "carta-organica-bcra-reforma",
       "category": "nacional",
-      "title": "Milei envía al Congreso la reforma de la Carta Orgánica del BCRA",
-      "short_summary": "El proyecto ingresa por Diputados y el oficialismo busca aprobarlo antes de fin de mes.",
+      "title": "Reforma de la Carta Orgánica del BCRA",
+      "short_summary": "Cronología del envío al Congreso del proyecto de reforma del Banco Central.",
       "image": "https://www.infobae.com/resizer/v2/PZQCPY5VNVHLHEWA5UIS7FSXDA.jpg?auth=90c3753ea67e16e281bcaaf9c1a3fff1b01e3517d6c85ee2c6959d7a7d39d684&smart=true&width=1200&quality=85",
-      "context": "* El Gobierno formalizó el envío al Congreso del proyecto que busca reformar la Carta Orgánica del Banco Central.\n* La iniciativa ingresa por la Cámara de Diputados y establece un mandato único: preservar el valor de la moneda.\n* El oficialismo planea votarla en agosto junto a la ampliación de la Inocencia Fiscal y la Ley de Tierras.",
-      "extended_context": "Hace dos ediciones te explicamos, en el glosario, qué es la Carta Orgánica del Banco Central y por qué una reforma de ese tipo puede cambiar por completo cómo funciona la entidad. En la última edición antes del receso contábamos que Milei estaba preparando el proyecto; ahora ese anuncio se concretó.\n\nSegún informaron Infobae y La Nación, el presidente confirmó por cadena nacional, el 30 de julio, que el proyecto de reforma ya está redactado y explicó que buscará dotar al Banco Central de mayor autonomía. La iniciativa prohíbe que la entidad financie al Tesoro nacional, a las provincias o a los municipios, elimina las llamadas letras intransferibles y limita la distribución de utilidades del organismo. El texto ingresará por la Cámara de Diputados.\n\nEl oficialismo ya evalúa una o dos sesiones extraordinarias durante agosto para tratar, en paralelo, tres proyectos: esta reforma del Banco Central, la ampliación del régimen de Inocencia Fiscal y la Ley de Tierras que se vota este mismo 6 de agosto en el Senado.",
+      "context": "* Javier Milei anunció por cadena nacional el envío al Congreso de la reforma de la Carta Orgánica del Banco Central.\n* El proyecto establece un mandato único para el Banco Central: preservar el valor de la moneda.\n* La iniciativa prohíbe el financiamiento del Banco Central al Tesoro, a las provincias y a los municipios.",
+      "timeline": [
+        { "date": "30 de julio", "text": "El presidente Javier Milei anunció por cadena nacional el envío al Congreso de un proyecto de reforma de la Carta Orgánica del Banco Central de la República Argentina. En su discurso calificó al organismo como una herramienta que, según sus palabras, posibilitó el 'robo de la alta política', y dirigió críticas a la gestión de la expresidenta del Banco Central Mercedes Marcó del Pont." },
+        { "date": "30 de julio", "text": "El proyecto establece un mandato único para el Banco Central, preservar el valor de la moneda, en reemplazo de los objetivos múltiples vigentes desde la reforma de 2012. También prohíbe el financiamiento de la entidad al Tesoro nacional, a las provincias y a los municipios, y elimina las llamadas letras intransferibles." },
+        { "date": "31 de julio", "text": "Cuatro expresidentes del Banco Central emitieron opiniones divergentes sobre los alcances de la reforma propuesta, según un relevamiento de La Nación." },
+        { "date": "31 de julio", "text": "El proyecto ingresó formalmente por la Cámara de Diputados. El oficialismo evalúa tratarlo en una o dos sesiones extraordinarias durante agosto, junto con la ampliación del régimen de Inocencia Fiscal y la Ley de Tierras." }
+      ],
       "links": [
-        { "name": "Infobae", "url": "https://www.infobae.com/politica/2026/07/31/la-reforma-de-la-carta-organica-del-bcra-entrara-por-diputados-y-el-gobierno-buscara-aprobarla-en-agosto/" },
-        { "name": "La Nación", "url": "https://www.lanacion.com.ar/politica/javier-milei-presenta-la-reforma-de-la-carta-organica-del-blanco-central-por-cadena-nacional-nid30072026/" },
-        { "name": "Argentina.gob.ar", "url": "https://www.argentina.gob.ar/noticias/el-presidente-milei-anuncio-en-cadena-nacional-el-envio-al-congreso-del-proyecto-de-reforma" }
+        { "name": "Infobae", "url": "https://www.infobae.com/politica/2026/07/30/milei-presenta-la-reforma-de-la-carta-organica-del-bcra-con-fuertes-criticas-a-la-alta-politica-y-al-kirchnerismo/" },
+        { "name": "Página/12", "url": "https://www.pagina12.com.ar/2026/07/31/sin-politica-financiera-y-el-poder-a-los-mercados/" },
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/economia/carta-organica-que-piensan-cuatro-expresidentes-del-banco-central-sobre-la-reforma-de-milei-nid31072026/" },
+        { "name": "Ámbito", "url": "https://www.ambito.com/economia/que-es-la-carta-organica-del-bcra-y-cuales-son-los-cambios-que-impulsa-javier-milei-la-reforma-n6304751" },
+        { "name": "Chequeado", "url": "https://chequeado.com/el-explicador/milei-busca-reformar-la-carta-organica-del-banco-central-los-cambios-que-propone-y-como-se-compara-con-otros-paises/" },
+        { "name": "Parlamentario", "url": "https://www.parlamentario.com/2026/07/30/milei-lanzo-una-reforma-historica-del-banco-central-y-propuso-un-grillete-fiscal-para-impedir-deficits-permanentes/" }
       ],
       "related_terms": ["carta-organica-bcra"]
     },
     {
-      "id": "iran-eeuu-negociaciones-oman-ormuz",
-      "category": "geopolítica",
-      "title": "Trump anuncia negociaciones con Irán tras cancelar un ataque masivo",
-      "short_summary": "Teherán lo desmiente en público mientras negocia con Omán una ruta alternativa en Ormuz.",
-      "image": "https://s.yimg.com/lo/mysterio/api/1a6b4b32732c1adacf7427384cf31a173b095f1033546f1171d7a97f278f5b0a/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fal_jazeera_289%2Fbc4d6d6f1ba19226982344339fcbcfaf",
-      "context": "* Trump canceló un ataque que, según dijo, iba a ser el más grande desde la Segunda Guerra Mundial.\n* El presidente estadounidense anunció negociaciones para el 3 de agosto, pero Irán negó públicamente que fueran a reanudarse.\n* En paralelo, Irán negocia con Omán una ruta marítima alternativa para reabrir parcialmente el tránsito por el estrecho.",
-      "extended_context": "En la última edición antes del receso te contamos que Trump había reinstalado el bloqueo naval a los puertos iraníes y anunciado un peaje del 20% para la carga que cruzara el Estrecho de Ormuz, mientras Estados Unidos bombardeaba infraestructura civil en el sur de Irán. Si te perdiste esa nota o no sabés bien qué es el Estrecho de Ormuz, lo explicamos en el glosario.\n\nEl fin de semana del 1 y 2 de agosto, Trump anunció que había cancelado un ataque que, según sus propias palabras, iba a ser 'el más grande desde la Segunda Guerra Mundial', y que en su lugar comenzarían negociaciones con Irán la tarde del 3 de agosto. Horas después, el Ministerio de Asuntos Exteriores iraní desmintió que fuera a recibir ninguna delegación, lo que llevó a Trump a calificar al liderazgo iraní de 'increíblemente falso' en sus redes sociales.\n\nEn paralelo, Irán confirmó que negocia con Omán, no con Estados Unidos, una ruta marítima alternativa que permitiría reabrir parcialmente el tránsito por la zona, sin ceder el control que reclama sobre el estrecho. Por ahora, el bloqueo naval estadounidense a los puertos iraníes sigue vigente.",
+      "id": "ley-inocencia-fiscal-reforma",
+      "category": "nacional",
+      "title": "Ley de Inocencia Fiscal",
+      "short_summary": "Cronología de la nueva versión del régimen de blanqueo de capitales enviada al Congreso.",
+      "image": "https://www.infobae.com/resizer/v2/CVCCZSOT75FI3DF5XP5KRZQ2OM.jpeg?auth=670ce8ef03b6fb04536b888e61f73a84fa210c406fefc4505074de10b62d03d8&smart=true&width=1200&quality=85",
+      "context": "* El Gobierno reescribió el proyecto de Inocencia Fiscal tras las críticas recibidas por la primera versión de la ley.\n* La oposición exige excluir a funcionarios públicos y personas políticamente expuestas de los beneficios del régimen.\n* El proyecto busca incorporar al circuito formal parte de los 170.000 millones de dólares fuera del sistema financiero.",
+      "timeline": [
+        { "date": "22 de julio", "text": "Continuó el debate público sobre el primer régimen de Inocencia Fiscal, vigente desde meses antes, en momentos en que se acercaba el vencimiento del plazo de adhesión previsto para el 27 de julio." },
+        { "date": "23 de julio", "text": "El ministro de Economía, Luis Caputo, anunció la presentación de una nueva versión del régimen. La oposición endureció su posición para excluir explícitamente a funcionarios públicos y personas políticamente expuestas de sus beneficios." },
+        { "date": "24 de julio", "text": "El Gobierno formalizó el envío del proyecto a la Cámara de Diputados. La nueva versión elimina los topes de ingresos y patrimonio que limitaban el acceso al régimen anterior." },
+        { "date": "Fines de julio", "text": "Especialistas contables anticiparon que el plazo de adhesión, fijado inicialmente para el 27 de julio, debería extenderse al menos hasta el 31 de agosto." }
+      ],
       "links": [
-        { "name": "Yahoo News", "url": "https://www.yahoo.com/news/politics/articles/trump-says-iran-negotiations-starting-094453011.html" },
-        { "name": "The Spokesman-Review", "url": "https://www.spokesman.com/stories/2026/aug/03/iran-says-hormuz-talks-ongoing-after-trump-calls-o/" },
-        { "name": "CNN", "url": "https://www.cnn.com/2026/08/02/world/live-news/iran-war-trump" }
+        { "name": "Página/12", "url": "https://www.pagina12.com.ar/2026/07/22/inocencia-fiscal-nuevo-capitulo/" },
+        { "name": "Infobae", "url": "https://www.infobae.com/politica/2026/07/23/nueva-ley-de-inocencia-fiscal-la-oposicion-se-endurece-para-evitar-que-incluya-a-funcionarios-publicos/" },
+        { "name": "Primera Edición", "url": "https://www.primeraedicion.com.ar/nota/101111344/caputo-reescribe-la-ley-de-inocencia-fiscal-tras-las-criticas-y-anticipan-una-nueva-prorroga/" },
+        { "name": "APFDigital", "url": "https://www.apfdigital.com.ar/noticias/2026/07/24/464371-ley-de-inocencia-fiscal-el-gobierno-envio-el-proyecto-a-diputados" },
+        { "name": "El Litoral", "url": "https://www.ellitoral.com/politica/congreso-nacion-ley-hojarasca-reforma-electoral-super-rigi-inocencia-fiscal_0_MriQQNumvw.html" },
+        { "name": "El Cronista", "url": "https://www.cronista.com/economia-politica/inocencia-fiscal-ii-que-cambio-en-el-nuevo-proyecto-y-la-definicion-tras-el-caso-adorni/" }
+      ]
+    },
+    {
+      "id": "ley-tierras-reforma-senado",
+      "category": "nacional",
+      "title": "Ley de Tierras",
+      "short_summary": "Cronología de los cambios al proyecto de reforma de tierras rurales en el Senado.",
+      "image": "https://www.infobae.com/resizer/v2/KTOGOQF3AZDTZPQUBYESRWJOOM.jpg?auth=c6997a1f0cafe6c76805302508cad7c8844bcceed235eecf66b366ece8231c50&smart=true&width=1200&quality=85",
+      "context": "* El oficialismo elevó del 15% al 25% el límite a la compra de tierras rurales por parte de extranjeros.\n* El Gobierno retiró ese capítulo del proyecto tras no reunir el apoyo necesario de senadores aliados.\n* El Senado convocó una nueva sesión para tratar el resto del proyecto sin ese capítulo.",
+      "timeline": [
+        { "date": "16 de julio", "text": "El Senado postergó por cuarta vez consecutiva la votación de la reforma de tierras rurales, ante la falta de los votos necesarios para su aprobación, y pasó a un cuarto intermedio hasta el 6 de agosto. Para ese momento, el capítulo sobre tierras ya había tenido quince versiones de texto distintas desde fines de mayo." },
+        { "date": "23 de julio", "text": "El ministro de Desregulación, Federico Sturzenegger, y la jefa del bloque oficialista en el Senado, Patricia Bullrich, alcanzaron un acuerdo sobre los términos del capítulo referido a la compra de tierras rurales por parte de extranjeros." },
+        { "date": "3 de agosto", "text": "El oficialismo presentó un nuevo borrador que eleva del 15% al 25% el límite a la compra de tierras rurales por parte de extranjeros en cada provincia, en reemplazo de la eliminación total del tope que proponía la versión original." },
+        { "date": "4 de agosto", "text": "Patricia Bullrich presentó el dictamen con el nuevo límite del 25% y anunció un acuerdo con bloques aliados, aunque persistían dudas sobre si el oficialismo contaba con los votos necesarios para la aprobación en el recinto." },
+        { "date": "5 de agosto (tarde)", "text": "El Gobierno retiró del proyecto el capítulo que habilitaba la compra de tierras rurales por parte de extranjeros, tras no reunir el respaldo de senadores de bloques aliados. El resto del articulado del proyecto, que incluye disposiciones sobre expropiaciones, regularización de la propiedad y procesos de desalojo, se mantuvo en discusión." },
+        { "date": "5 de agosto", "text": "Patricia Bullrich convocó una nueva sesión para el 6 de agosto a las 14 horas, con el objetivo de tratar el resto del proyecto sin el capítulo retirado." }
+      ],
+      "links": [
+        { "name": "InfoLEG (texto de la Ley 26.737)", "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/190000-194999/192150/norma.htm" },
+        { "name": "Ámbito", "url": "https://www.ambito.com/politica/ley-tierras-este-es-el-texto-del-dictamen-los-cambios-que-acordo-el-oficialismo-n6307060" },
+        { "name": "Infobae", "url": "https://www.infobae.com/politica/2026/08/05/ley-de-propiedad-privada-en-el-gobierno-reconocen-que-la-oposicion-se-impuso-al-frenar-la-venta-de-tierras-a-extranjeros/" },
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/politica/ley-de-tierras-los-aliados-presionan-a-patricia-bullrich-para-que-el-proyecto-del-gobierno-vuelva-a-nid05082026/" },
+        { "name": "Página/12", "url": "https://www.pagina12.com.ar/2026/08/05/ley-de-tierras-el-gobierno-saco-el-capitulo-que-habilitaba-la-venta-a-extranjeros-para-asegurar-la-sesion/" },
+        { "name": "Canal26", "url": "https://www.canal26.com/politica/2026/08/04/patricia-bullrich-anuncio-los-cambios-en-el-proyecto-de-la-ley-de-tierras-los-estados-extranjeros-no-pueden-comprar-un-gramo/" }
+      ],
+      "related_terms": ["ley-de-tierras"]
+    },
+    {
+      "id": "guerra-iran-estados-unidos",
+      "category": "geopolítica",
+      "title": "Guerra entre Irán y Estados Unidos",
+      "short_summary": "Cronología de las negociaciones por la reapertura del Estrecho de Ormuz.",
+      "image": "https://s.yimg.com/lo/mysterio/api/1a6b4b32732c1adacf7427384cf31a173b095f1033546f1171d7a97f278f5b0a/lightyear_networkapi/resizefill_w976;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fal_jazeera_289%2Fbc4d6d6f1ba19226982344339fcbcfaf",
+      "context": "* Trump canceló un ataque que, según sus palabras, iba a ser el más grande desde la Segunda Guerra Mundial.\n* Irán negó que fuera a recibir una delegación estadounidense, mientras negocia con Omán una ruta alternativa por Ormuz.\n* Irán y Omán confirmaron el 5 de agosto que acordaron la ruta marítima, en la etapa final de la negociación.",
+      "timeline": [
+        { "date": "1 y 2 de agosto", "text": "El presidente Donald Trump declaró que había cancelado un ataque que, según sus palabras, iba a ser 'el más grande desde la Segunda Guerra Mundial', y anunció el inicio de negociaciones con Irán." },
+        { "date": "3 de agosto", "text": "El Ministerio de Asuntos Exteriores iraní negó que fuera a recibir una delegación estadounidense. Trump calificó al liderazgo iraní de 'increíblemente falso' en sus redes sociales. El canciller iraní, Abbas Araghchi, afirmó que las negociaciones entre Irán y Omán sobre una ruta alternativa en el estrecho se encontraban en etapa final." },
+        { "date": "4 de agosto", "text": "Trump declaró haber mantenido negociaciones 'productivas durante todo el día' con Irán, y afirmó que un acuerdo para reabrir el Estrecho de Ormuz podía concretarse en los días siguientes." },
+        { "date": "5 de agosto", "text": "Irán y Omán confirmaron que las negociaciones sobre la ruta marítima alternativa se encuentran en su etapa final, con las coordenadas ya acordadas. Irán reiteró que no abrirá el estrecho al tránsito mientras continúe el bloqueo naval estadounidense." },
+        { "date": "5 de agosto", "text": "Trump declaró que el estrecho 'va a estar abierto muy pronto', o de lo contrario Irán 'va a ser golpeado muy fuerte'." }
+      ],
+      "links": [
+        { "name": "Fox News", "url": "https://www.foxnews.com/live-news/iran-war-trump-deal-strait-of-hormuz-reopen-08-05-2026" },
+        { "name": "The Washington Times", "url": "https://www.washingtontimes.com/news/2026/aug/5/donald-trump-sees-progress-deal-iran-reopen-strait-hormuz/" },
+        { "name": "CNN", "url": "https://www.cnn.com/2026/08/04/world/live-news/iran-war-trump" },
+        { "name": "Iran International", "url": "https://www.iranintl.com/en/liveblog/202608011880" },
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/5/iran-says-hormuz-talks-with-oman-in-final-stages-as-route-approved" },
+        { "name": "UPI", "url": "https://www.upi.com/Top_News/World-News/2026/08/05/iran-oman-last-stages-strait-hormuz-deal/6461785972546/" }
       ],
       "related_terms": ["estrecho-de-ormuz"]
     },
     {
-      "id": "libano-invasion-terrestre-israel-desarme-hezbollah",
+      "id": "invasion-de-libano",
       "category": "geopolítica",
-      "title": "Israel controla el 20% de Líbano tras su invasión terrestre",
-      "short_summary": "Más de un millón de personas desplazadas mientras el retiro israelí sigue condicionado al desarme de Hezbollah.",
-      "image": "https://www.aljazeera.com/wp-content/uploads/2026/03/2025-11-28T171701Z_431458401_RC2M5IAPYWN1_RTRMADP_3_LEBANON-ARMY-TOUR-SOUTH-1771942421-1-1773142856.jpg",
-      "context": "* Israel lanzó en marzo una invasión terrestre en el sur del Líbano y hoy controla cerca del 20% del país.\n* La ofensiva dejó cerca de 500 muertos y obligó a más de un millón de personas a abandonar sus hogares.\n* Estados Unidos condiciona el retiro israelí al desarme de Hezbollah, algo que el grupo rechaza hasta el momento.",
-      "extended_context": "En la semana 7 te contamos que Israel había destruido un túnel de Hezbollah en el sur del Líbano apenas dos días después de un acuerdo de seguridad mediado por Estados Unidos, y que Hezbollah advertía que se reservaba el derecho de defender su territorio. Lo que no habíamos contado todavía es que, en marzo, ese conflicto había escalado a una invasión terrestre israelí completa. Si no sabés bien qué es Hezbollah, lo explicamos en el glosario.\n\nSegún Al Jazeera y Axios, Israel ordenó una incursión terrestre en el sur del Líbano que dejó a sus fuerzas en control de aproximadamente el 20% del territorio libanés, con una campaña aérea que mató a cerca de 500 personas, entre ellas 83 chicos, y desplazó a más de un millón de libaneses de sus casas.\n\nUn marco de trabajo impulsado por Estados Unidos en junio condicionó cualquier retiro israelí a que Hezbollah entregara sus armas, una exigencia que el grupo rechazó. Esa negativa mantiene a las tropas israelíes desplegadas en el sur del país, complicando además los intentos del propio gobierno libanés de avanzar con el desarme por su cuenta.",
+      "title": "Invasión de Líbano",
+      "short_summary": "Cronología de la séptima ronda de conversaciones entre Israel y Líbano en Roma, y de los choques en el sur del país.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/ap_6a7355b11ebf7-1785943473.jpg",
+      "context": "* Israel y Líbano iniciaron en Roma la séptima ronda de conversaciones mediadas por Estados Unidos el 4 de agosto.\n* Israel descartó discutir el retiro de una segunda zona piloto, mientras Líbano exige nuevas zonas al sur del río Litani.\n* Israel realizó ataques en el sur de Líbano tras acusar a Hezbollah de violar el alto el fuego vigente.",
+      "timeline": [
+        { "date": "4 de agosto", "text": "Israel y Líbano iniciaron en Roma la séptima ronda de conversaciones mediadas por Estados Unidos desde la intensificación del conflicto en marzo. Israel descartó discutir una segunda 'zona piloto' de repliegue, mientras Líbano reclamó nuevas zonas dentro de la Línea Azul y al sur del río Litani." },
+        { "date": "4 de agosto", "text": "El líder de Hezbollah, Naim Qasem, declaró que las negociaciones directas solo traerían, según sus palabras, 'vergüenza, humillación y sucesivas concesiones' para el Líbano." },
+        { "date": "5 de agosto", "text": "Israel lanzó ataques en el sur del Líbano alegando una violación del alto el fuego por parte de Hezbollah, con una intensidad no registrada en varias semanas. El ataque dejó al menos una persona muerta del lado libanés y dos soldados israelíes muertos." },
+        { "date": "5 de agosto", "text": "Funcionarios israelíes atribuyeron el fin anticipado de la ronda de conversaciones en Roma a filtraciones de la delegación libanesa sobre hechos en el terreno." }
+      ],
       "links": [
-        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/features/2026/3/10/as-israel-intensifies-lebanon-attacks-hezbollah-disarmament-takes-backseat" },
-        { "name": "Axios", "url": "https://www.axios.com/2026/03/14/israel-lebanon-ground-invasion-hezbollah" },
-        { "name": "Council on Foreign Relations", "url": "https://www.cfr.org/global-conflict-tracker/conflict/political-instability-lebanon" }
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/5/at-least-one-lebanese-person-two-israeli-soldiers-killed-in-south-lebanon" },
+        { "name": "The National", "url": "https://www.thenationalnews.com/news/mena/2026/08/04/lebanon-demands-israel-stop-hampering-pilot-zone-implementation-as-direct-talks-resume-in-rome/" },
+        { "name": "The Times of Israel", "url": "https://www.timesofisrael.com/liveblog-august-05-2026/" },
+        { "name": "Haaretz", "url": "https://www.haaretz.com/middle-east-news/lebanonnews/2026-08-04/ty-article/.premium/israel-lebanon-return-to-rome-for-seventh-round-of-u-s-brokered-talks/0000019f-cb81-d22f-a79f-cf99fae40000" },
+        { "name": "Al-Monitor", "url": "https://www.al-monitor.com/originals/2026/08/lebanon-and-israel-hold-new-round-direct-talks-rome" }
       ],
       "related_terms": ["hezbollah"]
     },
     {
-      "id": "gaza-hamas-acepta-desarme-israel-sin-confirmar",
+      "id": "guerra-en-gaza",
       "category": "geopolítica",
-      "title": "Hamás acepta desarmarse pero Israel todavía no confirmó el acuerdo",
-      "short_summary": "El plan busca terminar la guerra en etapas, mientras los ataques israelíes ya dejaron más de 1.200 muertos pese a la tregua.",
+      "title": "Guerra en Gaza",
+      "short_summary": "Cronología del plan de desarme de Hamás y su disputa con Israel.",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/07/afp_6a6a17818bbe-1785337729.jpg",
-      "context": "* Hamás aceptó un plan para desarmarse en etapas, mediado por Egipto, Qatar, Turquía y Estados Unidos.\n* Israel todavía no confirmó públicamente el acuerdo y exige que se cumplan primero otras condiciones pactadas.\n* Desde que empezó la tregua en octubre, los ataques israelíes ya mataron a más de 1.200 palestinos.",
-      "extended_context": "En la última edición te contamos que, pese al alto el fuego vigente desde octubre de 2025, los ataques israelíes en Gaza no se habían detenido, con más de 1.100 palestinos muertos desde que empezó la tregua. Ese número ya subió a más de 1.200.\n\nLo nuevo es que, según Al Jazeera y AP News, Hamás aceptó un plan para poner fin a la guerra en etapas, que incluye la entrega gradual de sus armas. El anuncio lo hizo Donald Trump a fines de julio, después de que el Board of Peace liderado por Estados Unidos y mediadores de Egipto, Qatar y Turquía terminaran de acordar una hoja de ruta para esta nueva fase.\n\nSin embargo, Israel todavía no dio su aprobación pública a la propuesta, y Hamás advirtió que no va a cumplir su parte si Israel no retira antes sus tropas de las zonas que había prometido abandonar según el acuerdo original. El plan de reconstrucción de Gaza que impulsa Trump, que en la edición pasada contamos que se había reducido a un pequeño campamento piloto cerca de Rafah, todavía no arrancó su construcción.",
+      "context": "* Hamás aceptó un plan para desarmarse en etapas, mediado por Egipto, Catar, Turquía y Estados Unidos.\n* El plan exige que Israel se retire a la Línea Amarilla original y detenga sus operaciones militares.\n* El primer ministro Benjamín Netanyahu declaró públicamente que Israel no aceptó los términos del acuerdo.",
+      "timeline": [
+        { "date": "30 de julio", "text": "Hamás aceptó un plan para poner fin a la guerra en etapas, que incluye la entrega gradual de sus armas. El anuncio lo realizó el presidente estadounidense Donald Trump, después de que el Board of Peace y mediadores de Egipto, Catar y Turquía acordaran una hoja de ruta para esta fase." },
+        { "date": "31 de julio", "text": "El plan conocido públicamente establece que Israel debe replegarse hasta la Línea Amarilla original y suspender de inmediato sus operaciones militares en Gaza una vez que el acuerdo entre en vigor." },
+        { "date": "2 de agosto", "text": "Israel trasladó a funcionarios estadounidenses sus objeciones al marco propuesto, señalando que la versión conocida públicamente no refleja su posición." },
+        { "date": "3 de agosto", "text": "Un enviado del Board of Peace se reunió con el primer ministro Benjamín Netanyahu y solicitó el cese de los ataques israelíes en curso." },
+        { "date": "4 de agosto", "text": "En sus primeras declaraciones públicas sobre el tema, Netanyahu afirmó que Israel no acordó los términos del Board of Peace para el desarme de Hamás, y que no se replegará de sus posiciones actuales hasta que ese desarme se complete." }
+      ],
       "links": [
         { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/7/31/gaza-board-of-peace-announces-hamas-disarmament-agreement-what-we-know" },
-        { "name": "News4Jax (AP)", "url": "https://www.news4jax.com/news/world/2026/07/31/hamas-says-a-deal-has-been-reached-in-gaza-and-other-developments-in-the-middle-east/" },
-        { "name": "The Detroit News", "url": "https://www.detroitnews.com/story/news/world/2026/07/30/gaza-ceasefire-talks-see-rare-progress-sources-say/91107714007/" }
+        { "name": "The Times of Israel", "url": "https://www.timesofisrael.com/netanyahu-announces-israel-didnt-agree-to-board-of-peaces-plan-to-disarm-hamas/" },
+        { "name": "Haaretz", "url": "https://www.haaretz.com/gaza/2026-08-03/ty-article/.premium/board-of-peace-idf-to-withdraw-from-gaza-after-hamas-weapons-decommissioned/0000019f-c80e-d970-adff-cc7f84770000" },
+        { "name": "The Washington Times", "url": "https://www.washingtontimes.com/news/2026/aug/2/israel-expresses-serious-concerns-hamas-disarmament-deal/" },
+        { "name": "The National", "url": "https://www.thenationalnews.com/news/mena/2026/08/05/netanyahu-rejects-us-backed-hamas-disarmament-deal/" },
+        { "name": "AP News (via News4Jax)", "url": "https://www.news4jax.com/news/world/2026/07/31/hamas-says-a-deal-has-been-reached-in-gaza-and-other-developments-in-the-middle-east/" }
       ]
     },
     {
-      "id": "ucrania-rusia-escalada-ataques-agosto",
+      "id": "guerra-rusia-ucrania",
       "category": "geopolítica",
-      "title": "Rusia y Ucrania intercambian sus ataques más intensos en semanas",
-      "short_summary": "Zelensky destituyó a la embajadora en Estados Unidos mientras las chances de un acuerdo de paz siguen bajas.",
+      "title": "Guerra entre Rusia y Ucrania",
+      "short_summary": "Cronología de los principales hechos del conflicto.",
       "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/14191114-1785767290.jpg?resize=770%2C513&quality=80",
-      "context": "* Rusia lanzó más de treinta misiles y miles de drones contra posiciones ucranianas en un solo día.\n* Ucrania respondió con un ataque de su nuevo dron Magura contra objetivos rusos en Crimea.\n* Zelensky destituyó sin explicaciones a la embajadora ucraniana en Estados Unidos en medio de la escalada.",
-      "extended_context": "En ediciones anteriores veníamos siguiendo los sucesivos bombardeos rusos contra Kiev; en las últimas semanas, la escalada no bajó el ritmo. El 1 de agosto, Rusia lanzó 31 misiles, 66 ataques aéreos, 201 bombas guiadas y más de 6.600 drones kamikaze contra posiciones ucranianas, según datos militares recopilados por GlobalSecurity.\n\nAl Jazeera reportó que, entre el 1 y el 3 de agosto, los ataques cruzados dejaron al menos 16 muertos del lado ruso y 11 del lado ucraniano, incluidos un socorrista y su hijo de ocho años en un ataque contra una estación de servicio en Krivói Rog. Ucrania, por su parte, usó por primera vez su nuevo dron naval Magura para atacar objetivos rusos en Crimea, y aplicó una nueva ronda de sanciones contra la industria de defensa rusa.\n\nEn el plano diplomático, el presidente Volodímir Zelensky destituyó sin dar explicaciones a la embajadora ucraniana en Estados Unidos, Olha Stefanishyna, justo cuando distintas fuentes evalúan que las conversaciones de paz entre Rusia y Ucrania tienen pocas chances de prosperar en el corto plazo.",
+      "context": "* Rusia lanzó en julio la mayor cantidad de misiles mensuales del año, superando su propia capacidad de producción.\n* Un ataque ruso con misiles y drones sobre Kiev dejó 15 muertos y 51 heridos el 5 de agosto.\n* Ucrania destituyó a su embajadora en Estados Unidos y usó por primera vez un dron naval contra Crimea.",
+      "timeline": [
+        { "date": "Julio de 2026", "text": "El Instituto para el Estudio de la Guerra (ISW) registró el mes con la mayor tasa de bajas rusas de 2026, sin avances territoriales operativamente significativos durante la ofensiva rusa de primavera-verano. Rusia lanzó más misiles de los que produjo en el período, recurriendo a sus reservas de misiles S-400 y Zirkon." },
+        { "date": "1 de agosto", "text": "Rusia lanzó 31 misiles, 66 ataques aéreos, 201 bombas guiadas y más de 6.600 drones contra posiciones ucranianas en un solo día, según datos militares recopilados por GlobalSecurity." },
+        { "date": "1 de agosto", "text": "Una explosión en un restaurante del centro de Moscú dejó 5 muertos y 21 heridos." },
+        { "date": "1 al 3 de agosto", "text": "Ataques cruzados dejaron al menos 16 muertos en Rusia y 11 en Ucrania. Entre las víctimas ucranianas se contaron un socorrista y su hijo de ocho años, muertos en un ataque contra una estación de servicio en Krivói Rog." },
+        { "date": "3 de agosto", "text": "Ucrania utilizó por primera vez su dron naval Magura contra objetivos en Crimea y aplicó una nueva ronda de sanciones sobre la industria de defensa rusa. El presidente Volodímir Zelensky destituyó, sin dar explicaciones públicas, a la embajadora ucraniana en Estados Unidos, Olha Stefanishyna." },
+        { "date": "5 de agosto", "text": "Un ataque ruso con misiles balísticos y drones provocó incendios en Kiev y su región, con un saldo de 15 muertos y 51 heridos." }
+      ],
       "links": [
         { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/3/more-than-10-killed-as-russia-and-ukraine-trade-heavy-attacks" },
         { "name": "GlobalSecurity", "url": "https://www.globalsecurity.org/military/world/war/russo-ukraine-2026-08-01.htm" },
-        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/2/ukrainian-drone-attacks-kill-eight-in-response-to-russian-missiles" }
+        { "name": "Kyiv Post", "url": "https://www.kyivpost.com/thread/81552" },
+        { "name": "Reuters (via KFGO)", "url": "https://kfgo.com/2026/08/01/crimean-families-queue-for-hot-meals-as-ukraine-hits-power-supply/" },
+        { "name": "The Moscow Times", "url": "https://www.themoscowtimes.com/" }
       ]
     }
   ]

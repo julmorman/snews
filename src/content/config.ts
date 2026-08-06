@@ -7,11 +7,13 @@ const newsCollection = defineCollection({
     funny_title: z.string(),
     date: z.string(),
     intro_label: z.string().optional(),
+    map_caption: z.string().optional(),
     map_points: z.array(z.object({
       label: z.string(),
       lat: z.number(),
       lng: z.number(),
       newsId: z.string(),
+      labelPos: z.enum(['top', 'bottom', 'left', 'right']).optional(),
     })).optional(),
     news: z.array(z.object({
       id: z.string(),
@@ -19,7 +21,7 @@ const newsCollection = defineCollection({
       title: z.string(),
       short_summary: z.string(),
       context: z.string(),
-      extended_context: z.string(),
+      extended_context: z.string().optional(),
       links: z.array(z.object({
         name: z.string(),
         url: z.string().url(),
@@ -27,6 +29,10 @@ const newsCollection = defineCollection({
       color: z.string().optional(),
       image: z.string().url(),
       related_terms: z.array(z.string()).optional(),
+      timeline: z.array(z.object({
+        date: z.string(),
+        text: z.string(),
+      })).optional(),
     })),
   }),
 });

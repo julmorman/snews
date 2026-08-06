@@ -73,27 +73,41 @@ const getSourceName = (link: { name: string, url: string }) => {
             <h1 style="font-size: 2.5rem; margin: 0.5rem 0;">{noticia.title}</h1>
         </header>
 
-        <div style="font-size: 1.25rem; line-height: 1.7; color: #f1f5f9; margin-bottom: 2rem;">
-            {noticia.extended_context.split('\n').map((paragraph: string) => {
-                const isBullet = paragraph.trim().startsWith('*');
-                const cleanText = isBullet ? paragraph.trim().substring(1).trim() : paragraph.trim();
-                
-                // Procesar negritas **texto**
-                const parts = cleanText.split(/(\*\*.*?\*\*)/g);
-                const content = parts.map(part => {
-                    if (part.startsWith('**') && part.endsWith('**')) {
-                        return <strong style="color: white; font-weight: 800;">{part.slice(2, -2)}</strong>;
-                    }
-                    return part;
-                });
+        {noticia.timeline && noticia.timeline.length > 0 && (
+            <div class="timeline">
+                {noticia.timeline.map((entry: { date: string; text: string }) => (
+                    <div class="timeline-entry">
+                        <div class="timeline-marker"></div>
+                        <span class="timeline-date">{entry.date}</span>
+                        <p class="timeline-text">{entry.text}</p>
+                    </div>
+                ))}
+            </div>
+        )}
 
-                if (isBullet) {
-                    return <li style="margin-left: 1.5rem; margin-bottom: 0.5rem; list-style-type: disc;">{content}</li>;
-                }
-                if (cleanText === "") return null;
-                return <p style="margin-bottom: 1rem;">{content}</p>;
-            })}
-        </div>
+        {noticia.extended_context && (
+            <div style="font-size: 1.25rem; line-height: 1.7; color: #f1f5f9; margin-bottom: 2rem;">
+                {noticia.extended_context.split('\n').map((paragraph: string) => {
+                    const isBullet = /^\*\s/.test(paragraph.trim());
+                    const cleanText = isBullet ? paragraph.trim().substring(1).trim() : paragraph.trim();
+
+                    // Procesar negritas **texto**
+                    const parts = cleanText.split(/(\*\*.*?\*\*)/g);
+                    const content = parts.map(part => {
+                        if (part.startsWith('**') && part.endsWith('**')) {
+                            return <strong style="color: white; font-weight: 800;">{part.slice(2, -2)}</strong>;
+                        }
+                        return part;
+                    });
+
+                    if (isBullet) {
+                        return <li style="margin-left: 1.5rem; margin-bottom: 0.5rem; list-style-type: disc;">{content}</li>;
+                    }
+                    if (cleanText === "") return null;
+                    return <p style="margin-bottom: 1rem;">{content}</p>;
+                })}
+            </div>
+        )}
 
         <div style="margin-bottom: 3rem;">
             <img src={noticia.image} alt={noticia.title} style="width: 100%; max-height: 600px; object-fit: cover; border-radius: 1rem; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);" onerror="this.src='https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80'" />
@@ -122,3 +136,54 @@ const getSourceName = (link: { name: string, url: string }) => {
         </section>
     </article>
 </Layout>
+
+<style>
+    .timeline {
+        position: relative;
+        margin: 0 0 2.5rem;
+        padding-left: 1.75rem;
+        border-left: 2px solid #334155;
+    }
+
+    .timeline-entry {
+        position: relative;
+        margin-bottom: 1.75rem;
+    }
+
+    .timeline-entry:last-child {
+        margin-bottom: 0;
+    }
+
+    .timeline-marker {
+        position: absolute;
+        left: -2.19rem;
+        top: 0.4rem;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #3b82f6;
+        box-shadow: 0 0 0 4px #0f172a;
+    }
+
+    .timeline-entry:last-child .timeline-marker {
+        background: #60a5fa;
+        box-shadow: 0 0 0 4px #0f172a, 0 0 12px 2px rgba(96, 165, 250, 0.6);
+    }
+
+    .timeline-date {
+        display: block;
+        font-weight: 900;
+        color: #60a5fa;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.8rem;
+        margin-bottom: 0.35rem;
+    }
+
+    .timeline-text {
+        color: #cbd5e1;
+        line-height: 1.6;
+        margin: 0;
+        font-size: 1rem;
+    }
+</style>

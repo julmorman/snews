@@ -43,7 +43,12 @@ const groupedNews = CATEGORIES.map(cat => ({
     <EditionHeader funnyTitle={data.funny_title} date={data.date} introLabel={data.intro_label} />
 
     {data.map_points && data.map_points.length > 0 && (
-        <WorldMap points={data.map_points} />
+        <>
+            <WorldMap points={data.map_points} />
+            {data.map_caption && (
+                <p style="text-align: center; color: #cbd5e1; font-size: 1.2rem; font-weight: bold; margin: -1.5rem 0 2.5rem;">{data.map_caption}</p>
+            )}
+        </>
     )}
 
     <EditionNewsGrid groupedNews={groupedNews} editionId={edition.id} editionLabel={data.funny_title} />

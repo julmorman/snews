@@ -98,6 +98,7 @@
         {"name": "Infobae", "url": "https://www.infobae.com/politica/2026/05/12/el-senado-retoma-el-debate-para-cambiar-la-ley-de-salud-mental-expondran-mas-de-30-invitados/"},
         {"name": "Comercio y Justicia", "url": "https://comercioyjusticia.info/lo-ultimo/senado-avanza-con-la-reforma-de-salud-mental-que-habilita-internaciones-no-voluntarias-e-incorpora-como-enfermedad-adicciones/"}
       ],
+      "related_terms": ["ley-de-salud-mental"],
       "color": "#3eaaf7",
       "image": "https://d3b5jqy5xuub7g.cloudfront.net/wp-content/uploads/2026/04/somicioens.png"
     },
@@ -129,6 +130,7 @@
         {"name": "BBC Mundo", "url": "https://www.bbc.com/mundo/articles/clypevlx88no"},
         {"name": "CDC", "url": "https://www.cdc.gov/ebola/es/situation-summary/ebola-situacion-actual.html"}
       ],
+      "related_terms": ["ebola"],
       "image": "https://build.cfr.org/wp-content/uploads/2026/05/Ebola_A.jpg"
     },
     {
@@ -162,6 +164,7 @@
         {"name": "The Guardian", "url": "https://www.theguardian.com/environment/2026/may/21/un-vote-support-icj-world-court-climate-change-opinion"},
         {"name": "Perfil", "url": "https://www.perfil.com/noticias/internacional/la-onu-aprobo-una-resolucion-historica-sobre-cambio-climatico-y-la-argentina-se-abstuvo.phtml"}
       ],
+      "related_terms": ["resolucion-icj-cambio-climatico"],
       "image": "https://ayudaenaccion.org/uploads/2020/10/ONU.jpg"
     },
     {
@@ -177,6 +180,7 @@
         {"name": "National Geographic", "url": "https://www.nationalgeographic.com.es/medio-ambiente/nino-podria-desatar-su-version-mas-extrema-10-anos-noaa-ya-alerta-82-probabilidad-y-cientificos-temen-superevento_28335"},
         {"name": "BBC Mundo", "url": "https://www.bbc.com/mundo/articles/cvgz4dx1yeno"}
       ],
+      "related_terms": ["el-nino"],
       "image": "https://revistapesquisa.fapesp.br/wp-content/uploads/2024/02/RPF-el-nino-globo-terrestre-2023-08-1140.jpg"
     },
     {

@@ -1,0 +1,25 @@
+{
+  "id": "ley-de-salud-mental",
+  "term": "Ley de Salud Mental (Ley 26.657)",
+  "short_description": "La norma argentina que regula los derechos de las personas con padecimientos mentales y establece cuándo procede una internación involuntaria.",
+  "sections": [
+    {
+      "heading": "¿Qué establece la ley vigente?",
+      "text": "La **Ley Nacional de Salud Mental N.º 26.657**, sancionada en 2010, reconoce a la salud mental como un proceso determinado por componentes históricos, socioeconómicos, culturales, biológicos y psicológicos, y establece que las personas con padecimientos mentales tienen derecho a recibir atención bajo un abordaje interdisciplinario, dejando la internación en un hospital psiquiátrico como recurso de último caso."
+    },
+    {
+      "heading": "¿Qué dice sobre la internación involuntaria?",
+      "text": "* La ley concibe a la internación involuntaria como un recurso excepcional, que solo procede cuando no son posibles los abordajes ambulatorios y el equipo de salud determina que existe una situación de riesgo cierto e inminente para la persona o para terceros.\n* Toda internación involuntaria debe notificarse dentro de las diez horas al juez competente, y a las cuarenta y ocho horas deben agregarse todas las constancias que exige la ley.\n* El juez debe pedir informes cada treinta días como máximo para reevaluar si la internación debe continuar, y puede ordenar la externación en cualquier momento."
+    },
+    {
+      "heading": "¿Por qué está en debate una reforma?",
+      "text": "Distintos proyectos buscan dar mayor peso al criterio médico psiquiátrico a la hora de definir una internación involuntaria, y tratar los consumos problemáticos de sustancias como una patología de salud mental para habilitar tratamientos obligatorios. Organizaciones de derechos humanos advierten que estos cambios podrían debilitar el enfoque interdisciplinario y las garantías individuales que estableció la ley original."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Argentina.gob.ar: texto oficial de la Ley 26.657", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-26657-175977/texto" },
+    { "name": "Ministerio de Salud de la Nación: Ley Nacional de Salud Mental N.º 26.657", "url": "https://iah.msal.gov.ar/doc/Documento224.pdf" },
+    { "name": "Ministerio Público de la Defensa: Ley 26.657", "url": "https://www.mpd.gov.ar/uploads/documentos/Ley%2026657.pdf" }
+  ]
+}

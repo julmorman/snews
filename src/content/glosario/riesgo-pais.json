@@ -1,0 +1,25 @@
+{
+  "id": "riesgo-pais",
+  "term": "Riesgo País",
+  "short_description": "Un indicador financiero que mide la sobretasa que exige el mercado para prestarle dinero a un país, en comparación con la deuda de Estados Unidos.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "El **riesgo país** es un indicador que mide la diferencia entre el rendimiento que exige el mercado para comprar bonos de deuda de un país, y el rendimiento de los bonos del Tesoro de Estados Unidos, considerados el activo más seguro del mundo. Esa diferencia, medida en puntos básicos, refleja qué tan riesgoso considera el mercado que un país cumpla con sus obligaciones de pago."
+    },
+    {
+      "heading": "¿Cómo se calcula?",
+      "text": "El índice más utilizado para medir el riesgo país de las economías emergentes es el **EMBI** (Emerging Markets Bond Index), elaborado diariamente desde 1994 por el banco de inversión JP Morgan. Cuanto más alto es el índice, mayor es la sobretasa que le exige el mercado a ese país para financiarse, y mayor se considera el riesgo de que no pueda pagar su deuda."
+    },
+    {
+      "heading": "¿Por qué le importa a un país?",
+      "text": "* Un riesgo país elevado encarece el costo al que un gobierno o las empresas de ese país pueden tomar deuda en los mercados internacionales.\n* También suele influir en las decisiones de inversión extranjera, ya que refleja la percepción de estabilidad económica y política de un país.\n* Factores como el nivel de endeudamiento externo, el resultado fiscal y las condiciones financieras globales influyen en su evolución."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Fundación MAPFRE: diccionario, EMBI", "url": "https://www.fundacionmapfre.org/publicaciones/diccionario-mapfre-seguros/embi/" },
+    { "name": "Banco de España: introducción al riesgo país", "url": "https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/PublicacionesSeriadas/DocumentosOcasionales/08/Fic/do0802.pdf" },
+    { "name": "BIS (Banco de Pagos Internacionales): estadísticas de deuda soberana", "url": "https://data.bis.org/topics/DSS" }
+  ]
+}

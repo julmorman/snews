@@ -1,0 +1,25 @@
+{
+  "id": "oiea",
+  "term": "OIEA (Organismo Internacional de Energía Atómica)",
+  "short_description": "El organismo autónomo del sistema de Naciones Unidas encargado de verificar que la energía nuclear se use con fines pacíficos, a través de inspecciones y salvaguardias.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "El **Organismo Internacional de Energía Atómica** (OIEA, o IAEA por sus siglas en inglés) es una organización autónoma dentro del sistema de Naciones Unidas, creada en 1957, cuyo mandato es asegurar que la asistencia que presta o supervisa no se utilice para fines militares. Además de promover los usos pacíficos de la energía nuclear, es el principal responsable de implementar los acuerdos de salvaguardias que suscriben los Estados."
+    },
+    {
+      "heading": "¿Cómo funcionan sus inspecciones?",
+      "text": "* Las **salvaguardias** son un conjunto de medidas técnicas —monitoreo, inspecciones, análisis de información y contabilidad de materiales nucleares— que el OIEA aplica para verificar que un país cumple con el Tratado de No Proliferación Nuclear.\n* El objetivo es detectar tres tipos de irregularidades: material nuclear desviado de una instalación declarada, producción no declarada de material nuclear, y actividades nucleares no informadas por un Estado.\n* La verificación depende tanto de la información que aportan los propios Estados sobre sus inventarios e instalaciones, como del acceso que estos autorizan a los inspectores del organismo."
+    },
+    {
+      "heading": "¿Por qué está en las noticias?",
+      "text": "El director general del OIEA, Rafael Mariano Grossi, es la figura central en las negociaciones sobre el acceso de los inspectores a los sitios nucleares de Irán, en el marco del memorando de entendimiento firmado por Estados Unidos e Irán el 18 de junio de 2026. Grossi remarcó que 'el acceso del organismo a todas las instalaciones nucleares de Irán no está en el nivel ni en la totalidad de los sitios que debería estar', aunque señaló que mantienen contacto con las autoridades iraníes para avanzar."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Departamento de Energía de EE.UU. (NNSA): salvaguardias nucleares internacionales y el rol del OIEA", "url": "https://www.energy.gov/nnsa/nuclear-nexus-international-nuclear-safeguards" },
+    { "name": "Arms Control Association: ficha técnica sobre los acuerdos de salvaguardias del OIEA", "url": "https://www.armscontrol.org/factsheets/iaea-safeguards-agreements-glance" },
+    { "name": "UN News: el trabajo técnico comienza tras el acuerdo entre EE.UU. e Irán, según el OIEA", "url": "https://news.un.org/en/story/2026/06/1167748" }
+  ]
+}

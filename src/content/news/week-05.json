@@ -94,7 +94,8 @@
           "name": "CBS News",
           "url": "https://www.cbsnews.com/live-updates/us-iran-trump-deal-nuclear-inspections-iaea-timing-not-essential/"
         }
-      ]
+      ],
+      "related_terms": ["oiea"]
     },
     {
       "id": "china-taiwan-tension-estrecho",
@@ -129,7 +130,8 @@
           "name": "The Independent",
           "url": "https://www.the-independent.com/asia/china/china-taiwan-martime-surveys-east-sovereignty-b2999876.html"
         }
-      ]
+      ],
+      "related_terms": ["estrecho-de-taiwan"]
     },
     {
       "id": "ucrania-rusia-guerra-drones-contraofensivas",
@@ -203,7 +205,8 @@
           "name": "IProfesional",
           "url": "https://www.iprofesional.com/management/458072-se-debate-en-diputados-puede-el-nuevo-super-rigi-mover-la-aguja-del-empleo-registrado"
         }
-      ]
+      ],
+      "related_terms": ["super-rigi"]
     },
     {
       "id": "senado-bonaerense-sesion-inaugural",
@@ -323,7 +326,8 @@
           "name": "RNZ",
           "url": "https://www.rnz.co.nz/news/world/617267/explainer-why-has-britain-gone-through-seven-prime-ministers-in-10-years"
         }
-      ]
+      ],
+      "related_terms": ["keir-starmer"]
     }
   ]
 }

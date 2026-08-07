@@ -1,0 +1,25 @@
+{
+  "id": "marco-regulatorio-biocombustibles",
+  "term": "Marco Regulatorio de Biocombustibles (Ley 27.640)",
+  "short_description": "La ley argentina que regula la producción, el almacenamiento y la mezcla obligatoria de biocombustibles, hoy en debate por un proyecto que busca reemplazarla.",
+  "sections": [
+    {
+      "heading": "¿Qué establece la ley vigente?",
+      "text": "El **Marco Regulatorio de Biocombustibles**, establecido por la Ley 27.640, sancionada el 15 de julio de 2021, regula todas las actividades de elaboración, almacenamiento, comercialización y mezcla de biocombustibles en Argentina. Tiene vigencia hasta el 31 de diciembre de 2030, con la posibilidad de que el Poder Ejecutivo la extienda por cinco años más. La autoridad de aplicación de la ley es la Secretaría de Energía."
+    },
+    {
+      "heading": "¿Qué proyecto busca reemplazarla?",
+      "text": "En 2026, la senadora Patricia Bullrich presentó en el Senado un proyecto, registrado bajo el expediente S-809/26, para derogar la Ley 27.640 y reemplazarla por un nuevo régimen de 15 años, orientado a desregular el mercado de biocombustibles y aumentar de forma gradual los porcentajes de mezcla obligatoria de biodiésel y bioetanol en los combustibles fósiles."
+    },
+    {
+      "heading": "¿Por qué genera debate?",
+      "text": "* El proyecto incorpora la figura del 'coprocesamiento', que permitiría a las petroleras elaborar combustibles renovables dentro de sus propias refinerías y contabilizarlos como parte del corte obligatorio.\n* Pequeñas y medianas empresas productoras de biodiésel advierten que esta modalidad podría favorecer a grandes jugadores del sector, como YPF, en desmedro de las plantas regionales más chicas.\n* El Gobierno nacional respaldó públicamente la iniciativa de Bullrich, mientras distintas provincias productoras expresaron reparos por su impacto en las economías regionales."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "InfoLEG: texto oficial de la Ley 27.640", "url": "https://servicios.infoleg.gob.ar/infolegInternet/anexos/350000-354999/352587/norma.htm" },
+    { "name": "Argentina.gob.ar: normativa oficial de la Ley 27.640", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-27640-352587/texto" },
+    { "name": "Senado de la Nación: cobertura oficial del debate por la ley de biocombustibles", "url": "https://www.senado.gob.ar/prensa/23913/noticias" }
+  ]
+}

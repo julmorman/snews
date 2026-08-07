@@ -1,0 +1,25 @@
+{
+  "id": "anthropic",
+  "term": "Anthropic",
+  "short_description": "Una empresa de inteligencia artificial fundada en 2021 por exintegrantes de OpenAI, enfocada en el desarrollo seguro de sistemas de IA avanzados.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "**Anthropic** es una empresa de investigación y desarrollo de inteligencia artificial fundada en 2021 por un grupo de exempleados de OpenAI, entre ellos los hermanos Dario y Daniela Amodei. Es la creadora de la familia de modelos de inteligencia artificial **Claude**. La compañía está constituida legalmente como una Public Benefit Corporation (Corporación de Beneficio Público), una estructura societaria que le permite priorizar objetivos de interés público además del beneficio económico."
+    },
+    {
+      "heading": "¿Cuál es su misión declarada?",
+      "text": "Según su propia definición institucional, el propósito de Anthropic es el desarrollo y mantenimiento responsable de la inteligencia artificial avanzada para el beneficio a largo plazo de la humanidad. La compañía está gobernada, en parte, por un fideicomiso de beneficio a largo plazo (Long-Term Benefit Trust), un cuerpo independiente con la facultad de designar y remover a una porción de los miembros del directorio según su compromiso con esa misión declarada."
+    },
+    {
+      "heading": "¿Cómo aborda la seguridad de sus propios modelos?",
+      "text": "Anthropic publica una Política de Escalamiento Responsable (Responsible Scaling Policy), un marco propio que define cómo la compañía identifica y evalúa los riesgos de sus modelos antes de entrenarlos o lanzarlos, y qué medidas de seguridad exige implementar antes de avanzar a sistemas más potentes. Evaluaciones externas, como el Índice de Transparencia de Modelos Fundacionales de la Universidad de Stanford, monitorean qué tanta información hacen pública Anthropic y otras empresas del sector sobre sus modelos."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Anthropic: página oficial de la empresa", "url": "https://www.anthropic.com/company" },
+    { "name": "Anthropic: Política de Escalamiento Responsable (oficial)", "url": "https://www.anthropic.com/responsible-scaling-policy" },
+    { "name": "Stanford HAI: la transparencia en IA está en declive", "url": "https://hai.stanford.edu/news/transparency-in-ai-is-on-the-decline" }
+  ]
+}

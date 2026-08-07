@@ -1,0 +1,25 @@
+{
+  "id": "ipo",
+  "term": "IPO (Oferta Pública Inicial)",
+  "short_description": "El proceso mediante el cual una empresa privada ofrece por primera vez sus acciones al público inversor, y comienza a cotizar en una bolsa de valores.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "Una **IPO** (Initial Public Offering, oferta pública inicial) es el proceso mediante el cual una empresa privada ofrece por primera vez sus acciones al público inversor. A partir de ese momento, la empresa pasa a cotizar en una bolsa de valores y sus acciones pueden comprarse y venderse libremente en el mercado."
+    },
+    {
+      "heading": "¿Cómo funciona el proceso?",
+      "text": "* Antes de una IPO, una empresa debe registrar la operación ante el organismo regulador correspondiente (en Estados Unidos, la Comisión de Bolsa y Valores, SEC), presentando información detallada sobre su situación financiera y sus riesgos.\n* Un grupo de bancos de inversión suele encargarse de definir el precio inicial de las acciones y de colocarlas entre los primeros compradores.\n* Una vez que la empresa comienza a cotizar, el precio de sus acciones pasa a determinarse libremente por la oferta y la demanda del mercado."
+    },
+    {
+      "heading": "¿Para qué le sirve a una empresa?",
+      "text": "Una IPO le permite a una empresa recaudar capital de una base mucho más amplia de inversores, y le da a esos inversores la posibilidad de participar económicamente del crecimiento futuro de una compañía que antes era privada. También suele exigir mayores niveles de transparencia y de gobierno corporativo que los que tenía la empresa cuando era privada."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Investor.gov (SEC): glosario, oferta pública inicial", "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/initial-public-offering-ipo" },
+    { "name": "NYSE: guía oficial de IPO", "url": "https://www.nyse.com/ipo" },
+    { "name": "Nasdaq IPO Academy", "url": "https://www.nasdaq.com/Nasdaq-IPO-Academy" }
+  ]
+}

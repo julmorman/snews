@@ -1,0 +1,24 @@
+{
+  "id": "keir-starmer",
+  "term": "Keir Starmer",
+  "short_description": "El político laborista que se desempeñó como primer ministro del Reino Unido entre julio de 2024 y julio de 2026, cuando renunció en medio de una crisis política.",
+  "sections": [
+    {
+      "heading": "¿Quién es?",
+      "text": "**Sir Keir Starmer** es un político y ex abogado británico, líder del Partido Laborista desde abril de 2020. Antes de dedicarse a la política, ejerció como abogado especializado en derechos humanos, fue nombrado Consejero de la Corona en 2002 y dirigió la Fiscalía de la Corona (Crown Prosecution Service) como Director de Persecuciones Públicas entre 2008 y 2013, lo que le valió el título de caballero en 2014."
+    },
+    {
+      "heading": "¿Cómo llegó al poder?",
+      "text": "Starmer fue electo diputado por la circunscripción de Holborn and St Pancras en mayo de 2015. El 5 de julio de 2024 fue designado primer ministro, Primer Lord del Tesoro y ministro para el Servicio Civil por el rey Carlos III, tras liderar al Partido Laborista a la victoria electoral: fue el primer primer ministro laborista desde Gordon Brown en 2010."
+    },
+    {
+      "heading": "¿Por qué está en las noticias?",
+      "text": "Starmer renunció como primer ministro en julio de 2026, en medio de una revuelta interna del Partido Laborista y tras resultados electorales locales decepcionantes. Su salida lo convirtió en el séptimo primer ministro británico en solo diez años, una cifra que refleja la inestabilidad política que atraviesa el Reino Unido desde el Brexit."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "GOV.UK: perfil oficial de Sir Keir Starmer como primer ministro", "url": "https://www.gov.uk/government/people/keir-starmer" },
+    { "name": "UK Parliament: ficha oficial de Sir Keir Starmer como diputado", "url": "https://members.parliament.uk/member/4514/career" }
+  ]
+}

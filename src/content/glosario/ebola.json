@@ -1,0 +1,25 @@
+{
+  "id": "ebola",
+  "term": "Ébola",
+  "short_description": "Una enfermedad viral grave y altamente mortal, causada por distintas cepas del virus del Ébola, que provoca brotes recurrentes en África central.",
+  "sections": [
+    {
+      "heading": "¿Qué es y cómo se contagia?",
+      "text": "El **Ébola** es una enfermedad viral aguda y grave, causada por virus del género Ebolavirus. Se transmite entre humanos por contacto directo con sangre, secreciones u otros fluidos corporales de personas infectadas (vivas o fallecidas), o con superficies y materiales contaminados. También puede transmitirse por contacto con animales infectados, como murciélagos frugívoros o primates."
+    },
+    {
+      "heading": "¿Cuáles son sus síntomas y letalidad?",
+      "text": "Los síntomas incluyen fiebre súbita, debilidad intensa, dolores musculares, dolor de garganta y, en muchos casos, vómitos, diarrea y, en etapas avanzadas, sangrados internos y externos. Según la cepa del virus, la tasa de letalidad de los brotes históricos varió entre el 25% y el 90% de los casos."
+    },
+    {
+      "heading": "¿Dónde es más común y cuál es la situación actual?",
+      "text": "Los brotes de Ébola ocurren principalmente en países de África central y oriental, en particular en la cuenca del Congo. El 17 de mayo de 2026, la Organización Mundial de la Salud declaró una Emergencia de Salud Pública de Importancia Internacional por un brote del virus Bundibugyo, una cepa del Ébola, en la República Democrática del Congo y Uganda, citando el aumento de casos, la propagación transfronteriza y la incertidumbre sobre el alcance real de la epidemia. Actualmente no existen vacunas ni tratamientos específicos aprobados contra esta cepa."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "UN News: brote de Ébola en África Central declarado Emergencia de Salud Pública", "url": "https://news.un.org/en/story/2026/05/1167531" },
+    { "name": "OMS: Disease Outbreak News, Ébola por virus Bundibugyo", "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614" },
+    { "name": "OMS Región de África: brote de Ébola en RD Congo", "url": "https://www.afro.who.int/health-topics/ebola-disease/outbreak-drc-26" }
+  ]
+}

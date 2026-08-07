@@ -1,0 +1,25 @@
+{
+  "id": "alto-el-fuego-gaza-octubre-2025",
+  "term": "Alto el fuego en Gaza (octubre de 2025)",
+  "short_description": "El acuerdo firmado por Israel y Hamás en octubre de 2025 para suspender las hostilidades en la Franja de Gaza, en base a un plan de paz de Estados Unidos.",
+  "sections": [
+    {
+      "heading": "¿A qué acuerdo se refiere?",
+      "text": "El **alto el fuego en Gaza** al que suele hacerse referencia en las noticias de 2026 es el acuerdo firmado por Israel y Hamás el 9 de octubre de 2025 en Sharm el Sheij, Egipto, basado en una propuesta del presidente estadounidense Donald Trump. El acuerdo entró en vigencia al mediodía del 10 de octubre de 2025."
+    },
+    {
+      "heading": "¿Qué establece?",
+      "text": "* El acuerdo dispone la suspensión de todas las operaciones militares, incluidos los bombardeos aéreos y de artillería.\n* Establece un mapa de retiro gradual de las fuerzas israelíes de distintas zonas de la Franja de Gaza.\n* Contempla la liberación de los rehenes israelíes, vivos y fallecidos, dentro de las 72 horas posteriores al inicio del repliegue, junto con pasos para permitir el ingreso de ayuda humanitaria."
+    },
+    {
+      "heading": "¿Quién garantiza su cumplimiento?",
+      "text": "El Comité Internacional de la Cruz Roja (CICR) coordinó una operación en varias etapas para facilitar la liberación de rehenes y detenidos, y el traslado de los cuerpos de las personas fallecidas. La implementación del acuerdo está prevista en distintas fases: la primera se extendió entre octubre de 2025 y enero de 2026, y la segunda fase comenzó a mediados de enero de 2026."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "ONU: declaración del Secretario General sobre el acuerdo de alto el fuego en Gaza", "url": "https://www.un.org/sg/en/content/sg/statements/2025-10-08/statement-the-secretary-general-gaza-ceasefire-deal" },
+    { "name": "CICR: inicio de la operación para facilitar el regreso de rehenes y detenidos", "url": "https://www.icrc.org/en/news-release/israel-and-occupied-territories-icrc-begins-operation-facilitate-return-hostages" },
+    { "name": "Council on Foreign Relations: guía sobre el acuerdo de paz de 20 puntos para Gaza", "url": "https://www.cfr.org/articles/guide-trumps-twenty-point-gaza-peace-deal" }
+  ]
+}

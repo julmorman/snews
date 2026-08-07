@@ -1,0 +1,25 @@
+{
+  "id": "peter-thiel",
+  "term": "Peter Thiel",
+  "short_description": "Un empresario e inversor germano-estadounidense, cofundador de PayPal y Palantir, conocido también por sus posiciones libertarias.",
+  "sections": [
+    {
+      "heading": "¿Quién es?",
+      "text": "**Peter Thiel** (nacido el 11 de octubre de 1967 en Fráncfort del Meno, Alemania Occidental) es un empresario, inversor y ejecutivo germano-estadounidense. Se mudó con su familia a Estados Unidos al año de edad, y estudió filosofía y derecho en la Universidad de Stanford."
+    },
+    {
+      "heading": "¿Por qué es conocido?",
+      "text": "* En 1998 cofundó la empresa que se convertiría en PayPal, y se desempeñó como su director ejecutivo hasta que eBay la compró en 2002 por 1.500 millones de dólares.\n* En 2004 cofundó Palantir Technologies, una empresa de análisis de datos que trabaja, entre otros clientes, con agencias gubernamentales y de defensa, y de la que sigue siendo presidente del directorio.\n* Fue el primer inversor externo de Facebook en 2004, y desde entonces invirtió en numerosas empresas tecnológicas a través de su fondo de inversión."
+    },
+    {
+      "heading": "¿Qué posición política tiene?",
+      "text": "Thiel es conocido por sus posiciones libertarias y por su respaldo a distintas causas conservadoras en Estados Unidos. Integra el consejo de instituciones académicas como la Escuela de Derecho de Stanford, y participa habitualmente de actividades del Hoover Institution, un centro de estudios de políticas públicas de esa misma universidad."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Hoover Institution (Universidad de Stanford): perfil oficial", "url": "https://www.hoover.org/profiles/peter-thiel" },
+    { "name": "EBSCO Research Starters: biografía de Peter Thiel", "url": "https://www.ebsco.com/research-starters/biography/peter-thiel" },
+    { "name": "Founders Fund: perfil oficial en el sitio de su fondo de inversión", "url": "https://foundersfund.com/team/peter-thiel/" }
+  ]
+}

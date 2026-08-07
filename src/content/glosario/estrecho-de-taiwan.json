@@ -1,0 +1,24 @@
+{
+  "id": "estrecho-de-taiwan",
+  "term": "Estrecho de Taiwán",
+  "short_description": "La vía marítima que separa a China continental de la isla de Taiwán, uno de los puntos geopolíticos más sensibles del mundo por la disputa de soberanía y la producción global de semiconductores.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "El **Estrecho de Taiwán** es el brazo de mar de unos 180 kilómetros de ancho que separa a la isla de Taiwán de la provincia china de Fujian, en el continente. Por su ubicación, es una de las rutas marítimas más transitadas del mundo y, a la vez, uno de los focos de tensión geopolítica más vigilados, debido a que el gobierno de Pekín reclama la soberanía sobre Taiwán, mientras la isla se autogobierna desde 1949."
+    },
+    {
+      "heading": "¿Por qué es estratégico?",
+      "text": "* Taiwán fabrica cerca de un tercio de la capacidad de procesamiento informático del mundo, lo que la vuelve esencial para las cadenas de suministro globales de electrónica, a través de empresas como TSMC.\n* Más de 237.500 empresas estadounidenses dependen, en distintos niveles, de proveedores taiwaneses de semiconductores.\n* Esa concentración de capacidad productiva convierte a la isla —y por lo tanto al estrecho que la separa del continente— en un punto tan valioso económicamente como vulnerable geopolíticamente frente a los reclamos territoriales de China."
+    },
+    {
+      "heading": "¿Por qué está en las noticias?",
+      "text": "Reino Unido, Francia y Alemania expresaron su preocupación por el aumento de la actividad marítima china en las aguas orientales de Taiwán, donde Pekín realizó extensos mapeos del lecho marino. Los aliados occidentales interpretan estas maniobras como una forma de presión sobre la isla y una posible escalada que podría desestabilizar la región del Indo-Pacífico."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "CSIS (Center for Strategic and International Studies): la importancia de Taiwán para la seguridad y la economía de EE.UU.", "url": "https://www.csis.org/analysis/silicon-island-assessing-taiwans-importance-us-economic-growth-and-security" },
+    { "name": "Council on Foreign Relations: la dependencia de China de los semiconductores taiwaneses", "url": "https://www.cfr.org/blog/will-chinas-reliance-taiwanese-chips-prevent-war" }
+  ]
+}

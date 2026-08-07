@@ -1,0 +1,25 @@
+{
+  "id": "cometa-3i-atlas",
+  "term": "Cometa 3I/ATLAS",
+  "short_description": "El tercer objeto interestelar detectado atravesando nuestro sistema solar, observado por los principales telescopios espaciales del mundo.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "El **3I/ATLAS** es un cometa de origen interestelar, es decir, que se formó fuera de nuestro sistema solar y lo está atravesando de paso. Es apenas el tercer objeto de este tipo detectado hasta la fecha, después de 'Oumuamua (2017) y el cometa Borisov (2019). Su nombre indica que es el tercer objeto interestelar (I) confirmado, y que fue descubierto por el sistema de telescopios ATLAS."
+    },
+    {
+      "heading": "¿Cómo y cuándo se descubrió?",
+      "text": "Fue descubierto el 1 de julio de 2025 por el sistema ATLAS (Asteroid Terrestrial-impact Last Alert System), una red de telescopios robóticos ubicados en Hawái, Chile y Sudáfrica, financiada por la NASA. El hallazgo se reportó ese mismo día al Minor Planet Center, el organismo internacional encargado de catalogar objetos menores del sistema solar."
+    },
+    {
+      "heading": "¿Qué se descubrió al observarlo?",
+      "text": "Distintos telescopios espaciales, entre ellos el Hubble, el James Webb y la sonda Parker Solar Probe, observaron al cometa en detalle. El telescopio James Webb detectó metano y otros compuestos en su composición, lo que aporta pistas sobre las condiciones químicas del sistema estelar donde se originó, muy distinto al nuestro."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "NASA Science: 3I/ATLAS Facts and FAQs", "url": "https://science.nasa.gov/solar-system/comets/3i-atlas/3i-atlas-facts-and-faqs/" },
+    { "name": "ESA: observaciones del cometa interestelar 3I/ATLAS", "url": "https://www.esa.int/Science_Exploration/Space_Science/ESA_observations_of_interstellar_Comet_3I_ATLAS" },
+    { "name": "NASA Science: pistas del telescopio Webb sobre el origen del cometa 3I/ATLAS", "url": "https://science.nasa.gov/missions/webb/nasas-webb-finds-clues-to-ancient-distant-origin-of-comet-3i-atlas/" }
+  ]
+}

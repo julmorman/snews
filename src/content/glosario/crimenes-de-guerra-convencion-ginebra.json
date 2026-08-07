@@ -1,0 +1,25 @@
+{
+  "id": "crimenes-de-guerra-convencion-ginebra",
+  "term": "Crímenes de Guerra según los Convenios de Ginebra",
+  "short_description": "Las violaciones graves del derecho internacional humanitario cometidas en conflictos armados, que generan responsabilidad penal individual.",
+  "sections": [
+    {
+      "heading": "¿Qué son?",
+      "text": "Los **crímenes de guerra** son violaciones graves del derecho internacional humanitario cometidas durante conflictos armados, ya sean internacionales o no internacionales, que generan responsabilidad penal individual para quien las comete. El marco legal central que los define son los cuatro **Convenios de Ginebra de 1949**, ratificados por prácticamente todos los países del mundo, junto con sus Protocolos Adicionales."
+    },
+    {
+      "heading": "¿Qué conductas incluyen?",
+      "text": "* Los Convenios de Ginebra califican como 'infracciones graves' hechos como el homicidio intencional, la tortura, los tratos inhumanos, la deportación ilegal y la toma de rehenes contra personas protegidas, es decir, civiles, prisioneros de guerra y heridos.\n* También constituyen infracciones graves la destrucción o apropiación extensa de bienes, no justificada por necesidad militar, cuando se ejecuta de forma ilegal y arbitraria.\n* El Estatuto de Roma de la Corte Penal Internacional, en su artículo 8, amplió y sistematizó la lista de conductas que se consideran crímenes de guerra a nivel internacional."
+    },
+    {
+      "heading": "¿Quién los juzga?",
+      "text": "Cada Estado parte de los Convenios de Ginebra tiene la obligación de buscar a las personas acusadas de cometer infracciones graves y juzgarlas ante sus propios tribunales, sin importar su nacionalidad, o entregarlas a otro Estado que presente cargos en su contra. La Corte Penal Internacional también tiene competencia para juzgar crímenes de guerra cuando los sistemas judiciales nacionales no pueden, o no quieren, hacerlo."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "CICR: Derecho Internacional Humanitario Consuetudinario, Norma 156", "url": "https://ihl-databases.icrc.org/en/customary-ihl/v1/rule156" },
+    { "name": "CICR: comentario sobre el artículo 8 del Estatuto de Roma", "url": "https://www.icrc.org/en/document/article-8-statute-international-criminal-court" },
+    { "name": "CICR: tabla comparativa de crímenes de guerra", "url": "https://www.icrc.org/sites/default/files/document/file_list/war-crimes-comparative-table.pdf" }
+  ]
+}

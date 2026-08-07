@@ -1,0 +1,25 @@
+{
+  "id": "ley-de-financiamiento-universitario",
+  "term": "Ley de Financiamiento Universitario (Ley 27.795)",
+  "short_description": "La norma argentina que garantiza la actualización de fondos para las universidades públicas y la recomposición salarial docente y no docente.",
+  "sections": [
+    {
+      "heading": "¿Qué establece?",
+      "text": "La **Ley 27.795**, sancionada el 20 de octubre de 2025 y publicada en el Boletín Oficial al día siguiente, tiene como objetivo garantizar la protección y sostenibilidad del financiamiento de la educación universitaria pública en todo el territorio argentino. Establece la actualización de las partidas destinadas a gastos de funcionamiento de las universidades y una recomposición salarial escalonada para el personal docente y no docente, ajustada según la variación del índice de precios al consumidor."
+    },
+    {
+      "heading": "¿Cómo se sancionó?",
+      "text": "La ley tuvo un trámite legislativo particular: la Cámara de Diputados le dio media sanción con 158 votos afirmativos, 75 negativos y 5 abstenciones. El Poder Ejecutivo la vetó por completo, pero el Congreso insistió con el proyecto original. Tanto Diputados como el Senado reunieron la mayoría de dos tercios necesaria para rechazar el veto, por lo que, según el artículo 83 de la Constitución Nacional, el proyecto quedó convertido en ley."
+    },
+    {
+      "heading": "¿Por qué sigue en debate?",
+      "text": "En febrero de 2026, el Poder Ejecutivo envió al Congreso un nuevo proyecto para reemplazar la Ley 27.795, con el argumento de que sus previsiones de financiamiento no eran compatibles con los recursos asignados en el Presupuesto 2026. El planteo generó un nuevo conflicto entre el Gobierno y las universidades públicas, que ya habían iniciado acciones judiciales para reclamar la aplicación efectiva de la ley vigente."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "InfoLEG: texto oficial de la Ley 27.795", "url": "https://servicios.infoleg.gob.ar/infolegInternet/verNorma.do?id=419006" },
+    { "name": "Boletín Oficial de la República Argentina", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/333139/20251021" },
+    { "name": "Argentina.gob.ar: normativa oficial de la Ley 27.795", "url": "https://www.argentina.gob.ar/normativa/nacional/ley-27795-419006" }
+  ]
+}

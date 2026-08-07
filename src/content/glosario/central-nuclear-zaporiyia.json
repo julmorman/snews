@@ -1,0 +1,25 @@
+{
+  "id": "central-nuclear-zaporiyia",
+  "term": "Central Nuclear de Zaporiyia",
+  "short_description": "La planta nuclear más grande de Europa, ocupada por fuerzas rusas desde 2022, bajo monitoreo permanente del Organismo Internacional de Energía Atómica por el riesgo de un accidente nuclear.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "La **Central Nuclear de Zaporiyia**, ubicada en el sur de Ucrania, es la planta de energía nuclear más grande de Europa, con seis reactores. Fue ocupada por fuerzas rusas en marzo de 2022, poco después del inicio de la invasión a gran escala de Ucrania, aunque continúa siendo operada, en parte, por personal técnico ucraniano."
+    },
+    {
+      "heading": "¿Por qué requiere supervisión internacional?",
+      "text": "El **Organismo Internacional de Energía Atómica (OIEA)** mantiene un equipo de inspectores permanente en la planta desde septiembre de 2022, con el objetivo de monitorear su seguridad y prevenir un accidente nuclear en medio del conflicto armado. El organismo emite reportes periódicos sobre la situación de la central."
+    },
+    {
+      "heading": "¿Qué riesgos se reportaron?",
+      "text": "* La planta y su centro de entrenamiento sufrieron reiterados impactos de drones, incluyendo ataques que dañaron equipos de monitoreo meteorológico y, en al menos un caso, causaron la muerte de una persona cerca de la instalación.\n* El director general del OIEA, Rafael Grossi, advirtió reiteradamente que la actividad militar cerca de instalaciones nucleares debe detenerse para evitar riesgos de seguridad.\n* El organismo negoció distintos altos el fuego locales y temporales para permitir tareas de reparación en la planta."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "World Nuclear News: advertencia del OIEA sobre drones cerca de plantas nucleares", "url": "https://www.world-nuclear-news.org/articles/iaea-warning-over-drones-near-nuclear-plants" },
+    { "name": "World Nuclear News: reporte del OIEA sobre drones cerca de la planta del sur de Ucrania", "url": "https://www.world-nuclear-news.org/articles/iaea-report-drones-downed-close-to-south-ukraine-nuclear-power-plant" },
+    { "name": "American Nuclear Society, Nuclear Newswire: cobertura sobre Zaporiyia", "url": "https://www.ans.org/news/tag-zaporizhzhia/" }
+  ]
+}

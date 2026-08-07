@@ -1,0 +1,26 @@
+{
+  "id": "fosforo-blanco",
+  "term": "Fósforo blanco",
+  "short_description": "Una sustancia incendiaria usada en armamento militar, cuyo uso está regulado, no prohibido, por el derecho internacional humanitario.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "El **fósforo blanco** es una sustancia química que se inflama espontáneamente al entrar en contacto con el oxígeno del aire, y se utiliza en distintos tipos de municiones militares para generar cortinas de humo, iluminar el campo de batalla o señalizar objetivos. Al contacto con la piel humana, provoca quemaduras térmicas y químicas severas, que pueden llegar hasta el hueso."
+    },
+    {
+      "heading": "¿Está prohibido por el derecho internacional?",
+      "text": "No de forma directa. El fósforo blanco no está prohibido por la Convención sobre Armas Químicas, porque su función militar no depende de su toxicidad sino de sus propiedades incendiarias y de generación de humo. Sin embargo, su uso como arma incendiaria queda regulado por el **Protocolo III de la Convención sobre Ciertas Armas Convencionales** de la ONU, adoptado en 1980, que restringe el uso de armas incendiarias contra objetivos civiles."
+    },
+    {
+      "heading": "¿Por qué genera controversia su uso?",
+      "text": "* Organizaciones especializadas en derecho humanitario señalan que la definición del Protocolo III, centrada en armas 'diseñadas principalmente' para generar fuego, deja afuera a municiones de uso múltiple como el fósforo blanco, que también tiene efectos incendiarios graves aunque se use oficialmente para generar humo.\n* El uso de fósforo blanco en zonas con alta densidad de población civil suele generar denuncias de organismos de derechos humanos, incluso cuando su despliegue formal no viola la letra del Protocolo III.\n* Según el contexto y la proporcionalidad del ataque, su empleo contra civiles puede llegar a constituir un crimen de guerra."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "CICR (bases de datos de DIH): Protocolo III sobre armas incendiarias", "url": "https://ihl-databases.icrc.org/en/ihl-treaties/ccw-protocol-iii-1980" },
+    { "name": "Human Rights Watch: memo sobre el Protocolo III", "url": "https://www.hrw.org/sites/default/files/related_material/Memo%20to%20CCW%20Delegates%20-%20Protocol%20III%20on%20Incendiary%20Weapons.pdf" },
+    { "name": "Harvard Law School, International Human Rights Clinic: ficha sobre armas incendiarias", "url": "https://humanrightsclinic.law.harvard.edu/wp-content/uploads/2023/06/Incendiary-Weapons-Factsheet_May2023-accessible.pdf" }
+  ],
+  "related_terms": ["crimenes-de-guerra-convencion-ginebra"]
+}

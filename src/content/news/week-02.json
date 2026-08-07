@@ -59,7 +59,8 @@
           "name": "Fuente 4",
           "url": "https://tn.com.ar/internacional/2026/05/31/guerra-en-ucrania-un-dron-impacto-en-la-central-nuclear-de-zaporiyia-y-analizan-los-niveles-de-radiacion/"
         }
-      ]
+      ],
+      "related_terms": ["central-nuclear-zaporiyia"]
     },
     {
       "id": "alto-al-fuego-con-iran-se-rompe-tras-ataques",
@@ -198,7 +199,8 @@
           "name": "Fuente 3",
           "url": "https://abcnews.com/GMA/Wellness/doctor-breaks-study-showing-glp-1s-lower-breast/story?id=133551460"
         }
-      ]
+      ],
+      "related_terms": ["glp-1"]
     },
     {
       "id": "metano-en-cometa-3i-atlas-revela-formacion-solar",
@@ -221,7 +223,8 @@
           "name": "Fuente 3",
           "url": "https://www.skyatnightmagazine.com/news/3i-atlas-james-webb-space-telescope-december-2025"
         }
-      ]
+      ],
+      "related_terms": ["cometa-3i-atlas"]
     },
     {
       "id": "blue-origin-investiga-explosion-de-cohete-new-glenn",
@@ -248,7 +251,8 @@
           "name": "Fuente 4",
           "url": "https://www.cnbc.com/2026/06/01/blue-origin-launchpad-may-not-be-restored-until-2028-nasas-isaacman.html"
         }
-      ]
+      ],
+      "related_terms": ["blue-origin"]
     },
     {
       "id": "consumo-energetico-de-ia-se-duplicara-para-2030",

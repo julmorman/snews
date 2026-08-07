@@ -56,6 +56,7 @@ const glossaryCollection = defineCollection({
       name: z.string(),
       url: z.string().url(),
     })).optional(),
+    related_terms: z.array(z.string()).optional(),
   }),
 });
 

@@ -1,0 +1,24 @@
+{
+  "id": "super-rigi",
+  "term": "Súper RIGI",
+  "short_description": "El proyecto de ley que crea un régimen de incentivos fiscales, cambiarios y aduaneros para grandes inversiones en industrias tecnológicas, con media sanción en la Cámara de Diputados de Argentina.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "El **Súper RIGI** es el nombre con el que se conoce al proyecto de ley que crea el Régimen de Incentivo a Grandes Inversiones en Nuevas Industrias, impulsado por el Poder Ejecutivo argentino. Está inspirado en el RIGI original —creado por la Ley Bases en 2024 para los sectores de hidrocarburos, energía y minería— pero orientado específicamente a atraer inversiones en tecnología e inteligencia artificial."
+    },
+    {
+      "heading": "¿Qué beneficios otorga?",
+      "text": "* Exige una inversión mínima de 1.000 millones de dólares por proyecto, de los cuales al menos el 20% debe ejecutarse dentro de los dos primeros años desde su aprobación.\n* Los proyectos se canalizan a través de 'Vehículos de Proyecto Único' (VPU) y acceden a beneficios por 30 años, entre ellos una alícuota reducida del 15% en el Impuesto a las Ganancias, un régimen de amortización acelerada y una tasa del 3,5% sobre dividendos y utilidades.\n* También contempla incentivos cambiarios y aduaneros, y la posibilidad de deducir pérdidas sin límite de tiempo."
+    },
+    {
+      "heading": "¿En qué estado se encuentra?",
+      "text": "La Cámara de Diputados le dio media sanción al proyecto en junio de 2026, con 130 votos afirmativos, 106 negativos y 7 abstenciones. El texto pasó a debatirse en el Senado. Sus impulsores lo presentan como una herramienta clave para destrabar inversiones y generar empleo, mientras que sus críticos advierten sobre los riesgos de conceder ventajas excesivas en desmedro de la industria nacional."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Cámara de Diputados de la Nación: comunicado oficial sobre la media sanción del Súper RIGI", "url": "https://www.hcdn.gob.ar/prensa/noticia/DIPUTADOS-LE-DIO-MEDIA-SANCION-AL-SUPER-RIGI-QUE-INCENTIVA-GRANDES-INVERSIONES-EN-NUEVAS-INDUSTRIAS/" },
+    { "name": "Argentina.gob.ar: información oficial sobre el RIGI", "url": "https://www.argentina.gob.ar/economia/rigi/que-es" }
+  ]
+}

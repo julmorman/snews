@@ -1,0 +1,25 @@
+{
+  "id": "resolucion-icj-cambio-climatico",
+  "term": "Resolución A/RES/77/276 (Obligaciones de los Estados frente al Cambio Climático)",
+  "short_description": "La resolución de la Asamblea General de la ONU que le pidió a la Corte Internacional de Justicia definir las obligaciones legales de los países frente al cambio climático.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "La **Resolución A/RES/77/276** es el texto que la Asamblea General de las Naciones Unidas aprobó el 29 de marzo de 2023, solicitando a la Corte Internacional de Justicia (CIJ) una opinión consultiva sobre las obligaciones legales de los Estados frente al cambio climático, y sobre las consecuencias jurídicas para los países que, con sus acciones u omisiones, causen daños significativos al sistema climático."
+    },
+    {
+      "heading": "¿Quién impulsó la resolución?",
+      "text": "La iniciativa fue liderada por **Vanuatu**, un país insular del Pacífico particularmente expuesto al aumento del nivel del mar, junto a un grupo de más de una decena de países. La resolución se aprobó por consenso, sin necesidad de votación formal."
+    },
+    {
+      "heading": "¿Qué respondió la Corte Internacional de Justicia?",
+      "text": "* El 23 de julio de 2025, la CIJ emitió por unanimidad su opinión consultiva, la primera vez que el máximo tribunal de la ONU se pronunció sobre el marco legal internacional aplicable al cambio climático.\n* La Corte determinó que los Estados tienen la obligación de prevenir daños significativos al medioambiente y de cooperar de buena fe para frenar el cambio climático.\n* El fallo estableció que la meta de no superar los 1.5°C de calentamiento, fijada en el Acuerdo de París, es jurídicamente vinculante, y que todos los países, en especial los mayores emisores, deben tomar medidas de mitigación ambiciosas."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Corte Internacional de Justicia: página oficial del caso", "url": "https://www.icj-cij.org/case/187" },
+    { "name": "UNRIC (Centro Regional de Información de la ONU): opinión histórica de la CIJ", "url": "https://unric.org/en/climate-historic-icj-opinion-on-the-obligations-of-states/" },
+    { "name": "UN News: la Asamblea General respalda el fallo histórico de la CIJ", "url": "https://news.un.org/en/story/2026/05/1167561" }
+  ]
+}

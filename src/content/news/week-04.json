@@ -28,7 +28,8 @@
           "name": "The Guardian",
           "url": "https://www.theguardian.com/business/live/2026/jun/12/spacex-float-us-stock-market-share-elon-musk-trillionaire-largest-ipo-ever-live-news-updates"
         }
-      ]
+      ],
+      "related_terms": ["ipo"]
     },
     {
       "id": "eeuu-pierde-guerra-iran",
@@ -94,7 +95,8 @@
           "name": "US News",
           "url": "https://www.usnews.com/news/world/articles/2026-06-18/death-toll-from-israeli-fire-in-gaza-since-ceasefire-passes-1-000-says-health-ministry"
         }
-      ]
+      ],
+      "related_terms": ["alto-el-fuego-gaza-octubre-2025"]
     },
     {
       "id": "ucrania-ataca-moscu",
@@ -187,7 +189,8 @@
           "name": "Página 12",
           "url": "https://www.pagina12.com.ar/2026/05/28/el-plan-b-de-peter-thiel-segun-the-new-york-times-se-radicara-en-argentina-para-evadir-impuestos-a-la-riqueza/"
         }
-      ]
+      ],
+      "related_terms": ["peter-thiel"]
     },
     {
       "id": "nueva-especie-roedor-descubierta",
@@ -245,7 +248,8 @@
           "name": "La Nación",
           "url": "https://www.lanacion.com.ar/opinion/biocombustibles-el-debate-que-argentina-sigue-postergando-nid18062026/"
         }
-      ]
+      ],
+      "related_terms": ["marco-regulatorio-biocombustibles"]
     },
     {
       "id": "politica-o-economia-cual-influye-mas",
@@ -283,7 +287,8 @@
           "name": "Ámbito",
           "url": "https://www.ambito.com/finanzas/los-bonos-dolares-registran-mayoria-subas-mientras-que-el-riesgo-pais-se-ubica-435-puntos-n6290151"
         }
-      ]
+      ],
+      "related_terms": ["riesgo-pais"]
     },
     {
       "id": "mina-chilena-capstone-problemas-hidricos",

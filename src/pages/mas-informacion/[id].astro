@@ -13,6 +13,12 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { data } = entry;
+
+const allTerms = await getCollection('glosario');
+const termMap = new Map(allTerms.map((t) => [t.data.id, t.data.term]));
+const relatedTerms = (data.related_terms || [])
+    .filter((id: string) => termMap.has(id))
+    .map((id: string) => ({ id, term: termMap.get(id)! }));
 ---
 
 <Layout title={`${SITE_TITLE} | ${data.term}`}>
@@ -64,6 +70,22 @@ const { data } = entry;
                 </section>
             ))}
         </div>
+
+        {relatedTerms.length > 0 && (
+            <section style="margin-bottom: 2rem;">
+                <h2 style="font-size: 1rem; text-transform: uppercase; letter-spacing: 1px; color: #64748b; margin-bottom: 0.75rem;">Términos relacionados</h2>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.6rem;">
+                    {relatedTerms.map((t) => (
+                        <a
+                            href={`/mas-informacion/${t.id}`}
+                            style="color: #93c5fd; text-decoration: none; font-size: 0.9rem; border: 1px solid #334155; border-radius: 100px; padding: 0.4rem 0.9rem;"
+                        >
+                            {t.term}
+                        </a>
+                    ))}
+                </div>
+            </section>
+        )}
 
         {data.sources && data.sources.length > 0 && (
             <section style="background: #1e293b; padding: 2rem; border-radius: 1rem; border: 1px solid #334155;">

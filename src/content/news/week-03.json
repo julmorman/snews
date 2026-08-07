@@ -34,7 +34,8 @@
         { "name": "Fuente 3", "url": "https://www.aljazeera.com/news/2026/6/10/israel-kills-16-in-lebanon-un-to-probe-international-law-violations" },
         { "name": "Fuente 4", "url": "https://www.bbc.com/news/articles/cpq3d44l907o" },
         { "name": "Fuente 5", "url": "https://www.nbcnews.com/world/iran/trump-iran-deal-israel-lebanon-strikes-tyre-christians-rcna349149" }
-      ]
+      ],
+      "related_terms": ["fosforo-blanco"]
     },
     {
       "id": "drones-ucranianos-atacan-san-petersburgo-en-ofensiva-sin-precedentes",
@@ -92,7 +93,8 @@
         { "name": "Fuente 3", "url": "https://www.lanacion.com.ar/sociedad/tras-casi-tres-anos-de-conflicto-el-gobierno-y-los-rectores-firmaron-un-acuerdo-por-el-nid10062026/" },
         { "name": "Fuente 4", "url": "https://www.perfil.com/noticias/politica/las-universidades-y-el-gobierno-ante-un-acuerdo-que-no-frena-la-demanda-en-la-corte-suprema-de-justicia.phtml" },
         { "name": "Fuente 5", "url": "https://www.pagina12.com.ar/2026/06/09/el-gobierno-va-a-firmar-un-acuerdo-con-las-universidades-pero-el-reclamo-sigue-en-la-corte-suprema-de-cuanto-sera-el-aumento/" }
-      ]
+      ],
+      "related_terms": ["ley-de-financiamiento-universitario"]
     },
     {
       "id": "la-nasa-anuncia-la-tripulacion-para-la-mision-artemis-iii",
@@ -122,7 +124,8 @@
         { "name": "Fuente 1", "url": "https://www.reuters.com/business/anthropic-says-ai-labs-need-coordinated-plan-halt-development-if-risks-rise-2026-06-04/" },
         { "name": "Fuente 2", "url": "https://www.aljazeera.com/economy/2026/6/5/anthropic-urges-ai-labs-to-pause-warns-humans-risk-losing-control" },
         { "name": "Fuente 3", "url": "https://www.theguardian.com/technology/2026/jun/05/anthropic-urges-temporary-pause-on-ai-development-to-discuss-risks" }
-      ]
+      ],
+      "related_terms": ["anthropic"]
     },
     {
       "id": "anthropic-lanza-claude-fable-tras-advertir-riesgos-de-la-ia",
@@ -136,7 +139,8 @@
         { "name": "Fuente 1", "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5" },
         { "name": "Fuente 2", "url": "https://www.bbc.com/news/articles/ckg701v1dp6o" },
         { "name": "Fuente 3", "url": "https://techcrunch.com/2026/06/09/anthropics-claude-fable-5-is-a-version-of-mythos-the-public-can-access-today/" }
-      ]
+      ],
+      "related_terms": ["anthropic"]
     },
     {
       "id": "una-anomalia-fria-en-el-atlantico-indica-un-punto-critico",

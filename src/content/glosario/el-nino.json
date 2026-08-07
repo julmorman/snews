@@ -1,0 +1,25 @@
+{
+  "id": "el-nino",
+  "term": "El Niño",
+  "short_description": "La fase cálida de un patrón climático natural en el Pacífico tropical que altera la temperatura del océano y el clima a nivel global.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "**El Niño** es la fase cálida de un patrón climático natural que ocurre en el océano Pacífico tropical, conocido como Oscilación del Sur El Niño (ENSO, por sus siglas en inglés). Durante un evento de El Niño, las aguas superficiales del Pacífico central y oriental se calientan por encima de su promedio histórico, lo que altera dónde se libera el calor oceánico hacia la atmósfera."
+    },
+    {
+      "heading": "¿Qué impacto tiene?",
+      "text": "Estos cambios modifican la circulación atmosférica, las temperaturas y las precipitaciones en gran parte del planeta. El Niño suele asociarse a un aumento de lluvias en el sur de Sudamérica, el sur de Estados Unidos y el Cuerno de África, y a condiciones más secas en América Central, el norte de Sudamérica, el Caribe, Australia, Indonesia y partes del sur de Asia."
+    },
+    {
+      "heading": "¿Existe realmente un 'Súper El Niño'?",
+      "text": "La Organización Meteorológica Mundial (OMM) clasifica oficialmente los eventos de El Niño en cuatro categorías: débil, moderado, fuerte o muy fuerte. El término 'Súper El Niño' no forma parte de esa clasificación oficial y no se utiliza en los productos técnicos de la OMM, aunque se usa habitualmente fuera de los ámbitos técnicos para describir eventos de intensidad extrema."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "OMM: pronóstico de intensificación de El Niño", "url": "https://wmo.int/news/media-centre/el-nino-forecast-intensify-increasing-likelihood-of-extreme-weather" },
+    { "name": "NOAA Climate.gov: El Niño y La Niña (ENSO)", "url": "https://www.climate.gov/enso" },
+    { "name": "OMM: aumenta la probabilidad de El Niño", "url": "https://wmo.int/media/news/wmo-likelihood-increases-of-el-nino" }
+  ]
+}

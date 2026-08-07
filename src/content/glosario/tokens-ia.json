@@ -1,0 +1,25 @@
+{
+  "id": "tokens-ia",
+  "term": "Tokens (inteligencia artificial)",
+  "short_description": "Las unidades mínimas de texto en que los modelos de inteligencia artificial dividen el lenguaje para poder procesarlo.",
+  "sections": [
+    {
+      "heading": "¿Qué es un token?",
+      "text": "Un **token** es la unidad mínima de texto que un modelo de lenguaje procesa. Puede ser una palabra completa, una parte de una palabra, un signo de puntuación o un espacio, según el idioma y el contexto. Una palabra poco frecuente puede dividirse en varios tokens, mientras que una palabra muy común suele representarse con uno solo."
+    },
+    {
+      "heading": "¿Para qué sirven?",
+      "text": "* Los modelos de inteligencia artificial no leen el texto como lo hacen las personas: primero lo convierten en una secuencia de tokens, y es sobre esa secuencia que hacen sus cálculos.\n* Cada modelo tiene un límite máximo de tokens que puede procesar en una sola conversación, combinando lo que se le escribe y lo que responde.\n* El uso de las principales plataformas de inteligencia artificial se cobra, generalmente, según la cantidad de tokens utilizados en cada consulta."
+    },
+    {
+      "heading": "¿Todos los modelos cuentan los tokens igual?",
+      "text": "No. Cada compañía usa su propio método de tokenización, por lo que el mismo texto puede dividirse en una cantidad distinta de tokens según el modelo que se use. Empresas como Anthropic, OpenAI y Google ofrecen herramientas propias para calcular con precisión cuántos tokens consume un texto determinado antes de procesarlo."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Anthropic: documentación oficial sobre conteo de tokens", "url": "https://docs.anthropic.com/en/docs/build-with-claude/token-counting" },
+    { "name": "OpenAI: documentación oficial para desarrolladores", "url": "https://developers.openai.com/api/docs/concepts" },
+    { "name": "Google Cloud: documentación oficial de Vertex AI sobre conteo de tokens", "url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/reference/express-mode/rest/v1/publishers.models/countTokens" }
+  ]
+}

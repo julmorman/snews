@@ -1,0 +1,25 @@
+{
+  "id": "glp-1",
+  "term": "GLP-1",
+  "short_description": "Una hormona intestinal cuyos agonistas sintéticos se usan para tratar la diabetes tipo 2 y la obesidad, y que hoy se investigan por su posible efecto en la prevención de ciertos cánceres.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "El **GLP-1** (péptido similar al glucagón tipo 1, por sus siglas en inglés) es una hormona que el intestino libera naturalmente después de comer. Regula los niveles de glucosa en sangre y genera sensación de saciedad. Los llamados agonistas del receptor de GLP-1 son medicamentos sintéticos que imitan esta hormona, aprobados para tratar la diabetes tipo 2 y la obesidad."
+    },
+    {
+      "heading": "¿Qué relación tiene con el cáncer?",
+      "text": "Dado que el receptor de GLP-1 está presente en distintos tejidos del cuerpo, y que existe un vínculo conocido entre la obesidad y varios tipos de cáncer, hay un interés creciente en investigar si estos medicamentos también podrían influir en el desarrollo de tumores. La evidencia hasta el momento es mixta: algunos estudios encontraron una posible reducción del riesgo de cáncer colorrectal, mientras que otros análisis no lograron confirmar de forma consistente un efecto protector o de riesgo en la mayoría de los tipos de cáncer."
+    },
+    {
+      "heading": "¿Están aprobados para prevenir cáncer?",
+      "text": "No. Los medicamentos con GLP-1 solo cuentan con aprobación regulatoria para el tratamiento de la diabetes tipo 2 y la obesidad. La evidencia sobre su rol en la prevención del cáncer todavía se basa mayormente en estudios de laboratorio, en animales y análisis retrospectivos, no en ensayos clínicos grandes y concluyentes en humanos."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "NCBI Bookshelf (NIH): Glucagon-Like Peptide-1 Receptor Agonists", "url": "https://www.ncbi.nlm.nih.gov/books/NBK551568/" },
+    { "name": "American Cancer Society: ¿Pueden los GLP-1 ayudar a reducir el riesgo de cáncer?", "url": "https://www.cancer.org/cancer/latest-news/can-glp-1s-help-reduce-the-risk-of-cancer.html" },
+    { "name": "Journal of Clinical Investigation: agonistas de GLP-1 y cáncer", "url": "https://www.jci.org/articles/view/194743" }
+  ]
+}

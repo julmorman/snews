@@ -1,0 +1,25 @@
+{
+  "id": "blue-origin",
+  "term": "Blue Origin",
+  "short_description": "La empresa aeroespacial fundada por Jeff Bezos, desarrolladora del cohete New Glenn y socia de la NASA en el programa Artemis.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "**Blue Origin** es una empresa aeroespacial estadounidense fundada en el año 2000 por Jeff Bezos, fundador de Amazon. Se dedica al desarrollo de cohetes y vehículos espaciales, tanto para vuelos suborbitales turísticos, con su nave New Shepard, como para lanzamientos orbitales de mayor escala, a través de su cohete más grande, **New Glenn**."
+    },
+    {
+      "heading": "¿Qué rol cumple en el programa Artemis de la NASA?",
+      "text": "Blue Origin es uno de los socios comerciales de la NASA para el programa Artemis, que busca llevar astronautas de regreso a la Luna. La compañía desarrolla un sistema de aterrizaje lunar y, según los acuerdos vigentes, el cohete New Glenn se utilizará para lanzar misiones vinculadas al programa. En julio de 2026, la NASA y Blue Origin acordaron realizar pruebas de la etapa superior de New Glenn en las instalaciones históricas del Centro Espacial Stennis."
+    },
+    {
+      "heading": "¿Qué inconvenientes tuvo el cohete New Glenn?",
+      "text": "El cohete atravesó distintas fallas durante su desarrollo: en abril de 2026, un problema térmico impidió que uno de los motores de su etapa superior alcanzara el empuje necesario durante un lanzamiento, lo que motivó una investigación de la Administración Federal de Aviación de Estados Unidos (FAA). Semanas después, en mayo de 2026, el cohete sufrió una explosión durante una prueba de encendido en tierra en Cabo Cañaveral, sin heridos reportados."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "SpaceNews: Blue Origin completa la investigación sobre la falla de lanzamiento de New Glenn", "url": "https://spacenews.com/blue-origin-completes-investigation-into-new-glenn-launch-failure/" },
+    { "name": "SatNews: la FAA detiene a Blue Origin tras la falla de la etapa superior de New Glenn", "url": "https://satnews.com/2026/04/30/faa-grounds-blue-origin-following-new-glenn-upper-stage-failure-and-facility-anomaly/" },
+    { "name": "NASA: la NASA respalda las pruebas del cohete New Glenn de Blue Origin para Artemis", "url": "https://www.nasa.gov/news-release/nasa-to-support-blue-origin-new-glenn-rocket-testing-advance-artemis/" }
+  ]
+}

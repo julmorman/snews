@@ -5,6 +5,8 @@ import { SITE_TITLE } from '../config/constants';
 
 const allTerms = await getCollection('glosario');
 allTerms.sort((a, b) => a.data.term.localeCompare(b.data.term, 'es'));
+
+const normalize = (str: string) => str.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 ---
 
 <Layout title={`${SITE_TITLE} | Glosario`}>
@@ -29,7 +31,7 @@ allTerms.sort((a, b) => a.data.term.localeCompare(b.data.term, 'es'));
             <a
                 href={`/mas-informacion/${entry.data.id}`}
                 class="glossary-card"
-                data-search={`${entry.data.term} ${entry.data.short_description}`.toLowerCase()}
+                data-search={normalize(`${entry.data.term} ${entry.data.short_description}`)}
                 style="text-decoration: none; color: inherit; display: block; background: #1e293b; padding: 1.25rem 1.5rem; border-radius: 0.75rem; border: 1px solid #334155;"
             >
                 <h2 style="color: white; margin: 0; font-size: 1.05rem;">{entry.data.term}</h2>
@@ -52,8 +54,10 @@ allTerms.sort((a, b) => a.data.term.localeCompare(b.data.term, 'es'));
         const cards = Array.from(document.querySelectorAll<HTMLAnchorElement>('.glossary-card'));
         const emptyState = document.getElementById('glossary-empty') as HTMLElement;
 
+        const normalize = (str: string) => str.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
         input.addEventListener('input', () => {
-            const query = input.value.trim().toLowerCase();
+            const query = normalize(input.value.trim());
             let visibleCount = 0;
 
             cards.forEach((card) => {

@@ -1,0 +1,162 @@
+{
+  "id": "week-10",
+  "date": "14 de Agosto",
+  "funny_title": "Semana 10",
+  "news": [
+    {
+      "id": "terremoto-colombia-choco-2026",
+      "category": "geopolítica",
+      "title": "Terremoto de magnitud 7,4 sacude el occidente de Colombia",
+      "short_summary": "Un sismo con epicentro en el Chocó dejó cientos de muertos y miles de heridos.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26222760123534-1786428105.jpg?resize=1920%2C1440",
+      "context": "* Un terremoto de magnitud 7,4 sacudió el occidente de Colombia el 10 de agosto, con epicentro en el Chocó.\n* El sismo dejó más de 280 muertos, miles de heridos y cientos de viviendas destruidas en varias ciudades del país.\n* El Servicio Geológico Colombiano lo calificó como el terremoto más fuerte registrado en el país durante la última década.",
+      "extended_context": "El 10 de agosto de 2026, a las 07:34 hora local, un terremoto de magnitud 7,4 sacudió el occidente de Colombia. El epicentro se ubicó a unos 12 kilómetros de San José del Palmar, en el departamento del Chocó, a una profundidad de más de 100 kilómetros. El movimiento se sintió con fuerza en Bogotá, Medellín, Cali, Pereira, Manizales y Armenia, y provocó el colapso de decenas de edificaciones.\n\nEl balance de víctimas aumentó rápidamente en los días posteriores: mientras las primeras cifras oficiales hablaban de poco más de 100 muertos, los reportes más recientes elevaron el número a más de 280 fallecidos, cerca de 4.000 heridos y varios cientos de desaparecidos. San José del Palmar, el municipio más cercano al epicentro, quedó parcialmente incomunicado, sin electricidad y con serios daños materiales. La Organización Panamericana de la Salud desplegó equipos de respuesta para asistir al sistema de salud colombiano.\n\nEl director del Servicio Geológico Colombiano, Julio Fierro Morales, explicó que el sismo se originó por la subducción de la placa oceánica bajo el territorio continental, un proceso que libera tensión acumulada en eventos profundos como este, y lo describió como el terremoto más fuerte registrado en el país en la última década.",
+      "links": [
+        { "name": "CNN", "url": "https://www.cnn.com/2026/08/10/world/live-news/colombia-earthquake-san-jose-del-palmar" },
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/10/7-4-magnitude-earthquake-hits-colombia-killing-at-least-20" },
+        { "name": "NBC News", "url": "https://www.nbcnews.com/world/latin-america/strong-earthquake-colombia-ecuador-people-evacuating-homes-buildings-rcna591709" },
+        { "name": "OPS/OMS", "url": "https://www.paho.org/es/documentos/informe-situacion-1-colombia-terremoto-agosto-2026-10-agosto-2026" }
+      ]
+    },
+    {
+      "id": "incendios-forestales-europa-ola-calor",
+      "category": "geopolítica",
+      "title": "Incendios forestales arrasan el sur de Europa",
+      "short_summary": "2026 ya es uno de los peores años de la última década por área quemada.",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2287266435.jpg?c=16x9&q=w_800,c_fill",
+      "context": "* Una ola de calor histórica y una sequía prolongada favorecieron la propagación de incendios en España, Francia, Portugal y Grecia.\n* El área quemada en Europa durante 2026 ya supera el promedio de los últimos veinte años, según la Unión Europea.\n* Al menos 17 civiles y varios bomberos murieron, mientras cerca de 330.000 personas evacuaron sus hogares en España y Francia.",
+      "extended_context": "Europa atraviesa en 2026 una de las temporadas de incendios forestales más severas de las últimas dos décadas. Junio fue el mes de junio más caluroso registrado en Europa occidental, con temperaturas hasta 9 grados por encima de lo normal en Francia y Alemania, y máximas de 45,1 grados en el sur de España. La combinación de calor extremo y sequía prolongada creó condiciones propicias para la propagación del fuego en la península ibérica, Francia, Grecia, Italia y Turquía.\n\nLos incendios dejaron al menos 17 civiles, seis bomberos y dos tripulantes de helicóptero muertos, y obligaron a evacuar a unas 330.000 personas solo en España y Francia. Un incendio cerca de Los Gallardos, en Almería, se convirtió en el más letal registrado en España en dos décadas, con al menos 14 muertos.\n\nSegún datos del Centro Común de Investigación de la Unión Europea, el área quemada acumulada en el continente superó las 500.000 hectáreas hacia principios de agosto, por encima del promedio de los últimos veinte años, aunque todavía por debajo del récord histórico de 2025.",
+      "links": [
+        { "name": "Euronews", "url": "https://www.euronews.com/business/2026/08/13/wildfires-in-europe-is-2026-already-the-worst-year-on-record" },
+        { "name": "Comisión Europea (JRC)", "url": "https://joint-research-centre.ec.europa.eu/jrc-news-and-updates/worsening-drought-and-record-heat-grip-europe-fuelling-extraordinary-wildfires-and-extremely-low-2026-08-12_en" },
+        { "name": "Comisión Europea (JRC) - situación actual", "url": "https://joint-research-centre.ec.europa.eu/projects-and-activities/natural-and-man-made-hazards/forest-fires/current-wildfire-situation-europe_en" }
+      ]
+    },
+    {
+      "id": "reservas-petroleo-eeuu-minimo-1983",
+      "category": "geopolítica",
+      "title": "Reservas petroleras de EE.UU. caen a su menor nivel desde 1983",
+      "short_summary": "La reserva estratégica bajó de 300 millones de barriles por primera vez en 40 años.",
+      "image": "https://image.cnbcfm.com/api/v1/image/108277251-1773326032377-gettyimages-1434807964-dji_fly_20221019_133840_381_1666206196083_photo_467e4184-f0e.jpeg?v=1773326085&w=1920&h=1080",
+      "context": "* La Reserva Estratégica de Petróleo de Estados Unidos cayó a 298,7 millones de barriles, su nivel más bajo desde 1983.\n* La caída responde a la liberación de 172 millones de barriles que Trump ordenó por la guerra con Irán.\n* Antes del ataque de Estados Unidos e Israel a Irán en febrero, la reserva tenía unos 415 millones de barriles.",
+      "extended_context": "El Departamento de Energía de Estados Unidos informó que la Reserva Estratégica de Petróleo cayó a 298,7 millones de barriles en la semana que terminó el 7 de agosto, luego de perder 6,1 millones de barriles en solo siete días. Es el nivel más bajo desde 1983 y representa apenas el 41,8% de la capacidad total de almacenamiento del sistema, de 714 millones de barriles.\n\nEl drenaje de la reserva se remonta a marzo de 2026, cuando el presidente Donald Trump autorizó la liberación de 172 millones de barriles tras el intento de Irán de restringir el paso de petroleros por el Estrecho de Ormuz. Antes del ataque conjunto de Estados Unidos e Israel a instalaciones iraníes a fines de febrero, la reserva contaba con unos 415 millones de barriles.\n\nAnalistas del sector energético advirtieron que, a este ritmo, Estados Unidos prácticamente carece de un colchón de emergencia frente a una eventual interrupción mayor en el suministro global de petróleo.",
+      "links": [
+        { "name": "CNBC", "url": "https://www.cnbc.com/2026/08/10/oil-in-strategic-petroleum-reserve-falls-below-300-million-barrels-lowest-since-1983.html" },
+        { "name": "EIA (Administración de Información Energética de EE.UU.)", "url": "https://www.eia.gov/todayinenergy/detail.php?id=67625" },
+        { "name": "Departamento de Energía de EE.UU.", "url": "https://www.energy.gov/hgeo/opr/spr-quick-facts" },
+        { "name": "Fox Business", "url": "https://www.foxbusiness.com/markets/oil-us-strategic-petroleum-reserve-falls-lowest-level-since-1983" }
+      ]
+    },
+    {
+      "id": "israel-rechaza-plan-trump-gaza",
+      "category": "geopolítica",
+      "title": "Israel rechaza el plan de Trump para el desarme de Hamás",
+      "short_summary": "Netanyahu exige el desarme total de Hamás antes de cualquier repliegue militar israelí.",
+      "image": "https://www.reuters.com/resizer/v2/ZMUKI4CZ7ROKPD6XRSDI2QGQTY.jpg?auth=4f2c7a63bee560357d14408b920f5bdb60ab1670fd21a97b554398992681be46&width=1200&quality=80",
+      "context": "* El primer ministro israelí Benjamín Netanyahu rechazó el plan de 15 puntos impulsado por Estados Unidos para Gaza.\n* Netanyahu exigió el desarme completo de Hamás, incluidas sus armas pesadas, antes de retirar a las tropas israelíes.\n* Hamás había aceptado desarmarse solo después de un repliegue total israelí, condicionado además a la creación de un Estado palestino.",
+      "extended_context": "El primer ministro israelí, Benjamín Netanyahu, confirmó el 9 de agosto que su país rechaza el plan de 15 puntos impulsado por Estados Unidos para poner fin a la guerra en Gaza. \"Israel rechaza el documento de 15 puntos. Escuché a gente decir que no lo dije, así que lo repito\", afirmó ante su gabinete.\n\nEl plan, mediado por Washington junto con Egipto, Catar y Turquía, proponía un repliegue gradual de las tropas israelíes en simultáneo con el desarme de Hamás. Netanyahu insistió en que esa secuencia se invierte: las fuerzas israelíes no se moverán de sus posiciones actuales hasta que Hamás entregue la totalidad de su arsenal, tanto armas pesadas como livianas. Hamás, por su parte, había aceptado desarmarse el mes anterior, pero solo después de un repliegue israelí completo y con la entrega de las armas pesadas condicionada a la creación de un Estado palestino.\n\nEl desacuerdo se da en medio de una intensa disputa política interna en Israel, donde Netanyahu enfrenta elecciones previstas para octubre y el manejo de las guerras en Gaza e Irán se perfila como un factor central de la campaña.",
+      "links": [
+        { "name": "Reuters", "url": "https://www.reuters.com/world/middle-east/israel-rejects-trumps-15-point-plan-gaza-pm-netanyahu-says-2026-08-09/" },
+        { "name": "The Times of Israel", "url": "https://www.timesofisrael.com/netanyahu-rejects-trumps-15-point-gaza-plan-insists-he-can-stand-up-to-us-president/" },
+        { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c5yw4lpe0yeo" },
+        { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/aug/10/benjamin-netanyahu-rejection-us-deal-gaza-risky-gamble" },
+        { "name": "DW", "url": "https://www.dw.com/en/iran-war-houthis-claim-attack-on-saudi-oil-facility/live-78289364" }
+      ]
+    },
+    {
+      "id": "iran-estrecho-ormuz-control-agosto",
+      "category": "geopolítica",
+      "title": "Irán y EE.UU. disputan el control del Estrecho de Ormuz",
+      "short_summary": "Teherán insiste en que el paso sigue bloqueado pese a la \"reapertura\" anunciada por Trump.",
+      "image": "https://www.reuters.com/resizer/v2/WARRRXME2BN2HFFH73Q3NXTHZU.jpg?auth=5edd29046b82ff8e6b540f5d674527fb4c7873d08e3bf4023a226dc768a7b60b&width=720&quality=80",
+      "context": "* El presidente Donald Trump aseguró que Estados Unidos tiene 'control total' del Estrecho de Ormuz y evalúa mantenerlo.\n* La autoridad marítima iraní respondió que el estrecho 'sigue bloqueado' hasta que se acepten las condiciones de Irán.\n* El tráfico de buques por la vía cayó a mínimos de tres meses, mientras Trump exige compensaciones a Irán.",
+      "extended_context": "A casi seis meses del inicio de la guerra entre Estados Unidos e Irán, el control del Estrecho de Ormuz, la vía por la que transita cerca de una quinta parte del petróleo mundial, sigue siendo motivo de disputa. El presidente Donald Trump afirmó que Estados Unidos ejerce un \"control total\" sobre el paso y sugirió que Washington podría mantener esa posición de forma indefinida.\n\nLa Autoridad del Estrecho Pérsico, del lado iraní, rechazó esa versión y sostuvo que el paso \"sigue bloqueado y no se reabrirá hasta que se acepten las condiciones de Irán\", en referencia al levantamiento de sanciones y al fin de las operaciones militares estadounidenses en la región. El tráfico de buques por Ormuz cayó a sus niveles más bajos en tres meses, según datos citados por medios especializados, mientras las reservas globales de petróleo se reducen de forma acelerada.\n\nTrump reclamó además que Irán pague compensaciones por décadas de ataques atribuidos a Teherán contra soldados estadounidenses, una condición que se sumó a la lista de puntos sin resolver entre ambos países.",
+      "links": [
+        { "name": "Reuters", "url": "https://www.reuters.com/world/iran-says-strait-hormuz-is-under-its-control-fars-news-reports-2026-08-13/" },
+        { "name": "The Times of Israel", "url": "https://www.timesofisrael.com/trump-says-us-to-keep-up-blockade-as-iran-vows-closed-hormuz-until-demands-met/" },
+        { "name": "ABC News", "url": "https://abcnews.com/International/live-updates/iran-live-updates-negotiations-us-messages-exchanged-tehran/?id=135508900" },
+        { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/aug/10/trump-demands-iran-pay-compensation-for-decades-of-us-soldier-deaths" },
+        { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/iran-war-us-strait-of-hormuz-donald-trump-tehran-control-threatens-keep-it/" }
+      ],
+      "related_terms": ["estrecho-de-ormuz"]
+    },
+    {
+      "id": "eclipse-solar-total-agosto-2026",
+      "category": "ciencia-ambiente",
+      "title": "Un eclipse solar total cruza el Atlántico Norte",
+      "short_summary": "El fenómeno fue visible en Groenlandia, Islandia y el norte de España.",
+      "image": "https://cdn.mos.cms.futurecdn.net/vaMyd5QVkCqpMiLoUbjHc3-1200-80.jpg.webp",
+      "context": "* Un eclipse solar total recorrió el Atlántico Norte el 12 de agosto, con totalidad visible en Groenlandia, Islandia y España.\n* La franja de totalidad tuvo apenas 293 kilómetros de ancho, con una duración máxima de dos minutos con dieciocho segundos.\n* En España fue el primer eclipse total visible desde 1905, con un eclipse parcial en gran parte de Europa.",
+      "extended_context": "El 12 de agosto de 2026, un eclipse solar total recorrió el Atlántico Norte, con la franja de totalidad pasando por el Ártico, la costa este de Groenlandia, la costa oeste de Islandia y, ya al atardecer, el norte de España y el noreste de Portugal. Observatorios de toda la región siguieron el fenómeno en tiempo real.\n\nLa franja de totalidad, de apenas 293 kilómetros de ancho, permitió una duración máxima de oscuridad total de dos minutos con dieciocho segundos. En España, donde no se veía un eclipse total desde 1905, miles de personas se reunieron en Galicia y Asturias para observarlo, mientras que un eclipse parcial pudo apreciarse en gran parte de Europa y en zonas de Estados Unidos.",
+      "links": [
+        { "name": "Space.com", "url": "https://www.space.com/stargazing/solar-eclipses/total-solar-eclipse-2026-thrills-millions-with-a-stunning-cosmic-spectacle-photos-video" },
+        { "name": "BBC News", "url": "https://www.bbc.com/news/articles/ckgdp4923rdo" },
+        { "name": "CBS News", "url": "https://www.cbsnews.com/news/total-solar-eclipse-august-12-2026/" },
+        { "name": "CNN", "url": "https://edition.cnn.com/2026/08/12/science/gallery/photos-total-solar-eclipse" }
+      ]
+    },
+    {
+      "id": "inflacion-argentina-julio-2026",
+      "category": "nacional",
+      "title": "La inflación de julio en Argentina fue del 2,1%",
+      "short_summary": "El índice acelera respecto de junio y acumula 33,8% en los últimos doce meses.",
+      "image": "https://www.lanacion.com.ar/resizer/v2/la-inflacion-volvio-a-BPNLJM7LMRFORACC3EK6BIM7JQ.png?auth=4264affddace4d4888d32c77e6ac0ad930e050fc9bf49a54c6b8ece05564bf0e&width=1200&height=800&quality=70&smart=true",
+      "context": "* El INDEC informó que la inflación de julio fue del 2,1%, por encima del 1,9% registrado en junio.\n* El dato cortó tres meses consecutivos de desaceleración y llevó la inflación acumulada del año al 19,3 por ciento.\n* La inflación interanual se ubicó en 33,8%, impulsada en julio por rubros estacionales como recreación, cultura y turismo.",
+      "extended_context": "El Instituto Nacional de Estadística y Censos (INDEC) informó que el Índice de Precios al Consumidor subió 2,1% en julio de 2026, por encima del 1,9% de junio y en línea con lo que esperaba el mercado. El dato cortó una racha de tres meses de desaceleración que había llevado la inflación de abril (2,6%) a mayo y junio.\n\nCon este resultado, la inflación acumulada en lo que va del año llegó al 19,3%, mientras que la variación interanual se ubicó en 33,8%. Según el INDEC, la suba de julio estuvo impulsada principalmente por aumentos estacionales en recreación, cultura y turismo, mientras que la inflación núcleo (que excluye precios estacionales y regulados) subió levemente a 1,8%.\n\nEconomistas consultados por medios locales coincidieron en que el proceso de desinflación seguirá siendo, en palabras de uno de ellos, \"lento y con vaivenes\", en un contexto de recomposición de precios relativos y estacionalidad invernal.",
+      "links": [
+        { "name": "INDEC", "url": "https://www.indec.gob.ar/" },
+        { "name": "INDEC (informe de prensa IPC)", "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ipc_08_2642C82F62AE.pdf" },
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/economia/la-inflacion-corto-la-racha-a-la-baja-y-fue-de-21-en-julio-nid13082026/" },
+        { "name": "Infobae", "url": "https://www.infobae.com/economia/2026/08/13/la-inflacion-en-julio-fue-de-21-y-acumulo-338-en-los-ultimos-doce-meses/" }
+      ]
+    },
+    {
+      "id": "avanza-carta-organica-bcra-inocencia-fiscal",
+      "category": "nacional",
+      "title": "Diputados dictamina la reforma del BCRA y la Inocencia Fiscal II",
+      "short_summary": "Ambos proyectos, impulsados por el oficialismo, ya pueden tratarse en el recinto.",
+      "image": "https://www.infobae.com/resizer/v2/T2EAUUJ3QFHGZCY3CNS7SJVAI4.jpg?auth=c0316e022c01808ff86e2d027f05a6a8b4d89033ac3697aadf1837d67c5a6123&smart=true&width=992&height=558&quality=85",
+      "context": "* Las comisiones de Diputados dictaminaron a favor de la reforma de la Carta Orgánica del Banco Central, con 42 firmas.\n* El proyecto reemplaza los objetivos múltiples del Banco Central por uno solo y le prohíbe financiar al Tesoro nacional.\n* Por separado, Diputados también dictaminó Inocencia Fiscal II, que excluye a funcionarios de los últimos cinco años del régimen.",
+      "extended_context": "En una misma semana, la Cámara de Diputados avanzó con dos proyectos económicos centrales de la agenda oficialista. El 12 de agosto, las comisiones de Finanzas y de Presupuesto y Hacienda dictaminaron a favor de la reforma de la Carta Orgánica del Banco Central, con 42 firmas sobre 73 diputados presentes y el respaldo de La Libertad Avanza, el PRO, la UCR, Producción y Trabajo, Independencia e Innovación Federal. El proyecto establece un mandato único para la entidad, preservar el valor de la moneda, y prohíbe el financiamiento del Banco Central al Tesoro nacional, a las provincias y a los municipios.\n\nEl mismo día, otro plenario de comisiones dictaminó a favor de una nueva versión de la Ley de Inocencia Fiscal, conocida como Inocencia Fiscal II, con 44 firmas. Para sumar el respaldo de bloques aliados, el oficialismo incorporó una cláusula que excluye del régimen a funcionarios públicos que hayan ejercido cargos de alta responsabilidad en los últimos cinco años, en cualquiera de los tres poderes del Estado.\n\nCon ambos dictámenes, la Cámara que preside Martín Menem apunta a convocar una sesión para el 26 de agosto y tratar los dos proyectos en el recinto.",
+      "links": [
+        { "name": "HCDN", "url": "https://www.hcdn.gob.ar/prensa/noticia/OBTUVO-DICTAMEN-DE-MAYORIA-LA-REFORMA-A-LA-CARTA-ORGANICA-DEL-BANCO-CENTRAL/" },
+        { "name": "BCRA", "url": "https://www.bcra.gob.ar/carta-organica/" },
+        { "name": "Infobae", "url": "https://www.infobae.com/politica/2026/08/12/el-oficialismo-dictamino-la-reforma-del-bcra-para-prohibir-la-emision-el-peronismo-se-retiro-del-plenario/" },
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/politica/diputados-el-oficialismo-dictamino-la-reforma-del-banco-central-entre-cruces-con-sus-aliados-y-el-nid12082026/" },
+        { "name": "Diputados Bsas", "url": "https://diputadosbsas.com.ar/ley-de-inocencia-fiscal-ii-dictamente/" },
+        { "name": "InfoLEG", "url": "https://servicios.infoleg.gob.ar/infolegInternet/verNorma.do?id=422008" }
+      ],
+      "related_terms": ["carta-organica-bcra", "regimen-de-inocencia-fiscal"]
+    },
+    {
+      "id": "muere-zhu-rongji-ex-premier-china",
+      "category": "geopolítica",
+      "title": "Murió el ex primer ministro chino Zhu Rongji a los 97 años",
+      "short_summary": "Fue el arquitecto de las reformas económicas que llevaron a China a integrar la OMC.",
+      "image": "https://ichef.bbci.co.uk/news/1024/branded_news/ea3e/live/dbc88590-9639-11f1-b809-7db91972344e.jpg",
+      "context": "* Zhu Rongji, primer ministro de China entre 1998 y 2003, murió el 12 de agosto en Beijing, informó Xinhua.\n* Como primer ministro impulsó reformas de mercado que resultaron en el ingreso de China a la OMC en 2001.\n* Durante su gestión, el gobierno chino reestructuró un amplio número de empresas estatales y redujo la burocracia central.",
+      "extended_context": "Zhu Rongji, quien fue primer ministro de China entre 1998 y 2003, murió el 12 de agosto de 2026 en Beijing a causa de una enfermedad, según informó la agencia estatal Xinhua a través de un obituario del Partido Comunista. Aunque varios medios reportaron inicialmente que tenía 98 años, la mayoría de las agencias internacionales corrigieron después su edad a 97 años.\n\nZhu es recordado como uno de los principales arquitectos de la apertura económica china de fines del siglo XX. Durante su gestión impulsó una drástica reestructuración de las empresas estatales, achicó la burocracia central y sentó las bases técnicas que permitieron a China ingresar a la Organización Mundial del Comercio en 2001, un hito que transformó al país en el mayor exportador del mundo.\n\nSu gestión también fue recordada por un estilo directo y poco habitual entre los dirigentes chinos, que le valió tanto elogios por su firmeza contra la corrupción como resistencias dentro del propio Partido Comunista.",
+      "links": [
+        { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c75g9777wwxo" },
+        { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/aug/12/zhu-rongji-obituary" },
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/usa/ex-chinese-premier-zhu-rongji-architect-of-growth-dies-of-illness-at-98-nid12082026/" },
+        { "name": "Xinhua", "url": "https://english.news.cn/20260812/e5d0bd12de6d4a5997fc37530b942176/c.html" }
+      ]
+    },
+    {
+      "id": "pacto-defensa-meca-arabia-turquia-pakistan",
+      "category": "geopolítica",
+      "title": "Arabia Saudita, Turquía y Pakistán firman un pacto de defensa mutua",
+      "short_summary": "Un ataque a cualquiera de los tres países será considerado un ataque a todos.",
+      "image": "https://www.reuters.com/resizer/v2/W23IWUOU3VOJZGYC4WPF3DMMFQ.jpg?auth=d3b31f786177d986e899695803da65e460cbfaf8fcaff33d29456ad5e44328cd&width=960&quality=80",
+      "context": "* Arabia Saudita, Turquía y Pakistán firmaron el 7 de agosto un pacto de defensa mutua, el Acuerdo de La Meca.\n* El acuerdo establece que un ataque contra cualquiera de los tres países será considerado un ataque contra todos los firmantes.\n* Los tres países suman cerca de 1,4 millones de militares activos y 124.400 millones de dólares en gasto militar.",
+      "extended_context": "El 7 de agosto de 2026, el presidente turco Recep Tayyip Erdogan, el príncipe heredero saudita Mohamed bin Salmán y el primer ministro paquistaní Shehbaz Sharif firmaron el Acuerdo de Defensa Conjunta de La Meca. El pacto, negociado durante casi un año, establece que un ataque armado contra cualquiera de los tres países será considerado un ataque contra todos, en una cláusula de defensa mutua similar a la del artículo 5 de la OTAN.\n\nSegún cifras citadas por medios especializados, los tres países combinan cerca de 1,4 millones de militares activos, 3.400 aeronaves, 6.000 tanques y más de 340 activos navales, con un gasto en defensa conjunto de unos 124.400 millones de dólares anuales. El acuerdo se firma en medio de la escalada de tensión entre Estados Unidos e Irán, y luego de que Pakistán desplegara tropas, aviones de combate y un sistema de defensa aérea en territorio saudita a mediados de año.\n\nEl canciller turco, Hakan Fidan, señaló que el objetivo es ampliar el pacto a otros países de la región, y que \"no deberíamos quedar limitados a tres países\".",
+      "links": [
+        { "name": "Reuters", "url": "https://www.reuters.com/world/asia-pacific/turkey-pakistan-saudi-arabia-will-form-political-military-mechanisms-coordinate-2026-08-13/" },
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/11/what-are-saudi-arabia-turkiye-and-pakistans-joint-military-capabilities" },
+        { "name": "Fox News", "url": "https://www.foxnews.com/world/new-power-axis-making-three-military-heavyweights-lock-arms-complicating-abraham-accords-strategy" },
+        { "name": "South China Morning Post", "url": "https://www.scmp.com/opinion/world-opinion/article/3363663/what-mecca-military-pact-means-china" }
+      ]
+    }
+  ]
+}

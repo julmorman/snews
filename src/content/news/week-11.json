@@ -1,0 +1,136 @@
+{
+  "id": "week-11",
+  "date": "21 de Agosto",
+  "funny_title": "Semana 11",
+  "news": [
+    {
+      "id": "sudan-kordofan-desplazados-agosto-2026",
+      "category": "geopolítica",
+      "title": "Más de 200.000 desplazados por los combates en Sudán",
+      "short_summary": "Ataques con drones dañaron la infraestructura de agua y electricidad en El Obeid.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/2026-01-21T064116Z_1693370684_RC2NZIA8219R_RTRMADP_3_SUDAN-POLITICS-OBEID-ATTACKS-1785761834.jpg?resize=1920%2C1440",
+      "context": "* Más de 200.000 personas fueron desplazadas en Kordofán, en el oeste de Sudán, por la intensificación de los combates.\n* Ataques con drones alcanzaron la ciudad de El Obeid y afectaron la estación de agua y la red eléctrica local.\n* Naciones Unidas advirtió que la falta de electricidad afecta hospitales y el suministro de agua potable en la región.",
+      "extended_context": "La guerra civil en Sudán, que enfrenta al ejército con las Fuerzas de Apoyo Rápido (RSF) desde abril de 2023, provocó el desplazamiento de más de 200.000 personas en la región de Kordofán durante las últimas semanas, según Naciones Unidas. El recrudecimiento de los combates se concentró en la ciudad de El Obeid, en Kordofán del Norte, donde ataques con drones alcanzaron la estación de agua y la principal subestación eléctrica de la ciudad.\n\nLa interrupción del suministro eléctrico dejó sin funcionamiento a bombas de agua, hospitales y líneas telefónicas en una ciudad cuya población, según autoridades locales, creció de 750.000 a un estimado de 3,4 millones de personas por el desplazamiento de habitantes de otras zonas del país. En el estado de Nilo Azul, choques en la localidad de Geisan dejaron además más de 20 civiles muertos y unas 2.500 personas desplazadas.\n\nOrganizaciones humanitarias como el Comité Internacional de Rescate advirtieron que Sudán continúa siendo, según sus propias cifras, la mayor crisis de desplazamiento del mundo, con millones de personas dependiendo de asistencia externa para acceder a agua, alimentos y atención médica.",
+      "links": [
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/20/over-200000-people-newly-displaced-in-sudans-kordofan-as-fighting-rages" },
+        { "name": "UN News", "url": "https://news.un.org/en/story/2026/08/1168126" },
+        { "name": "International Rescue Committee", "url": "https://www.rescue.org/article/crisis-sudan-what-happening-and-how-help" }
+      ]
+    },
+    {
+      "id": "rusia-ataca-kiev-agosto-2026",
+      "category": "geopolítica",
+      "title": "Rusia intensifica los ataques con misiles sobre Kiev",
+      "short_summary": "Un edificio residencial se derrumbó y un hospital infantil sufrió daños en la capital ucraniana.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a864ff53b0a-1787187189.jpg?resize=1920%2C1440",
+      "context": "* Rusia lanzó al menos 44 misiles contra Kiev el 20 de agosto, de los cuales 39 fueron interceptados.\n* El ataque dejó al menos 18 muertos y provocó el derrumbe de un edificio residencial en el distrito de Solomianski.\n* Ucrania advirtió que solo cuenta con el 10% de los misiles interceptores Patriot que necesita para defender sus ciudades.",
+      "extended_context": "El 20 de agosto de 2026, Rusia lanzó una de las mayores oleadas de ataques contra Kiev de las últimas semanas, con al menos 44 misiles, de los cuales 39 fueron derribados por las defensas ucranianas. El ataque dejó al menos 18 muertos y provocó el derrumbe de un edificio residencial de nueve pisos en el distrito de Solomianski, donde también resultó dañado un hospital pediátrico.\n\nEl bombardeo se suma a otro ataque con misiles balísticos ocurrido días antes, el 16 de agosto, que había dejado al menos una persona herida y provocado incendios en los distritos de Obolonski y Holosiivski. Según funcionarios ucranianos, Rusia aprovecha la escasez de misiles interceptores Patriot en el país: Kiev cuenta con apenas el 10% de lo que necesita para defenderse de los ataques balísticos rusos, un insumo que depende de Estados Unidos y otros aliados.\n\nEl presidente Volodímir Zelensky enfrenta además presión política interna por el manejo de la guerra, en momentos en que la capital sufre alarmas antiaéreas prolongadas de forma casi diaria.",
+      "links": [
+        { "name": "AP News", "url": "https://apnews.com/article/russia-ukraine-war-kyiv-attack-92ff5d7d1073fd8692a75e4e677f425b" },
+        { "name": "CNN", "url": "https://www.cnn.com/2026/08/20/europe/russia-ukraine-kyiv-attack-intl-hnk" },
+        { "name": "NPR", "url": "https://www.npr.org/2026/08/16/nx-s1-5933006/ukraine-aerial-attack-6-dead-russia" },
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/20/russian-strike-kills-3-in-ukraine-as-zelenskyy-faces-pressure-at-home" }
+      ]
+    },
+    {
+      "id": "terremoto-peru-ayacucho-agosto-2026",
+      "category": "geopolítica",
+      "title": "Un terremoto de magnitud 6,7 sacude el sur de Perú",
+      "short_summary": "El sismo, con epicentro en Ayacucho, dañó viviendas, escuelas y centros de salud.",
+      "image": "https://static.dw.com/image/73420193_1004.webp",
+      "context": "* Un terremoto de magnitud 6,7 sacudió el sur de Perú el 20 de agosto, con epicentro cerca de Coracora, Ayacucho.\n* El sismo, de 66 kilómetros de profundidad, dejó al menos dos heridos y dañó viviendas, escuelas y centros de salud.\n* El movimiento se sintió en varias regiones del sur peruano, entre ellas Ica, Arequipa, Cusco y la capital, Lima.",
+      "extended_context": "Un terremoto de magnitud 6,7 sacudió el sur de Perú el 20 de agosto de 2026, según informó el Servicio Geológico de Estados Unidos (USGS). El epicentro se ubicó a unos 38 kilómetros al noroeste de la localidad de Upahuacho, en la provincia de Parinacochas, región de Ayacucho, a una profundidad de 66 kilómetros.\n\nEl movimiento se sintió con intensidad en la capital provincial, Coracora, donde al menos dos personas resultaron heridas mientras evacuaban sus viviendas. El sismo también provocó daños en casas, escuelas y centros de salud de la zona, aunque no se reportaron víctimas fatales. La sacudida alcanzó además otras regiones del sur y centro del país, entre ellas Ica, Arequipa, Huancavelica, Apurímac, Cusco y la capital, Lima, a más de 500 kilómetros de distancia.",
+      "links": [
+        { "name": "ABC News", "url": "https://abcnews.com/International/wireStory/magnitude-67-earthquake-shaken-perus-southern-andes-usgs-135816218" },
+        { "name": "DW", "url": "https://www.dw.com/en/peru-strong-earthquake-shakes-southern-andes/a-78450656" },
+        { "name": "BBC News", "url": "https://www.bbc.com/news/articles/c0km6n3ng7ko" }
+      ]
+    },
+    {
+      "id": "europa-exige-israel-frenar-e1-cisjordania",
+      "category": "geopolítica",
+      "title": "Líderes europeos exigen a Israel frenar el plan de colonización E1",
+      "short_summary": "El proyecto, en Cisjordania, dividiría el territorio palestino en dos, advirtieron seis países.",
+      "image": "https://images.euronews.com/articles/stories/09/88/27/62/1200x675_cmsv2_491783cb-f72c-5a75-a54c-4e8094470e3c-9882762.jpg",
+      "context": "* Los líderes de Francia, Alemania, Italia, los Países Bajos, Noruega y el Reino Unido condenaron el plan de colonización E1.\n* Israel publicó una licitación para construir 1.234 viviendas, parte de un proyecto mayor de 3.401 unidades en la zona E1.\n* Los europeos advirtieron que el proyecto partiría Cisjordania en dos y afectaría la viabilidad de un futuro Estado palestino.",
+      "extended_context": "Los líderes de Francia, Alemania, Italia, los Países Bajos, Noruega y el Reino Unido emitieron el 20 de agosto una declaración conjunta en la que calificaron de \"inaceptable\" el avance del proyecto de colonización israelí conocido como E1, un área al este de Jerusalén. El gobierno israelí publicó una licitación para construir 1.234 viviendas, dentro de un plan más amplio que contempla un total de 3.401 unidades habitacionales en la zona.\n\nLos seis países advirtieron que el proyecto E1 dividiría Cisjordania en dos secciones separadas, comprometería la contigüidad territorial de los territorios palestinos y socavaría las perspectivas de una solución de dos Estados. La declaración conjunta reafirmó además que los asentamientos israelíes en Cisjordania son ilegales según el derecho internacional y las resoluciones del Consejo de Seguridad de la ONU, y advirtió a las empresas que participen en las licitaciones de construcción sobre el riesgo de incurrir en violaciones graves de ese marco legal.\n\nEl canciller israelí, Gideon Sa'ar, rechazó de plano las críticas y sostuvo que \"el pueblo judío tiene derecho a vivir en toda la Tierra de Israel\".",
+      "links": [
+        { "name": "Euronews", "url": "https://www.euronews.com/my-europe/2026/08/20/european-leaders-demand-israel-halt-controversial-e1-settlement-project-in-west-bank" },
+        { "name": "Xinhua", "url": "https://english.news.cn/20260821/f84bed00817848719e9eadaa7ef52e21/c.html" },
+        { "name": "The National", "url": "https://www.thenationalnews.com/news/europe/2026/08/21/western-leaders-condemn-israels-unacceptable-e1-settlement-project-in-west-bank/" }
+      ]
+    },
+    {
+      "id": "derrumbe-mina-oro-republica-centroafricana",
+      "category": "geopolítica",
+      "title": "Derrumbe de una mina de oro deja más de 100 muertos en RCA",
+      "short_summary": "El colapso de varios túneles ocurrió en una mina artesanal cerca de Camerún.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/GettyImages-451638132-1787135552.jpg?resize=1920%2C1440",
+      "context": "* Más de 100 personas murieron el 19 de agosto tras el derrumbe de una mina artesanal en Zamboye, RCA.\n* El colapso de varios túneles subterráneos ocurrió cerca de la localidad de Baboua, en la frontera con Camerún.\n* La minería artesanal es clave para la economía local, pero la débil regulación deja expuestos a los mineros.",
+      "extended_context": "Más de 100 personas murieron el 19 de agosto de 2026 cuando colapsaron varios túneles subterráneos en una mina de oro artesanal en la localidad de Zamboye, cerca de Baboua, a poca distancia de la frontera con Camerún, en el oeste de la República Centroafricana. Las autoridades reconocieron que resultaba difícil establecer una cifra oficial de víctimas, y al menos cuatro de los fallecidos eran ciudadanos cameruneses.\n\nLos sobrevivientes fueron trasladados a un hospital en Baboua mientras continuaban las tareas de búsqueda en el lugar del derrumbe. La minería artesanal es una fuente clave de ingresos para buena parte de la población en distintos países de África central, pero la debilidad de los controles de seguridad deriva con frecuencia en accidentes fatales como este. En junio de 2026 ya se había registrado un derrumbe similar, con varias decenas de muertos, en el yacimiento de Be-Mbari, también sobre la frontera con Camerún.",
+      "links": [
+        { "name": "The Guardian", "url": "https://www.theguardian.com/world/2026/aug/20/gold-mine-collapse-deadly-landslide-central-african-republic" },
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/19/dozens-killed-after-gold-mine-collapse-in-central-african-republic" },
+        { "name": "NBC News", "url": "https://www.nbcnews.com/world/africa/gold-mine-collapses-central-african-republic-killing-least-30-miners-rcna593265" },
+        { "name": "RTÉ", "url": "https://www.rte.ie/news/world/2026/0819/1588552-gold-mine-collapse/" }
+      ]
+    },
+    {
+      "id": "israel-bombardea-base-aerea-siria",
+      "category": "geopolítica",
+      "title": "Israel bombardea una base aérea en el noroeste de Siria",
+      "short_summary": "Israel dice haber actuado para impedir el despliegue de tropas turcas en el lugar.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/WEB-SYRIA-MAP-ABU-AL-DUHUR-1787053311.jpg?resize=1200%2C675",
+      "context": "* Israel realizó ocho ataques aéreos contra la base de Abu al Duhur, en Idlib, el 18 de agosto.\n* El gobierno israelí dijo que buscaba impedir que tropas turcas se instalaran de forma permanente en esa base siria.\n* El canciller sirio calificó el ataque de 'agresión' y 'provocación injustificada' que viola la soberanía del país.",
+      "extended_context": "Israel realizó ocho ataques aéreos contra la pista y las instalaciones de almacenamiento de la base aérea de Abu al Duhur, en la provincia siria de Idlib, en la madrugada del 18 de agosto de 2026. La oficina del primer ministro israelí, Benjamín Netanyahu, sostuvo que Siria estaba a punto de violar un acuerdo tácito en materia de seguridad al permitir que tropas turcas se desplegaran en esa base.\n\nEl canciller sirio, Asaad al Shibani, condenó lo que llamó una \"agresión israelí\" y calificó el bombardeo de \"provocación injustificada, una violación de la soberanía de Siria y una amenaza directa a la estabilidad regional\". En declaraciones posteriores, Shibani aclaró que su gobierno no estaba coordinando con Turquía el establecimiento de una presencia militar turca permanente en el sitio.\n\nEl enviado estadounidense para la región calificó el ataque de \"escalada innecesaria\", en momentos de creciente tensión entre Israel y Turquía por la influencia de ambos países en la Siria posterior a la caída de Bashar al Asad.",
+      "links": [
+        { "name": "Axios", "url": "https://www.axios.com/2026/08/19/syria-foreign-minister-israel-bombing-airbase" },
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/18/eight-air-strikes-hit-airbase-in-syrias-idlib" }
+      ]
+    },
+    {
+      "id": "eeuu-iran-impasse-negociaciones-agosto-2026",
+      "category": "geopolítica",
+      "title": "Estados Unidos e Irán mantienen el impasse en las negociaciones",
+      "short_summary": "Trump dice que retomará las conversaciones 'en algún momento', mientras continúan los ataques en Gaza.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/afp_6a864ff53b0a-1787187189.jpg?resize=1920%2C1440",
+      "context": "* Casi seis meses después del inicio de la guerra, Estados Unidos e Irán siguen sin retomar formalmente las negociaciones directas.\n* El presidente Donald Trump afirmó que las conversaciones con Irán se retomarán 'en algún momento', sin dar precisiones.\n* Mientras continúa el impasse, Israel mantuvo sus operaciones militares en Gaza y la región permanece en alerta.",
+      "extended_context": "A casi seis meses del inicio de la guerra entre Estados Unidos e Irán, iniciada el 28 de febrero de 2026, ambos países continúan sin retomar formalmente las negociaciones directas para poner fin al conflicto. El presidente Donald Trump declaró el 19 de agosto que las conversaciones con Irán se reanudarán \"en algún momento\", sin ofrecer una fecha concreta, mientras Teherán sostiene públicamente que es Washington quien busca reabrir el diálogo.\n\nEl estancamiento se da en un contexto regional tenso, con Israel manteniendo de forma simultánea sus operaciones militares en la Franja de Gaza y ataques puntuales en Siria. Analistas del Instituto para el Estudio de la Guerra señalaron que, mientras persiste la falta de avances diplomáticos, ambas partes continúan reforzando sus posiciones militares en la región, lo que mantiene en alerta a los países vecinos del golfo Pérsico.",
+      "links": [
+        { "name": "Institute for the Study of War", "url": "https://understandingwar.org/research/middle-east/iran-update-august-19-2026/" },
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/8/19/iran-war-live-trump-denies-iran-talks-tehran-claims-us-begging" }
+      ]
+    },
+    {
+      "id": "ebola-brote-mas-mortal-historia-rdc",
+      "category": "ciencia-ambiente",
+      "title": "El brote de Ébola en el Congo es el más mortal de su historia",
+      "short_summary": "La epidemia ya superó los 2.300 muertos y creció más rápido que cualquier brote anterior.",
+      "image": "https://i.guim.co.uk/img/media/0a7757d145f4430a607e01a2481bcd73a878ac85/0_0_5500_3512/master/5500.jpg?width=1020&dpr=2&s=none&crop=none",
+      "context": "* El brote de Ébola en la República Democrática del Congo superó los 2.300 muertos, según la OMS.\n* Con más de 4.900 casos confirmados, es ya el brote más letal en la historia del país.\n* La epidemia, causada por la especie Bundibugyo del virus, avanza más rápido que cualquier brote anterior en el país.",
+      "extended_context": "La Organización Mundial de la Salud confirmó el 17 de agosto de 2026 que el brote de Ébola que atraviesa la República Democrática del Congo se convirtió en el más letal de la historia del país, con 2.325 muertos, una cifra que ya supera al brote de 2018-2020. El número de casos confirmados ascendió a 4.945, con 101 nuevos contagios detectados en las 24 horas previas al anuncio.\n\nEl brote actual, causado por la especie Bundibugyo del virus del Ébola, para la cual no existen vacunas ni tratamientos aprobados, es también el de crecimiento más rápido registrado en el país: alcanzó los 2.000 muertos casi tres veces más rápido que el brote de 2014-2016. De mantener este ritmo, la epidemia podría superar al brote de África occidental de 2014-2016, que dejó más de 11.000 muertos y fue el más grave registrado a nivel mundial.\n\nOrganismos de salud internacionales intensificaron el envío de equipos médicos y de vigilancia epidemiológica a las zonas afectadas del país, en un intento por contener la propagación antes de que el brote alcance a centros urbanos de mayor densidad poblacional.",
+      "links": [
+        { "name": "The Guardian", "url": "https://www.theguardian.com/global-development/2026/aug/21/ebola-outbreak-five-big-questions" },
+        { "name": "UN News", "url": "https://news.un.org/en/story/2026/08/1168154" },
+        { "name": "DW", "url": "https://www.dw.com/en/congos-ebola-cases-rising-at-record-pace/a-78364053" },
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/19/how-ebola-became-the-deadliest-outbreak-in-dr-congos-history" }
+      ],
+      "related_terms": ["ebola"]
+    },
+    {
+      "id": "ypf-proyecto-gnl-vaca-muerta-rigi",
+      "category": "nacional",
+      "title": "YPF presenta el mayor proyecto de su historia para exportar GNL",
+      "short_summary": "El plan de u$s51.000 millones busca convertir a Vaca Muerta en un exportador global.",
+      "image": "https://www.lanacion.com.ar/resizer/v2/ypf-impulsa-un-proyecto-BHPHLHIJLNF75IOJJQXDLAEIUM.jpg?auth=1514abf267adebed58b98a5de9baad7ffd54cac0ae25cd7c7efd0364c5241877&width=1200&height=800&quality=70&smart=true",
+      "context": "* YPF presentó ante el RIGI el proyecto Argentina LNG, con una inversión estimada de 51.000 millones de dólares.\n* El proyecto, junto a la italiana Eni y la emiratí XRG, apunta a exportar hasta 18 millones de toneladas anuales.\n* Se estima que la construcción generará más de 20.000 empleos por año entre 2026 y 2030, según la empresa.",
+      "extended_context": "YPF presentó formalmente al Régimen de Incentivo para Grandes Inversiones (RIGI) el proyecto Argentina LNG, la mayor iniciativa de su historia y la más grande solicitada hasta el momento bajo ese régimen, con una inversión estimada en 51.000 millones de dólares. El proyecto se desarrolla junto a la petrolera italiana Eni y la firma emiratí XRG, e incluye pozos en Neuquén, gasoductos e infraestructura portuaria con dos unidades flotantes de licuefacción en Río Negro.\n\nEl plan busca convertir a Vaca Muerta en un proveedor global de gas natural licuado, con una capacidad de producción mínima de 12 millones de toneladas anuales, ampliable a 18 millones. Hasta 2031, fecha prevista para el inicio de operaciones de las dos unidades de licuefacción, se estima una inversión cercana a los 29.000 millones de dólares, de los cuales 24.000 millones se destinarán a obras de infraestructura y 5.000 millones al desarrollo de pozos.\n\nSegún estimaciones de la empresa, la construcción del proyecto generará más de 20.000 empleos anuales entre 2026 y 2030, con picos de hasta 40.000 trabajadores, mientras que la etapa operativa sostendrá unos 8.000 empleos por año. La iniciativa cobra relevancia estratégica en momentos en que la crisis en Medio Oriente eleva el valor geopolítico de las exportaciones energéticas argentinas.",
+      "links": [
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/economia/un-proyecto-por-us51000-millones-impulsado-por-ypf-solicito-la-adhesion-al-rigi-nid13082026/" },
+        { "name": "Ámbito", "url": "https://www.ambito.com/energia/eni-el-rigi-argentina-lng-es-un-hito-importante-la-decision-final-inversion-n6311259" },
+        { "name": "Infobae", "url": "https://www.infobae.com/economia/2026/08/13/con-una-inversion-de-usd-50000-millones-ypf-presenta-al-rigi-el-mayor-proyecto-de-su-historia-para-exportar-gas-de-vaca-muerta/" },
+        { "name": "Argentina.gob.ar (RIGI)", "url": "https://www.argentina.gob.ar/economia/rigi/que-es" }
+      ]
+    }
+  ]
+}

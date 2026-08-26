@@ -1,0 +1,149 @@
+{
+  "id": "week-12",
+  "date": "27 de Agosto",
+  "funny_title": "Semana 12",
+  "news": [
+    {
+      "id": "eeuu-canada-guerra-comercial-agosto-2026",
+      "category": "geopolítica",
+      "title": "Estados Unidos y Canadá escalan su guerra comercial",
+      "short_summary": "Canadá respondió con aranceles de hasta 50% sobre unos US$20.000 millones en bienes estadounidenses.",
+      "image": "https://media.cnn.com/api/v1/images/stellar/prod/2026-08-22t170245z-10489960-rc2r3nav66q7-rtrmadp-3-usa-trump-tariffs-canada.JPG?c=original&q=w_1041,c_fill",
+      "context": "* Las negociaciones comerciales entre Estados Unidos y Canadá colapsaron el 22 de agosto, tras el arancel del 50% de Trump.\n* Canadá anunció aranceles de represalia de entre 15% y 50% sobre unos 20.000 millones de dólares en productos estadounidenses.\n* La medida afecta productos lácteos, pescado, electrodomésticos, madera, papel y ropa, entre otros bienes canadienses exportados a Estados Unidos.",
+      "extended_context": "Las negociaciones comerciales entre Estados Unidos y Canadá colapsaron el 22 de agosto de 2026, luego de que el gobierno de Donald Trump impusiera un arancel del 50% sobre determinados productos canadienses y acusara a Ottawa de introducir \"cambios de último momento\" en las condiciones de la negociación. Canadá decidió entonces suspender las conversaciones bilaterales.\n\nEn respuesta, el gobierno canadiense anunció aranceles de represalia de entre el 15% y el 50%, equivalentes \"dólar por dólar\" a las medidas estadounidenses, sobre unos 20.000 millones de dólares en bienes importados desde Estados Unidos. La lista incluye productos lácteos, pescado, electrodomésticos, madera, papel y ropa, entre otros rubros.\n\nLa disputa comercial entre ambos países se extiende desde febrero de 2025, cuando Trump impuso por primera vez aranceles generalizados a Canadá y México. Analistas estiman que las nuevas medidas afectarán a cerca del 5% de las exportaciones canadienses hacia Estados Unidos.",
+      "links": [
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/23/canada-us-and-tit-for-tat-tariffs-how-will-it-impact-their-economies" },
+        { "name": "BBC News", "url": "https://www.bbc.com/news/articles/cx272np7vgyo" },
+        { "name": "The Guardian", "url": "https://www.theguardian.com/us-news/2026/aug/23/donald-trump-lashes-out-after-us-canada-talks-devolve-into-trade-war" },
+        { "name": "The Hill", "url": "https://thehill.com/homenews/administration/6045531-trump-canada-tariffs-retaliation/" },
+        { "name": "CNN", "url": "https://edition.cnn.com/2026/08/25/business/canada-us-tariffs-american-consumers" }
+      ]
+    },
+    {
+      "id": "milei-confirma-busqueda-reeleccion-2027",
+      "category": "nacional",
+      "title": "Milei confirmó que buscará la reelección en 2027",
+      "short_summary": "El presidente basó su argumento en la evolución del consumo y la actividad económica.",
+      "image": "https://media.ambito.com/p/e001712846701b78fd1ea7fa8ef1f94c/adjuntos/239/imagenes/043/595/0043595602/javier-milei-council-of-the-americas-2026.jpg",
+      "context": "* El presidente Javier Milei confirmó que buscará la reelección en 2027, y afirmó dirigir 'el mejor gobierno de la historia'.\n* Milei destacó que el consumo y el PBI se encuentran en máximos históricos, con 27 meses consecutivos de crecimiento.\n* Si logra la reelección, sería el primer presidente no peronista en conseguirlo, remarcó el mandatario en declaraciones radiales.",
+      "extended_context": "El presidente Javier Milei confirmó el 22 de agosto de 2026, en declaraciones radiales, que buscará la reelección en los comicios de 2027. El mandatario defendió su gestión económica y afirmó que \"está haciendo el mejor gobierno de la historia\", al tiempo que remarcó que el consumo y el Producto Bruto Interno se encuentran, según sus palabras, en niveles máximos históricos, con 27 meses consecutivos de crecimiento.\n\nMilei reconoció que la pobreza sigue siendo un problema, aunque comparó la situación actual con la que, según su descripción, heredó al asumir: \"Me parece un espanto que tengamos 30 por ciento de pobres, pero arrancamos con 57\", señaló. El presidente también minimizó las advertencias sobre el nivel de endeudamiento de las familias argentinas.\n\nEl mandatario subrayó que, de lograr la reelección, se trataría de un hito inédito en la política argentina: sería el primer presidente no peronista en ser reelegido. Voceros oficiales trabajan en instalar la candidatura de cara a 2027, aunque la estructura de campaña todavía no terminó de definirse.",
+      "links": [
+        { "name": "Clarín", "url": "https://www.clarin.com/politica/voy-ir-reeleccion-javier-milei-confirmo-buscara-segundo-mandato-haciendo-mejor-gobierno-historia_0_2YdL8cHXYd.html" },
+        { "name": "Infobae", "url": "https://www.infobae.com/politica/2026/08/22/javier-milei-voy-a-ir-por-la-reeleccion-si-estoy-haciendo-el-mejor-gobierno-de-la-historia/" },
+        { "name": "Página/12", "url": "https://www.pagina12.com.ar/2026/08/22/milei-habla-de-un-consumo-historico-minimiza-las-deudas-familiares-y-piensa-en-la-reeleccion/" },
+        { "name": "Ámbito", "url": "https://www.ambito.com/politica/el-gobierno-se-esfuerza-instalar-la-reeleccion-javier-milei-pero-la-campana-2027-todavia-no-cobro-forma-n6313286" }
+      ]
+    },
+    {
+      "id": "operacion-paria-economico-iran",
+      "category": "geopolítica",
+      "title": "EEUU lanza Operación Paria Económico contra Irán",
+      "short_summary": "Estados Unidos apunta a cinco sectores clave para aislar financieramente al régimen iraní.",
+      "image": "https://www.pagina12.com.ar/resizer/v2/BXANTQCCGFDZLJAJOZQ54L5W4A.jpg?quality=75&auth=d7ca9c8e189a21177619adba150836f60d29de706eca5297bb77a0137cadba3e&width=980",
+      "context": "* El secretario del Tesoro, Scott Bessent, anunció el 24 de agosto la 'Operación Paria Económico' contra Irán.\n* La estrategia apunta a cinco sectores clave: activos digitales, tecnología, oro, aviación y transporte marítimo.\n* Bessent advirtió que cualquier país que mantenga vínculos económicos con Irán quedará expuesto a sanciones estadounidenses.",
+      "extended_context": "El secretario del Tesoro de Estados Unidos, Scott Bessent, anunció el 24 de agosto de 2026 el inicio de la \"Operación Paria Económico\", una nueva ofensiva destinada a profundizar el aislamiento financiero de Irán y cortar sus principales fuentes de ingresos. Bessent describió la medida como un intento de cerrar \"todas las opciones económicas\" del régimen iraní.\n\nLa estrategia apunta a cinco sectores considerados clave para la economía iraní: activos digitales, tecnología, oro, aviación y transporte marítimo. El funcionario también informó sobre nuevas sanciones a más de sesenta entidades, personas y buques en distintas partes del mundo, señalados por facilitar la adquisición de tecnología nuclear y de misiles por parte de Irán.\n\nBessent advirtió que cualquier país que mantenga vínculos comerciales con Teherán quedará expuesto a sanciones estadounidenses. El anuncio llega casi seis meses después del inicio de la guerra entre Estados Unidos e Irán, en un contexto de estancamiento en las negociaciones de paz y de tensión permanente en torno al Estrecho de Ormuz.",
+      "links": [
+        { "name": "DW", "url": "https://www.dw.com/es/eeuu-lanza-plan-paria-econ%C3%B3mico-para-bloquear-ingresos-de-ir%C3%A1n/a-78490256" },
+        { "name": "France 24", "url": "https://www.france24.com/es/medio-oriente/20260824-ee-uu-revela-la-operaci%C3%B3n-furia-econ%C3%B3mica-puede-el-nuevo-frente-de-guerra-doblegar-a-ir%C3%A1n" },
+        { "name": "Página/12", "url": "https://www.pagina12.com.ar/2026/08/24/estados-unidos-lanzo-la-operacion-paria-economico-para-aislar-economicamente-a-iran/" },
+        { "name": "Infobae", "url": "https://www.infobae.com/america/agencias/2026/08/24/eeuu-lanza-la-operacion-paria-economico-para-bloquear-las-fuentes-de-ingresos-de-iran/" }
+      ],
+      "related_terms": ["operacion-paria-economico", "estrecho-de-ormuz"]
+    },
+    {
+      "id": "eeuu-revocacion-masiva-visas-agosto-2026",
+      "category": "geopolítica",
+      "title": "EE.UU. se prepara para su mayor revocación masiva de visas",
+      "short_summary": "El plan podría afectar a unos 200.000 solicitantes de asilo, según funcionarios del gobierno.",
+      "image": "https://static.dw.com/image/78491515_1004.webp",
+      "context": "* El gobierno de Donald Trump se prepara para la mayor revocación masiva de visas en la historia de Estados Unidos.\n* La medida podría afectar hasta a 200.000 solicitantes de asilo que ingresaron al país en los últimos años.\n* Funcionarios citados por varios medios señalaron que el plan todavía se encuentra en etapa de revisión interna.",
+      "extended_context": "El gobierno de Donald Trump se prepara para llevar adelante la mayor revocación masiva de visas en la historia de Estados Unidos, según reportes publicados el 24 de agosto de 2026 y basados en fuentes oficiales. La medida podría afectar a unas 200.000 personas que ingresaron al país como solicitantes de asilo en los últimos años.\n\nSegún los reportes, el plan se encuentra todavía en etapa de revisión dentro de las agencias involucradas, y no se precisó una fecha de implementación. La iniciativa se enmarca en la política migratoria más amplia de la administración Trump, que desde el inicio de su segundo mandato impulsó distintas medidas para reducir el número de personas con estatus migratorio temporal o en trámite en el país.\n\nOrganizaciones de defensa de migrantes advirtieron que una revocación de esta magnitud generaría incertidumbre legal para decenas de miles de familias, muchas de las cuales llevan años residiendo y trabajando de forma regular en Estados Unidos mientras esperan la resolución de sus casos de asilo.",
+      "links": [
+        { "name": "Forbes", "url": "https://www.forbes.com/sites/antoniopequenoiv/2026/08/24/trump-administration-preparing-for-largest-visa-revocation-in-us-history-report-says/" },
+        { "name": "DW", "url": "https://www.dw.com/en/us-trump-administration-plans-to-revoke-up-to-200000-visas-from-asylum-seekers/a-78491300" },
+        { "name": "Fox News", "url": "https://www.foxnews.com/politics/trump-admin-eyes-historic-mass-visa-revocation-targeting-200k-asylum-seekers" },
+        { "name": "La Nación", "url": "https://www.lanacion.com.ar/el-mundo/estados-unidos-se-prepara-para-la-mayor-revocacion-masiva-de-visas-de-su-historia-que-afectara-hasta-nid24082026/?utm_source=appln" },
+        { "name": "PBS", "url": "https://www.pbs.org/newshour/politics/u-s-set-for-largest-mass-visa-revocation-in-history-targeting-up-to-200000-foreigners-officials-say" }
+      ]
+    },
+    {
+      "id": "eeuu-sanciones-iran-china-agosto-2026",
+      "category": "geopolítica",
+      "title": "Irán promete represalias tras la nueva ofensiva de sanciones de EE.UU.",
+      "short_summary": "China, principal comprador de petróleo iraní, criticó las nuevas medidas de Washington.",
+      "image": "https://vid.alarabiya.net/images/2026/08/24/2e667b8b-3e23-4f03-baa2-1511edbdfc5c/2e667b8b-3e23-4f03-baa2-1511edbdfc5c_16x9_1200x676.JPG?width=555",
+      "context": "* Estados Unidos amplió sus sanciones contra Irán y advirtió que apuntará a los países que compren petróleo iraní, principalmente China.\n* China calificó las sanciones de contraproducentes y advirtió que 'solo van a intensificar las tensiones' en la región.\n* Irán amenazó con volver a bloquear el Estrecho de Ormuz si la presión económica estadounidense continúa escalando.",
+      "extended_context": "Un día después de que el secretario del Tesoro, Scott Bessent, anunciara la Operación Paria Económico, Estados Unidos amplió sus sanciones contra Irán y advirtió que apuntará en particular a los países que compran petróleo iraní, encabezados por China. El Departamento del Tesoro sostuvo que aplicará un enfoque de \"cero filtraciones\" para cortar los ingresos que financian tanto al gobierno iraní como a la Guardia Revolucionaria.\n\nEl gobierno chino calificó las nuevas sanciones de contraproducentes y sostuvo que \"solo van a intensificar las tensiones\" en la región, mientras que Teherán aseguró estar \"plenamente preparado\" para hacer frente a la medida. El jefe del Consejo de Seguridad Nacional iraní, Mohsen Rezaei, prometió \"neutralizar la guerra económica\" y amenazó con volver a interrumpir el tránsito por el Estrecho de Ormuz si la presión estadounidense continúa escalando.\n\nHasta el momento, Washington evitó sancionar directamente a los grandes bancos chinos que facilitan estas operaciones, una decisión que analistas atribuyen al temor de provocar una represalia económica más amplia por parte de Beijing.",
+      "links": [
+        { "name": "BBC News", "url": "https://www.bbc.com/news/articles/clyl8965j5go" },
+        { "name": "Reuters", "url": "https://www.reuters.com/world/middle-east/whats-included-new-us-sanctions-campaign-pressure-irans-economy-2026-08-25/" },
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/liveblog/2026/8/25/iran-war-live-drat" },
+        { "name": "Ettelaat", "url": "https://www.ettelaat.com/news/163817/%DA%86%DB%8C%D9%86-%D8%A8%D8%B2%D8%B1%DA%AF-%D8%AA%D8%B1%DB%8C%D9%86-%D8%AE%D8%B1%DB%8C%D8%AF%D8%A7%D8%B1-%D9%86%D9%81%D8%AA-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%A7%D8%B3%D8%AA-%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7-%DA%86%DA%AF%D9%88%D9%86%D9%87-%D9%BE%DA%A9%D9%86-%D8%B1%D8%A7-%D8%AA%D8%AD%D8%B1%DB%8C%D9%85" },
+        { "name": "CNN", "url": "https://edition.cnn.com/2026/08/25/business/us-sanctions-iran-oil-china" },
+        { "name": "NBC News", "url": "https://www.nbcnews.com/world/iran/iran-vows-retaliation-us-widens-sanctions-fueling-fears-escalated-war-rcna594257" },
+        { "name": "CBS News", "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-sanctions-strait-of-hormuz/" }
+      ],
+      "related_terms": ["operacion-paria-economico", "estrecho-de-ormuz"]
+    },
+    {
+      "id": "israel-intensifica-ataques-sur-libano",
+      "category": "geopolítica",
+      "title": "Israel intensifica los ataques en el sur del Líbano",
+      "short_summary": "Los bombardeos continúan pese al alto el fuego vigente entre Israel y Hezbollah.",
+      "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/AP26227373051696-1786858053.jpg?resize=770%2C513&quality=100",
+      "context": "* Israel intensificó sus ataques aéreos y de artillería en el sur del Líbano pese al alto el fuego vigente.\n* Ataques israelíes recientes dejaron al menos nueve muertos, en medio de una escalada de tensión en la zona.\n* Israel sostiene que los ataques buscan impedir que Hezbollah reconstruya su capacidad militar en la región.",
+      "extended_context": "Israel intensificó en las últimas semanas sus ataques aéreos y de artillería contra el sur del Líbano, pese al alto el fuego vigente con Hezbollah desde noviembre de 2024. Una serie de ataques recientes dejó al menos nueve muertos, en uno de los repuntes de violencia más importantes desde que comenzó la tregua.\n\nEl gobierno israelí sostiene que las operaciones buscan impedir que Hezbollah reconstruya su capacidad militar y su infraestructura en la zona, en violación de los términos del acuerdo de alto el fuego. Líbano, por su parte, denuncia que los ataques israelíes constituyen en sí mismos una violación sistemática de esa tregua, y reclama el retiro completo de las tropas israelíes de las posiciones que aún mantienen en el sur del país.\n\nLa escalada se produce en paralelo a las negociaciones diplomáticas que ambos países mantienen, mediadas por Estados Unidos, y alimenta la incertidumbre sobre la estabilidad de un alto el fuego que, un año después de su firma, sigue marcado por violaciones denunciadas de ambos lados.",
+      "links": [
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/16/why-has-israel-escalated-attacks-in-southern-lebanon-despite-ceasefire" },
+        { "name": "Middle East Eye", "url": "https://www.middleeasteye.net/news/deadly-israeli-strikes-kill-nine-southern-lebanon-tensions-escalate" },
+        { "name": "Tehran Times", "url": "https://www.tehrantimes.com/news/529393/Israel-intensifies-airstrikes-artillery-shelling-across-southern" }
+      ],
+      "related_terms": ["hezbollah", "linea-azul"]
+    },
+    {
+      "id": "inundaciones-nepal-tibet-agosto-2026",
+      "category": "geopolítica",
+      "title": "Una avalancha desata inundaciones repentinas en la frontera Nepal-Tíbet",
+      "short_summary": "Al menos 98 personas murieron y cientos permanecen desaparecidas tras el desborde del río Bhotekoshi.",
+      "image": "https://www.reuters.com/resizer/v2/B7UJA7CTGFKDROONPQLYPQTXMM.jpg?auth=ee99b614d60263840baf6e8fc044dd7bf62339d195532cdc5fe07aa1a78444e1&width=1200&quality=80",
+      "context": "* Una avalancha de hielo y roca provocó una inundación repentina en el río Bhotekoshi, en la frontera Nepal-Tíbet.\n* Al menos 98 personas murieron en Nepal, mientras que cientos de personas, entre ellas 341 extranjeros, siguen desaparecidas.\n* Del lado tibetano, un alud de barro dejó al menos tres muertos y 265 personas desaparecidas, según medios estatales chinos.",
+      "extended_context": "Una avalancha de hielo y roca provocó, el 26 de agosto de 2026, una inundación repentina en el río Bhotekoshi, en el distrito de Rasuwa, sobre la frontera entre Nepal y la región del Tíbet, en China. El desprendimiento habría bloqueado momentáneamente el curso del río antes de liberar de golpe una enorme masa de agua que arrasó caminos, viviendas y puentes en los valles cercanos.\n\nEn Nepal, la oficina del primer ministro reportó al menos 98 muertos, mientras que cientos de personas continúan desaparecidas, entre ellas 341 ciudadanos extranjeros, según un funcionario nepalí citado por la agencia AP. Del lado tibetano, la televisión estatal china CCTV informó que un alud de barro en el condado de Gyirong dejó al menos tres muertos y 265 personas desaparecidas.\n\nEquipos de rescate de ambos países trabajan en la zona en condiciones climáticas adversas. Si bien las causas exactas todavía se investigan, no hay por el momento evidencia de que se haya tratado de un desborde de lago glaciar, un fenómeno frecuente en la región del Himalaya a medida que el retroceso de los glaciares genera nuevos cuerpos de agua inestables.",
+      "links": [
+        { "name": "CNN", "url": "https://edition.cnn.com/2026/08/26/world/live-news/nepal-flash-flooding-floods-intl" },
+        { "name": "Reuters", "url": "https://www.reuters.com/business/environment/what-triggered-catastrophic-flood-nepal-tibet-border-2026-08-26/" },
+        { "name": "BBC News", "url": "https://www.bbc.com/news/live/c6y8mjmnpxv0t" }
+      ]
+    },
+    {
+      "id": "director-cia-visita-moscu-agosto-2026",
+      "category": "geopolítica",
+      "title": "El director de la CIA realiza una visita sorpresa a Moscú",
+      "short_summary": "Trump calificó el viaje de Ratcliffe como parte de gestiones 'de rutina' por Ucrania.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/4/899129/f447b921b19ccd089a0ec38f22645d60.jpeg?w=900&q=90&f=webp",
+      "context": "* El director de la CIA, John Ratcliffe, realizó una visita no anunciada a Moscú para reunirse con funcionarios rusos.\n* El Kremlin confirmó los contactos, aunque aclaró que Ratcliffe no se reunió con el presidente Vladimir Putin.\n* Estados Unidos pidió a Ucrania suspender ataques sobre Moscú y San Petersburgo mientras duraba la visita de la delegación.",
+      "extended_context": "El director de la CIA, John Ratcliffe, realizó el 25 de agosto de 2026 una visita no anunciada a Moscú para reunirse con sus contrapartes de inteligencia rusas, en el viaje de mayor jerarquía de un funcionario de la administración Trump a Rusia desde enero. El vocero del Kremlin, Dmitri Peskov, confirmó los contactos, aunque aclaró que se dieron \"a nivel de las agencias de inteligencia\" y que Ratcliffe no se reunió con el presidente Vladimir Putin.\n\nSegún reportes periodísticos, Washington había informado previamente a Kiev sobre el viaje de la delegación y le pidió suspender los ataques con drones sobre Moscú, San Petersburgo y algunas regiones del norte de Rusia mientras durara la visita. Horas después de la partida de Ratcliffe, Ucrania retomó sus ataques con drones sobre la capital rusa.\n\nEl presidente Donald Trump calificó la visita como parte de gestiones \"de rutina\" orientadas a poner fin a la guerra en Ucrania, sin brindar más detalles sobre el contenido de las conversaciones.",
+      "links": [
+        { "name": "Al Jazeera", "url": "https://www.aljazeera.com/news/2026/8/25/kremlin-denies-planned-talks-with-us-envoys-amid-reports-cia-head-in-russia" },
+        { "name": "Euronews", "url": "https://www.euronews.com/my-europe/2026/08/26/what-message-did-the-cia-director-deliver-to-moscow-on-ukraine-nato-or-iran" },
+        { "name": "Ukrainska Pravda", "url": "https://www.pravda.com.ua/eng/news/2026/08/25/8050296/" },
+        { "name": "ABC News", "url": "https://abcnews.com/International/ukrainian-drone-attacks-moscow-resume-hours-after-ratcliffe/story?id=135962437" },
+        { "name": "The Moscow Times", "url": "https://www.themoscowtimes.com/2026/08/26/trump-confirms-cia-directors-moscow-trip-calling-it-semi-routine-a93582" }
+      ]
+    },
+    {
+      "id": "meta-acuerdo-demanda-danos-menores",
+      "category": "negocios-tecnologia",
+      "title": "Meta acuerda pagar miles de millones por daños a menores",
+      "short_summary": "La empresa llegó a un acuerdo de 18.000 millones de dólares con decenas de estados.",
+      "image": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/02f9/live/a62889d0-a156-11f1-92f3-2381193e5eb4.jpg",
+      "context": "* Meta acordó pagar unos 18.000 millones de dólares para cerrar una demanda de 29 estados de EE.UU.\n* La demanda acusaba a la empresa de diseñar Instagram y Facebook de forma deliberada para generar adicción en menores.\n* Como parte del acuerdo, Meta se comprometió a establecer límites diarios de uso para las cuentas de adolescentes.",
+      "extended_context": "Meta acordó pagar cerca de 18.000 millones de dólares para cerrar una demanda presentada por una coalición de 29 fiscales generales estatales de Estados Unidos, que acusaba a la empresa de diseñar deliberadamente Instagram y Facebook para generar adicción en niños y adolescentes, pese a conocer los riesgos que esto implicaba para los usuarios más jóvenes.\n\nLa demanda, iniciada en 2023, también acusaba a Meta de recolectar datos de menores sin el conocimiento de sus padres, en violación de la ley federal de protección de la privacidad infantil en internet (COPPA). Poco más de 17.000 millones de dólares del acuerdo corresponden a esa demanda conjunta, mientras que el resto se destina a resolver reclamos de otros estados y territorios.\n\nComo parte del acuerdo, Meta se comprometió a introducir cambios en sus plataformas, entre ellos límites diarios de uso para las cuentas de usuarios adolescentes, y a destinar fondos a iniciativas estatales de seguridad juvenil en internet. La compañía no admitió responsabilidad por las acusaciones, pero evitó así un juicio con jurado.",
+      "links": [
+        { "name": "BBC News", "url": "https://www.bbc.com/news/live/cy5v0vrlp4xt" },
+        { "name": "CBS News", "url": "https://www.cbsnews.com/detroit/news/michigan-171-million-in-meta-social-media-settlement/" },
+        { "name": "CNN", "url": "https://edition.cnn.com/2026/08/26/tech/meta-states-settle-trial-children" },
+        { "name": "Axios", "url": "https://www.axios.com/2026/08/26/meta-settlement-congress-kids-online-safety" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "operacion-paria-economico",
+  "term": "Operación Paria Económico",
+  "short_description": "La ofensiva de sanciones lanzada por Estados Unidos en agosto de 2026 para profundizar el aislamiento financiero de Irán.",
+  "sections": [
+    {
+      "heading": "¿Qué es?",
+      "text": "La **Operación Paria Económico** (\"Operation Economic Outcast\" en inglés) es el nombre con el que el Departamento del Tesoro de Estados Unidos bautizó a la nueva ofensiva de sanciones anunciada el 24 de agosto de 2026 por el secretario del Tesoro, Scott Bessent, contra Irán. Según el comunicado oficial del Tesoro, el objetivo es \"cortar todos los canales económicos\" que sostienen al régimen iraní, en momentos de estancamiento de las negociaciones de paz tras la guerra iniciada en febrero de ese año."
+    },
+    {
+      "heading": "¿A qué sectores apunta?",
+      "text": "* La medida se concentra en cinco sectores considerados clave para la economía iraní: activos digitales, tecnología, oro, aviación y transporte marítimo.\n* Incluye sanciones a más de sesenta entidades, personas y buques en distintas partes del mundo, señalados por facilitar la adquisición de tecnología nuclear y de misiles por parte de Irán.\n* Bessent advirtió que cualquier país que mantenga vínculos comerciales con el régimen iraní quedará expuesto a sanciones estadounidenses."
+    },
+    {
+      "heading": "¿Por qué genera tensión con China?",
+      "text": "China es el principal comprador de petróleo iraní, por lo que buena parte de la presión de esta ofensiva recae, en la práctica, sobre empresas y bancos chinos que participan en esas operaciones. El gobierno chino calificó las sanciones de contraproducentes, mientras que Irán prometió resistir la presión económica y amenazó con volver a interrumpir el tránsito por el Estrecho de Ormuz si la ofensiva continúa escalando."
+    }
+  ],
+  "images": [],
+  "sources": [
+    { "name": "Departamento del Tesoro de EE.UU.: comunicado oficial de la Operación Economic Outcast", "url": "https://home.treasury.gov/news/press-releases/sb0613" },
+    { "name": "Departamento del Tesoro de EE.UU.: declaraciones del secretario Bessent", "url": "https://home.treasury.gov/news/press-releases/sb0614/" },
+    { "name": "Casa Blanca: comunicado oficial sobre la Operación Economic Outcast", "url": "https://www.whitehouse.gov/releases/2026/08/operation-economic-outcast-total-isolation-of-the-iranian-regime/" },
+    { "name": "NPR: el secretario del Tesoro presenta las nuevas sanciones a Irán", "url": "https://www.npr.org/2026/08/24/g-s1-139743/treasury-secretary-scott-bessent-to-unveil-new-economic-sanctions-on-iran" }
+  ]
+}
